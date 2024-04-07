@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang = "pt-br">
+  <head>
+    <meta charset = "utf-8" />
+    <meta http-equiv = "Content-Type" content = "text/html" />
+    <title>Página Inicial do Projeto ALFS</title>
+    <link rel = "stylesheet" type = "text/css" href = "/css/main.css" />
+  </head>
+  <body>
+    <div id = "banner">
+      <a href = "/index.html">
+        <img src = "/images/lfs-logo.png" alt = "Linux From Scratch | Tua Distribuição, Tuas Regras" />
+      </a>
+    </div>
+    
+    <!-- Procura do Sítio com Google -->
+    <form id = "search" method = "get" action = "https://www.google.com/custom">
+      <p>
+         <input type = "hidden" name = "client" value = "pub-1920546463376456" />
+         <input type = "hidden" name = "forid" value = "1" />
+         <input type = "hidden" name = "ie" value = "UTF-8" />
+         <input type = "hidden" name = "oe" value = "UTF-8" />
+         <input type = "hidden" name = "safe" value = "active" />
+         <input type = "hidden" name = "cof" value = "GALT:#008000;GL:1;DIV:#336699;VLC:663399;AH:center;BGC:FFFFFF;LBGC:336699;ALC:0000FF;LC:0000FF;T:000000;GFNT:0000FF;GIMP:0000FF;LH:50;LW:128;L:http://www.linuxfromscratch.org/images/lfs-logo.png;S:http://www.linuxfromscratch.org;FORID:1" />
+         <input type = "hidden" name = "hl" value = "en" />
+         <input type = "hidden" name = "domains" value = "linuxfromscratch.org" />
+         <input type = "text" name = "q" size = "31" maxlength = "255" id = "sbi" />
+      </p>
+      <p>
+         <input type = "submit" name = "sa" value = "Pesquisa do Google" id = "sbb" />
+         <input type = "radio" name = "sitesearch" value = "" id = "ss0" />
+         <label for = "ss0" title = "Pesquisa a Web">Web</label>
+         <input type = "radio" name = "sitesearch" value = "linuxfromscratch.org" checked = "checked" id = "ss1" />
+         <label for = "ss1" title = "Pesquisa www.linuxfromscratch.org">LFS</label>
+      </p>
+    </form>
+
+    <!-- Barra de navegação -->
+    <div class = "navbar">
+      <ul id = "menu">
+        <li><a id = "patches" href = "/patches/">Remendos</a></li>
+        <li><a id = "hints" href = "/hints/">Dicas</a></li>
+        <li><a id = "alfsactive" href = "/alfs/">ALFS</a></li>
+        <li><a id = "blfs" href = "/blfs/">BLFS</a></li>
+        <li><a id = "lfs" href = "/lfs/">LFS</a></li>
+      </ul>
+    </div>
+
+    <!-- Menu lateral esquerdo -->
+    <div id = "leftmenu">
+      <ul id = "alfsmenulist">
+        <li><a href = "/">Página inicial</a></li>
+        <li><a href = "/alfs/index.html">Página inicial do ALFS</a></li>
+        <li><a href = "/alfs/news.html">Notícias</a></li>
+        <li><a href = "/alfs/download.html">Transferência</a></li>
+        <li><a href = "/alfs/documentation.html">Documentação</a></li>
+        <li><a href = "/support.html">Suporte</a></li>
+        <li><a href = "/mail.html">Listas de Discussão</a></li>
+        <li><a href = "https://wiki.linuxfromscratch.org/alfs">Wiki</a></li>
+        <li><a href = "/contribute.html">Contribua</a></li>
+        <li><a href = "/mirrors.html">Espelhos do Sítio</a></li>
+      </ul>
+    </div>
+
+    <div class="main">
+     <h1>O que é Automated Linux From Scratch?</h1>
+
+     <p>Automated Linux From Scratch (ALFS) é um projeto que permite 
+     construir o sistema LFS automaticamente. Também permite construir 
+     pacotes a partir do livro BLFS, mas isso precisa de alguma 
+     intervenção manual.</p>
+
+     <h2>Por que eu precisaria usar o ALFS?</h2>
+     <p>Depois de ler os livros LFS e BLFS mais de duas ou três vezes, 
+     você rapidamente apreciará a capacidade de automatizar a tarefa de 
+     compilar o software que quer para teus sistemas.</p>
+
+     <p>O objetivo do ALFS é o de <em>automatizar</em> o processo de 
+     criar um sistema LFS. Ele procura seguir o livro o mais fielmente 
+     possível, extraindo instruções diretamente dos fontes XML. Essa é a 
+     razão pela qual também pode ser usado como um teste das instruções 
+     atuais do livro.</p>
+
+     <h2>Como o ALFS está implementado?</h2>
+     <p>A implementação oficial do ALFS é chamada <em>jhalfs</em>. Ela 
+     foi originalmente criada por Jeremy Huntwork, depois desenvolvida e 
+     mantida por Manuel Canales Esparcia, George Boudreau, Thomas Pegg e 
+     Pierre Labastie. Ela tornou-se um método leve e prático de 
+     automatizar uma construção do LFS. Ela é um conjunto de comandos 
+     sequenciais do shell Bash que usa Git e xsltproc para primeiro 
+     baixar os fontes XML do livro Linux From Scratch e depois extrair 
+     quaisquer comandos necessários, colocando-os em conjuntos de 
+     comandos sequenciais executáveis de shell. Se você ainda não tem os 
+     pacotes fonte necessários em teu sistema, o jhalfs pode buscá-los. 
+     Finalmente, jhalfs gera um Makefile que controlará a execução dos 
+     conjuntos de comandos sequenciais de shell, permitindo a 
+     recuperação caso a construção encontre um erro. Uma estrutura para 
+     usar o gerenciamento de pacotes foi adicionada por Pierre 
+     Labastie.</p>
+
+     <p>Devido à falta de desenvolvedores(as), o jhalfs é mantido como 
+     um lançamento contínuo. Pode ser obtido clonando-se o repositório 
+     git:</p>
+
+     <div class="cmd">
+	<p>git clone https://git.linuxfromscratch.org/jhalfs.git jhalfs</p>
+     </div>
+
+<!--
+
+     <p>Uma bifurcação do jhalfs, com a intenção de portar os conjuntos 
+     de comandos sequenciais para Python, está hospedada no github:</p>
+
+     <div class="cmd">
+	     <p>git clone https://github.com/automate-lfs/jhalfs.git</p>
+     </div>
+
+     <p>Para saber quais versões do livro são suportadas por cada versão 
+     do jhalfs, por favor, consulte <a 
+     href="https://wiki.linuxfromscratch.org/alfs/wiki/SupportedBooks">https://wiki.linuxfromscratch.org/alfs/wiki/SupportedBooks</a>.</p>
+
+-->
+
+     <p>Uma extensão do ALFS destinada a automatizar a construção de 
+     pacotes no livro BLFS agora está incluída no jhalfs. Ela ainda 
+     precisa de edição de alguns dos conjuntos de comandos sequenciais 
+     (cerca de 1%), principalmente quando o esquema do livro diverge do 
+     padrão, mas funciona muito bem e a maioria dos pacotes pode ser 
+     construída automaticamente.</p>
+
+  <h2>Histórico</h2>
+
+     <p>Antes do jhalfs, uma implementação chamada nALFS foi 
+     desenvolvida. Um projeto mais ambicioso, chamado simplesmente de 
+     alfs, foi concebido por volta de 2004, mas nunca foi concluído.</p>
+
+    <h3>nALFS</h3>
+
+     <p>A primeira implementação do ALFS foi nALFS por Neven Has. nALFS 
+     era um pequeno aplicativo escrito em C. Ele primeiro analisava um 
+     perfil XML que continha informações relativas ao processo de 
+     construção do LFS em uma série de comandos internos. Ele poderia 
+     então executá-los a teu critério, automatizando assim a compilação 
+     do LFS.</p>
+
+    <h3>alfs</h3>
+
+     <p>Existiram muitos recursos detalhados que foram solicitados para 
+     implementações do ALFS. Por causa disso, o desenvolvimento estava 
+     previsto para uma ferramenta de construção inteiramente nova que 
+     seria chamada de alfs. Eventualmente, a facilidade de uso do jhalfs 
+     empurrou o desenvolvimento do alfs para o fundo da pilha.</p>
+
+     <h2>Quem é quem:</h2>
+     <ul>
+        <li>Líder de Projeto e Desenvolvedor/Mantenedor: Pierre Labastie</li>
+        <li>Ex-Mantenedor: Thomas Pegg</li>
+	<li>Ex-Desenvolvedores (jhalfs): Jeremy Huntwork, George Boudreau</li>
+        <li>Ex-Desenvolvedor (jhalfs, ferramentas do BLFS): Manuel Canales Esparcia</li>
+     </ul>
+
+      <br />
+
+      <div id="footer">
+       <p>&copy; 1998-2024 Gerard Beekmans. Projeto do sítio por Jeremy 
+       Huntwork e Matthew Burgess.</p>
+
+      </div>
+
+    </div>
+
+  </body>
+
+</html>

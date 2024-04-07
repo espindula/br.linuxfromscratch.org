@@ -1,0 +1,108 @@
+<!--#set var="pageTitle" value="Como Contribuir" -->
+<!--#include virtual="header.html" -->
+<!--#include virtual="menu.html" -->
+
+    <div class = "main">
+     <h1>Como Contribuir</h1>
+       <h2 id = "becomemirror">Torne-se um espelho</h2>
+
+       <p>Você pode ajudar o projeto LFS fornecendo um espelho HTTP ou 
+       FTP. Os espelhos HTTP fornecem o sítio do LFS, livros, remendos e 
+       dicas. Os espelhos FTP podem fornecer vários serviços, incluindo 
+       pacotes LFS e pacotes BLFS. Os requisitos para os vários espelhos 
+       estão listados abaixo. Se você gostaria de se tornar um espelho, 
+       por favor, configure-o e envie uma mensagem eletrônica com os 
+       dados solicitados abaixo para o mantenedor do sítio,
+<a href = "mailto:webmaster@linuxfromscratch.org">webmaster@linuxfromscratch.org</a>. 
+       Obrigado(a).</p>
+       
+       <h3 id = "requirements">Requisitos</h3>
+     
+       <p>Aqui está uma lista de requisitos para os vários espelhos. 
+       Todos os espelhos exigem que você use <a href = "/blfs/view/stable/basicnet/rsync.html">rsync</a> para 
+       sincronizar teus espelhos com nossos servidores principais e um 
+       aplicativo <a href = "/blfs/view/stable/general/fcron.html">cron</a> para 
+       agendá-la para você.</p>
+
+       <p>Você pode encontrar <a href = "http://www.webhostingsearch.com/linux-web-hosting.php" onclick = "window.open(this.href); return false;" onkeypress="window.open(this.href); return false;">hospedagem web do Linux</a>
+       barata ou um <a href = "http://www.webhostingsearch.com/dedicated-server.php" onclick = "window.open(this.href); return false;" onkeypress="window.open(this.href); return false;">servidor dedicado</a>
+       inteiro para teu espelho na <a href = "http://www.webhostingsearch.com" onclick = "window.open(this.href); return false;" onkeypress="window.open(this.href); return false;">pesquisa de 
+       hospedagem na web</a>.</p>
+
+       <h4>Espelho HTTP</h4>
+       <ul>
+          <li>Pelo menos 5 GB de espaço em disco.</li>
+          
+          <li>
+
+
+          <a href = "/blfs/view/stable/server/majorservers.html#apache">Servidor web Apache</a> ou equivalente com as seguintes opções habilitadas:
+             
+             <ul>
+                <li>Indexes</li>
+                <li>FollowSymlinks</li>
+                <li>IncludesNOEXEC (requires mod_include.so)</li>
+             </ul>
+          </li>
+
+          <li>
+            Se você quiser usar o Nginx em vez do Apache, as seguintes opções deveriam ser usadas:
+            <ul>
+              <li>ssi on; (requires ngx_http_ssi_module)</li>
+              <li>disable_symlinks off;</li>
+              <li>autoindex on;</li>
+            </ul>
+          </li>
+       </ul>
+
+       <p>Para configurar o espelho, use a seguinte instrução rsync em um conjunto de comandos sequenciais cron:</p>
+
+       <code>/usr/bin/rsync -lprt --delete www.linuxfromscratch.org::lfs-website /srv/www/lfs</code>
+
+     <h4>Espelhos FTP do LFS e BLFS</h4>
+     <ul>
+        <li>Pelo menos 300 GB de espaço em disco.</li>
+        <li>O caminho para o espelho sendo &quot;/pub/lfs/&quot; e &quot;/pub/blfs/&quot; se possível.</li>
+     </ul>
+
+     <p>Para configurar os espelhos FTP, use as instruções rsync em um conjunto de comandos sequenciais cron:</p>
+
+     <code>/usr/bin/rsync -lprt --delete rsync.osuosl.org::lfs  /srv/ftp/LFS<br/>
+     /usr/bin/rsync -lprt --delete rsync2.osuosl.org::blfs /srv/ftp/BLFS</code>
+
+     <h4>Ainda interessado(a)?</h4>
+     
+     <p>Se você ainda estiver interessado(a) em se tornar um espelho, por favor, envie as informações a seguir por mensagem eletrônica para a lista apropriada ou para o webmaster.</p>
+
+     <ul>
+        <li>Local (Cidade e País)</li>
+        <li>Nome do dispositivo e Endereço IP</li>
+        <li>Largura de banda</li>
+        <li>Nome de contato e Endereço válido de correio eletrônico</li>
+     </ul>
+
+      <h2 id = "donation">Faça uma doação</h2>
+      
+      <p>Uma das maneiras de ajudar o projeto Linux From Scratch é a de 
+      fazer doações.<br>Doações financeiras podem ser feitas por meio do 
+      <a href = "http://www.paypal.com">PayPal</a> usando um cartão de 
+      crédito importante.</p>
+      
+      <form action = "https://www.paypal.com/cgi-bin/webscr" enctype = "application/x-www-form-urlencoded" method = "post">
+
+      <p><input type = "hidden" name = "cmd" value = "_xclick" />
+         <input type = "hidden" name = "business" value = "gerard@linuxfromscratch.org" />
+         <input type = "hidden" name = "undefined_quantity" value = "1" />
+         <input type = "hidden" name = "item_name" value = "LFS Donation" />USD $
+         <input type = "text" size = "5" name = "amount" value = "25" />
+         <input type = "submit" value = "Enviar" />
+      </p>
+      </form>
+
+      <p>Se você gostaria de doar, mas não consegue usar o PayPal, por 
+      favor, contate <a href = "mailto:gerard@linuxfromscratch.org">Gerard Beekmans</a>.</p>
+      
+      <p>Todos os rendimentos das doações serão usados para pagar as 
+      contas mensais de hospedagem do servidor.</p>
+
+<!--#include virtual="/common/footer.html" -->

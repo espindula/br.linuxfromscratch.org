@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang = "pt-br">
+  <head>
+    <meta charset = "utf-8" />
+    <meta http-equiv = "Content-Type" content = "text/html" />
+    <title>Página Inicial do Projeto BLFS</title>
+    <link rel = "stylesheet" type = "text/css" href = "/css/main.css" />
+  </head>
+  <body>
+    <div id = "banner">
+      <a href = "/index.html">
+        <img src = "/images/lfs-logo.png" alt = "Linux From Scratch | Tua Distribuição, Tuas Regras" />
+      </a>
+    </div>
+    
+    <!-- Procura do Sítio com Google -->
+    <form id = "search" method = "get" action = "https://www.google.com/custom">
+      <p>
+         <input type = "hidden" name = "client" value = "pub-1920546463376456" />
+         <input type = "hidden" name = "forid" value = "1" />
+         <input type = "hidden" name = "ie" value = "UTF-8" />
+         <input type = "hidden" name = "oe" value = "UTF-8" />
+         <input type = "hidden" name = "safe" value = "active" />
+         <input type = "hidden" name = "cof" value = "GALT:#008000;GL:1;DIV:#336699;VLC:663399;AH:center;BGC:FFFFFF;LBGC:336699;ALC:0000FF;LC:0000FF;T:000000;GFNT:0000FF;GIMP:0000FF;LH:50;LW:128;L:http://www.linuxfromscratch.org/images/lfs-logo.png;S:http://www.linuxfromscratch.org;FORID:1" />
+         <input type = "hidden" name = "hl" value = "en" />
+         <input type = "hidden" name = "domains" value = "linuxfromscratch.org" />
+         <input type = "text" name = "q" size = "31" maxlength = "255" id = "sbi" />
+      </p>
+      <p>
+         <input type = "submit" name = "sa" value = "Pesquisa do Google" id = "sbb" />
+         <input type = "radio" name = "sitesearch" value = "" id = "ss0" />
+         <label for = "ss0" title = "Pesquisa a Web">Web</label>
+         <input type = "radio" name = "sitesearch" value = "linuxfromscratch.org" checked = "checked" id = "ss1" />
+         <label for = "ss1" title = "Pesquisa www.linuxfromscratch.org">LFS</label>
+      </p>
+    </form>
+
+    <!-- Barra de navegação -->
+    <div class = "navbar">
+      <ul id = "menu">
+        <li><a id = "patches" href = "/patches/">Remendos</a></li>
+        <li><a id = "hints" href = "/hints/">Dicas</a></li>
+        <li><a id = "alfs" href = "/alfs/">ALFS</a></li>
+        <li><a id = "blfsactive" href = "/blfs/">BLFS</a></li>
+        <li><a id = "lfs" href = "/lfs/">LFS</a></li>
+      </ul>
+    </div>
+
+    <!-- Menu lateral esquerdo -->
+    <div id = "leftmenu">
+      <ul id = "blfsmenulist">
+        <li><a href = "/">Página inicial</a></li>
+        <li><a href = "/blfs/index.html">Página inicial do BLFS</a></li>
+        <li><a href = "/blfs/news.html">Notícias</a></li>
+        <li><a href = "/blfs/download.html">Transferência</a></li>
+        <li><a href = "/blfs/read.html">Leia Online</a></li>
+        <li><a href = "/support.html">Suporte</a></li>
+        <li><a href = "/mail.html">Listas de Discussão</a></li>
+        <li><a href = "https://wiki.linuxfromscratch.org/blfs">Wiki</a></li>
+        <li><a href = "/contribute.html">Contribua</a></li>
+        <li><a href = "/blfs/developers.html">Envolva-se</a></li>
+        <li><a href = "/mirrors.html">Espelhos do Sítio</a></li>
+      </ul>
+    </div>
+
+    <div class = "main">
+     <h1>O que é Beyond Linux From Scratch?</h1>
+     <p>Beyond Linux From Scratch (BLFS) é um projeto que continua onde 
+     o livro LFS termina. Ele auxilia os(as) usuários(as) no 
+     desenvolvimento dos sistemas deles(as) de acordo com as 
+     necessidades deles(as), fornecendo uma ampla gama de instruções 
+     para instalação e configuração de vários pacotes no topo de um 
+     sistema LFS básico.</p>
+
+     <h2>Por que eu precisaria de um sistema BLFS?</h2>
+     <p>Se você está se perguntando por que precisaria de um sistema 
+     BLFS ou não sabe o que é LFS, então você não quer estar aqui ainda 
+     &mdash; você deveria ir até a <a href = "../lfs/index.html">página 
+     inicial do projeto LFS</a> onde tudo será explicado.</p>
+
+     <h2>O que eu consigo fazer com meu sistema BLFS?</h2>
+     <p>Quase tudo! Um sistema LFS está preparado para se tornar um 
+     sistema que atenda a qualquer necessidade que você tenha. BLFS é o 
+     livro que leva você ao teu próprio caminho personalizado. Você 
+     poderia construir uma estação de trabalho de escritório, um desktop 
+     multimídia, um roteador, um servidor ou todos os itens acima! E a 
+     melhor parte é que você só instala o que precisa.</p>
+
+     <h2>Quem é quem:</h2>
+     <ul>
+        <li>Editor-chefe: Bruce Dubbs</li>
+        <li>Editor: Douglas R. Reno</li>
+        <li>Editor: DJ Lucas</li>
+        <li>Editor: Pierre Labastie</li>
+        <li>Editor: Ken Moffat</li>
+        <li>Editor: Thomas Trepl</li>
+        <li>Editor: Tim Tassonis</li>
+        <li>Editor: Xi Ruoyao</li>
+        <li>Editor: Rahul Chandra</li>
+        <li>Além de numerosas pessoas que contribuem para o livro.</li>
+     </ul>
+
+     <br />
+
+      <div id = "footer">
+       <p>&copy; 1998-2024 Gerard Beekmans. Projeto do sítio por Jeremy 
+       Huntwork e Matthew Burgess.</p>
+
+      </div>
+
+    </div>
+
+  </body>
+
+</html>
