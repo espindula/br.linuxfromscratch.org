@@ -1,126 +1,71 @@
-<!--#set var="pageTitle" value="Download LFS" -->
+<!--#set var="pageTitle" value="Baixar LFS" -->
 <!--#include virtual="header.html" -->
 <!--#include virtual="menu.html" -->
     <div class="main">
-     <h1>Download the Linux From Scratch Book</h1>
+     <h1>Baixe o livro Linux From Scratch</h1>
 
-     <p>Several versions of the LFS book are available for download, 
-        in several formats:</p>
+     <p>Diversas versões do livro LFS estão disponíveis para 
+     transferência, em diversos formatos:</p>
 
-     <h2>Current Stable</h2>
+     <h2>Versão SystemV do LFS</h2>
+     <h2>Estável Atual</h2>
      
-     <p>This is the latest released LFS book, well tested and mature 
-     enough for everyday use.</p>
-     
-     <p>You may download the stable book in various formats from the 
-        <a href="/lfs/downloads/stable/">stable book</a> directory.</p>
-<!--
-     <h2>Current Release Candidate Version &mdash; LFS-12.1-rc1</h2>
-     <p>This is a soon-to-be-released LFS book undergoing the last 
-     stages of testing.</p> 
-     
-     <p>You may download the book from the
-        <a href="/lfs/downloads/12.1-rc1/">LFS-12.1-rc1</a> directory.
-     </p>
--->
-     <h2>Current Development</h2>
-     <p>This is the LFS Book in its current development state. Changes can
-        happen that break the build temporarily.<br />
-        <em>Not recommended for inexperienced LFS'ers.</em>
-     </p>
-     
-     <p>Daily rendered <a href="downloads/development/">snapshots</a> may be 
-        downloaded. Or check out the book's XML source from our Git
-        repository and render it yourself:</p>
-     
-     <div class="cmd">
-       <p>git clone https://git.linuxfromscratch.org/lfs.git lfs-git</p>
-     </div>
+     <p>Esse é o livro LFS lançado mais recentemente, bem testado e 
+     maduro o suficiente para uso diário.</p>
 
-     <h3>Old branch</h3>
-     <p>Some old Git branches (those are inactive after 10.0 release except
-     release branches) are hidden.  They are not visible in the Trac Web
-     interface, nor cloned with <code>git clone</code> by default.  Read
-     <a href='https://wiki.linuxfromscratch.org/lfs/wiki/old-branch'>the
-     wiki page</a> for details.</p>
+     <p>Você pode baixar o livro estável em vários formatos a partir do 
+     diretório do <a href="/lfs/downloads/stable/">livro 
+     estável</a>.</p>
 
-     <h2>Systemd version of LFS</h2>
-     <h2>Current Stable</h2>
+     <h2>Versão systemd do LFS</h2>
+     <h2>Estável Atual</h2>
      
-     <p>This is the latest released LFS systemd book, well tested and mature 
-        enough for everyday use.</p>
+     <p>Esse é o livro LFS systemd lançado mais recentemente, bem 
+     testado e maduro o suficiente para uso diário.</p>
+
+     <p>Você pode baixar o livro estável em vários formatos a partir do 
+     diretório do <a href="/lfs/downloads/stable-systemd/">livro 
+     estável</a>.</p>
+
+         <h2>Museu do LFS</h2>
      
-     <p>You may download the stable book in various formats from the
-        <a href="/lfs/downloads/stable-systemd/">stable book</a> directory.</p>
-<!--
-     <h3>Current Pre-release Version &mdash; LFS-12.1-systemd-rc1</h3>
+     <p>Velho e crocante. Mas, ainda é útil como uma experiência 
+     educacional ou para ver como o LFS cresceu ao longo dos anos. <a 
+     href="/museum/lfs-museum/">lfs-museum</a></p>
 
-     <p>This is a variation of LFS. It will be released as
-     stable in the near future and is in the meantime considered to be under
-     testing. This version uses systemd and the required packages and boot
-     process are significantly different from standard LFS.
-     Major components of the book should stay unchanged from day to
-     day, but minor adjustments and bug fixes may be applied while the book
-     undergoes testing.</p>
-
-     <p>You may download the book from the
-        <a href="/lfs/downloads/12.1-systemd-rc1/">LFS-12.1-systemd-rc1</a> directory.
-     </p>
--->
-     <h2>Current Development</h2>
+     <!-- 'name' quebra a validação, mas é necessário para o livro LFS -->
+     <h2 id="packages"><a href="#" name="packages"></a>Pacotes para LFS</h2>
      
-     <p>This is the LFS systemd Book in its current development state. Changes can
-        happen that break the build temporarily.<br />
-        <em>Not recommended for inexperienced LFS'ers.</em>
-     </p>
+     <p>O LFS tem uma lista de pacotes e remendos que você deveria 
+     baixar. Por favor, use as versões que estão listadas no livro 
+     (vejam-se <a href="/faq/#why-not-version">as Perguntas 
+     Frequentes</a>); essas são versões testadas que são conhecidas por 
+     funcionarem entre elas. Existem várias maneiras de baixar os 
+     pacotes.</p>
 
-     <p>Daily rendered <a href="downloads/systemd/">snapshots</a> may be 
-        downloaded. Or check out the book's XML as above
-        and render it yourself:</p>
+     <h3>Caçar e Bicar</h3>
 
-     <div class="cmd">
-      <p>After the prerequisites listed in the INSTALL file are present, 
-         use 'make REV=systemd', to render the book.  Additional information is 
-         listed in the README file.</p>
-     </div>
 
-     <h2>LFS Museum</h2>
-     
-     <p>Old and crusty. But still useful as an educational experience, or to 
-        see how LFS has grown over the years.
-        <a href="/museum/lfs-museum/">lfs-museum</a>
-     </p>
-
-     <!-- name breaks validation, but needed for LFS book -->
-     <h2 id="packages"><a href="#" name="packages"></a>Packages for LFS</h2>
-     
-     <p>LFS has a list of packages and patches which you should download.
-        Please use the versions which are listed in the book (see
-        <a href="/faq/#why-not-version">the FAQ</a>); these are tested versions
-        which are known to work with each other. There are several ways to
-        download the packages.</p>
-
-     <h3>Hunt and Peck</h3>
-        <p>When a package is not available from the location listed 
-        in the book, some other places to try are:</p>
+        <p>Quando um pacote não está disponível a partir do local 
+        listado no livro, alguns outros lugares para se tentar são:</p>
         
         <ul>
-           <li>A search for the full package name in 
-               <a href="https://www.google.com/">google</a> or your 
-               favorite search engine</li>
-           
-           <li><a href="https://www.debian.org/distrib/packages">
-               Debian Package Search Page</a></li>
+           <li>Uma pesquisa pelo nome completo do pacote no <a 
+           href="https://www.google.com/">Google</a> ou no teu mecanismo 
+           favorito de pesquisa;</li>
 
-           <li>Sources from your linux distro</li>
+           <li><a href="https://www.debian.org/distrib/packages">Página 
+           de pesquisa dos pacotes do Debian;</a></li>
+
+           <li>Fontes oriundas da tua distribuição de Linux.</li>
         </ul>
         
 
-        <h3 id="ftp">LFS HTTP/FTP Sites</h3>
+        <h3 id="ftp">Sítios HTTP/FTP do LFS</h3>
 
-        <p>If the above methods are not available to you, the packages are also 
-           available in a tarball and individually on the following ftp and http mirrors.
-        </p>
+        <p>Se os métodos acima não estiverem disponíveis para você, os 
+        pacotes também estarão disponíveis em um tarball e 
+        individualmente nos seguintes espelhos FTP e HTTP:</p>
         <!--#include virtual="/common/lfsftp.html" -->
 
 <!--#include virtual="/common/footer.html" -->
