@@ -1,0 +1,316 @@
+/* Site-wide formatting of standard tags */
+/* ===================================== */
+body {
+	background: #fefefe;
+	font: .8em sans-serif, Arial;
+	color: black;
+	border: 0;
+	margin: 0;
+}
+
+p { margin: 10pt; }
+
+h1 {
+	color: #333;
+	font-size: 1.7em;
+}
+
+h2 {
+	color: #333;
+	font-size: 1.4em;
+}
+
+table {	font-size: 1em; }
+
+select { color: #333; }
+
+input {
+        border: 1px solid #ccc;
+        background: #eee;
+        color: #777;
+}
+
+input:hover {
+        color: #004090;
+        background: #ddd;
+}
+
+em {
+        font-weight: bold;
+        color: #444;
+}
+
+code {
+        font-weight: bold;
+}
+
+dt { font-weight: bold; }
+
+a img, a:link, a:hover { border: none; }
+
+a:link {
+        text-decoration: none;
+        color: #0072ff;
+        border-bottom: groove 1px #0072ff;
+}
+
+a:visited {
+        text-decoration: none;
+        color: navy;
+        border-bottom: groove 1px navy;
+}
+
+a:hover {
+        text-decoration: none;
+        color: #004090;
+        border-bottom: dotted 1px #004090;
+}
+
+hr {
+  background: #eee;
+  height: 1px;
+}
+
+
+/* Header: logo, top menu and search     */
+/* ===================================== */
+
+#banner {
+        height: 47px;
+}
+
+#banner img {
+        position: absolute;
+        left: 10px;
+        top: 10px;
+        border: none;
+}
+
+#search {
+        position: absolute;
+        right: 20px;
+        top: 0px;
+        margin: 5pt 0 5pt 0;
+}
+
+div.navbar {
+        position: absolute;
+        top: 90px;
+        border: 0;
+        margin: 0;
+        width: 100%;
+        padding: 0;
+        background-color: #eee;
+        text-align: right;
+        border-top: solid 1px #ccc;
+        border-bottom: solid 1px #ccc;
+}
+
+#menu {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  text-align: right;
+}
+
+#menu li {
+  display: inline;
+  padding: 0;
+  margin: 0;
+  text-align: right;
+}
+
+#menu a {
+  float: right;
+  display: block;
+  padding: 5px 20px;
+  margin: 0;
+  border-bottom: none;
+  text-decoration: none;
+}
+
+#lfsactive:link, #lfsactive:visited, #alfsactive:link, #alfsactive:visited, #blfsactive:link, #blfsactive:visited, #hlfsactive:link, #hlfsactive:visited, #hintsactive:link, #hintsactive:visited, #livecdactive:link, #livecdactive:visited, #patchesactive:link, #patchesactive:visited {
+  color: white;
+  font-weight: bold;
+  padding: 5px 20px;
+}
+
+#lfs:link, #lfs:visited, #blfs:link, #blfs:visited, #alfs:link, #alfs:visited, #clfs:link, #clfs:visited, #hlfs:link, #hlfs:visited, #hints:link, #hints:visited, #livecd:link, #livecd:visited, #patches:link, #patches:visited {
+  font-weight: bold;
+  color: #777;
+}
+
+#lfs:hover, #lfsactive:hover, #alfs:hover, #alfsactive:hover, #blfs:hover, #blfsactive:hover, #clfs:hover, #hlfs:hover, #hlfsactive:hover, #hints:hover, #hintsactive:hover, #livecd:hover, #livecdactive:hover, #patches:hover, #patchesactive:hover { background-color: #ddd }
+
+
+/* Project specfic left-hand menus       */
+/* ===================================== */
+
+#leftmenu ul {
+  text-align: right;
+  font-weight: bold;
+  background: #eee;
+  list-style-type: none;
+  position: absolute;
+  left: 0px;
+  top: 145px;
+  border-top: solid 1px #ccc;
+  border-right: solid 1px #ccc;
+  padding: 0;
+  margin: 0;
+}
+
+#leftmenu li {
+  margin: 0;
+  border-bottom: solid 1px #ddd;
+}
+
+#leftmenu a {
+  text-decoration: none;
+  border: none;
+  display: block;
+  margin: 0;
+  padding: 5px 10px;
+  color: #777;
+}
+
+#leftmenulist a:hover {
+  background: #777;
+  color: white;
+}
+
+#lfsmenulist a:hover {
+  background: #0072ff;
+  color: white;
+}
+
+#alfsmenulist a:hover {
+  background: #92d800;
+  color: white;
+}
+
+#blfsmenulist a:hover {
+  background: #a27700;
+  color: white;
+}
+
+#hlfsmenulist a:hover {
+  background: #fd7700;
+  color: white;
+}
+
+#hintsmenulist a:hover {
+  background: #8400ff;
+  color: white;
+}
+
+#livecdmenulist a:hover {
+  background: red;
+  color: white;
+}
+
+#patchesmenulist a:hover {
+  background: #0c0470;
+  color: white;
+}
+
+#lfsactive:link, #lfsactive:visited {
+  background: #0072ff;
+}
+#alfsactive:link, #alfsactive:visited {
+  background: #92d800;
+}
+#blfsactive:link, #blfsactive:visited {
+  background: #a27700;
+}
+#hlfsactive:link, #hlfsactive:visited {
+  background: #fd7700;
+}
+#hintsactive:link, #hintsactive:visited {
+  background: #8400ff;
+}
+#livecdactive:link, #livecdactive:visited {
+  background: red;
+}
+#patchesactive:link, #patchesactive:visited {
+  background: #0c0470;
+}
+
+
+/* Google AdSense                        */
+/* ===================================== */
+
+#adsense {
+        position: absolute;
+        right: 0;
+        top: 118px;
+        padding: 15px 0px 15px 10px;
+        border-left: 1px solid #ccc;
+	z-index: 1;
+}
+
+
+/* Special formatting for News lists     */
+/* ===================================== */
+
+.newsItem {
+	padding-bottom: 5pt;
+	border-bottom: 1px dotted #0c0470;
+}
+
+.newsItem p { margin: 10pt 0 10pt 0; }
+
+
+/* Special formatting for /index.html    */
+/* ===================================== */
+
+#subs {
+  list-style-type: none;
+}
+
+#subs li {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+
+/* Conteúdo e rodapé da página príncipal */
+/* ===================================== */
+
+div.main {
+	position: absolute;
+	top: 140px;
+	left: 16em; 
+	padding-right: 180px;
+}
+
+#footer {	
+	border-top: 1px solid #888;
+	margin-top: 10px;
+}
+
+#footer p {
+	color: #888;
+	font-size: .8em;
+}
+
+
+/* Commands & notes                      */
+/* ===================================== */
+
+.cmd { 
+       font      : 1.1em monospace; 
+       background: #eee; 
+       padding   : 5pt 0; 
+       margin    : 0 10pt; 
+       border    : 1px dashed #0c0470;
+     }
+.cmd p { margin: 10pt 15pt; }
+
+.note { 
+        background: #eee;
+        border    : dashed 1px red;
+        padding   : 3pt;
+        margin    : 0 10pt;
+}
+
