@@ -1,183 +1,194 @@
-<!--#set var="pageTitle" value="LFS Mailing Lists" -->
-<!--#include virtual="header.html" -->
-<!--#include virtual="menu.html" -->
-    <div class="main">
+<!--#set var="pageTitle" value="Listas de Discussão do LFS" --> 
+<!--#include virtual="header.html" --> <!--#include virtual="menu.html" 
+-->
+    <div class = "main">
 
-    <h1>LFS Mailing Lists</h1>
+    <h1>Listas de Discussão do LFS</h1>
     
-    <h2>Preamble</h2>
+    <h2>Preâmbulo</h2>
     
-    <p>Before you post to the mailing lists, please check if your answer has
-    already been answered in the 
-    <a href="/faq/">FAQ</a>, on the 
-    <a href="/search.html">search page</a> or by other
-    methods on the 
-    <a href="/support.html">support page</a>. If you don't
-    understand an answer in the FAQ or would like some more information, send
-    an e-mail to the 
-    <a href="mailto:webmaster@linuxfromscratch.org">FAQ maintainer</a>.</p>
+    <p>Antes que você poste nas listas de discussão, por favor, 
+    verifique se tua resposta já foi respondida nas 
+<a href = "/faq/">Perguntas Frequentes</a>, na 
+<a href = "/search.html">página de pesquisa</a> ou por outros métodos na 
+    <a href = "/support.html">página de suporte</a>. Se você não entender 
+    uma resposta nas Perguntas Frequentes ou gostaria de mais 
+    informações, envie uma mensagem eletrônica para o(a) 
+<a href = "mailto:webmaster@linuxfromscratch.org">mantenedor(a) das Perguntas Frequentes</a>.</p>
 
-    <p>If you're finished with the LFS Book, use blfs-support instead. Please
-    read <a href="/faq/#netiquette">the netiquette rules</a> before
-    posting!</p>
+    <p>Se você tiver terminado com o livro LFS, use o blfs-support. Por 
+    favor, leia <a href = "/faq/#netiqueta">as regras da netiqueta</a> 
+    antes de postar!</p>
 
-    <p style="font-weight:bold; font-size:large;">You must subscribe to a list before posting.</p>
+    <p style = "font-weight:bold; font-size:large;">Você precisa se 
+    inscrever em uma lista antes de postar.</p>
     
-    <p style="font-weight:bold;">Important mailing list etiquette</p>
-    <ul>
-      <li>Do not top post. Reply posts should be at the end of message or
-          interspersed in the message if making multiple points.<br/>
-          <pre>
-             A. Because it messes up the order in which people normally read text.
-             Q. Why is top-posting such a bad thing?
-             A. Top-posting.
-             Q. What is the most annoying thing in e-mail?
-          </pre>
-      </li>
+    <p style = "font-weight:bold;">Etiqueta importante da lista de 
+    discussão</p> <ul>
+      <li>Não poste no topo. As postagens de resposta deveriam estar ao 
+          final da mensagem ou intercaladas na mensagem, se existirem 
+          vários pontos.<br/> <pre>
+             R. Porque atrapalha a ordem na qual as pessoas normalmente 
+             leem o texto. P. Por que postar no topo é uma coisa tão 
+             ruim? R. Postagem no topo. P. Qual é a coisa mais chata na 
+             mensagem eletrônica?
+          </pre> </li>
 
-      <li>When replying, trim non-relevant text, including the mailing list 
-          footers if your email client does not do that automatically.
-      </li>
+      <li>Ao responder, corte o texto não relevante, incluindo os 
+      rodapés da lista de discussão, se o teu cliente de mensagens 
+      eletrônicas não fizer isso automaticamente. </li>
 
-      <li>Post using plain text, not html.</li>
+      <li>Poste usando texto simples, não HTML.</li>
 
     </ul>
 
-    <h2 id="mailinglists">Mailing List Description</h2>
+    <h2 id = "mailinglists">Descrição das Listas de Discussão</h2>
     
     <dl>
     
       <dt>lfs-announce</dt>
       
-      <dd>The 
-      <a href="https://lists.linuxfromscratch.org/sympa/info/lfs-announce">lfs-announce</a>
-      list is a moderated, low traffic list for those who want notification of new stable
-      releases without the higher traffic of lfs-dev.</dd>
+      <dd>A lista 
+<a href = "https://lists.linuxfromscratch.org/sympa/info/lfs-announce">lfs-announce</a> 
+      é uma lista moderada e de baixo tráfego para aqueles(as) que 
+      querem notificação de novos lançamentos estáveis sem o maior 
+      tráfego da lfs-dev.</dd>
       
       <dt>lfs-book</dt>
       
-      <dd>The 
-      <a href="https://lists.linuxfromscratch.org/sympa/info/lfs-book/">lfs-book</a>
-      list is used for coordinating the LFS Book's maintenance. Traffic on it
-      is mostly Trac and Git commit messages. It is important that all
-      development discussion of interest to the Book's users take place on
-      lfs-dev, not here. This is a moderated list.</dd>
-      
+      <dd>A lista 
+<a href = "https://lists.linuxfromscratch.org/sympa/info/lfs-book/">lfs-book</a> 
+      é usada para coordenar a manutenção do livro LFS. O tráfego nela é 
+      principalmente mensagens de commit do Trac e Git. É importante que 
+      todas as discussões do desenvolvimento de interesse para os(as) 
+      usuários(as) do Livro ocorram na lfs-dev, não aqui. Essa é uma 
+      lista moderada.</dd>
+
       <dt>lfs-dev</dt>
       
-      <dd>The 
-      <a href="https://lists.linuxfromscratch.org/sympa/info/lfs-dev/">lfs-dev</a>
-      list is <b>only</b> for discussion of LFS Book development.</dd>
-      
+      <dd>A lista 
+<a href = "https://lists.linuxfromscratch.org/sympa/info/lfs-dev/">lfs-dev</a> 
+      é <b>somente</b> para discussão do desenvolvimento do livro 
+      LFS.</dd>
+
       <dt>lfs-support</dt>
       
-      <dd>The 
-      <a href="https://lists.linuxfromscratch.org/sympa/info/lfs-support/">lfs-support</a>
-      list is the place to get help following the instructions in the stable
-      release of LFS Book itself. If you are finished with the LFS book, please
-      use blfs-support instead.</dd>
-      
+      <dd>A lista 
+<a href = "https://lists.linuxfromscratch.org/sympa/info/lfs-support/">lfs-support</a> 
+      é o lugar para se obter ajuda seguindo as instruções no lançamento 
+      estável do livro LFS em si. Se você tiver terminado com o livro 
+      LFS, por favor, use a blfs-support.</dd>
+
       <dt>lfs-admin</dt>
       
-      <dd>The 
-      <a href="https://lists.linuxfromscratch.org/sympa/info/lfs-admin/">lfs-admin</a>
-      list is a moderated list used for coordinating hints, patches, and the website.
-      Traffic on it is mostly Trac and Git commit messages.</dd>
-      
+      <dd>A lista 
+<a href = "https://lists.linuxfromscratch.org/sympa/info/lfs-admin/">lfs-admin</a> 
+      é uma lista moderada usada para coordenar dicas, remendos e o 
+      sítio. O tráfego nela é principalmente mensagens de commit do Trac 
+      e Git.</dd>
+
       <dt>blfs-book</dt>
       
-      <dd>The 
-      <a href="https://lists.linuxfromscratch.org/sympa/info/blfs-book/">blfs-book</a>
-      list is used for coordinating the BLFS Book's maintenance. Traffic on it
-      is mostly Trac and Git commit messages. It is important that all
-      development discussion of interest to the Book's users take place on
-      blfs-dev, not here. This is a moderated list.</dd>
-      
+      <dd>A lista 
+<a href = "https://lists.linuxfromscratch.org/sympa/info/blfs-book/">blfs-book</a> 
+      é usada para coordenar a manutenção do livro BLFS. O tráfego nela 
+      é principalmente mensagens de commit do Trac e Git. É importante 
+      que todas as discussões do desenvolvimento de interesse para 
+      os(as) usuários(as) do Livro ocorram na blfs-dev, não aqui. Essa é 
+      uma lista moderada.</dd>
+
       <dt>blfs-dev</dt>
       
-      <dd>The 
-      <a href="https://lists.linuxfromscratch.org/sympa/info/blfs-dev/">blfs-dev</a>
-      list is <b>only</b> for discussion of BLFS Book development.</dd>
-      
+      <dd>A lista 
+<a href = "https://lists.linuxfromscratch.org/sympa/info/blfs-dev/">blfs-dev</a> 
+      é <b>somente</b> para discussão do desenvolvimento do livro 
+      BLFS.</dd>
+
       <dt>blfs-support</dt>
       
-      <dd>The 
-      <a href="https://lists.linuxfromscratch.org/sympa/info/blfs-support/">blfs-support</a>
-      list is for the BLFS Book and beyond. It includes requests for help
-      following the BLFS Book, requests for help with packages not (yet) in
-      either the LFS Book or the BLFS Book, and other requests and discussion
-      concerning software that might be installed on an LFS system. 
-      This list is relatively high traffic.</dd>
-      
+      <dd>A lista 
+<a href = "https://lists.linuxfromscratch.org/sympa/info/blfs-support/">blfs-support</a> 
+      é para o livro BLFS e além. Ela inclui solicitações de ajuda 
+      seguindo o Livro BLFS, solicitações de ajuda com pacotes que 
+      (ainda) não estão no Livro LFS ou no Livro BLFS, e outras 
+      solicitações e discussões concernentes a software que pode ser 
+      instalado em um sistema LFS. Essa lista é de tráfego relativamente 
+      alto.</dd>
+
       <dt>alfs-discuss</dt>
       
-      <dd>The 
-      <a href="https://lists.linuxfromscratch.org/sympa/info/alfs-discuss/">alfs-discuss</a>
-      list is for discussion of ALFS development.</dd>
-    
+      <dd>A lista 
+<a href = "https://lists.linuxfromscratch.org/sympa/info/alfs-discuss/">alfs-discuss</a> 
+      é para discussão do desenvolvimento do ALFS.</dd>
+
     </dl>
     
-    <h2 id="archives">Archives</h2>
+    <h2 id = "archives">Arquivamentos</h2>
     
-    <p>Every mailinglist is archived and can be browsed through online. The
-    archives are always current. The links to the archives is available through
-    each lists' Archive page.</p>
+    <p>Cada lista de discussão é arquivada e pode ser navegada online. 
+    Os arquivamentos estão sempre atualizados. Os links para os 
+    arquivamentos estão disponíveis por intermédio da página 
+    Arquivamento de cada lista.</p>
+
+    <p>Os arquivamentos estão divididos por mês. Se você não quiser 
+    apenas navegar, mas estiver procurando informações específicas, será 
+    melhor pesquisar nos arquivamentos usando o 
+<a href = "/search.html">mecanismo de pesquisa</a> ou a função de 
+    pesquisa de arquivamentos de lista.</p>
+
+    <h2 id = "subscribe">Inscrever-se</h2>
     
-    <p>The archives are split by month. If you don't want to just browse but
-    are actually looking for specific information, you'll be better off
-    searching through the archives using the 
-    <a href="/search.html">search engine</a> or list archive search function.
-    </p>
+    <p>A maneira mais fácil de se inscrever é por meio da página 
+    https://lists.linuxfromscratch.org/sympa/info/&lt;list&gt;". Basta 
+    selecionar "Inscrever-se"</p>
+
+    <p>O software da lista de discussão permite que você se logue, mas 
+    só é exigido para personalizar as opções da lista ou para cancelar a 
+    inscrição. Ao logar-se pela primeira vez, selecione “Primeiro 
+    login?”. Você receberá uma mensagem com um link onde poderá 
+    configurar tua senha. Observe que isso só precisa ser feito uma vez 
+    e a tua senha é válida para todas as listas de discussão do LFS.</p>
+
+    <h2 id = "unsubscribe">Cancelar inscrição</h2>
     
-    <h2 id="subscribe">Subscribe</h2>
+    <p>Para cancelar a inscrição em uma lista, acesse a página de 
+    informações da lista e selecione "Cancelar inscrição".</p>
+
+    <h2 id = "filters">Filtros</h2>
     
-    <p>The easiest way to subscribe is via the 
-    https://lists.linuxfromscratch.org/sympa/info/&lt;list&gt;"page.
-    Just select "Subscribe"</p>
+    <p>Cada mensagem eletrônica enviada pelo software da lista de 
+    discussão em linuxfromscratch.org terá o nome da lista entre 
+    colchetes no início da linha Assunto:. Portanto, esse cabeçalho para 
+    uma mensagem eletrônica para lfs-dev será parecido com 
+    <code>[lfs-dev] Algum título</code> e uma mensagem eletrônica para 
+    blfs-support será parecida com <code>[blfs-support] Outro 
+    título</code >.</p>
+
+    <p>Nós sugerimos que você use o cabeçalho Assunto: para filtrar 
+    mensagens do LFS recebidas em tuas pastas de mensagens.</p>
+
+    <h2 id = "digests">Resumos</h2>
     
-    <p>The mailing list software allows you to log in, but it is only required
-    to customize list options or to unsubscribe. When loging in for the first
-    time, select "First login?".   You will receive a message with a link where 
-    you will be able to set your password. Note that this only has to be
-    done once and your password is good for all LFS mailing lists.</p>
- 
-    <h2 id="unsubscribe">Unsubscribe</h2>
+    <p>Todas as listas tem o modo resumo disponível, que pode ser 
+    configurado depois que um(a) usuário(a) tenha se inscrito em uma 
+    lista. Estar no modo resumo fará com que você pare de receber 
+    mensagens individuais à medida que elas são postadas na lista e, em 
+    vez disso, receba uma mensagem eletrônica periódica contendo todas 
+    as mensagens postadas na lista desde o período anterior.</p>
+
+    <p>Essa definição pode ser configurada por meio do link "Opções de 
+    Assinante" em cada lista.</p>
+
+    <h2 id = "vacation">Modo férias</h2>
     
-    <p>To unsubscribe from a list, go to the list info page and
-    select "Unsubscribe".</p>
-    
-    <h2 id="filters">Filters</h2>
-    
-    <p>Every email sent out by the mailinglist software at linuxfromscratch.org
-    will have the list name in square brackets at the beginning of the
-    Subject: line.
-    So this header for an email
-    to lfs-dev will look like <code>[lfs-dev] Some title</code> and an email to 
-    blfs-support will look like <code>[blfs-support] Another title</code>.</p>
-    
-    <p>We suggest you use the Subject: header to filter incoming
-    LFS mail to your mail folders.</p>
-    
-    <h2 id="digests">Digests</h2>
-    
-    <p>All lists have the digest mode available which can be set after a user
-    has subscribed to a list. Being in digest mode will cause you to stop
-    receiving individual messages as they are posted to the list and instead
-    receive a periodic email containing all the messages posted to the list
-    since the previous period.</p>
-    
-    <p>This setting can be configured via the "Subscriber Options" link
-    on each list. </p>
-    
-    <h2 id="vacation">Vacation mode</h2>
-    
-    <p>If you are going to be away for a while or wish to stop receiving
-    messages from the lists but don't want to unsubscribe, you can change to
-    vacation mode. This has the same effect as unsubscribing, but without
-    having to go through the unsubscribe process and then later through the
-    subscribe process again. </p>
-    
-    <p>This setting can be configured via a form on the "Subscriber Options" link
-    on each list.</p>
+    <p>Se você vai se ausentar por um tempo ou deseja parar de receber 
+    mensagens das listas, mas não quer cancelar a inscrição, você pode 
+    mudar para o modo férias. Isso tem o mesmo efeito que o cancelamento 
+    da assinatura, mas sem a necessidade de passar pelo processo de 
+    cancelamento e, posteriormente, pelo processo de assinatura 
+    novamente.</p>
+
+    <p>Essa definição pode ser configurada por meio de um formulário no 
+    link "Opções de Assinante" em cada lista.</p>
 
 <!--#include virtual="/common/footer.html" -->
