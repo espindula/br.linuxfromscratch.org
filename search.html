@@ -1,0 +1,101 @@
+<!--#set var="pageTitle" value="Search Linux From Scratch" -->
+<!--#include virtual="header.html" -->
+<!--#include virtual="menu.html" -->
+
+    <script type="text/javascript">
+    <!--
+    function addEngine(name,ext,cat)
+    {
+      if ((typeof window.sidebar == "object") && (typeof
+      window.sidebar.addSearchEngine == "function"))
+      {
+        window.sidebar.addSearchEngine(
+          "http://www.linuxfromscratch.org/plugins/"+name+".src",
+          "http://www.linuxfromscratch.org/plugins/"+name+"."+ext,
+          name,
+          cat );
+      }
+      else
+      {
+      alert("Netscape 6 or Mozilla is needed to install a sherlock plugin");
+      }
+    }
+    //-->
+    </script>
+
+    <div class="main">
+     <h1>Search Linux From Scratch</h1>
+     
+
+<h2>Firefox / Mozilla Plugin</h2>
+
+  <p>This plugin allows you to search the LFS mailing list archives directly from
+  the Firefox / Mozilla search bar.</p>
+
+  <p><a href="javascript:addEngine('lfs','png','Web')">Click here to install the
+  LFS Mail Archives Search plugin.</a></p>
+
+<h2>Google search</h2>
+
+   <form method="get" action="https://www.google.com/search">
+   <table summary="Search the website with google"><tbody>
+   <tr>
+     <th>Choose the domain:</th>
+
+     <td>
+       <label title="Search google with site:linuxfromscratch.org">
+          <input type="radio" 
+                 name="sitesearch" 
+                 value="linuxfromscratch.org" 
+                 checked="checked" />
+          linuxfromscratch.org
+       </label>
+     </td>
+     
+     <td valign="top"> 
+       <label title="Search WWW on google">
+          <input type="radio"
+                 name="sitesearch" 
+                 value="WWW" />
+          WWW
+       </label> 
+     </td> 
+   </tr>
+
+   <tr>
+     <th><label for="inputField">Search with google:</label></th>
+
+     <td colspan="2"> 
+       <label title="Enter the text to search for">
+         <input type="text" 
+                size="32" 
+                tabindex="3" 
+                id="inputField" 
+                name="q" 
+                maxlength="255"  
+                onfocus="if(this.value==this.defaultValue) this.value='';" 
+                value="Enter text here" />
+       </label>
+     </td>
+     
+     <td valign="top"> 
+       <label title="Submit the search query">
+       <input type="submit" value="Go!" />
+       <input type="hidden" name="domains"  value="linuxfromscratch.org" /> 
+       <em><a href="https://www.google.com/help/features.html">Search help</a></em> 
+     </td>
+
+   </tr>
+   </table>
+   </form>
+
+   <p><a href="https://www.google.com/"> 
+      <img alt="Powered by Google" 
+           width="135" 
+           height="35" 
+           src="images/powered_by_google_135x35.png" />
+      </a>
+   </p>
+
+<!--#include virtual="/common/footer.html" -->
+
