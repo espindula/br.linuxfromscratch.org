@@ -1,8 +1,8 @@
-<!--#set var="pageTitle" value="Search Linux From Scratch" -->
+<!--#set var="pageTitle" value="Pesquise no Linux From Scratch" -->
 <!--#include virtual="header.html" -->
 <!--#include virtual="menu.html" -->
 
-    <script type="text/javascript">
+    <script type = "text/javascript">
     <!--
     function addEngine(name,ext,cat)
     {
@@ -17,83 +17,85 @@
       }
       else
       {
-      alert("Netscape 6 or Mozilla is needed to install a sherlock plugin");
+      alert("Netscape 6 ou Mozilla é necessário para instalar um plugin sherlock");
       }
     }
     //-->
     </script>
 
-    <div class="main">
-     <h1>Search Linux From Scratch</h1>
+    <div class = "main">
+     <h1>Pesquise no Linux From Scratch</h1>
      
 
-<h2>Firefox / Mozilla Plugin</h2>
+<h2>Plugin do Firefox/Mozilla</h2>
 
-  <p>This plugin allows you to search the LFS mailing list archives directly from
-  the Firefox / Mozilla search bar.</p>
+  <p>Este plugin permite que você pesquise os arquivamentos da lista de 
+  discussão do LFS diretamente a partir da barra de pesquisa do 
+  Firefox/Mozilla.</p>
 
-  <p><a href="javascript:addEngine('lfs','png','Web')">Click here to install the
-  LFS Mail Archives Search plugin.</a></p>
+  <p><a href = "javascript:addEngine('lfs','png','Web')">Clique aqui 
+  para instalar o plugin de pesquisa dos arquivamentos de mensagens do 
+  LFS.</a></p>
 
-<h2>Google search</h2>
+<h2>Pesquisa do Google</h2>
 
-   <form method="get" action="https://www.google.com/search">
-   <table summary="Search the website with google"><tbody>
+   <form method = "get" action = "https://www.google.com/search">
+   <table summary = "Pesquise no sítio com o Google"><tbody>
    <tr>
-     <th>Choose the domain:</th>
+     <th>Escolha o domínio:</th>
 
      <td>
-       <label title="Search google with site:linuxfromscratch.org">
-          <input type="radio" 
-                 name="sitesearch" 
-                 value="linuxfromscratch.org" 
-                 checked="checked" />
+       <label title = "Pesquise no Google com site:linuxfromscratch.org">
+          <input type = "radio" 
+                 name ="sitesearch" 
+                 value = "linuxfromscratch.org" 
+                 checked = "checked" />
           linuxfromscratch.org
        </label>
      </td>
      
-     <td valign="top"> 
-       <label title="Search WWW on google">
-          <input type="radio"
-                 name="sitesearch" 
-                 value="WWW" />
+     <td valign = "top"> 
+       <label title = "Pesquise a WWW no Google">
+          <input type = "radio"
+                 name = "sitesearch" 
+                 value = "WWW" />
           WWW
        </label> 
      </td> 
    </tr>
 
    <tr>
-     <th><label for="inputField">Search with google:</label></th>
+     <th><label for = "inputField">Pesquise com o Google:</label></th>
 
-     <td colspan="2"> 
-       <label title="Enter the text to search for">
-         <input type="text" 
-                size="32" 
-                tabindex="3" 
-                id="inputField" 
-                name="q" 
-                maxlength="255"  
-                onfocus="if(this.value==this.defaultValue) this.value='';" 
-                value="Enter text here" />
+     <td colspan = "2"> 
+       <label title = "Digite o texto a ser pesquisado">
+         <input type = "text" 
+                size = "32" 
+                tabindex = "3" 
+                id = "inputField" 
+                name = "q" 
+                maxlength = "255"  
+                onfocus = "if(this.value==this.defaultValue) this.value='';" 
+                value = "Insira o texto aqui" />
        </label>
      </td>
      
-     <td valign="top"> 
-       <label title="Submit the search query">
-       <input type="submit" value="Go!" />
-       <input type="hidden" name="domains"  value="linuxfromscratch.org" /> 
-       <em><a href="https://www.google.com/help/features.html">Search help</a></em> 
+     <td valign = "top"> 
+       <label title = "Submeta a consulta de pesquisa">
+       <input type = "submit" value = "Vai!" />
+       <input type = "hidden" name = "domains"  value = "linuxfromscratch.org" /> 
+       <em><a href = "https://www.google.com/help/features.html">Procurar ajuda</a></em> 
      </td>
 
    </tr>
    </table>
    </form>
 
-   <p><a href="https://www.google.com/"> 
-      <img alt="Powered by Google" 
-           width="135" 
-           height="35" 
-           src="images/powered_by_google_135x35.png" />
+   <p><a href = "https://www.google.com/"> 
+      <img alt = "Disponibilizada pelo Google" 
+           width = "135" 
+           height = "35" 
+           src = "images/powered_by_google_135x35.png" />
       </a>
    </p>
 
