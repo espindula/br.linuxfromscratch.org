@@ -1,66 +1,64 @@
-<!--#set var="pageTitle" value="General FAQ" -->
+<!--#set var="pageTitle" value="Perguntas frequentes Gerais" -->
 <!--#include virtual="header.html" -->
 <!--#include virtual="menu.html" -->
     <div class="main">
-      <h1>Frequently Asked Questions</h1>
-      <p>The FAQ is divided in three documents. The <a href="/faq/index.html">General FAQ</a> has 
-      links to all questions and answers. 
-      The <a href="/lfs/faq.html">LFS FAQ</a> is a selection of LFS-specific FAQ's
-         and the <a href="/blfs/faq.html">BLFS FAQ</a> is a selection of BLFS-specific FAQ's.</p>
-      <h2 id="generalfaq">General FAQ</h2>
-      <h3><a href="#intro">General information about these FAQ's</a></h3>
+      <h1>Perguntas frequentes</h1>
+
+      <p>O FAQ está dividido em três documentos. As <a href="/faq/index.html">Perguntas frequentes Gerais</a> tem links para todas as perguntas e respostas. O <a href="/lfs/faq.html">FAQ do LFS</a> é uma seleção de perguntas frequentes específicas do LFS e o <a href="/blfs/faq.html">FAQ do BLFS</a> é uma seleção de perguntas frequentes específicas do BLFS.</p>
+
+      <h2 id="generalfaq">Perguntas frequentes Gerais</h2>
+      <h3><a href="#intro">Informações gerais acerca destas Perguntas Frequentes</a></h3>
       <ul>
-	<li><a href="#why-faq">Why this FAQ?</a></li>
-	<li><a href="#what-is-lfs">What is LFS?</a></li>
-	<li><a href="#what-is-blfs">What is BLFS?</a></li>
-	<li><a href="#contribute">How can I contribute to this FAQ?</a></li>
+	<li><a href="#why-faq">Por que este FAQ?</a></li>
+	<li><a href="#what-is-lfs">O que é LFS?</a></li>
+	<li><a href="#what-is-blfs">O que é BLFS?</a></li>
+	<li><a href="#contribute">Como posso contribuir para este FAQ?</a></li>
       </ul>
-      <h3><a href="#support">Support guidelines</a></h3>
+      <h3><a href="#support">Diretrizes de suporte</a></h3>
       <ul>
-	<li><a href="#newbie">I'm a newbie to Linux or LFS and I need some help?</a></li>
-	<li><a href="#getting-help">Where is the best place to get help?</a></li>
-	<li><a href="#which-list">Which list should I use for what topic?</a></li>
-	<li><a href="#netiquette">How do I address the LFS community?</a></li>
+	<li><a href="#newbie">Sou novato em Linux ou LFS e preciso de ajuda?</a></li>
+	<li><a href="#getting-help">Qual é o melhor lugar para obter ajuda?</a></li>
+	<li><a href="#which-list">Qual lista devo usar para qual tópico?</a></li>
+	<li><a href="#netiquette">Como posso me dirigir à comunidade LFS?</a></li>
       </ul>
-      <h3><a href="#frb">Frequently Reported Bugs</a></h3>
+      <h3><a href="#frb">Defeitos informados com frequência</a></h3>
       <ul>
-	<li><a href="#wrong-ln-s-command">The "ln -s" commands in the Book are wrong.</a></li>
+	<li><a href="#wrong-ln-s-command">Os comandos "ln -s" do Livro estão errados.</a></li>
 	<li><a href="#bash-missing-right-bracket">bash: [: missing `]'</a></li>
-	<li><a href="#its-hardlink-not-copy">/bin/foo is a copy of /bin/bar.</a></li>
-	<li><a href="#why-not-version">Can I use a version newer than the one in the Book?</a></li>
-	<li><a href="#new-version">There's a new version of package Foo.</a></li>
-	<li><a href="#delete_key_not_work">The Delete key doesn't work.</a></li>
-	<li><a href="#shutdown-on-fsck-error">The system shuts down when fsck errors out!</a></li>
-	<li><a href="#where-lfs-packages">Where are the lfs-packages tarballs or wget scripts?</a></li>
-	<li><a href="#how-to-find">How do I find a package or command?</a></li>
-	<li><a href="#how-to-upgrade">How do I upgrade my LFS/BLFS system?</a></li>
-	<li><a href="#sudo-book-commands">The commands in LFS/BLFS book does not work with sudo!</a></li>
+	<li><a href="#its-hardlink-not-copy">/bin/foo é uma cópia de /bin/bar.</a></li>
+	<li><a href="#why-not-version">Posso usar uma versão mais recente que a do Livro?</a></li>
+	<li><a href="#new-version">Existe uma nova versão do pacote Foo.</a></li>
+	<li><a href="#delete_key_not_work">A tecla Delete não funciona.</a></li>
+	<li><a href="#shutdown-on-fsck-error">O sistema desliga quando ocorre um erro no fsck!</a></li>
+	<li><a href="#where-lfs-packages">Onde estão os tarballs dos pacotes do LFS ou os scripts wget?</a></li>
+	<li><a href="#how-to-find">Como encontro um pacote ou comando?</a></li>
+	<li><a href="#how-to-upgrade">Como eu atualizo meu sistema LFS/BLFS?</a></li>
+	<li><a href="#sudo-book-commands">Os comandos no livro LFS/BLFS não funcionam com o sudo!</a></li>
       </ul>
 
-      <h2 id="lfsfaq">LFS FAQ:</h2>
-      <h3><a href="/lfs/faq.html#fre">Frequently Requested Enhancements</a></h3>
+      <h2 id="lfsfaq">FAQ do LFS:</h2>
+      <h3><a href="/lfs/faq.html#fre">Aprimoramentos solicitados com frequência</a></h3>
       <ul>
-        <li><a href="/lfs/faq.html#why-not-faq">Why not include the FAQ in the book?</a></li>
-        <li><a href="/lfs/faq.html#why-vim">Why is vim in the book?</a></li>
-        <li><a href="/lfs/faq.html#why-not-package-management">Why isn't some package manager in the book?</a></li>
-        <li><a href="/lfs/faq.html#no-poweroff">How do I make my machine poweroff when shut down?</a></li>
-        <li><a href="/lfs/faq.html#uefi">How do I boot LFS with UEFI?</a></li>
-        <li><a href="/lfs/faq.html#rebuild-ch8">Can I skip a package in Chapter 8 since it's already built in Chapter 6 or 7, and it's functioning properly?</a></li>
-        <li><a href="/lfs/faq.html#get-rid-of-lib64">Can I modify GCC code and get rid of /lib64?</a></li>
+        <li><a href="/lfs/faq.html#why-not-faq">Por que não incluir o FAQ no livro?</a></li>
+        <li><a href="/lfs/faq.html#why-vim">Por que o vim está no livro?</a></li>
+        <li><a href="/lfs/faq.html#why-not-package-management">Por que não existe nenhum gerenciador de pacotes no livro?</a></li>
+        <li><a href="/lfs/faq.html#no-poweroff">Como faço para desligar minha máquina ao desligar?</a></li>
+        <li><a href="/lfs/faq.html#uefi">Como inicializo o LFS com UEFI?</a></li>
+        <li><a href="/lfs/faq.html#rebuild-ch8">Posso pular um pacote do Capítulo 8, pois ele já foi construído no Capítulo 6 ou 7 e está funcionando corretamente?</a></li>
+        <li><a href="/lfs/faq.html#get-rid-of-lib64">Posso modificar o código do GCC e me livrar de/lib64?</a></li>
       </ul>
-      <h3><a href="/lfs/faq.html#resources">When reading and building LFS</a></h3>
+      <h3><a href="/lfs/faq.html#resources">Ao ler e construir o LFS</a></h3>
       <ul>
-        <li><a href="/lfs/faq.html#what-dist">What distribution should I use to start from?</a></li>
-        <li><a href="/lfs/faq.html#kernel-modules">How do I compile a kernel or set up modules?</a></li>
-        <li><a href="/lfs/faq.html#gcc-warnings">Are compiler warnings from GCC bad?</a></li>
-        <li><a href="/lfs/faq.html#dirty-sources">Do I need to keep the source after installing?</a></li>
-<!--        <li><a href="/lfs/faq.html#really-small">How do I make that really small install the book mentions?</a></li> -->
-        <li><a href="/lfs/faq.html#procs-lfs">Is there information about building LFS on other processors?</a></li>
-        <li><a href="/lfs/faq.html#cross-compile">How do I cross compile LFS?</a></li>
-        <li><a href="/lfs/faq.html#dos-text">What's a DOS format text file?</a></li>
-        <li><a href="/lfs/faq.html#wget">Is there a way to download all current files at one time?</a></li>
+        <li><a href="/lfs/faq.html#what-dist">Qual distribuição devo usar para começar?</a></li>
+        <li><a href="/lfs/faq.html#kernel-modules">Como eu compilo um núcleo ou configuro módulos?</a></li>
+        <li><a href="/lfs/faq.html#gcc-warnings">Os avisos do compilador oriundos do GCC são ruins?</a></li>
+        <li><a href="/lfs/faq.html#dirty-sources">Preciso manter o fonte após a instalação?</a></li>
+        <li><a href="/lfs/faq.html#procs-lfs">Existem informações acerca de como construir o LFS em outros processadores?</a></li>
+        <li><a href="/lfs/faq.html#cross-compile">Como eu compilo cruzadamente o LFS?</a></li>
+        <li><a href="/lfs/faq.html#dos-text">O que é um arquivo de texto no formato DOS?</a></li>
+        <li><a href="/lfs/faq.html#wget">Existe uma maneira de baixar todos os arquivos atuais de uma vez?</a></li>
       </ul>
-      <h3><a href="/lfs/faq.html#generrors">General compilation errors</a></h3>
+      <h3><a href="/lfs/faq.html#generrors">Erros gerais de compilação</a></h3>
       <ul>
         <li><a href="/lfs/faq.html#optimizations">When using optimization flags (setting CFLAGS)</a></li>
         <li><a href="/lfs/faq.html#configure-errors">configure output shows errors, isn't "gcc -V" wrong?</a></li>
