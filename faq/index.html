@@ -18,13 +18,13 @@
       <ul>
 	<li><a href="#newbie">Sou novato em Linux ou LFS e preciso de ajuda?</a></li>
 	<li><a href="#getting-help">Qual é o melhor lugar para obter ajuda?</a></li>
-	<li><a href="#which-list">Qual lista devo usar para qual tópico?</a></li>
+	<li><a href="#which-list">Qual lista eu deveria usar para qual tópico?</a></li>
 	<li><a href="#netiquette">Como posso me dirigir à comunidade LFS?</a></li>
       </ul>
-      <h3><a href="#frb">Defeitos informados com frequência</a></h3>
+      <h3><a href="#frb">Defeitos frequentemente informados</a></h3>
       <ul>
 	<li><a href="#wrong-ln-s-command">Os comandos "ln -s" do Livro estão errados.</a></li>
-	<li><a href="#bash-missing-right-bracket">bash: [: missing `]'</a></li>
+	<li><a href="#bash-missing-right-bracket">bash: [: faltando `]'</a></li>
 	<li><a href="#its-hardlink-not-copy">/bin/foo é uma cópia de /bin/bar.</a></li>
 	<li><a href="#why-not-version">Posso usar uma versão mais recente que a do Livro?</a></li>
 	<li><a href="#new-version">Existe uma nova versão do pacote Foo.</a></li>
@@ -60,390 +60,280 @@
       </ul>
       <h3><a href="/lfs/faq.html#generrors">Erros gerais de compilação</a></h3>
       <ul>
-        <li><a href="/lfs/faq.html#optimizations">When using optimization flags (setting CFLAGS)</a></li>
-        <li><a href="/lfs/faq.html#configure-errors">configure output shows errors, isn't "gcc -V" wrong?</a></li>
-        <li><a href="/lfs/faq.html#config-ice">Why does GCC reports "Internal Compiler Error" for a "hello world" program?</a></li>
-        <li><a href="/lfs/faq.html#dirty-sources">I didn't delete the source tree after my last attempt. Do I need to?</a></li>
-        <li><a href="/lfs/faq.html#perm-denied">I'm getting `/dev/null: Permission denied'</a></li>
-        <li><a href="/lfs/faq.html#sig11">signal 11 (internal error: Segmentation fault)</a></li>
-        <li><a href="/lfs/faq.html#chroot-no-such-file">"No such file or directory" trying to chroot</a></li>
-        <li><a href="/lfs/faq.html#configure-no-such-file">bash: ./configure: No such file or directory</a></li>
-        <li><a href="/lfs/faq.html#bad-interpreter-permission-denied">./configure: bad interpreter: Permission denied</a></li>
-        <li><a href="/lfs/faq.html#conf-guess-fail">configure can't guess my host type.</a></li>
-        <li><a href="/lfs/faq.html#config-not-gnu-c">checking whether we are using GNU C... no</a></li>
-        <li><a href="/lfs/faq.html#no-ptys">The system has no more ptys.  Ask your system administrator to create more.</a></li>
-        <li><a href="../lfs/faq.html#config-status-0ax-y">Tcl: ./config.status: line 508: 0a1,66: command not found (or any similar message with only numbers different)</a></li>
-        <li><a href="../lfs/faq.html#dev-null-as-cache">"configure: loading cache /dev/null" in config.log</a></li>
+        <li><a href="/lfs/faq.html#optimizations">Ao usar sinalizadores de otimização (configurando CFLAGS)</a></li>
+        <li><a href="/lfs/faq.html#configure-errors">a saída do configure mostra erros, "gcc -V" não está errado?</a></li>
+        <li><a href="/lfs/faq.html#config-ice">Por que o GCC informa "Erro interno do compilador" para um aplicativo "olá mundo"?</a></li>
+        <li><a href="/lfs/faq.html#dirty-sources">Eu não deletei a árvore do fonte depois da minha  tentativa mais recente. Eu preciso?</a></li>
+        <li><a href="/lfs/faq.html#perm-denied">Estou recebendo `/dev/null: Permissão negada'</a></li>
+        <li><a href="/lfs/faq.html#sig11">sinal 11 (erro interno: falha de segmentação)</a></li>
+        <li><a href="/lfs/faq.html#chroot-no-such-file">“Esse arquivo ou diretório não existe” tentando fazer chroot</a></li>
+        <li><a href="/lfs/faq.html#configure-no-such-file">bash: ./configure: Esse arquivo ou diretório não existe</a></li>
+        <li><a href="/lfs/faq.html#bad-interpreter-permission-denied">./configure: mau intérprete: permissão negada</a></li>
+        <li><a href="/lfs/faq.html#conf-guess-fail">configure não consegue adivinhar meu tipo de dispositivo.</a></li>
+        <li><a href="/lfs/faq.html#config-not-gnu-c">verificando se estamos usando GNU C... não</a></li>
+        <li><a href="/lfs/faq.html#no-ptys">O sistema não tem mais ptys. Peça a teu(ua) administrador(a) do sistema(a) para criar mais.</a></li>
+        <li><a href="../lfs/faq.html#config-status-0ax-y">Tcl: ./config.status: line 508: 0a1,66: comando não encontrado (ou qualquer mensagem semelhante com apenas números diferentes)</a></li>
+        <li><a href="../lfs/faq.html#dev-null-as-cache">"configure: carregando cache /dev/null" em config.log</a></li>
       </ul>
-      <h3><a href="/lfs/faq.html#packerrors">Package-specific errors</a></h3>
+      <h3><a href="/lfs/faq.html#packerrors">Erros específicos de pacote</a></h3>
       <ul>
-        <li><a href="/lfs/faq.html#m4-mb-len-max-wrong">M4: Assumed value of MB_LEN_MAX wrong</a></li>
-        <li><a href="/lfs/faq.html#systemd-user-credentials-esrch">Systemd: systemd-networkd.service: Failed to determine user credentials: No such process</a></li>
+        <li><a href="/lfs/faq.html#m4-mb-len-max-wrong">M4: Valor assumido de MB_LEN_MAX errado</a></li>
+        <li><a href="/lfs/faq.html#systemd-user-credentials-esrch">Systemd: systemd-networkd.service: Falha ao determinar as credenciais de usuário(a): esse processo não existe</a></li>
       </ul>
-      <h3><a href="/lfs/faq.html#confboot">Configuration and booting issues</a></h3>
+      <h3><a href="/lfs/faq.html#confboot">Problemas de configuração e inicialização</a></h3>
       <ul>
-        <li><a href="/lfs/faq.html#unable-to-mount-root">Kernel panic - not syncing: VFS: Unable to mount root fs on ...</a></li>
-        <li><a href="/lfs/faq.html#respawning-too-fast">init: Id &quot;1&quot; respawning too fast: disabled for 5 minutes</a></li>
-        <li><a href="/lfs/faq.html#eth0-unknown-interface">eth0:unknown interface</a></li>
-        <li><a href="/lfs/faq.html#irq-nobody-cared">IRQ 9: nobody cared (try booting with the "irqpoll" option)</a></li>
-        <li><a href="../lfs/faq.html#lfs-very-slow">LFS system is much slower than the host distro (or another distro)</a></li>
+        <li><a href="/lfs/faq.html#unable-to-mount-root">Pânico de núcleo - não sincronizando: VFS: Não é possível montar o root fs em ...</a></li>
+        <li><a href="/lfs/faq.html#respawning-too-fast">inicialização: Id &quot;1&quot; reaparecendo muito rápido: desabilitado por 5 minutos</a></li>
+        <li><a href="/lfs/faq.html#eth0-unknown-interface">eth0:interface desconhecida</a></li>
+        <li><a href="/lfs/faq.html#irq-nobody-cared">IRQ 9: ninguém se importou (tente inicializar com a opção "irqpoll")</a></li>
+        <li><a href="../lfs/faq.html#lfs-very-slow">O sistema LFS está muito mais lento que a distribuição do anfitrião (ou outra distribuição)</a></li>
       </ul>
-      <h2 id="blfsfaq">BLFS FAQ:</h2>
-      <h3><a href="/blfs/faq.html#genblfs">General BLFS questions</a></h3>
+      <h2 id="blfsfaq">FAQ do BLFS:</h2>
+      <h3><a href="/blfs/faq.html#genblfs">Perguntas gerais do BLFS</a></h3>
       <ul>
-      <li><a href="../blfs/faq.html#lib64">Some package installs libraries into <code>/usr/lib64</code></a></li>
-        <!--<li><a href="/blfs/faq.html#bootcd">How do I make a bootable CD?</a></li>-->
-        <!--<li><a href="/blfs/faq.html#seti">Where do I join the LFS SETI/Predictor/etc team?</a></li>-->
+      <li><a href="../blfs/faq.html#lib64">Alguns pacotes instalam bibliotecas em <code>/usr/lib64</code></a></li>
       </ul>
-      <h3><a href="/blfs/faq.html#compissues">Compilation issues</a></h3>
+      <h3><a href="/blfs/faq.html#compissues">Problemas de compilação</a></h3>
       <ul>
-        <li><a href="/blfs/faq.html#gtk-version">I'm getting errors building a package that requires GTK+,but I've installed GTK+ 3.x.</a></li>
-        <li><a href="/blfs/faq.html#gnome-versions">Any error while building part of Gnome</a></li>
-        <li><a href="/blfs/faq.html#include-next-not-found">"fatal error: foo.h: No such file or directories" on include_next directives in C++ standard headers</a></li>
-        <li><a href="/blfs/faq.html#oom-kill">"fatal error: Killed signal terminated program cc1plus"</a></li>
-        <li><a href="../blfs/faq.html#libbfd-la">"cannot find -liberty: No such file or directory"</a></li>
+        <li><a href="/blfs/faq.html#gtk-version">Estou recebendo erros ao construir um pacote que exige o GTK+, mas instalei o GTK+ 3.x.</a></li>
+        <li><a href="/blfs/faq.html#gnome-versions">Qualquer erro ao construir parte do Gnome</a></li>
+        <li><a href="/blfs/faq.html#include-next-not-found">"erro fatal: foo.h: arquivo ou diretórios inexistentes" nas diretivas include_next em cabeçalhos padrão C++</a></li>
+        <li><a href="/blfs/faq.html#oom-kill">"erro fatal: aplicativo terminado por sinal morto cc1plus"</a></li>
+        <li><a href="../blfs/faq.html#libbfd-la">"não é possível encontrar -liberty: Esse arquivo ou diretório não existe"</a></li>
       </ul>
-      <h3><a href="/blfs/faq.html#confissues">Configuration issues</a></h3>
+      <h3><a href="/blfs/faq.html#confissues">Problemas de configuração</a></h3>
       <ul>
-        <li><a href="/blfs/faq.html#how-to-print">How do I print?</a></li>
-        <li><a href="/blfs/faq.html#konsole-ps1">How do I set PS1 in Konsole?</a></li>
+        <li><a href="/blfs/faq.html#how-to-print">Como faço para imprimir?</a></li>
+        <li><a href="/blfs/faq.html#konsole-ps1">Como configuro o PS1 no Konsole?</a></li>
       </ul>
 
-      <h3 id="intro">General information about these FAQ's</h3>
+      <h3 id="intro">Informações gerais acerca destas Perguntas Frequentes</h3>
       <dl>
-	<dt id="why-faq">Why this FAQ?</dt>
+	<dt id="why-faq">Por que este FAQ?</dt>
 	<dd>
-     <p>The FAQ tries to answer questions before they're asked. This saves the
-     trouble of asking them, and sometimes, the trouble of encountering a
-     problem.</p>
-     <p>This does reduce traffic and improve the signal to noise ratio but that
-     is merely a useful side effect.</p>
-     <p>Since the FAQ isn't the natural place to look for information, items
-     should be added to it only if they can't be added to the appropriate
-     documentation. Sometimes it will be necessary to add a pointer to the
-     information in the documentation.</p>
+     <p>O FAQ tenta responder às perguntas antes que elas sejam feitas. Isso evita o trabalho de perguntar a eles(as) e, às vezes, o trabalho de encontrar um problema.</p>
+
+     <p>Isso reduz o tráfego e melhora a relação sinal-ruído, mas é apenas um efeito colateral útil.</p>
+
+     <p>Como o FAQ não é o local natural para procurar informações, itens deveriam ser adicionados a ele somente se não puderem ser adicionados à documentação apropriada. Às vezes será necessário adicionar um ponteiro para as informações na documentação.</p>
 	</dd>
-	<dt id="what-is-lfs">What is LFS?</dt>
+	<dt id="what-is-lfs">O que é LFS?</dt>
 	<dd>
-     <p>LFS stands for Linux From Scratch which is a project that aims to teach
-     you about the inner workings of Linux by building a Linux system by
-     downloading, building, and installing the packages yourself.</p>
-	  <p>Also check out the <a href="/lfs/index.html">introduction to LFS</a>.</p>
+     <p>LFS significa Linux From Scratch, que é um projeto que visa a ensinar você acerca do funcionamento interno do Linux, construindo um sistema Linux baixando, construindo e instalando os pacotes você mesmo(a).</p>
+
+	  <p>Confira também a <a href="/lfs/index.html">introdução ao LFS</a>.</p>
         </dd>
-	<dt id="what-is-blfs">What is BLFS?</dt>
+	<dt id="what-is-blfs">O que é BLFS?</dt>
 	<dd>
-     <p>LFS is a very basic system, in massive contrast to traditional
-     distributions. The reason is this: LFS is not intended to create your
-     system as you want it. It's intended to be just enough to allow you to
-     build your system as you want it. It's not an end, it's a beginning. When
-     you're done with LFS, you've just started building your system.</p>
-          <p>This can be a problem if you're new to Unix systems and want a
-          typical desktop install with X and a web browser but have no idea
-          what packages you need. For this reason, there is Beyond Linux From
-          Scratch, or <a href="/blfs/index.html">BLFS</a>.</p>
+     <p>O LFS é um sistema muito básico, em enorme contraste com as distribuições tradicionais. A razão é esta: o LFS não se destina a criar teu sistema como você o deseja. Ele é destinado a ser apenas o suficiente para permitir que você construa teu sistema como o desejar. Ele não é um fim, é um começo. Quando terminar com o LFS, você estará apenas começando a construir teu sistema.</p>
+
+          <p>Isso pode ser um problema se você é novo(a) em sistemas Unix e quer uma instalação típica de área de trabalho com o X e um navegador da web, mas não tem ideia de quais pacotes você precisa. Por esse motivo, existe o Beyond Linux From Scratch, ou <a href="/blfs/index.html">BLFS</a>.</p>
 	</dd>
-	<dt id="contribute">Contributing to this FAQ.</dt>
+	<dt id="contribute">Contribuindo para este FAQ.</dt>
 	<dd>
-     <p>Suggestions are more than welcome. The FAQ maintainer can be reached
-     either via direct email or on the <a
-     href="https://lists.linuxfromscratch.org/sympa/info/lfs-support">LFS support mailing
-     list</a>.</p>
-     <p>Useful suggestions include the addition of questions that are actually
-     frequently asked (with well researched answers) and the removal of
-     questions that are obsolete.</p>
-     <p>If you intend to regularly contribute to this FAQ, you might want to
-     subscribe to the FAQ mailing list. All suggestions, additions (and
-     sometimes removals) of the FAQ's are discussed there. Patches against the
-     FAQ's are also welcome, although regular text-based contributions are
-     accepted as well.</p>
-     <p>Everything intended to go in the FAQ without substantial editing must
-     be well thought out, checked, and researched; and written in a style
-     consistent with the existing content.</p>
+
+     <p>Sugestões são mais que bem-vindas. O(A) mantenedor(a) do FAQ pode ser contatado(a) seja por mensagem eletrônica direta ou na <a href="https://lists.linuxfromscratch.org/sympa/info/lfs-support">lista de discussão de suporte do LFS</a>.</p>
+
+     <p>Sugestões úteis incluem a adição de perguntas que sejam realmente frequentes (com respostas bem pesquisadas) e a remoção de perguntas que sejam obsoletas.</p>
+
+     <p>Se você pretende contribuir regularmente para este FAQ, você pode querer se inscrever na lista de discussão de FAQ. Todas as sugestões, adições (e às vezes remoções) das FAQs são discutidas lá. Correções nas perguntas frequentes também são bem-vindas, embora contribuições regulares baseadas em texto também sejam aceitas.</p>
+
+     <p>Tudo o que pretende constar no FAQ sem edição substancial precisa ser bem pensado, verificado e pesquisado; e escrito em um estilo consistente com o conteúdo existente.</p>
+
 	</dd>
       </dl>
-      <p><a href="#generalfaq">Back to the top.</a></p>
-      <h3 id="support">Support guidelines</h3>
+      <p><a href="#generalfaq">Voltar ao topo.</a></p>
+      <h3 id="support">Diretrizes de suporte</h3>
       <dl>
-	<dt id="newbie">What if I'm a newbie to Linux or LFS?</dt>
+	<dt id="newbie">E se eu for um(a) novato(a) em Linux ou LFS?</dt>
 	<dd>
-     <p>If you've read the <a
-     href="/lfs/view/stable/prologue/prerequisites.html">prerequisites</a> and
-     <a href="/lfs/view/stable/prologue/audience.html">audience</a> pages you
-     know that the target audience of LFS are intermediate and advanced Linux
-     users. Anybody who has a couple of months experience with Linux and
-     especially the console should be able to successfully assemble an LFS
-     system.</p>
-     <p>While LFS seems like a good guide for newbies to Linux, the reality is
-     actually quite different. Experience with the support channels shows that
-     LFS is hard to grasp and a frustrating experience for newbies because they
-     lack understanding of the basic concepts.</p>
-     <p>Practically, this means that newbies should get some experience before
-     starting with LFS. The <a
-     href="/lfs/view/stable/prologue/prerequisites.html">prerequisites page</a>
-     lists the minimal required Linux knowledge, but please also read the <a
-     href="/hints/downloads/files/">&quot;Essential pre-reading for life with
-     LFS&quot;</a> hint.</p>
-     <p>These documents and this FAQ are your basic Linux survival guide.
-     You'll have a great time with LFS if you've read them, and may have some
-     difficulty with LFS and the community, but most likely yourself, if you
-     haven't read them.</p>
+     <p>Se tiver lido os <a href="/lfs/view/stable/prologue/prerequisites.html">pré-requisitos</a> e <a href="/lfs/view/stable/prologue/audience.html">audiência</a>, você sabe que o público-alvo do LFS são usuários(as) intermediários(as) e avançados(as) do Linux. Qualquer pessoa que tenha alguns meses de experiência com Linux e especialmente com console deveria ser capaz de montar com sucesso um sistema LFS.</p>
+
+     <p>Embora o LFS pareça um bom guia para iniciantes no Linux, a realidade é bem diferente. A experiência com os canais de suporte mostra que o LFS é difícil de entender e uma experiência frustrante para iniciantes porque eles(as) não entendem os conceitos básicos.</p>
+
+     <p>Na prática, isso significa que os(as) novatos(as) deveriam adquirir alguma experiência antes de começar com o LFS. A <a href="/lfs/view/stable/prologue/prerequisites.html">página de pré-requisitos</a> lista o conhecimento de Linux mínimo exigido, mas, por favor, leia também a dica de <a href="/hints/downloads/files/ ">&quot;Pré-leitura essencial para a vida com LFS&quot;</a>.</p>
+
+     <p>Esses documentos e este FAQ são o teu guia básico de sobrevivência no Linux. Você se divertirá muito com o LFS se os tiver lido, e poderá ter alguma dificuldade com o LFS e a comunidade, mas provavelmente com você mesmo(a), se ainda não os tiver lido.</p>
 	</dd>
-	<dt id="getting-help">Where is the best place to get help?</dt>
+	<dt id="getting-help">Qual é o melhor lugar para obter ajuda?</dt>
 	<dd>
-	  <p>When this FAQ fails to help, there are several places to go.</p>
-     <p>If you're having a problem with something in the book, it never hurts
-     to go back over the book. It's surprising how easy it is to overlook
-     little things.</p>
-     <p>If nothing else, reading the appropriate man and info pages will yield
-     useful information on some subject, if not what you were looking for, and
-     ensure that you know enough not to embarrass yourself if you have to ask
-     someone.</p>
-     <p><a href="https://www.tldp.org/">The Linux Documentation Project</a> has
-     the HOW-TOs and a great deal of other documentation. You might find
-     something there.</p>
-     <p>The <a href="/search.html">website's search</a> includes the mailing
-     lists. Many questions have been discussed there at least once. </p>
-     <p>For support-type help, IRC is often best. It's faster, and doesn't clog
-     the mailing lists. There's more information about the <a
-     href="/support.html#irc">IRC channels</a> on the <a
-     href="/support.html">support</a> webpage.</p>
-	  <p>There are a few IRC channels of interest.</p>
+
+	  <p>Quando este FAQ falha na ajuda, existem vários lugares para ir.</p>
+
+     <p>Se você estiver tendo um problema com alguma coisa no livro, nunca é demais revisá-lo. É surpreendente como é fácil ignorar pequenas coisas.</p>
+
+     <p>No mínimo, ler as páginas apropriadas de manual e info produzirá informações úteis acerca de algum assunto, se não o que você estava procurando, e garantirá que você saiba o suficiente para não se envergonhar se precisar perguntar a alguém.</p>
+
+     <p><a href="https://www.tldp.org/">O Projeto de Documentação do Linux</a> tem os COMO FAZER e uma grande quantidade de outras documentações. Você pode encontrar alguma coisa lá.</p>
+
+     <p>A <a href="/search.html">pesquisa do sítio</a> inclui as listas de discussão. Muitas questões foram discutidas lá pelo menos uma vez.</p>
+
+     <p>Para ajuda do tipo suporte, o IRC geralmente é melhor. Ele é mais rápido e não obstrui as listas de discussão. Existem mais informações acerca dos <a href="/support.html#irc">canais de IRC</a> na página web de <a href="/support.html">suporte</a>.</p>
+
+	  <p>Existem alguns canais de IRC de interesse.</p>
           <ul>
-            <li><a href="irc://irc.libera.chat/lfs">#lfs</a> - the LFS community channel.</li>
-            <li><a href="irc://irc.libera.chat/lfs-support">#lfs-support</a> - Support for LFS and BLFS.</li>
-            <!--<li><a href="irc://irc.freenode.net/hlfs">#hlfs</a> - Support for the HLFS book.</li>-->
+            <li><a href="irc://irc.libera.chat/lfs">#lfs</a> - o canal da comunidade LFS.</li>
+            <li><a href="irc://irc.libera.chat/lfs-support">#lfs-support</a> - Suporte para LFS e BLFS.</li>
           </ul>
-          <p>If you are asking a support question, you are more likely to
-          attract competent and friendly help in <a
-          href="irc://irc.libera.chat/lfs-support">#lfs-support</a>.</p>
-     <p>As a last resort, there are the mailing lists. People will get
-     frustrated with you if you use the wrong one or cross post. Mailing list
-     information is on the <a href="/support.html#mailinglists">support
-     webpage</a> and tells which list to use.</p>
-     <p>Please remember to provide enough information when you post to the
-     mailing lists. In <a
-     href="/lfs/view/stable/chapter01/askforhelp.html">chapter 1 of LFS</a> you
-     find a good method for posting. Additionally, someone has written <a
-     href="/hints/downloads/files/errors.txt">a hint</a> which details the
-     error reporting procedure.</p>
+
+          <p>Se você estiver fazendo uma pergunta de suporte, é mais provável que você atraia ajuda competente e amigável em <a href="irc://irc.libera.chat/lfs-support">#lfs-support</a>.</p>
+
+     <p>Como um último recurso, existem as listas de discussão. As pessoas ficarão frustradas com você se você usar a postagem errada ou cruzar. As informações da lista de discussão estão na <a href="/support.html#mailinglists">página web de suporte</a> e informam qual lista usar.</p>
+
+     <p>Por favor, lembre-se de fornecer informações suficientes quando você postar nas listas de discussão. No <a href="/lfs/view/stable/chapter01/askforhelp.html">capítulo 1 do LFS</a> você encontra um bom método para postar. Além disso, alguém escreveu <a href="/hints/downloads/files/errors.txt">uma dica</a> que detalha o procedimento de informe de erros.</p>
+
 	</dd>
-	<dt id="which-list">Which list should I use for what topic?</dt>
+	<dt id="which-list">Qual lista eu deveria usar para qual tópico?</dt>
         <dd>
-          <p>Information about all the public mailing lists is available on the
-          <a href="/mail.html">mailing list</a> page.  Here are some general
-          guidelines about which list to use:</p>
+
+          <p>Informações a respeito de todas as listas públicas de discussão estão disponíveis na página da <a href="/mail.html">lista de discussão</a>. Aqui estão algumas diretrizes gerais acerca de qual lista usar:</p>
+
 	  <ul>
-       <li>Send <em>support</em> questions for the stable released books to <a
-       href="https://lists.linuxfromscratch.org/sympa/info/lfs-support/">lfs-support</a>.
-       For anything which doesn't belong in LFS, use <a
-       href="https://lists.linuxfromscratch.org/sympa/info/blfs-support/">blfs-support</a>.
-       Bug reports are gladly accepted; you can report to the <a
-       href="https://lists.linuxfromscratch.org/sympa/info/lfs-dev/">lfs-dev</a>
-       mailing list.</li>
-       <li>If you are not having trouble following the <em>LFS</em> Book
-       itself, do <em>not</em> email <a
-       href="https://lists.linuxfromscratch.org/sympa/info/lfs-support/"><em>lfs</em>-support</a>.
-       You may ask questions via lfs-support if you are following the LFS
-       Book with some customization or deviation, but you should mention
-       your deviation in the mail to avoid from puzzling people.</li>
-       <li>Unless you are <em>suggesting an improvement</em> to the LFS Book
-       itself, do not email <a
-       href="https://lists.linuxfromscratch.org/sympa/info/lfs-dev/">lfs-dev</a>.</li>
-       <li>Only suggestions concerning the BLFS Book are acceptable on <a
-       href="https://lists.linuxfromscratch.org/sympa/info/blfs-dev/">blfs-dev</a>.</li>
-       <li>Things are a little different with <a
-       href="https://lists.linuxfromscratch.org/sympa/info/blfs-support/">blfs-support</a>.
-       Everything that doesn't fit one of the preceding lists fits there except
-       for the price of beer and GNU versus BSD flame wars.</li>
-       <li>The price of beer, GNU versus BSD, Microsoft versus Linux,
-       or Intel versus ARM flame wars, and hardware discussion unrelated to
-       building and running LFS are prohibited.</li>
+
+       <li>Envie perguntas de <em>suporte</em> para os livros estáveis lançados para <a href="https://lists.linuxfromscratch.org/sympa/info/lfs-support/">lfs-support</a>. Para qualquer coisa que não pertença ao LFS, use <a href="https://lists.linuxfromscratch.org/sympa/info/blfs-support/">blfs-support</a>. Informes de defeitos são aceitos com prazer; você pode informar para lista de discussão <a href="https://lists.linuxfromscratch.org/sympa/info/lfs-dev/">lfs-dev</a>.</li>
+
+       <li>Se você não estiver tendo problemas para seguir o livro <em>LFS</em> em si, <em>não</em> envie um mensagem eletrônica para <a href="https://lists.linuxfromscratch.org/sympa/info/lfs-support/"><em>lfs</em>-support</a>. Você pode fazer perguntas via lfs-support se estiver seguindo o Livro LFS com alguma personalização ou desvio, mas você deveria mencionar teu desvio na mensagem para evitar confundir as pessoas.</li>
+
+       <li>A menos que você esteja <em>sugerindo uma melhoria</em> para o livro LFS em si, não envie uma mensagem eletrônica para <a href="https://lists.linuxfromscratch.org/sympa/info/lfs-dev/">lfs-dev</a>.</li>
+
+       <li>Somente sugestões concernentes ao livro BLFS são aceitáveis em <a href="https://lists.linuxfromscratch.org/sympa/info/blfs-dev/">blfs-dev</a>.</li>
+
+       <li>As coisas são um pouco diferentes com <a href="https://lists.linuxfromscratch.org/sympa/info/blfs-support/">blfs-support</a>. Tudo o que não se enquadra em uma das listas anteriores cabe lá, exceto o preço da cerveja e as guerras de chamas GNU versus BSD.</li>
+
+       <li>O preço da cerveja, as guerras inflamadas GNU versus BSD, Microsoft versus Linux ou Intel versus ARM, e discussões de hardware não relacionadas à construção e execução do LFS são proibidas.</li>
+
 	  </ul>
-     <p>Of special note is that if you mention Xorg, Wayland, KDE, GNOME, or
-     anything in BLFS, you may be sure that your post does not belong on <a
-     href="https://lists.linuxfromscratch.org/sympa/info/lfs-dev/">lfs-dev</a>
-     or <a
-     href="https://lists.linuxfromscratch.org/sympa/info/lfs-support/">lfs-support</a>.</p>
+
+     <p>Digno de observação especial é que se mencionar Xorg, Wayland, KDE, GNOME ou qualquer coisa no BLFS, você pode ter certeza de que tua postagem não pertence a <a href="https://lists.linuxfromscratch.org/sympa/info/lfs-dev/">lfs-dev</a> ou <a href="https://lists.linuxfromscratch.org/sympa/info/lfs-support/">lfs-support</a>.</p>
+
 	</dd>
-	<dt id="netiquette">What about netiquette?</dt>
+
+	<dt id="netiquette">E a netiqueta?</dt>
 	<dd>
-     <p>Here are some practical points of etiquette. They include only those
-     items that will draw mention if missed. Those who've been around project
-     mailing lists awhile will find the first few obvious. There are less
-     obvious items toward the end.</p>
-     <p>The reasons for these points are omitted for brevity, but rest assured,
-     these guidelines are more than just an individual's personal
-     preference.</p>
-     <p>While the text refers to "the lists" exclusively, it doesn't intend to
-     ignore the news groups that mirror the mailing lists.</p>
-     <p>With that out of the way, here are a couple manners oriented items
-     followed by more "mechanical" stuff:</p>
-     <p>Please remember that it is rude to post questions that are answered in
-     commonly available documentation such as the LFS and BLFS Books, this FAQ,
-     the LFS Hints, the appropriate man pages, the list archives, and Google
-     searches. As long as you can demonstrate that you've made an effort to
-     find the answer and you're not offended by a pointer to documentation, no
-     reasonable person will object to your question.</p>
-     <p>Most of the bothersome flame wars start when a newbie posts an obvious
-     question, is then criticized (even in a kindly manner), and becomes
-     publicly offended. Please try to avoid this situation. "Wordlessly"
-     pointing to the exact spot in the documentation is sufficient. If you feel
-     you must criticize, please do it via private email, not on the lists. The
-     same applies to anything else that may become heated.</p>
-     <p>The lists have an international membership so slang of all sorts and
-     idioms are likely to be misunderstood. (Witness the recent discussion of
-     "bootstrapping".) Any mention of profanity, politics, war, or religion
-     (even in signatures) is likely to upset someone somewhere in the world so
-     please avoid them as well. Finally, it is considered polite to post in
-     English since many more people on the lists know it than any other
-     language.</p>
-	  <p>Now for the more "mechanical" stuff.</p>
+
+     <p>Aqui estão alguns pontos práticos de etiqueta. Eles incluem somente aqueles itens que serão mencionados se esquecidos. Aqueles(as) que já conhecem listas de discussão de projetos há algum tempo acharão as primeiras óbvias. Existem itens menos óbvios indo para o final.</p>
+
+     <p>As razões para esses pontos foram omitidas por brevidade, mas fique tranquilo(a), essas diretrizes são mais que apenas uma preferência pessoal de um(a) indivíduo(a).</p>
+
+     <p>Embora o texto se refira exclusivamente às "listas", ele não pretende ignorar os grupos de notícias que espelham as listas de discussão.</p>
+
+     <p>Com isso resolvido, aqui estão alguns itens voltados para boas maneiras, seguidos por coisas mais "mecânicas":</p>
+
+     <p>Por favor, lembre-se que é rude postar perguntas que estão respondidas em documentação comumente disponível, como os livros LFS e BLFS, este FAQ, as Dicas do LFS, as páginas apropriadas de manual, os arquivos de listas e as pesquisas do Google. Contanto que você consiga demonstrar que fez um esforço para encontrar a resposta e não estiver ofendido(a) por uma indicação para a documentação, nenhuma pessoa sensata se oporá à tua pergunta.</p>
+
+     <p>A maioria das incômodas guerras inflamadas começa quando um(a) novato(a) posta uma pergunta óbvia, é então criticado(a) (até mesmo de maneira gentil) e fica publicamente ofendido(a). Por favor, tente evitar essa situação. Apontar "sem palavras" para o local exato na documentação é suficiente. Se você acha que precisa criticar, por favor, faça-o por mensagem eletrônica privada, não nas listas. O mesmo se aplica a qualquer outra coisa que possa se tornar aquecida.</p>
+
+     <p>As listas tem uma adesão internacional, de forma que gírias de todos os tipos e idiomas podem ser mal compreendidas. (Veja-se a recente discussão de "bootstrapping"). Qualquer menção a palavrões, política, guerra ou religião (mesmo em assinaturas) provavelmente perturbará alguém em algum lugar do mundo, portanto, evite-os também. Por fim, é considerado educado postar em inglês, já que muito mais pessoas nas listas o conhecem que qualquer outro idioma.</p>
+
+	  <p>Agora, para as coisas mais "mecânicas".</p>
 	  <ul>
-       <li><strong>Do not post in HTML.</strong> If you use Yahoo, Hotmail, or
-       Outlook and haven't turned HTML off, then it is on. If you're using
-       another mail client, please do check before posting. If you don't know
-       how to turn HTML off, see <a href="nomime.html">nomime.html</a>.
-       <strong>Posts with HTML may reach the list but then rendered in a
-       completely unreadable manner by the mail client of the
-       subscribers, causing them to give up reading and replying your
-       mail.</strong></li>
-       <li><strong>Wrap text at 72 characters.</strong> If you do not wish to
-       do this by hand, set your mail client to do it automatically when
-       sending.</li>
-       <li><strong>Reply <em>below</em> quoted text.</strong></li>
-       <li><strong>Limit signatures to four lines.</strong></li>
-       <li><strong>Trim quoted text,</strong> especially signatures. But
-       <strong>do not trim so that it is confusing to read your reply</strong>
-       without consulting the original.</li>
-       <li><strong>Do not click reply unless you're actually replying to a
-       post.</strong> Use new, or compose, or whatever your mail client calls
-       it, to ask a new question or start a new thread. Reply sets more than
-       just the subject line and will cause your post to appear in the wrong
-       place unless you're actually answering.</li>
+
+       <li><strong>Não poste em HTML.</strong> Se você usa Yahoo, Hotmail ou Outlook e não desativou o HTML, então ele está ativado. Se você estiver usando outro cliente de mensagens, por favor, verifique antes de postar. Se você não sabe como desativar o HTML, veja <a href="nomime.html">nomime.html</a>. <strong>Postagens com HTML podem chegar à lista, mas, então, renderizarem de forma completamente ilegível pelo cliente de mensagens dos(as) assinantes, fazendo com que eles(as) desistam de ler e responder às tuas mensagens.</strong></li>
+
+       <li><strong>Quebre o texto em 72 caracteres.</strong> Se você não desejar fazer isso manualmente, configure teu cliente de mensagens para fazer isso automaticamente ao enviar.</li>
+
+       <li><strong>Responda <em>abaixo</em> do texto citado.</strong></li>
+
+       <li><strong>Limite as assinaturas a quatro linhas.</strong></li>
+
+       <li><strong>Corte o texto citado,</strong> especialmente as assinaturas. Mas, <strong>não corte para que fique confuso ler tua resposta</strong> sem consultar o original.</li>
+
+       <li><strong>Não clique em responder, a menos que você esteja realmente respondendo a uma postagem.</strong> Use novo, ou escrever, ou como teu cliente de mensagens eletrônicas o chama, para fazer uma nova pergunta ou iniciar um novo tópico. A resposta configura mais que apenas a linha de assunto e fará com que tua postagem apareça no lugar errado, a menos que você esteja realmente respondendo.</li>
+
 	  </ul>
-     <p>The following isn't major, but is useful to know. On the LFS lists,
-     people usually clear the CC field and just mail the list with replies.
-     This is probably not a good idea but is existing practice due to a
-     political situation which is unlikely to change.</p>
-     <p><a href="https://www.ietf.org/rfc/rfc1855.txt">RFC 1855</a>
-     &quot;provides a minimum set of guidelines for Network Etiquette
-     (Netiquette) and functions as a minimum set of guidelines for individuals,
-     both users and administrators</p>
+
+     <p>O seguinte não é o principal, mas é útil saber. Nas listas do LFS, as pessoas geralmente limpam o campo CC e apenas enviam a lista com as respostas. Isso provavelmente não é uma boa ideia, mas é uma prática existente devido a uma situação política que provavelmente não mudará.</p>
+
+     <p>O <a href="https://www.ietf.org/rfc/rfc1855.txt">RFC 1855</a> &quot;fornece um conjunto mínimo de diretrizes para Etiqueta de Rede de Intercomunicação (Netiqueta) e funciona como um conjunto mínimo de diretrizes para indivíduos(as), usuários(as) e administradores(as)</p>
+
 	</dd>
       </dl>
-      <p><a href="#generalfaq">Back to the top.</a></p>
-      <h3 id="frb">Frequently Reported Bugs</h3>
+      <p><a href="#generalfaq">Voltar para o topo.</a></p>
+      <h3 id="frb">Defeitos frequentemente informados</h3>
       <dl>
-	<dt id="wrong-ln-s-command">The &quot;ln -s&quot; commands in the Book are wrong.</dt>
+	<dt id="wrong-ln-s-command">Os comandos &quot;ln -s&quot; no Livro estão errados.</dt>
 	<dd>
-     <p>No, the &quot;ln -s&quot; commands in the Book are correct. A symlink
-     is just a special file containing the given filename. So that filename is
-     relative to the link, not the working directory when the link is created.
-     Try it and see. More information in <code>man ln</code>.</p>
+
+     <p>Não, os comandos &quot;ln -s&quot; no Livro estão corretos. Uma ligação simbólica é apenas um arquivo especial contendo o nome de arquivo fornecido. Portanto, esse nome de arquivo é relativo à ligação, não ao diretório de trabalho quando a ligação é criada. Experimente e veja. Mais informações em <code>man ln</code>.</p>
+
 	</dd>
-    <dt id="bash-missing-right-bracket">bash: [: missing `]'</dt>
+    <dt id="bash-missing-right-bracket">bash: [: faltando `]'</dt>
     <dd>
-      <p>You should understand how &quot;conditions&quot; like [ ... ] work
-      in bash: &quot;[&quot; is a command and &quot;]&quot; should be its
-      last parameter.  So there must be a whitespace before &quot;]&quot;,
-      or the execution of &quot;[&quot; will fail.</p>
+
+      <p>Você deveria entender como as &quot;condições&quot;, como [ ... ], funcionam no Bash: &quot;[&quot; é um comando e &quot;]&quot; deveria ser o último parâmetro dele. Portanto, precisa existir um espaço em branco antes de &quot;]&quot;, ou a execução do &quot;[&quot; falhará.</p>
+
     </dd>
-	<dt id="its-hardlink-not-copy">/bin/foo is a copy of /bin/bar.</dt>
+	<dt id="its-hardlink-not-copy">/bin/foo é uma cópia de /bin/bar.</dt>
 	<dd>
-     <p>Try &quot;ls -i /bin/foo /bin/bar&quot;. Are the inode numbers the
-     same? If so, they're not copies, they're hard linked.</p>
-          <p>For more information explaining the difference between hard and
-          soft links, please take a look at the Q &amp; A article on Linux
-          Gazette at <a
-          href="https://linuxgazette.net/105/pitcher.html">https://linuxgazette.net/105/pitcher.html</a>.</p>
+
+
+     <p>O número dos inodes é o mesmo? Se sim, eles não são cópias; eles estão rigidamente vinculados.</p>
+
+          <p>Para mais informações explicando a diferença entre ligações rígidas e flexíveis, por favor, dê uma olhada no artigo de Perguntas e Respostas na Linux Gazette em <a href="https://linuxgazette.net/105/pitcher.html">https://linuxgazette.net/105/pitcher.html</a>.</p>
+
 	</dd>
-	<dt id="why-not-version">Can I use a version newer than the one in the Book?</dt>
+	<dt id="why-not-version">Posso usar uma versão mais recente que a do Livro?</dt>
+
 	<dd>
-     <p>If this is your first time building LFS, using a version not in the
-     book or varying from the book in any way is not a good idea. The IRC
-     channel regulars have a saying, &quot;FBBG&quot;, meaning &quot;Follow
-     Book, Book Good.&quot; They and the people on the lists have helped many
-     an unhappy newbie who deviated from the book during that first build.</p>
-     <p>Once you've built a system &quot;by the book&quot;, you have a stable
-     knowledge base from which to experiment to your heart's content (or pain,
-     as is often the case.)</p>
+
+     <p>Se essa for tua primeira vez construindo o LFS, usar uma versão que não esteja no livro ou que seja diferente do livro de alguma maneira não é uma boa ideia. Os(As) frequentadores(as) regulares do canal de IRC tem um ditado, “FBBG”, que significa “Follow Book, Book Good”. Eles(as) e as pessoas nas listas ajudaram muitos(as) novatos(as) infelizes que se desviaram do livro durante essa primeira construção.</p>
+
+     <p>Depois que tiver construído um sistema “de acordo com as regras”, você terá uma base de conhecimento estável a partir da qual experimentar o que quiser (ou sentir dor, como costuma ser o caso).</p>
+
 	</dd>
-	<dt id="new-version">There's a new version of package Foo.</dt>
+	<dt id="new-version">Existe uma nova versão do pacote Foo.</dt>
 	<dd>
-     <p>If the new version is more than a day old, it is likely that someone
-     has tested the release and reported it on the mailing lists. Please search
-     the archives before posting questions about whether it works.</p>
-     <p>And, please note that different packages have different versioning
-     schemes.  For example, for many packages versions with an odd minor
-     version (&quot;y&quot; in &quot;x.y.z&quot;) are development snapshots
-     and some other packages use patch levels (&quot;z&quot; in
-     &quot;x.y.z&quot;) greater than or equal to 90 for pre-releases.
-     LFS/BLFS won't use development snapshots or pre-releases unless there
-     is a good reason.</p>
-	  <p>If you'd like to report the new release, follow these steps to avoid making a duplicate report.</p>
-	  <ul>
-       <li>Check for open <a
-       href="https://wiki.linuxfromscratch.org/lfs/">LFS tickets</a> or <a
-       href="https://wiki.linuxfromscratch.org/blfs/">BLFS tickets</a> to see if
-       the release has been posted there.</li>
-       <li>If the release is not in an open ticket, report it to lfs-dev (or
-       blfs-dev for packages in BLFS). And if you like, test it and report any
-       problems or changes in compilation instructions, too.</li>
-	  </ul>
+
+     <p>Se a nova versão tiver mais que um dia, é provável que alguém tenha testado o lançamento e informado nas listas de discussão. Por favor, pesquise os arquivamentos antes de postar perguntas acerca de se ela funciona.</p>
+
+     <p>E, por favor, observe que pacotes diferentes tem esquemas diferentes de versionamento. Por exemplo, para muitos pacotes, versões com uma versão secundária ímpar (&quot;y&quot; em &quot;x.y.z&quot;) são instantâneos de desenvolvimento e alguns outros pacotes usam níveis de remendo (&quot;z&quot; em &quot;x.y.z&quot;) maiores ou iguais a 90 para pré-lançamentos. O LFS/BLFS não usará instantâneos de desenvolvimento ou pré-lançamentos, a menos que exista um bom motivo.</p>
+
+     <p>Se você gostaria de informar a novo lançamento, siga estas etapas para evitar fazer um informe duplicado:</p>
+
+        <ul>
+
+            <li>Verifique se existem <a href="https://wiki.linuxfromscratch.org/lfs/">tíquetes LFS</a> ou <a href="https://wiki.linuxfromscratch.org/blfs/">tíquetes BLFS</a> para ver se o lançamento foi postado lá.</li>
+
+            <li>Se o lançamento não estiver em um tíquete aberto, informe-o ao lfs-dev (ou blfs-dev para pacotes no BLFS). E se quiser, teste e informe quaisquer problemas ou mudanças nas instruções de compilação, também.</li>
+
+        </ul>
 	</dd>
-	<dt id="delete_key_not_work">The Delete key doesn't work.</dt>
+	<dt id="delete_key_not_work">A tecla Delete não funciona.</dt>
 	<dd>
-	  <p>Please read the LFS <a href="/lfs/view/stable/chapter07/inputrc.html">inputrc page</a>.</p>
+	  <p>Por favor, leia a <a href="/lfs/view/stable/chapter07/inputrc.html">página inputrc</a> do LFS.</p>
 	</dd>
-	<dt id="shutdown-on-fsck-error">The system shuts down when fsck errors out!</dt>
+	<dt id="shutdown-on-fsck-error">O sistema desliga quando ocorre um erro no fsck!</dt>
 	<dd>
-     <p>Unix systems normally run sulogin if the normal bootup fsck run errors
-     out so that root can log in and fix it. Because sulogin will accept any
-     password if /etc/passwd is corrupt, the LFS developers decided this was a
-     security risk. Therefore, the LFS bootscripts shut the machine down if
-     fsck errors, and it must be booted with the "init=/bin/bash" kernel
-     parameter to get a root shell. Whether this is wise is beyond the scope of
-     the FAQ, but if it doesn't work for you you'll want to change that boot
-     script before it's too late.</p>
+
+     <p>Os sistemas Unix normalmente executam o sulogin se a execução normal de inicialização do fsck emitir erros, de forma que o(a) root consiga se logar e corrigi-los. Como o sulogin aceitará qualquer senha se o /etc/passwd estiver corrompido, os(as) desenvolvedores(as) do LFS decidiram que isso era um risco para a segurança. Portanto, os scripts de inicialização do LFS desligam a máquina se existirem erros de fsck, e ela precisa ser inicializada com o parâmetro de núcleo "init=/bin/bash" para obter um shell da raiz. Se isso é sensato, está além do escopo do FAQ, mas se não funcionar para você, você vai querer mudar esse script de inicialização antes que seja tarde demais.</p>
+
 	</dd>
-	<dt id="where-lfs-packages">Where are the lfs-packages tarballs or wget scripts?</dt>
+	<dt id="where-lfs-packages">Onde estão os tarballs dos pacotes do LFS ou os scripts wget?</dt>
+
 	<dd>
-     <p>Package tarballs are available at <a
-     href="https://anduin.linuxfromscratch.org/sources/LFS/lfs-packages/">the
-     LFS file repository</a>. There is also a wget-list linked in the book,
-     near the bottom of the <a
-     href="/lfs/view/stable/chapter03/introduction.html">Packages and Patches
-     Introduction page</a>.</p>
+
+     <p>Os tarballs de pacotes estão disponíveis no <a href="https://anduin.linuxfromscratch.org/sources/LFS/lfs-packages/">repositório de arquivos do LFS</a>. Existe também uma lista wget vinculada no livro, perto da parte inferior da <a href="/lfs/view/stable/chapter03/introduction.html">página de Introdução de Pacotes e Remendos</a>.</p>
+
         </dd>
-	<dt id="how-to-find">How do I find a package or command?</dt>
+	<dt id="how-to-find">Como encontro um pacote ou comando?</dt>
 	<dd>
-	  <p>Please refer to the <a href="/lfs/download.html">download LFS</a> webpage.</p>
+	  <p>Por favor, consulte a página web de <a href="/lfs/download.html">download do LFS</a>.</p>
 	</dd>
-	<dt id="how-to-upgrade">How do I upgrade my LFS/BLFS system?</dt>
+	<dt id="how-to-upgrade">Como eu atualizo meu sistema LFS/BLFS?</dt>
 	<dd>
-     <p>You probably know this already, but LFS is not a distro in the
-     traditional sense. Its primary goal is: <a href="/lfs/index.html">teaching
-     people how a Linux system works internally</a>.</p>
-     <p>While this means you have great control over your system (&quot;Your
-     distro. Your rules.&quot;), it also has the drawback of having to take
-     care of updating it yourself.</p>
-     <p>Please read
-     <a href="../lfs/view/development/chapter08/pkgmgt.html">the section
-     named "Upgrade Issues"</a> carefully before upgrading any package.</p>
-     <p>If you've built an LFS system and have extended it to become your
-     primary system, the best thing to do is to decide on an upgrade policy. Do
-     you want to keep the latest version of every package? Then be careful,
-     because you're going to be burned. I recommend slight conservatism when
-     upgrading to keep a healthy system. A general rule of thumb which works
-     for most people is: only upgrade packages if they have security fixes.
-     Periodically check
-     <a href="../lfs/advisories/">LFS</a> and
-     <a href="../blfs/advisories/">BLFS</a> security advisories, and
-     subscribe to LWN to keep yourself informed about security
-     fixes. Another rule of thumb is: don't upgrade glibc and Linux kernel
-     headers unless you're going to rebuild your entire system. These
-     packages form the heart of your LFS system, destroying them means
-     destroying the ability to compile packages or even run binaries. </p>
+
+     <p>Você provavelmente já sabe disso, mas o LFS não é uma distribuição no sentido tradicional. O objetivo principal dele é: <a href="/lfs/index.html">ensinar às pessoas como um sistema Linux funciona internamente</a>.</p>
+
+     <p>Embora isso signifique que você tem grande controle sobre teu sistema (&quot;Tua distribuição. Tuas regras&quot;), também tem a desvantagem de ter que cuidar da atualização você mesmo(a).</p>
+
+     <p>Por favor, leia <a href="../lfs/view/development/chapter08/pkgmgt.html">a seção chamada "Problemas de Atualização"</a> cuidadosamente antes de atualizar qualquer pacote.</p>
+
+     <p>Se você tiver construído um sistema LFS e o tiver estendido para se tornar teu sistema primário, a melhor coisa a fazer é a de decidir a respeito de uma política de atualização. Você quer manter a versão mais recente de cada pacote? Então, seja cuidadoso(a), porque você vai se queimar. Eu recomendo um leve conservadorismo ao atualizar para manter um sistema saudável. Uma regra geral que funciona para a maioria das pessoas é: somente atualizar pacotes se eles tiverem correções de segurança. Verifique periodicamente os avisos de segurança do <a href="../lfs/advisories/">LFS</a> e <a href="../blfs/advisories/">BLFS</a> e assine o LWN para manter-se informado(a) acerca de correções de segurança. Outra regra geral é: não atualize os cabeçalhos de núcleo da glibc e Linux, a menos que você reconstrua o teu sistema inteiro. Esses pacotes formam o coração do teu sistema LFS; destruí-los significa destruir a capacidade de compilar pacotes ou até mesmo executar binários.</p>
+
+
+
+
+
      <p>Remember that updating packages is at your own risk. LFS takes great
      care to present a stable mix of packages which are compatible all the way
      up to BLFS so you can compile OpenOffice.Org and Java (which are real
@@ -451,18 +341,21 @@
      outdated but ensures compatibility and stability. You can compare this to
      Debian's stable and testing releases, although LFS stable is generally
      bleeding-edge compared to other distro's. </p>
+
      <p>In general it is safe to upgrade single packages; they'll just
      overwrite the old contents. Package managers take care of uninstalling old
      versions, and it's really convenient to have some sort of package
      management system in place. Have a look at the hints; there are several,
      ranging from RPM to DEB to TGZ (Slackware) to Checkinstall to package
      users. </p>
+
      <p>A final comment: what package instructions should you use when updating
      a package? In general, you can use the standard LFS instructions, although
      you shouldn't blindly assume they will apply to all packages. To keep
      yourself informed about upgrades and new package instructions, subscribe
      to lfs-dev. Keep in mind that this is not a support list but a development
      list.</p>
+
 	</dd>
         <dt id="sudo-book-commands">The commands in LFS/BLFS book does not work with sudo!</dt>
         <dd>
