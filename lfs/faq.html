@@ -1,112 +1,97 @@
-<!--#set var="pageTitle" value="LFS FAQ" -->
+<!--#set var="pageTitle" value="FAQ do LFS" -->
 <!--#include virtual="header.html" -->
 <!--#include virtual="menu.html" -->
     <div class="main">
-      <h1>LFS Frequently Asked Questions</h1>
-      <p>The FAQ is divided in three documents. The <a
-      href="/faq/index.html">General FAQ</a> has links to all questions and
-      answers. The <a href="/lfs/faq.html">LFS FAQ</a> is a selection of
-      LFS-specific FAQ's and the <a href="/blfs/faq.html">BLFS FAQ</a> is a
-      selection of BLFS-specific FAQ's.</p>
+      <h1>Perguntas Frequentes do LFS</h1>
+
+      <p>O FAQ está dividido em três documentos. As <a href="/faq/index.html">Perguntas Frequentes gerais</a> tem links para todas as perguntas e respostas. O <a href="/lfs/faq.html">FAQ do LFS</a> é uma seleção de perguntas frequentes específicas do LFS e o <a href="/blfs/faq.html">FAQ do BLFS</a> é uma seleção de perguntas frequentes específicas do BLFS.</p>
 
       <a id="lfsfaq"/>
-      <h3><a href="#fre">Frequently Requested Enhancements</a></h3>
+      <h3><a href="#fre">Aprimoramentos solicitados frequentemente</a></h3>
       <ul>
-        <li><a href="#why-not-faq">Why not include the FAQ in the book?</a></li>
-        <li><a href="#why-vim">Why is vim in the book?</a></li>
-        <li><a href="#why-not-package-management">Why isn't some package manager in the book?</a></li>
-        <li><a href="#no-poweroff">How do I make my machine poweroff when shut down?</a></li>
-        <li><a href="#uefi">How do I boot LFS with UEFI?</a></li>
-        <li><a href="#rebuild-ch8">Can I skip a package in Chapter 8 since it's already built in Chapter 6 or 7, and it's functioning properly?</a></li>
-        <li><a href="#get-rid-of-lib64">Can I modify GCC code and get rid of /lib64?</a></li>
+        <li><a href="#why-not-faq">Por que não incluir o FAQ no livro?</a></li>
+        <li><a href="#why-vim">Por que o vim está no livro?</a></li>
+        <li><a href="#why-not-package-management">Por que não existe nenhum gerenciador de pacotes no livro?</a></li>
+        <li><a href="#no-poweroff">Como faço para desligar minha máquina no término das atividades?</a></li>
+        <li><a href="#uefi">Como inicializo o LFS com UEFI?</a></li>
+        <li><a href="#rebuild-ch8">Posso ignorar um pacote do Capítulo 8, vez que ele já foi construído no Capítulo 6 ou 7 e está funcionando corretamente?</a></li>
+        <li><a href="#get-rid-of-lib64">Posso modificar o código da GCC e me livrar do /lib64?</a></li>
       </ul>
-      <h3><a href="#resources">When reading and building LFS</a></h3>
+      <h3><a href="#resources">Ao ler e construir o LFS</a></h3>
       <ul>
-        <li><a href="#what-dist">What distribution should I use to start from?</a></li>
-        <li><a href="#kernel-modules">How do I compile a kernel or set up modules?</a></li>
-        <li><a href="#gcc-warnings">Are compiler warnings from GCC bad?</a></li>
-        <li><a href="#dirty-sources">Do I need to keep the source after installing?</a></li>
-<!--        <li><a href="#really-small">How do I make that really small install the book mentions?</a></li> -->
-        <li><a href="#procs-lfs">Is there information about building LFS on other processors?</a></li>
-        <li><a href="#cross-compile">How do I cross compile LFS?</a></li>
-        <li><a href="#dos-text">What's a DOS format text file?</a></li>
-        <li><a href="#wget">Is there a way to download all current files at one time?</a></li>
+        <li><a href="#what-dist">Qual distribuição devo usar para começar?</a></li>
+        <li><a href="#kernel-modules">Como eu compilo um núcleo ou configuro módulos?</a></li>
+        <li><a href="#gcc-warnings">Os avisos do compilador oriundos do GCC são ruins?</a></li>
+        <li><a href="#dirty-sources">Preciso manter o fonte depois da instalação?</a></li>
+        <li><a href="#procs-lfs">Existem informações acerca de como construir o LFS em outros processadores?</a></li>
+        <li><a href="#cross-compile">Como eu compilo cruzadamente o LFS?</a></li>
+        <li><a href="#dos-text">O que é um arquivo de texto no formato DOS?</a></li>
+        <li><a href="#wget">Existe uma maneira de baixar todos os arquivos atuais de uma vez?</a></li>
       </ul>
-      <h3><a href="#generrors">General compilation errors</a></h3>
+      <h3><a href="#generrors">Erros gerais de compilação</a></h3>
       <ul>
-        <li><a href="#optimizations">When using optimization flags (setting CFLAGS)</a></li>
-	<li><a href="#configure-errors">configure output shows errors, isn't "gcc -V" wrong?</a></li>
-        <li><a href="#config-ice">Why does GCC reports "Internal Compiler Error" for a "hello world" program?</a></li>
-        <li><a href="#dirty-sources">I didn't delete the source tree after my last attempt. Do I need to?</a></li>
-        <li><a href="#perm-denied">I'm getting `/dev/null: Permission denied'</a></li>
-        <li><a href="#sig11">signal 11 (internal error: Segmentation fault)</a></li>
-        <li><a href="#chroot-no-such-file">"No such file or directory" trying to chroot</a></li>
-        <li><a href="#configure-no-such-file">bash: ./configure: No such file or directory</a></li>
-        <li><a href="#bad-interpreter-permission-denied">./configure: bad interpreter: Permission denied</a></li>
-        <li><a href="#conf-guess-fail">configure can't guess my host type.</a></li>
-        <li><a href="#config-not-gnu-c">checking whether we are using GNU C... no</a></li>
-        <li><a href="#no-ptys">The system has no more ptys.  Ask your system administrator to create more.</a></li>
-        <li><a href="#config-status-0ax-y">./config.status: line 508: 0a1,66: command not found (or any similar message with only numbers different)</a></li>
-        <li><a href="#dev-null-as-cache">"configure: loading cache /dev/null" in config.log</a></li>
+        <li><a href="#optimizations">Ao usar sinalizadores de otimização (configurando a CFLAGS)</a></li>
+	<li><a href="#configure-errors">A saída gerada do configure mostra erros/ "gcc -V" não está errado?</a></li>
+        <li><a href="#config-ice">Por que o GCC informa "Erro interno do compilador" para um programa "olá mundo"?</a></li>
+        <li><a href="#dirty-sources">Eu não excluí a árvore do fonte depois da minha tentativa mais recente. Eu preciso?</a></li>
+        <li><a href="#perm-denied">Eu estou obtendo `/dev/null: Permissão negada'</a></li>
+        <li><a href="#sig11">sinal 11 (erro interno: Falha de segmentação)</a></li>
+        <li><a href="#chroot-no-such-file">“Esse arquivo ou diretório não existe” tentando fazer chroot</a></li>
+        <li><a href="#configure-no-such-file">bash: ./configure: Esse arquivo ou diretório não existe</a></li>
+        <li><a href="#bad-interpreter-permission-denied">./configure: mau intérprete: Permissão negada</a></li>
+        <li><a href="#conf-guess-fail">configure não consegue adivinhar meu tipo de dispositivo.</a></li>
+        <li><a href="#config-not-gnu-c">verificando se estamos usando GNU C... não</a></li>
+        <li><a href="#no-ptys">O sistema não tem mais ptys. Peça para o(a) administrador(a) do sistema criar mais.</a></li>
+        <li><a href="#config-status-0ax-y">./config.status: line 508: 0a1,66: comando não encontrado (ou qualquer mensagem semelhante com apenas números diferentes)</a></li>
+        <li><a href="#dev-null-as-cache">"configure: carregando cache /dev/null" em config.log</a></li>
       </ul>
-      <h3><a href="#packerrors">Package-specific errors</a></h3>
+      <h3><a href="#packerrors">Erros específicos de pacote</a></h3>
       <ul>
-        <li><a href="#m4-mb-len-max-wrong">M4: Assumed value of MB_LEN_MAX wrong</a></li>
-        <li><a href="#systemd-user-credentials-esrch">Systemd: systemd-networkd.service: Failed to determine user credentials: No such process</a></li>
+        <li><a href="#m4-mb-len-max-wrong">M4: Valor assumido de MB_LEN_MAX errado</a></li>
+        <li><a href="#systemd-user-credentials-esrch">Systemd: systemd-networkd.service: Falha ao determinar as credenciais de usuário(a): esse processo não existe</a></li>
       </ul>
-      <h3><a href="#confboot">Configuration and booting issues</a></h3>
+      <h3><a href="#confboot">Problemas de configuração e inicialização</a></h3>
       <ul>
-        <li><a href="#unable-to-mount-root">Kernel panic - not syncing: VFS: Unable to mount root fs on ...</a></li>
-        <li><a href="#respawning-too-fast">init: Id &quot;1&quot; respawning too fast: disabled for 5 minutes</a></li>
-        <li><a href="#eth0-unknown-interface">eth0:unknown interface</a></li>
-        <li><a href="#irq-nobody-cared">IRQ 9: nobody cared (try booting with the "irqpoll" option)</a></li>
-        <li><a href="#lfs-very-slow">LFS system is much slower than the host distro (or another distro)</a></li>
+        <li><a href="#unable-to-mount-root">Pânico de núcleo - não sincronizando: VFS: Não é possível montar o root fs em ...</a></li>
+        <li><a href="#respawning-too-fast">init: Id &quot;1&quot; regerando muito rápido: desativado por 5 minutos</a></li>
+        <li><a href="#eth0-unknown-interface">eth0:interface desconhecida</a></li>
+        <li><a href="#irq-nobody-cared">IRQ 9: ninguém se importou (tente inicializar com a opção "irqpoll")</a></li>
+        <li><a href="#lfs-very-slow">O sistema LFS está muito mais lento que a distribuição anfitriã (ou outra distribuição)</a></li>
       </ul>
       <div class="newsItem"></div>
 
-      <h3 id="fre">Frequently Requested Enhancements</h3>
+      <h3 id="fre">Aprimoramentos solicitados frequentemente</h3>
       <dl>
-        <dt id="why-not-faq">Why not include the FAQ in the book?</dt>
+        <dt id="why-not-faq">Por que não incluir o FAQ no livro?</dt>
         <dd>
-          <p>Marc Heerdink may have said it best in a post to lfs-dev:</p>
-          <blockquote><p>The problem is that the FAQ is a dynamic document. The
-          FAQ for a book release is released only after the book version
-          itself, because the FAQ is updated to reflect the Qs asked about the
-          current version of the book. A link is better, since you'll always
-          have the most up-to-date answers handy.</p></blockquote>
+
+          <p>Marc Heerdink possivelmente tenha dito isso melhor em uma postagem na lfs-dev:</p>
+
+          <blockquote><p>O problema é que o FAQ é um documento dinâmico. O FAQ para um lançamento de livro é lançado somente depois da versão do livro em si, porque o FAQ é atualizado para refletir as perguntas feitas acerca da versão atual do livro. Um link é melhor, pois você sempre terá as respostas mais atualizadas à mão.</p></blockquote>
+
         </dd>
-        <dt id="why-vim">Why is vim in the book?</dt>
+        <dt id="why-vim">Por que o vim está no livro?</dt>
         <dd>
-          <p>This is fairly well discussed in the thread starting at <a
-          href="https://lists.linuxfromscratch.org/sympa/arc/lfs-dev/2002-02/msg00019.html">this post</a>.</p>
+
+          <p>Isso é bastante bem discutido no tópico que começa <a href="https://lists.linuxfromscratch.org/sympa/arc/lfs-dev/2002-02/msg00019.html">neste post</a>.</p>
+
         </dd>
-        <dt id="why-not-package-management">Why isn't some package manager in the book?</dt>
+        <dt id="why-not-package-management">Por que não existe nenhum gerenciador de pacotes no livro?</dt>
         <dd>
-          <p>Package management - beyond that provided by tarballs and
-          makefiles - is beyond the scope of the book. If nothing else does,
-          the number of different "solutions" should hint at some of the
-          reasons.</p>
-          <p>Here are a few of the options:</p>
+
+          <p>O gerenciamento de pacotes – além daquele fornecido por tarballs e makefiles – está além do escopo do livro. Se nada mais acontecer, o número de "soluções" diferentes deveria sugerir alguns dos motivos.</p>
+
+          <p>Aqui estão algumas das opções:</p>
           <ul>
-            <li>No package management is really necessary. Unless it is
-            desirable to monitor package file placement minutely, any package
-            large enough to warrent removal for disk space reasons can be
-            installed in /opt as detailed by the FHS (perhaps in /opt/foo-x.x
-            with a link from /opt/foo), and new releases can usually be
-            installed over the old, although major upgrades and libraries are
-            generally best done by rebuilding the system from the bottom
-            up.</li>
-            <li>RPM, the Redhat Package Manager, is used by a number of
-            distributions. It is available from <a
-            href="https://rpm.org/">https://rpm.org/</a>, and there is an
-            <a href="../hints/downloads/files/">RPM Hint</a> to help with
-            installation.</li>
-            <li>There are several implementations of symlink style package management:
+
+            <li>Nenhum gerenciamento de pacotes é realmente necessário. A menos que seja desejável monitorar minuciosamente o posicionamento do arquivo do pacote, qualquer pacote grande o suficiente para garantir a remoção por motivos de espaço em disco pode ser instalado em /opt, conforme detalhado pelo FHS (talvez em /opt/foo-x.x com um link a partir de /opt/foo), e novos lançamentos geralmente podem ser instalados sobre as antigos, embora as principais atualizações e bibliotecas geralmente sejam melhor feitas reconstruindo-se o sistema de baixo para cima.</li>
+
+            <li>RPM, o Redhat Package Manager, é usado por diversas distribuições. Ele está disponível a partir de <a href="https://rpm.org/">https://rpm.org/</a> e existe uma <a href="../hints/downloads/files/">Dica do RPM</a> para ajudar com a instalação.</li>
+
+            <li>Existem várias implementações de gerenciamento de pacotes no estilo de link simbólico:
             <ul>
-<!-- site unavailable
-              <li>Epkg is available from <a href="http://www.encap.org/epkg/">http://www.encap.org/epkg/</a>.</li>-->
-              <li>Graft is available from <a href="https://peters.gormand.com.au/Home/tools"  >https://peters.gormand.com.au/Home/tools</a>.</li>
-              <li>GNU Stow is available from <a href="https://www.gnu.org/software/stow/">https://www.gnu.org/software/stow/</a>.</li>
+              <li>Graft está disponível a partir de <a href="https://peters.gormand.com.au/Home/tools">https://peters.gormand.com.au/Home/tools</a>.</li>
+              <li>GNU Stow está disponível a partir de <a href="https://www.gnu.org/software/stow/">https://www.gnu.org/software/stow/</a>.</li>
             </ul>
             </li>
             <li>The NetBSD package manager, pkgsrc, is available on other
