@@ -12,16 +12,16 @@
         <li><a href="#why-not-faq">Por que não incluir o FAQ no livro?</a></li>
         <li><a href="#why-vim">Por que o vim está no livro?</a></li>
         <li><a href="#why-not-package-management">Por que não existe nenhum gerenciador de pacotes no livro?</a></li>
-        <li><a href="#no-poweroff">Como faço para desligar minha máquina no término das atividades?</a></li>
+        <li><a href="#no-poweroff">Como faço minha máquina desligar no término das atividades?</a></li>
         <li><a href="#uefi">Como inicializo o LFS com UEFI?</a></li>
         <li><a href="#rebuild-ch8">Posso ignorar um pacote do Capítulo 8, vez que ele já foi construído no Capítulo 6 ou 7 e está funcionando corretamente?</a></li>
         <li><a href="#get-rid-of-lib64">Posso modificar o código da GCC e me livrar do /lib64?</a></li>
       </ul>
       <h3><a href="#resources">Ao ler e construir o LFS</a></h3>
       <ul>
-        <li><a href="#what-dist">Qual distribuição devo usar para começar?</a></li>
+        <li><a href="#what-dist">Qual distribuição eu deveria usar para começar?</a></li>
         <li><a href="#kernel-modules">Como eu compilo um núcleo ou configuro módulos?</a></li>
-        <li><a href="#gcc-warnings">Os avisos do compilador oriundos do GCC são ruins?</a></li>
+        <li><a href="#gcc-warnings">Os avisos do compilador oriundos da GCC são ruins?</a></li>
         <li><a href="#dirty-sources">Preciso manter o fonte depois da instalação?</a></li>
         <li><a href="#procs-lfs">Existem informações acerca de como construir o LFS em outros processadores?</a></li>
         <li><a href="#cross-compile">Como eu compilo cruzadamente o LFS?</a></li>
@@ -94,119 +94,86 @@
               <li>GNU Stow está disponível a partir de <a href="https://www.gnu.org/software/stow/">https://www.gnu.org/software/stow/</a>.</li>
             </ul>
             </li>
-            <li>The NetBSD package manager, pkgsrc, is available on other
-            systems including Linux. It is at <a
-            href="ftp://ftp.netbsd.org/pub/pkgsrc/stable/">ftp://ftp.netbsd.org/pub/pkgsrc/stable/</a>.</li>
-            <li>Originally based on a script written by LFS' own Gerard
-            Beekmans, install-log records a list of files installed by a
-            package as the package is installed. It is available from <a
-            href="https://install-log.sourceforge.net/">https://install-log.sourceforge.net/</a>.</li>
-            <li>CheckInstall attempts log system calls made by "make install".
-            It is available from <a
-            href="https://asic-linux.com.mx/%7Eizto/checkinstall/">https://asic-linux.com.mx/~izto/checkinstall/</a>.</li>
-            <li>pkgutils, used by the CRUX distribution, is available from <a
-            href="https://crux.nu/Wiki/FaqPkgUtils">https://crux.nu/Wiki/FaqPkgUtils</a>.</li>
-            <li>There are some <a href="../hints/downloads/files/">hints</a> available for package managers.</li>
+
+            <li>The NetBSD package manager, pkgsrc, is available on other systems including Linux. It is at <a href="ftp://ftp.netbsd.org/pub/pkgsrc/stable/">ftp://ftp.netbsd.org/pub/pkgsrc/stable/</a>.</li>
+
+O gerenciador de pacotes do NetBSD, pkgsrc, está disponível em outros sistemas, incluindo Linux. Ele está em <a href="ftp://ftp.netbsd.org/pub/pkgsrc/stable/">ftp://ftp.netbsd.org/pub/pkgsrc/stable/</a>.</li>
+
+            <li>Originalmente baseado em um script escrito pelo próprio Gerard Beekmans do LFS, install-log registra uma lista de arquivos instalados por um pacote à medida que o pacote é instalado. Ele está disponível a partir de <a href="https://install-log.sourceforge.net/">https://install-log.sourceforge.net/</a>.</li>
+
+            <li>CheckInstall tenta registrar chamadas de sistema feitas por "make install". Ele está disponível a partir de <a href="https://asic-linux.com.mx/%7Eizto/checkinstall/">https://asic-linux.com.mx/~izto/checkinstall/</a>.</li>
+
+            <li>pkgutils, usado pela distribuição CRUX, está disponível a partir de <a href="https://crux.nu/Wiki/FaqPkgUtils">https://crux.nu/Wiki/FaqPkgUtils</a>.</li>
+
+            <li>Existem algumas <a href="../hints/downloads/files/">dicas</a> disponíveis para gerenciadores de pacotes.</li>
+
           </ul>
-          <p>If you have an addition to the list, please do email its id, URL,
-          and other information, to the FAQ maintainer or an appropriate LFS
-          mailing list so it can be added here.</p>
+
+          <p>Se você tiver uma adição para a lista, por favor, envie uma mensagem eletrônica com o id dela, URL e outras informações para o(a) mantenedor(a) do FAQ ou para uma lista de discussão apropriada do LFS, de forma que ela possa ser adicionada aqui.</p>
+
         </dd>
-        <dt id="no-poweroff">How do I make my machine poweroff when shut down?</dt>
+        <dt id="no-poweroff">Como faço minha máquina desligar no término das atividades?</dt>
         <dd>
-          <p>Power Management is a kernel function, you need to enable it in
-          the kernel. In the 5.11 kernel, you have to enable the options for
-          <code>ACPI (Advanced Configuration and Power Interface</code>
-          under <code>Power managerment and ACPI options</code>.
-          For very old 32-bit x86 machines, you'll probably want the APM
-          options, newer machines often require ACPI. Make sure that either APM
-          or ACPI be enabled in the kernel, but definitely <strong>not</strong>
-          both at the same time - this has been known to cause problems such as
-          neither actually taking effect. Also try disabling SMP if you only
-          have one processor; it's also known to prevent a proper poweroff.
-          Make sure you read the help with each option.</p>
-          <p>After rebooting into the new kernel you should be able to poweroff
-          your machine with the command <code>shutdown -h now</code> or
-          <code>poweroff</code> (also read <code>man shutdown</code> and
-          <code>man halt</code>). If you compiled APM or ACPI as modules, make
-          sure they are loaded before you try to power off.  Some machines
-          require that APM or ACPI is compiled into the kernel because it needs
-          to be initialised at boottime. </p>
+
+          <p>Gerenciamento de Eletricidade é uma função do núcleo; você precisa habilitá-lo no núcleo. No núcleo 5.11, você tem de habilitar as opções para <code>ACPI (Advanced Configuration and Power Interface</code> sob <code>Power managerment and ACPI options</code>. Para máquinas x86 de 32 bits muito antigas, você provavelmente irá querer as opções de APM; máquinas mais novas geralmente exigem ACPI. Certifique-se de que ou APM ou ACPI esteja habilitado no núcleo, mas, definitivamente <strong>não</strong> ambos ao mesmo tempo - isso tem sido conhecido por causar problemas, tais como nenhum dos dois realmente tendo efeito. Tente também desabilitar o SMP se você tiver somente um processador; ele também impede um desligamento adequado. Certifique-se de ler a ajuda de cada opção.</p>
+
+          <p>Depois de reinicializar no novo núcleo, você deveria estar apto(a) a desligar tua máquina com o comando <code>shutdown -h now</code> ou <code>poweroff</code> (leia-se também <code>man shutdown</code> e <code>man halt</code>). Se você compilou APM ou ACPI como módulos, certifique-se de que eles estejam carregados antes de tentar desligar. Algumas máquinas exigem que o APM ou ACPI seja compilado no núcleo, porque ele [o APM ou o ACPI] precisa ser inicializado durante a inicialização.</p>
+
         </dd>
 
-        <dt id="uefi">How do I boot LFS with UEFI?</dt>
+        <dt id="uefi">Como inicializo o LFS com UEFI?</dt>
         <dd>
-          <p>GRUB can be built for UEFI, but doing so needs several packages
-          beyond the scope of LFS.  You can consult
-          <a href="/blfs/view/svn/postlfs/grub-efi.html">the BLFS page for it</a>.</p>
+
+          <p>O GRUB pode ser construído para UEFI, mas fazer isso precisa de vários pacotes além do escopo do LFS. Você pode consultar <a href="/blfs/view/svn/postlfs/grub-efi.html">a página do BLFS para isso</a>.</p>
+
         </dd>
 
-        <dt id="rebuild-ch8">Can I skip a package in Chapter 8 since it's already built in Chapter 6 or 7, and it's functioning properly?</dt>
+        <dt id="rebuild-ch8">Posso ignorar um pacote do Capítulo 8, vez que ele já foi construído no Capítulo 6 ou 7 e está funcionando corretamente?</dt>
         <dd>
-          <p>Short answer: no.</p>
-          <p>Long answer: we want LFS to be "settled down": if some package
-          is rebuilt in the LFS system, the result (libraries and binaries)
-          should be same as the result at the end of the LFS book.  In
-          Chapter 6 the tools are cross compiled, where many tests in
-          the <code>configure</code> script can't be done.  The "guessed"
-          result will be used, unnecessary workarounds are enabled, or
-          optional features are disabled.  The tools in Chapter 7 are built
-          for resolving circular dependencies: many of their optional
-          features depend on packages not built yet and have to be
-          disabled.  So rebuilding them in Chapter 8 is necessary.</p>
-          <p>On the other hand, if you are building Linux for some really
-          tiny platform where you can't build packages in a reasonable time
-          (for example, a 16 MHz ARM), you can cross compile everything in
-          Chapter 6 since Chapter 7 and 8 are not applicable.  Or, you can
-          do Chapter 7 and 8 with an emulator like
-          <a href="/blfs/view/stable/postlfs/qemu.html">QEMU</a>.</p>
+          <p>Resposta curta: não.</p>
+ 
+         <p>Resposta longa: queremos que o LFS seja "estabelecido": se algum pacote for reconstruído no sistema LFS, o resultado (bibliotecas e binários) deveria ser o mesmo que o resultado no final do livro do LFS. No Capítulo 6 as ferramentas são compiladas cruzadamente, onde muitos testes no script <code>configure</code> não conseguem ser feitos. O resultado "adivinhado" será usado, soluções alternativas desnecessárias serão habilitadas ou recursos opcionais serão desabilitados. As ferramentas no Capítulo 7 são construídas para resolver dependências circulares: muitos dos recursos opcionais delas dependem de pacotes ainda não construídos e tem de ser desabilitados. Portanto, reconstruí-las no Capítulo 8 é necessário.</p>
+
+          <p>Por outro lado, se você estiver construindo o Linux para alguma plataforma realmente pequena onde você não consegue construir pacotes em um tempo razoável (por exemplo, um ARM de 16 MHz), você pode compilar cruzadamente tudo no Capítulo 6, já que os Capítulos 7 e 8 não são aplicáveis. Ou você pode fazer os Capítulos 7 e 8 com um emulador como o <a href="/blfs/view/stable/postlfs/qemu.html">QEMU</a>.</p>
+
         </dd>
-        <dt id="get-rid-of-lib64">Can I modify GCC code and get rid of /lib64?</dt>
+        <dt id="get-rid-of-lib64">Posso modificar o código da GCC e me livrar do /lib64?</dt>
         <dd>
-          <p>Short answer: no.</p>
-          <p>Long answer: LSB mandates the ELF loader to be at
-          /lib64/ld-linux-x86-64.so.2 on x86-64.</p>
-          <p>Even longer answer: when the kernel is told to execute a
-          dynamic linked ELF executable, it reads the path to the ELF loader
-          hard-coded in the ELF executable, which is
-          /lib64/ld-linux-x86-64.so.2.  So, if it does not exist, LFS won't
-          be able to run any dynamic linked executable compiled elsewhere.
-          For example, executables from commercial software packages
-          (MATLAB or COMSOL) or binaries downloaded from GitHub release
-          page will not run.</p>
+          <p>Resposta curta: não.</p>
+ 
+         <p>Resposta longa: o LSB impõe que o carregador de ELF esteja em /lib64/ld-linux-x86-64.so.2 no x86-64.</p>
+
+          <p>Resposta ainda mais longa: quando o núcleo é instruído a executar um executável ELF vinculado dinâmicamente, ele lê o caminho para o carregador de ELF rigidamente codificado no executável ELF, que é /lib64/ld-linux-x86-64.so.2. Portanto, se não existir, o LFS não será capaz de executar nenhum executável vinculado dinâmicamente compilado em outro lugar. Por exemplo, executáveis procedentes de pacotes de software comerciais (MATLAB ou COMSOL) ou binários baixados a partir da página de lançamento do GitHub não executarão.</p>
+
         </dd>
       </dl>
-      <p><a href="#lfsfaq">Back to the top.</a></p>
+      <p><a href="#lfsfaq">Voltar para o topo.</a></p>
 
-      <h3 id="resources">When reading and building LFS</h3>
+      <h3 id="resources">Ao ler e construir o LFS</h3>
       <dl>
-        <dt id="what-dist">What distribution should I use to start from?</dt>
+        <dt id="what-dist">Qual distribuição eu deveria usar para começar?</dt>
         <dd>
-          <p>Most relatively recent distributions should be fine.  You could
-          consult
-          <a href="/lfs/view/stable/chapter02/hostreqs.html">the Host System Requirements page</a>.</p>
-          <p>Make sure you have installed and/or updated the development
-          packages. (Look for ones starting in "gcc", "glibc", or "libstdc++"
-          or ending in "-dev" or "-devel".)</p>
-          <p>If you want to use LFS as your
-          main system and you wish to install it without first installing a
-          distribution, It is also possible to use a live image on dvd or
-          usb stick. All major distributions provide one.</p>
+
+          <p>A maioria das distribuições relativamente recentes deveria servir. Você poderia consultar <a href="/lfs/view/stable/chapter02/hostreqs.html">a página Requisitos do Sistema Anfitrião</a>.</p>
+
+          <p>Certifique-se de ter instalado e (ou) atualizado os pacotes de desenvolvimento. (Procure aqueles que começam com "gcc", "glibc" ou "libstdc++" ou terminam com "-dev" ou "-devel").</p>
+
+          <p>Se você quiser usar o LFS como teu sistema principal e deseja instalá-lo sem primeiro instalar uma distribuição, também é possível usar uma imagem ao vivo em DVD ou pendrive. Todas as principais distribuições fornecem uma.</p>
+
         </dd>
-        <dt id="kernel-modules">How do I compile a kernel or set up modules?</dt>
+        <dt id="kernel-modules">Como eu compilo um núcleo ou configuro módulos?</dt>
         <dd>
-          <p>In /usr/share/doc/linux-x.y.z
-          or wherever you unpacked your kernel source and the help in kernel
-          config tool (make menuconfig), see the Module-HOWTO at <a
-          href="https://www.tldp.org/HOWTO/Module-HOWTO/">https://www.tldp.org/HOWTO/Module-HOWTO/</a>.</p>
+
+          <p>Em /usr/share/doc/linux-x.y.z ou onde quer que você desempacotou teu fonte do núcleo e a ajuda na ferramenta de configuração do núcleo (make menuconfig), veja-se o Module-HOWTO em <a href="https://www.tldp.org/HOWTO/Module-HOWTO/">https://www.tldp.org/HOWTO/Module-HOWTO/</a>.</p>
+
         </dd>
-        <dt id="gcc-warnings">Are compiler warnings from GCC bad?</dt>
+        <dt id="gcc-warnings">Os avisos do compilador oriundos da GCC são ruins?</dt>
         <dd>
-          <p>Short answer: no.</p>
-          <p>Long answer: probably, but only to someone working on the package
-          you're trying to compile. Mostly, everything will be fine unless make
-          quits with an error.</p>
-          <p>Here's an example:</p>
+          <p>Resposta curta: não.</p>
+
+          <p>Resposta longa: provavelmente, mas somente para alguém que trabalha no pacote que você está tentando compilar. Na maioria das vezes, tudo ficará bem, a menos que o make termine com um erro.</p>
+
+          <p>Aqui está um exemplo:</p>
           <div class="cmd">
             <p>sk ~/tmp $ cat &gt; Makefile<br />
                main:<br />
@@ -215,52 +182,32 @@
                void main() { exit(0); }<br />
                sk ~/tmp $ make<br />
                gcc main.c<br />
-               <strong>main.c: In function `main':</strong><br />
-               <strong>main.c:1: warning: return type of `main' is not `int'</strong><br />
-               sk ~/tmp $ ######## that worked ########<br />
+               <strong>main.c: Na função `main':</strong><br />
+               <strong>main.c:1: aviso: o tipo de retorno de `main' não é `int'</strong><br />
+               sk ~/tmp $ ######## isso funcionou ########<br />
                sk ~/tmp $<br />
                sk ~/tmp $ cat &gt; main.c<br />
                int main() { e<span class="strong">xx</span>it(0) }<br />
                sk ~/tmp $ make<br />
                gcc main.c<br />
-               <strong>main.c: In function `main':</strong><br />
-               <strong>main.c:1: parse error before `}'</strong><br />
-               <strong>make: *** [main] Error 1</strong><br />
-               sk ~/tmp $ ######## that failed ########<br />
+               <strong>main.c: Na função `main':</strong><br />
+               <strong>main.c:1: erro de análise antes de `}'</strong><br />
+               <strong>make: *** [main] Erro 1</strong><br />
+               sk ~/tmp $ ######## isso falhou ########<br />
                sk ~/tmp $</p>
           </div>
-          <p>If you can determine that some warning indicates a real bug in
-          the software, report to the maintainer of it.</p>
+
+          <p>Se você puder determinar que algum aviso indica um defeito real no software, informe o(a) mantenedor(a) do mesmo.</p>
+
         </dd>
-<!--        <dt id="really-small">How do I make that really small install the book mentions?</dt>
+
+        <dt id="procs-lfs">Existem informações acerca de como construir o LFS em outros processadores?</dt>
         <dd>
-          <p>Gerard describes the process of making a 5MB LFS install in <a
-          href="https://lists.linuxfromscratch.org/sympa/arc/lfs-support/2001-10/msg00057.html">an
-          email to lfs-support</a>,  and there are links to many resources in
-          <a
-          href="https://lists.linuxfromscratch.org/sympa/arc/lfs-support/2002-06/msg00228.html">a
-          post by Cor Lem</a> and a reply to it.</p>
-        </dd>-->
-        <dt id="procs-lfs">Is there information about building LFS on other processors?</dt>
-        <dd>
-          <p>For information about building LFS for a wide array of systems,
-          take a look at the <a
-          href="https://trac.clfs.org/wiki/read">Cross-LFS branch</a> of
-          LFS.</p>
-          <p>For ARM, consult LFS Fork for ARM (64-bit or 32-bit)
-(<a href='https://clfs.org/~kb0iic/lfs-sysv'>SysV</a> and
-<a href='https://clfs.org/~kb0iic/lfs-systemd'>Systemd</a>),
-          maintained by William Harrington; and another LFS ARM64 Branch
-          (64-bit only,
-<a href='https://www.linuxfromscratch.org/~xry111/lfs/view/arm64-systemd/'>Systemd</a> and
-<a href='https://www.linuxfromscratch.org/~xry111/lfs/view/arm64/'>SysV [NOT TESTED!]</a>),
-          maintained by Xi Ruoyao.
-<!-- Abandoned for now, maybe recontinue when I get some spare time
-          <p>For 64-bit little-endian MIPS, Xi Ruoyao has done an experiment
-          building LFS on it.
-          <a href="/~xry111/lfs-mips64el/">The modified LFS book</a>
-          documented the instruction used in the experiment.</p>
--->
+
+          <p>Para informações acerca de como construir o LFS para uma ampla variedade de sistemas, dê uma olhada na <a href="https://trac.clfs.org/wiki/read">ramificação Cross-LFS</a> do LFS.</p>
+
+          <p>Para ARM, consulte a bifurcação do LFS para ARM (64 bits ou 32 bits) (<a href='https://clfs.org/~kb0iic/lfs-sysv'>SysV</a> e <a href='https://clfs.org/~kb0iic/lfs-systemd'>Systemd</a>), mantido por William Harrington; e outra ramificação ARM64 do LFS (somente 64 bits, <a href='https://www.linuxfromscratch.org/~xry111/lfs/view/arm64-systemd/'>Systemd</a> e <a href='https://www.linuxfromscratch.org/~xry111/lfs/view/arm64/'>SysV [NÃO TESTADO!]</a>), mantida por Xi Ruoyao.</p>
+
         </dd>
         <dt id="cross-compile">How do I cross compile LFS?</dt>
         <dd>
