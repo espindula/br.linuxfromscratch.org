@@ -4,7 +4,10 @@
     <div class="main">
       <h1>Perguntas Frequentes do LFS</h1>
 
-      <p>O FAQ está dividido em três documentos. As <a href="/faq/index.html">Perguntas Frequentes gerais</a> tem links para todas as perguntas e respostas. O <a href="/lfs/faq.html">FAQ do LFS</a> é uma seleção de perguntas frequentes específicas do LFS e o <a href="/blfs/faq.html">FAQ do BLFS</a> é uma seleção de perguntas frequentes específicas do BLFS.</p>
+      <p>O FAQ está dividido em três documentos. As <a href="/faq/index.html">Perguntas Frequentes gerais</a> 
+      tem links para todas as perguntas e respostas. O <a href="/lfs/faq.html">FAQ do LFS</a> é uma seleção 
+      de perguntas frequentes específicas do LFS e o <a href="/blfs/faq.html">FAQ do BLFS</a> é uma seleção 
+      de perguntas frequentes específicas do BLFS.</p>
 
       <a id="lfsfaq"/>
       <h3><a href="#fre">Aprimoramentos solicitados frequentemente</a></h3>
@@ -14,7 +17,8 @@
         <li><a href="#why-not-package-management">Por que não existe nenhum gerenciador de pacotes no livro?</a></li>
         <li><a href="#no-poweroff">Como faço minha máquina desligar no término das atividades?</a></li>
         <li><a href="#uefi">Como inicializo o LFS com UEFI?</a></li>
-        <li><a href="#rebuild-ch8">Posso ignorar um pacote do Capítulo 8, vez que ele já foi construído no Capítulo 6 ou 7 e está funcionando corretamente?</a></li>
+        <li><a href="#rebuild-ch8">Posso ignorar um pacote do Capítulo 8, vez que ele já foi construído no 
+        Capítulo 6 ou 7 e está funcionando corretamente?</a></li>
         <li><a href="#get-rid-of-lib64">Posso modificar o código da GCC e me livrar do /lib64?</a></li>
       </ul>
       <h3><a href="#resources">Ao ler e construir o LFS</a></h3>
@@ -30,8 +34,8 @@
       </ul>
       <h3><a href="#generrors">Erros gerais de compilação</a></h3>
       <ul>
-        <li><a href="#optimizations">Ao usar sinalizadores de otimização (configurando a CFLAGS)</a></li>
-	<li><a href="#configure-errors">A saída gerada do configure mostra erros/ "gcc -V" não está errado?</a></li>
+        <li><a href="#optimizations">Quando usar sinalizadores de otimização (configurando a CFLAGS)</a></li>
+	<li><a href="#configure-errors">A saída gerada do configure mostra erros; "gcc -V" não está errado?</a></li>
         <li><a href="#config-ice">Por que o GCC informa "Erro interno do compilador" para um programa "olá mundo"?</a></li>
         <li><a href="#dirty-sources">Eu não excluí a árvore do fonte depois da minha tentativa mais recente. Eu preciso?</a></li>
         <li><a href="#perm-denied">Eu estou obtendo `/dev/null: Permissão negada'</a></li>
@@ -42,13 +46,15 @@
         <li><a href="#conf-guess-fail">configure não consegue adivinhar meu tipo de dispositivo.</a></li>
         <li><a href="#config-not-gnu-c">verificando se estamos usando GNU C... não</a></li>
         <li><a href="#no-ptys">O sistema não tem mais ptys. Peça para o(a) administrador(a) do sistema criar mais.</a></li>
-        <li><a href="#config-status-0ax-y">./config.status: line 508: 0a1,66: comando não encontrado (ou qualquer mensagem semelhante com apenas números diferentes)</a></li>
+        <li><a href="#config-status-0ax-y">./config.status: line 508: 0a1,66: comando não encontrado (ou 
+        qualquer mensagem semelhante com apenas números diferentes)</a></li>
         <li><a href="#dev-null-as-cache">"configure: carregando cache /dev/null" em config.log</a></li>
       </ul>
       <h3><a href="#packerrors">Erros específicos de pacote</a></h3>
       <ul>
         <li><a href="#m4-mb-len-max-wrong">M4: Valor assumido de MB_LEN_MAX errado</a></li>
-        <li><a href="#systemd-user-credentials-esrch">Systemd: systemd-networkd.service: Falha ao determinar as credenciais de usuário(a): esse processo não existe</a></li>
+        <li><a href="#systemd-user-credentials-esrch">Systemd: systemd-networkd.service: Falha ao determinar 
+        as credenciais de usuário(a): esse processo não existe</a></li>
       </ul>
       <h3><a href="#confboot">Problemas de configuração e inicialização</a></h3>
       <ul>
@@ -67,64 +73,103 @@
 
           <p>Marc Heerdink possivelmente tenha dito isso melhor em uma postagem na lfs-dev:</p>
 
-          <blockquote><p>O problema é que o FAQ é um documento dinâmico. O FAQ para um lançamento de livro é lançado somente depois da versão do livro em si, porque o FAQ é atualizado para refletir as perguntas feitas acerca da versão atual do livro. Um link é melhor, pois você sempre terá as respostas mais atualizadas à mão.</p></blockquote>
+          <blockquote><p>O problema é que o FAQ é um documento dinâmico. O FAQ para um lançamento de livro é 
+          lançado somente depois da versão do livro em si, porque o FAQ é atualizado para refletir as 
+          perguntas feitas acerca da versão atual do livro. Um link é melhor, pois você sempre terá as 
+          respostas mais atualizadas à mão.</p></blockquote>
 
         </dd>
         <dt id="why-vim">Por que o vim está no livro?</dt>
         <dd>
 
-          <p>Isso é bastante bem discutido no tópico que começa <a href="https://lists.linuxfromscratch.org/sympa/arc/lfs-dev/2002-02/msg00019.html">neste post</a>.</p>
+          <p>Isso está bastante bem discutido no tópico que começa
+<a href = "https://lists.linuxfromscratch.org/sympa/arc/lfs-dev/2002-02/msg00019.html">nesta postagem</a>.</p>
 
         </dd>
         <dt id="why-not-package-management">Por que não existe nenhum gerenciador de pacotes no livro?</dt>
         <dd>
 
-          <p>O gerenciamento de pacotes – além daquele fornecido por tarballs e makefiles – está além do escopo do livro. Se nada mais acontecer, o número de "soluções" diferentes deveria sugerir alguns dos motivos.</p>
+          <p>O gerenciamento de pacotes – além daquele fornecido por tarballs e makefiles – está além do 
+          escopo do livro. Se nada mais acontecer, o número de "soluções" diferentes deveria sugerir alguns 
+          dos motivos.</p>
 
           <p>Aqui estão algumas das opções:</p>
           <ul>
 
-            <li>Nenhum gerenciamento de pacotes é realmente necessário. A menos que seja desejável monitorar minuciosamente o posicionamento do arquivo do pacote, qualquer pacote grande o suficiente para garantir a remoção por motivos de espaço em disco pode ser instalado em /opt, conforme detalhado pelo FHS (talvez em /opt/foo-x.x com um link a partir de /opt/foo), e novos lançamentos geralmente podem ser instalados sobre as antigos, embora as principais atualizações e bibliotecas geralmente sejam melhor feitas reconstruindo-se o sistema de baixo para cima.</li>
+            <li>Nenhum gerenciamento de pacotes é realmente necessário. A menos que seja desejável monitorar 
+            minuciosamente o posicionamento do arquivo do pacote, qualquer pacote grande o suficiente para 
+            garantir a remoção por motivos de espaço em disco pode ser instalado em /opt, conforme detalhado 
+            pelo FHS (talvez em /opt/foo-x.x com um link a partir de /opt/foo), e novos lançamentos 
+            geralmente podem ser instalados sobre as antigos, embora as principais atualizações e bibliotecas 
+            geralmente sejam melhor feitas reconstruindo-se o sistema de baixo para cima.</li>
 
-            <li>RPM, o Redhat Package Manager, é usado por diversas distribuições. Ele está disponível a partir de <a href="https://rpm.org/">https://rpm.org/</a> e existe uma <a href="../hints/downloads/files/">Dica do RPM</a> para ajudar com a instalação.</li>
+            <li>RPM, o Redhat Package Manager, é usado por diversas distribuições. Ele está disponível a 
+            partir de <a href = "https://rpm.org/">https://rpm.org/</a> e existe uma
+<a href = "../hints/downloads/files/">Dica do RPM</a> para ajudar com a instalação.</li>
 
             <li>Existem várias implementações de gerenciamento de pacotes no estilo de link simbólico:
             <ul>
-              <li>Graft está disponível a partir de <a href="https://peters.gormand.com.au/Home/tools">https://peters.gormand.com.au/Home/tools</a>.</li>
-              <li>GNU Stow está disponível a partir de <a href="https://www.gnu.org/software/stow/">https://www.gnu.org/software/stow/</a>.</li>
+              <li>Graft está disponível a partir de
+<a href = "https://peters.gormand.com.au/Home/tools">https://peters.gormand.com.au/Home/tools</a>.</li>
+              <li>GNU Stow está disponível a partir de
+<a href = "https://www.gnu.org/software/stow/">https://www.gnu.org/software/stow/</a>.</li>
             </ul>
             </li>
 
-            <li>The NetBSD package manager, pkgsrc, is available on other systems including Linux. It is at <a href="ftp://ftp.netbsd.org/pub/pkgsrc/stable/">ftp://ftp.netbsd.org/pub/pkgsrc/stable/</a>.</li>
+            <li>O gerenciador de pacotes do NetBSD, pkgsrc, está disponível em outros sistemas, incluindo 
+            Linux. Ele está em
+<a href="ftp://ftp.netbsd.org/pub/pkgsrc/stable/">ftp://ftp.netbsd.org/pub/pkgsrc/stable/</a>.</li>
 
-O gerenciador de pacotes do NetBSD, pkgsrc, está disponível em outros sistemas, incluindo Linux. Ele está em <a href="ftp://ftp.netbsd.org/pub/pkgsrc/stable/">ftp://ftp.netbsd.org/pub/pkgsrc/stable/</a>.</li>
+            <li>Originalmente baseado em um script escrito pelo próprio Gerard Beekmans do LFS, install-log 
+            registra uma lista de arquivos instalados por um pacote à medida que o pacote é instalado. Ele 
+            está disponível a partir de
+<a href="https://install-log.sourceforge.net/">https://install-log.sourceforge.net/</a>.</li>
 
-            <li>Originalmente baseado em um script escrito pelo próprio Gerard Beekmans do LFS, install-log registra uma lista de arquivos instalados por um pacote à medida que o pacote é instalado. Ele está disponível a partir de <a href="https://install-log.sourceforge.net/">https://install-log.sourceforge.net/</a>.</li>
+            <li>CheckInstall tenta registrar chamadas de sistema feitas por "make install". Ele está 
+            disponível a partir de
+<a href="https://asic-linux.com.mx/%7Eizto/checkinstall/">https://asic-linux.com.mx/~izto/checkinstall/</a>.</li>
 
-            <li>CheckInstall tenta registrar chamadas de sistema feitas por "make install". Ele está disponível a partir de <a href="https://asic-linux.com.mx/%7Eizto/checkinstall/">https://asic-linux.com.mx/~izto/checkinstall/</a>.</li>
+            <li>pkgutils, usado pela distribuição CRUX, está disponível a partir de
+<a href="https://crux.nu/Wiki/FaqPkgUtils">https://crux.nu/Wiki/FaqPkgUtils</a>.</li>
 
-            <li>pkgutils, usado pela distribuição CRUX, está disponível a partir de <a href="https://crux.nu/Wiki/FaqPkgUtils">https://crux.nu/Wiki/FaqPkgUtils</a>.</li>
-
-            <li>Existem algumas <a href="../hints/downloads/files/">dicas</a> disponíveis para gerenciadores de pacotes.</li>
+            <li>Existem algumas <a href="../hints/downloads/files/">dicas</a> disponíveis para gerenciadores 
+            de pacotes.</li>
 
           </ul>
 
-          <p>Se você tiver uma adição para a lista, por favor, envie uma mensagem eletrônica com o id dela, URL e outras informações para o(a) mantenedor(a) do FAQ ou para uma lista de discussão apropriada do LFS, de forma que ela possa ser adicionada aqui.</p>
+          <p>Se você tiver uma adição para a lista, por favor, envie uma mensagem eletrônica com o id dela, 
+          URL e outras informações para o(a) mantenedor(a) do FAQ ou para uma lista de discussão apropriada 
+          do LFS, de forma que ela possa ser adicionada aqui.</p>
 
         </dd>
         <dt id="no-poweroff">Como faço minha máquina desligar no término das atividades?</dt>
         <dd>
 
-          <p>Gerenciamento de Eletricidade é uma função do núcleo; você precisa habilitá-lo no núcleo. No núcleo 5.11, você tem de habilitar as opções para <code>ACPI (Advanced Configuration and Power Interface</code> sob <code>Power managerment and ACPI options</code>. Para máquinas x86 de 32 bits muito antigas, você provavelmente irá querer as opções de APM; máquinas mais novas geralmente exigem ACPI. Certifique-se de que ou APM ou ACPI esteja habilitado no núcleo, mas, definitivamente <strong>não</strong> ambos ao mesmo tempo - isso tem sido conhecido por causar problemas, tais como nenhum dos dois realmente tendo efeito. Tente também desabilitar o SMP se você tiver somente um processador; ele também impede um desligamento adequado. Certifique-se de ler a ajuda de cada opção.</p>
+          <p>Gerenciamento de Eletricidade é uma função do núcleo; você precisa habilitá-lo no núcleo. No 
+          núcleo 5.11, você tem de habilitar as opções para <code>ACPI (Advanced Configuration and Power 
+          Interface</code> sob <code>Power managerment and ACPI options</code>. Para máquinas x86 de 32 bits 
+          muito antigas, você provavelmente irá querer as opções de APM; máquinas mais novas geralmente 
+          exigem ACPI. Certifique-se de que ou APM ou ACPI esteja habilitado no núcleo, mas, definitivamente 
+          <strong>não</strong> ambos ao mesmo tempo - isso tem sido conhecido por causar problemas, tais como 
+          nenhum dos dois realmente tendo efeito. Tente também desabilitar o SMP se você tiver somente um 
+          processador; ele também impede um desligamento adequado. Certifique-se de ler a ajuda de cada 
+          opção.</p>
 
-          <p>Depois de reinicializar no novo núcleo, você deveria estar apto(a) a desligar tua máquina com o comando <code>shutdown -h now</code> ou <code>poweroff</code> (leia-se também <code>man shutdown</code> e <code>man halt</code>). Se você compilou APM ou ACPI como módulos, certifique-se de que eles estejam carregados antes de tentar desligar. Algumas máquinas exigem que o APM ou ACPI seja compilado no núcleo, porque ele [o APM ou o ACPI] precisa ser inicializado durante a inicialização.</p>
+          <p>Depois de reinicializar no novo núcleo, você deveria estar apto(a) a desligar tua máquina com o 
+          comando <code>shutdown -h now</code> ou <code>poweroff</code> (leia-se também <code>man 
+          shutdown</code> e <code>man halt</code>). Se você compilou APM ou ACPI como módulos, certifique-se 
+          de que eles estejam carregados antes de tentar desligar. Algumas máquinas exigem que o APM ou ACPI 
+          seja compilado no núcleo, porque ele [o APM ou o ACPI] precisa ser inicializado durante a 
+          inicialização.</p>
 
         </dd>
 
         <dt id="uefi">Como inicializo o LFS com UEFI?</dt>
         <dd>
 
-          <p>O GRUB pode ser construído para UEFI, mas fazer isso precisa de vários pacotes além do escopo do LFS. Você pode consultar <a href="/blfs/view/svn/postlfs/grub-efi.html">a página do BLFS para isso</a>.</p>
+          <p>O GRUB pode ser construído para UEFI, mas fazer isso precisa de vários pacotes além do escopo do 
+          LFS. Você pode consultar <a href="/blfs/view/svn/postlfs/grub-efi.html">a página do BLFS para 
+          isso</a>.</p>
 
         </dd>
 
@@ -132,18 +177,35 @@ O gerenciador de pacotes do NetBSD, pkgsrc, está disponível em outros sistemas
         <dd>
           <p>Resposta curta: não.</p>
  
-         <p>Resposta longa: queremos que o LFS seja "estabelecido": se algum pacote for reconstruído no sistema LFS, o resultado (bibliotecas e binários) deveria ser o mesmo que o resultado no final do livro do LFS. No Capítulo 6 as ferramentas são compiladas cruzadamente, onde muitos testes no script <code>configure</code> não conseguem ser feitos. O resultado "adivinhado" será usado, soluções alternativas desnecessárias serão habilitadas ou recursos opcionais serão desabilitados. As ferramentas no Capítulo 7 são construídas para resolver dependências circulares: muitos dos recursos opcionais delas dependem de pacotes ainda não construídos e tem de ser desabilitados. Portanto, reconstruí-las no Capítulo 8 é necessário.</p>
+          <p>Resposta longa: queremos que o LFS seja "estabelecido": se algum pacote for reconstruído no 
+          sistema LFS, o resultado (bibliotecas e binários) deveria ser o mesmo que o resultado no final do 
+          livro do LFS. No Capítulo 6 as ferramentas são compiladas cruzadamente, onde muitos testes no 
+          script <code>configure</code> não conseguem ser feitos. O resultado "adivinhado" será usado, 
+          soluções alternativas desnecessárias serão habilitadas ou recursos opcionais serão desabilitados. 
+          As ferramentas no Capítulo 7 são construídas para resolver dependências circulares: muitos dos 
+          recursos opcionais delas dependem de pacotes ainda não construídos e tem de ser desabilitados. 
+          Portanto, reconstruí-las no Capítulo 8 é necessário.</p>
 
-          <p>Por outro lado, se você estiver construindo o Linux para alguma plataforma realmente pequena onde você não consegue construir pacotes em um tempo razoável (por exemplo, um ARM de 16 MHz), você pode compilar cruzadamente tudo no Capítulo 6, já que os Capítulos 7 e 8 não são aplicáveis. Ou você pode fazer os Capítulos 7 e 8 com um emulador como o <a href="/blfs/view/stable/postlfs/qemu.html">QEMU</a>.</p>
+          <p>Por outro lado, se você estiver construindo o Linux para alguma plataforma realmente pequena 
+          onde você não consegue construir pacotes em um tempo razoável (por exemplo, um ARM de 16 MHz), você 
+          pode compilar cruzadamente tudo no Capítulo 6, já que os Capítulos 7 e 8 não são aplicáveis. Ou 
+          você pode fazer os Capítulos 7 e 8 com um emulador como o
+<a href="/blfs/view/stable/postlfs/qemu.html">QEMU</a>.</p>
 
         </dd>
         <dt id="get-rid-of-lib64">Posso modificar o código da GCC e me livrar do /lib64?</dt>
         <dd>
           <p>Resposta curta: não.</p>
  
-         <p>Resposta longa: o LSB impõe que o carregador de ELF esteja em /lib64/ld-linux-x86-64.so.2 no x86-64.</p>
+          <p>Resposta longa: o LSB impõe que o carregador de ELF esteja em /lib64/ld-linux-x86-64.so.2 no 
+          x86-64.</p>
 
-          <p>Resposta ainda mais longa: quando o núcleo é instruído a executar um executável ELF vinculado dinâmicamente, ele lê o caminho para o carregador de ELF rigidamente codificado no executável ELF, que é /lib64/ld-linux-x86-64.so.2. Portanto, se não existir, o LFS não será capaz de executar nenhum executável vinculado dinâmicamente compilado em outro lugar. Por exemplo, executáveis procedentes de pacotes de software comerciais (MATLAB ou COMSOL) ou binários baixados a partir da página de lançamento do GitHub não executarão.</p>
+          <p>Resposta ainda mais longa: quando o núcleo é instruído a executar um executável ELF vinculado 
+          dinamicamente, ele lê o caminho para o carregador de ELF rigidamente codificado no executável ELF, 
+          que é /lib64/ld-linux-x86-64.so.2. Portanto, se não existir, o LFS não será capaz de executar 
+          nenhum executável vinculado dinamicamente compilado em outro lugar. Por exemplo, executáveis 
+          procedentes de pacotes de software comerciais (MATLAB ou COMSOL) ou binários baixados a partir da 
+          página de lançamento do GitHub não executarão.</p>
 
         </dd>
       </dl>
@@ -154,24 +216,32 @@ O gerenciador de pacotes do NetBSD, pkgsrc, está disponível em outros sistemas
         <dt id="what-dist">Qual distribuição eu deveria usar para começar?</dt>
         <dd>
 
-          <p>A maioria das distribuições relativamente recentes deveria servir. Você poderia consultar <a href="/lfs/view/stable/chapter02/hostreqs.html">a página Requisitos do Sistema Anfitrião</a>.</p>
+          <p>A maioria das distribuições relativamente recentes deveria servir. Você poderia consultar
+<a href="/lfs/view/stable/chapter02/hostreqs.html">a página Requisitos do Sistema Anfitrião</a>.</p>
 
-          <p>Certifique-se de ter instalado e (ou) atualizado os pacotes de desenvolvimento. (Procure aqueles que começam com "gcc", "glibc" ou "libstdc++" ou terminam com "-dev" ou "-devel").</p>
+          <p>Certifique-se de ter instalado e (ou) atualizado os pacotes de desenvolvimento. (Procure aqueles 
+          que começam com "gcc", "glibc" ou "libstdc++" ou terminam com "-dev" ou "-devel").</p>
 
-          <p>Se você quiser usar o LFS como teu sistema principal e deseja instalá-lo sem primeiro instalar uma distribuição, também é possível usar uma imagem ao vivo em DVD ou pendrive. Todas as principais distribuições fornecem uma.</p>
+          <p>Se você quiser usar o LFS como teu sistema principal e deseja instalá-lo sem primeiro instalar 
+          uma distribuição, também é possível usar uma imagem ao vivo em DVD ou pendrive. Todas as principais 
+          distribuições fornecem uma.</p>
 
         </dd>
         <dt id="kernel-modules">Como eu compilo um núcleo ou configuro módulos?</dt>
         <dd>
 
-          <p>Em /usr/share/doc/linux-x.y.z ou onde quer que você desempacotou teu fonte do núcleo e a ajuda na ferramenta de configuração do núcleo (make menuconfig), veja-se o Module-HOWTO em <a href="https://www.tldp.org/HOWTO/Module-HOWTO/">https://www.tldp.org/HOWTO/Module-HOWTO/</a>.</p>
+          <p>Em /usr/share/doc/linux-x.y.z ou onde quer que você desempacotou teu fonte do núcleo e a ajuda 
+          na ferramenta de configuração do núcleo (make menuconfig), veja-se o Module-HOWTO em
+<a href="https://www.tldp.org/HOWTO/Module-HOWTO/">https://www.tldp.org/HOWTO/Module-HOWTO/</a>.</p>
 
         </dd>
         <dt id="gcc-warnings">Os avisos do compilador oriundos da GCC são ruins?</dt>
         <dd>
           <p>Resposta curta: não.</p>
 
-          <p>Resposta longa: provavelmente, mas somente para alguém que trabalha no pacote que você está tentando compilar. Na maioria das vezes, tudo ficará bem, a menos que o make termine com um erro.</p>
+          <p>Resposta longa: provavelmente, mas somente para alguém que trabalha no pacote que você está 
+          tentando compilar. Na maioria das vezes, tudo ficará bem, a menos que o make termine com um 
+          erro.</p>
 
           <p>Aqui está um exemplo:</p>
           <div class="cmd">
@@ -197,222 +267,255 @@ O gerenciador de pacotes do NetBSD, pkgsrc, está disponível em outros sistemas
                sk ~/tmp $</p>
           </div>
 
-          <p>Se você puder determinar que algum aviso indica um defeito real no software, informe o(a) mantenedor(a) do mesmo.</p>
+          <p>Se você puder determinar que algum aviso indica um defeito real no software, informe o(a) 
+          mantenedor(a) do mesmo.</p>
 
         </dd>
 
         <dt id="procs-lfs">Existem informações acerca de como construir o LFS em outros processadores?</dt>
         <dd>
 
-          <p>Para informações acerca de como construir o LFS para uma ampla variedade de sistemas, dê uma olhada na <a href="https://trac.clfs.org/wiki/read">ramificação Cross-LFS</a> do LFS.</p>
+          <p>Para informações acerca de como construir o LFS para uma ampla variedade de sistemas, dê uma 
+          olhada na <a href="https://trac.clfs.org/wiki/read">ramificação Cross-LFS</a> do LFS.</p>
 
-          <p>Para ARM, consulte a bifurcação do LFS para ARM (64 bits ou 32 bits) (<a href='https://clfs.org/~kb0iic/lfs-sysv'>SysV</a> e <a href='https://clfs.org/~kb0iic/lfs-systemd'>Systemd</a>), mantido por William Harrington; e outra ramificação ARM64 do LFS (somente 64 bits, <a href='https://www.linuxfromscratch.org/~xry111/lfs/view/arm64-systemd/'>Systemd</a> e <a href='https://www.linuxfromscratch.org/~xry111/lfs/view/arm64/'>SysV [NÃO TESTADO!]</a>), mantida por Xi Ruoyao.</p>
+          <p>Para ARM, consulte a bifurcação do LFS para ARM (64 bits ou 32 bits) (
+<a href='https://clfs.org/~kb0iic/lfs-sysv'>SysV</a> e
+<a href='https://clfs.org/~kb0iic/lfs-systemd'>Systemd</a>), mantido por William Harrington; e outra 
+          ramificação ARM64 do LFS (somente 64 bits,
+<a href='https://www.linuxfromscratch.org/~xry111/lfs/view/arm64-systemd/'>Systemd</a> e
+<a href='https://www.linuxfromscratch.org/~xry111/lfs/view/arm64/'>SysV [NÃO TESTADO!]</a>), mantida 
+          por Xi Ruoyao.</p>
 
         </dd>
-        <dt id="cross-compile">How do I cross compile LFS?</dt>
+        <dt id="cross-compile">Como eu compilo cruzadamente o LFS?</dt>
         <dd>
-          <p>It's often useful to compile LFS for one machine on another
-          machine. Say using that fast 1Ghz Athlon to build an install for an
-          old 486. While this is technically not cross compiling, binaries
-          compiled for the Athlon cannot be run on the 486 because binaries
-          compiled for the newer processor use features the older processor
-          doesn't have.</p>
-          <p>The LFS book specifically for cross compiling is the <a
-          href="https://trac.clfs.org/wiki/read">Cross-LFS</a> book.
-          Another source of information would be the <a
-          href="/hints/downloads/files/">cross-compiling hint</a>.</p>
-          <p>The resources provided above are quite outdated.  You can
-          modify the LFS building process after LFS 10.0 (developed
-          by Pierre Labestie) to cross compile LFS: set
-          <span>$LFS_TGT</span> to the triplet of your target platform,
-          and build cross toolchain in Chapter 5 and temporary tools in
-          Chapter 6 as normal.  At the end of Chapter 6, build a kernel and
-          a bootloader for the target.
-          Then copy the temporary system to the target platform, boot it,
-          and continue the building from Chapter 7.  Read clfs-ng branch
-(<a href='https://www.linuxfromscratch.org/~xry111/lfs/view/clfs-ng/'>SysV</a> and
-<a href='https://www.linuxfromscratch.org/~xry111/lfs/view/clfs-ng-systemd/'>Systemd</a>)
-          for details.
-</p>
+
+          <p>Frequentemente é útil compilar o LFS para uma máquina em outra máquina. Digamos usar aquele 
+          Athlon rápido de 1 Ghz para construir uma instalação para um 486 antigo. Embora isso tecnicamente 
+          não seja compilação cruzada, os binários compilados para o Athlon não podem ser executados no 486 
+          porque os binários compilados para o processador mais recente usam recursos que o processador mais 
+          antigo não tem.</p>
+
+          <p>O livro LFS especificamente para compilação cruzada é o livro
+<a href="https://trac.clfs.org/wiki/read">Cross-LFS</a>. Outra fonte de informações seria a
+<a href="/hints/downloads/files/">dica de compilação cruzada</a>.</p>
+
+          <p>Os recursos fornecidos acima estão bastante desatualizados. Você pode modificar o processo de 
+          construção do LFS depois do LFS 10.0 (desenvolvido por Pierre Labastie) para compilação cruzada do 
+          LFS: configure <span>$LFS_TGT</span> para o trio de tua plataforma alvo e construa o conjunto de 
+          ferramentas cruzadas no Capítulo 5 e ferramentas temporárias no Capítulo 6 normalmente. No final do 
+          Capítulo 6, construa um núcleo e um carregador de inicialização para o alvo. Em seguida, copie o 
+          sistema temporário para a plataforma alvo, inicialize-o e continue a construção a partir do 
+          Capítulo 7. Leia-se a ramificação clfs-ng (
+<a href='https://www.linuxfromscratch.org/~xry111/lfs/view/clfs-ng/'>SysV</a> e
+<a href='https://www.linuxfromscratch.org/~xry111/lfs/view/clfs-ng-systemd/'>Systemd</a>) para 
+          detalhes.</p>
+
         </dd>
-        <dt id="dos-text">What's a DOS format text file?</dt>
+        <dt id="dos-text">O que é um arquivo de texto no formato DOS?</dt>
         <dd>
-          <p>It has to do with the characters used to end lines.</p>
-          <p>There are two that may be used:</p>
+          <p>Tem a ver com os caracteres usados ​​para finalizar as linhas.</p>
+          <p>Existem dois que podem ser usados:</p>
           <ul>
-            <li>Line Feed: (LF) Octal:012 Decimal:10 Hex:0A C Style Escape:'\n' Moves down one line.</li>
-            <li>Carriage Return: (CR) Octal:015 Decimal:13 Hex:0D C Style Excape:'\r' Move to the left margin.</li>
+
+            <li>Alimentação de linha: (LF) Octal:012 Decimal:10 Hexadecimal:0A Escape no estilo C:'\n' Desce 
+            uma linha.</li>
+
+            <li>Retorno de carro: (CR) Octal:015 Decimal:13 Hexadecimal:0D Escape no estilo C:'\r' Move para 
+            a margem esquerda.</li>
+
           </ul>
-          <p>Unix, DOS, and MacOS each use a different combination to end lines in text files:</p>
+
+          <p>Unix, DOS e MacOS usam, cada um, uma combinação diferente para finalizar linhas em arquivos de 
+          texto:</p>
+
           <ul>
-            <li>Unix: LF only. This is why when a Unix format text file is sent to a printer raw, it prints out<br />
-                &nbsp;&nbsp;like<br />
-                &nbsp;&nbsp;&nbsp;&nbsp;stairs<br />
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;steps.<br /></li>
-            <li>DOS: CRLF both. Which is why if you do "cat -v" on a DOS file
-            you'll see a "^M" (control m is carriage return) at the end of each
-            line. And that is why scripts don't work when written with
-            Microsoft Notepad. The kernel looks for "/bin/sh^M" which doesn't
-            exist. There's a "/bin/sh", but nothing with a "^M" appended.</li>
-            <li>Classic MacOS (before Mac OS X): CR only. Printers probably
-            print every line atop the
-            first, and Unix tools think the whole file is one line with "^M"
-            all through it.  Mac OS X follows Unix convention (LF only).</li>
+
+            <li>Unix: apenas LF. É por isso que, quando um arquivo de texto no formato Unix é enviado para 
+            uma impressora raw, ela imprime<br />
+
+                &nbsp;&nbsp;como<br />
+                &nbsp;&nbsp;&nbsp;&nbsp;degraus de<br />
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;escadas.<br /></li>
+
+            <li>DOS: ambos, CRLF. É por isso que se você fizer "cat -v" em um arquivo DOS, verá um "^M" 
+            (control m é retorno de carro) no final de cada linha. E é por isso que os scripts não funcionam 
+            quando escritos com o Microsoft Notepad. O núcleo procura por "/bin/sh^M" que não existe. Existe 
+            um "/bin/sh", mas nada com um "^M" anexado.</li>
+
+            <li>MacOS clássico (antes do Mac OS X): somente CR. As impressoras provavelmente imprimem cada 
+            linha acima da primeira, e as ferramentas Unix pensam que o arquivo inteiro é uma linha com "^M" 
+            por toda parte. O Mac OS X segue a convenção Unix (somente LF).</li>
+
           </ul>
-          <p>To change DOS to Unix, use</p>
+          <p>Para mudar de DOS para Unix, use</p>
           <div class="cmd">
-            <p>cp &lt;fileid&gt; &lt;fileid&gt;.dos &amp;&amp;<br />
-               cat &lt;fileid&gt;.dos | tr -d '\r' &gt; &lt;fileid&gt;</p>
+            <p>cp &lt;idarquivo&gt; &lt;idarquivo&gt;.dos &amp;&amp;<br />
+               cat &lt;idarquivo&gt;.dos | tr -d '\r' &gt; &lt;idarquivo&gt;</p>
           </div>
-          <p>Or in <code>vim</code>, you can convert a file with <code>:set
-          ff={unix, dos, mac}</code>. Other conversions will probably require
-          sed or a different use of tr and are left as an exercise for the
-          reader.</p>
+
+          <p>Ou no <code>vim</code>, você consegue converter um arquivo com <code>:set ff={unix, dos, 
+          mac}</code>. Outras conversões provavelmente exigirão sed ou um uso diferente de tr e serão 
+          deixadas como exercício para o(a) leitor(a).</p>
+
         </dd>
-        <dt id="wget">Is there a way to download all current files at one time?</dt>
+        <dt id="wget">Existe uma maneira de baixar todos os arquivos atuais de uma vez?</dt>
         <dd>
-          <p>Yes. You can download the file LFS-BOOK-x.y-wget-list <a href=
-          "https://www.linuxfromscratch.org/lfs/downloads/stable/wget-list">
-          https://www.linuxfromscratch.org/lfs/downloads/stable/wget-list</a>. To download all the files,
-          use the version of <code>wget</code> on your host distribution to run:</p>
-          
+
+          <p>Sim. Você consegue baixar o arquivo LFS-BOOK-x.y-wget-list
+<a href="https://www.linuxfromscratch.org/lfs/downloads/stable/wget-list">https://www.linuxfromscratch.org/lfs/downloads/stable/wget-list</a>. 
+          Para baixar todos os arquivos, use a versão do <code>wget</code> na tua distribuição anfitriã para 
+          executar:</p>
+
           <code>wget --input-file=LFS-BOOK-x.y-wget-list</code>
 
         </dd>
       </dl>
-      <p><a href="#lfsfaq">Back to the top.</a></p>
+      <p><a href="#lfsfaq">Voltar para o topo.</a></p>
 
-      <h3 id="generrors">General compilation errors</h3>
+      <h3 id="generrors">Erros gerais de compilação</h3>
       <dl>
-        <dt id="optimizations">When using optimization flags (setting CFLAGS)</dt>
+        <dt id="optimizations">Quando usar sinalizadores de otimização (configurando a CFLAGS)</dt>
         <dd>
-          <p>If you're getting errors and you're setting CFLAGS or otherwise
-          passing optimization flags to the compiler that may be the
-          problem.</p>
-          <p>If you ask on the list and they can't figure it out immediately,
-          they'll likely suggest trying it without optimization. So if you just
-          retry it without before asking, you'll be one step ahead of them
-          :)</p>
-          <p>Of particular note is that optimizing binutils, gcc, or glibc may
-          cause any other package to fail to compile or run or to otherwise
-          misbehave in strange and mysterious ways. Also, optimization that
-          works for someone else may not work for you. Flags that used to work
-          may mysteriously stop working. Even some small innocent hardware
-          change can make the difference.</p>
-          <p>(If you don't know what optimization flags are, don't worry, you really don't need to.)</p>
+
+          <p>Se você estiver recebendo erros e estiver configurando CFLAGS ou, do contrário, passando 
+          sinalizadores de otimização para o compilador, esse possivelmente seja o problema.</p>
+
+          <p>Se você perguntar na lista e eles(as) não conseguirem descobrir imediatamente, provavelmente 
+          sugerirão tentar sem otimização. Portanto, se você apenas tentar novamente sem antes perguntar, 
+          estará um passo à frente deles(as) :)</p>
+
+          <p>Digno de observação é que a otimização de binutils, gcc ou glibc possivelmente faça com que 
+          qualquer outro pacote falhe para compilar ou executar ou, do contrário, se comporte mal de maneiras 
+          estranhas e misteriosas. Além disso, a otimização que funciona para outra pessoa possivelmente não 
+          funcione para você. Sinalizadores que costumavam funcionar possivelmente parem de funcionar 
+          misteriosamente. Mesmo algumas pequenas mudanças inocentes no hardware podem fazer a diferença.</p>
+
+          <p>(Se você não sabe o que são sinalizadores de otimização, não se preocupe, você realmente não 
+          precisa).</p>
+
         </dd>
-	<dt id="configure-errors">configure output shows errors, isn't "gcc -V" wrong?</dt>
+	<dt id="configure-errors">A saída gerada do configure mostra erros; "gcc -V" não está errado?</dt>
         <dd>
-	  <p>To determine what is present on the system, the configure scripts
-	  try various commands with various command line options. They then
-	  take actions depending on the exit code of the commands. Some
-	  of those commands may write error messages, and this is what you
-	  see, for example with "gcc -V". But the configure script itself
-	  has not failed.</p>
+
+	  <p>Para determinar o que está presente no sistema, os scripts de configuração tentam vários 
+	  comandos com várias opções de linha de comando. Eles então executam ações dependendo do código de 
+	  saída dos comandos. Alguns desses comandos podem escrever mensagens de erro, e é isso que você vê, 
+	  por exemplo, com "gcc -V". Mas o script de configuração em si não falhou.</p>
+
         </dd>
-        <dt id="config-ice">Why does GCC reports "Internal Compiler Error" for a "hello world" program?</dt>
+        <dt id="config-ice">Por que o GCC informa "Erro interno do compilador" para um programa "olá mundo"?</dt>
         <dd>
-          <p>You over optimized gcc.</p>
+          <p>Você superotimizou o gcc.</p>
         </dd>
-        <dt id="dirty-sources">I didn't delete the source tree after my last attempt. Do I need to?</dt>
+        <dt id="dirty-sources">Eu não excluí a árvore do fonte depois da minha tentativa mais recente. Eu preciso?</dt>
         <dd>
-          <p>Yes. In general <code>make clean</code> or <code>make
-          dist-clean</code> can't be relied upon for clean sources. Especially
-          when you have manually hacked the sources or applied patches to it
-          you should first try again with a fresh unpacked package. The only
-          exception to this rule is the linux kernel, which requires its
-          sources to be present when third-party modules, such as the NVidia
-          drivers, are needed.</p>
+
+          <p>Sim. Em geral, <code>make clean</code> ou <code>make dist-clean</code> não são confiáveis ​​para 
+          fontes limpos. Especialmente quando você hackeou manualmente os fontes ou aplicou remendos, você 
+          deveria primeiro tentar novamente com um novo pacote desempacotado. A única exceção a essa regra é 
+          o núcleo Linux, que exige que os fontes dele estejam presentes quando módulos de terceiros(as), 
+          como os controladores NVidia, são necessários.</p>
+
         </dd>
-        <dt id="perm-denied">I'm getting `/dev/null: Permission denied'</dt>
+        <dt id="perm-denied">Eu estou obtendo `/dev/null: Permissão negada'</dt>
         <dd>
-          <p>Does /dev/null look like this:</p>
+          <p>/dev/null se parece com isto:</p>
           <div class="cmd">
             <p>$ ls -l /dev/null<br />
                crw-rw-rw- 1 root root 1, 3 Aug  3  2000 /dev/null</p>
           </div>
-          <p>If not, it should. Refer to
-          <a href="#dev-null-as-cache">"configure: loading cache /dev/null"
-          in config.log</a>.
-          <p>If it does look right, the problem is probably your mount options.
-          See the answer to "<a
-          href="#bad-interpreter-permission-denied">./configure: bad
-          interpreter: Permission denied</a>", above.</p>
+
+          <p>Se não, deveria. Consulte-se
+<a href="#dev-null-as-cache">"configure: loading cache /dev/null" no config.log</a>.
+
+          <p>Se parecer certo, o problema provavelmente está nas tuas opções de montagem. Veja-se a resposta 
+          para
+"<a href="#bad-interpreter-permission-denied">./configure: mau intérprete: Permissão negada</a>", acima.</p>
+
         </dd>
-        <dt id="sig11">signal 11 (internal error: Segmentation fault)</dt>
+        <dt id="sig11">sinal 11 (erro interno: Falha de segmentação)</dt>
         <dd>
-          <p>The long answer is at <a
-          href="https://www.bitwizard.nl/sig11/">https://www.bitwizard.nl/sig11/</a>.</p>
-          <p>The short answer is that if restarting make gets a little further
-          every time, you have a hardware problem. (If make, or whatever you're
-          running, fails at the same place every time, then it is not
-          hardware.)</p>
-          <p>First, do not overclock the CPU too much.  Note that with an
-          Intel "K" (unlocked) CPU, even the default configuration of the
-          motherboard is generally already overclocking so you may need to
-          even <b>step back</b> from the default especially when the CPU
-          is below the average: the individual difference among all CPUs
-          of a same model can make a significant effect on the overclocking
-          capability so buying an unlocked CPU is some sort of gambling.</p>
-          <p>Assuming you're not overclocking, the most likely hardware problem
-          is bad memory which you can check with Memtest86+ from <a
-          href="https://www.memtest.org/">https://www.memtest.org/</a>.
-          <p>CPU overheating is another common hardware problem.  Ensure the
-          cooler is properly installed with thermal paste applied.  And,
-          some coolers (especially all-in-one liquid coolers) cannot be
-          configured via BIOS and they need kernel driver and/or special
-          software (for example,
-          <a href='https://github.com/liquidctl/liquidctl'>liquidctl</a>) to set
-          the parameters correctly.  If such a cooler is not properly
-          configured, it can run in a lower speed (or does not run at all).
-          If the cooler is already running at full speed but the CPU still
-          overheats, either upgrade the cooler, or downclock the CPU via
-          BIOS.</p>
-          <p>If both bad memory and CPU overheating can be ruled out, see the
-          long answer.</p>
+
+          <p>A resposta longa está em
+<a href="https://www.bitwizard.nl/sig11/">https://www.bitwizard.nl/sig11/</a>.</p>
+
+          <p>A resposta curta é que se a reiniciação do make for um pouco mais longe a cada vez, você tem um 
+          problema de hardware. (Se o make, ou o que quer que você esteja executando, falhar sempre no mesmo 
+          lugar, então não é hardware).</p>
+
+          <p>Primeiro, não faça overclock demais da CPU. Observe que, com uma CPU Intel "K" (desbloqueada), 
+          mesmo a configuração padrão da placa-mãe geralmente já está em overclock, de forma que você 
+          possivelmente precise até mesmo <b>retroceder</b> a partir do padrão, especialmente quando a CPU 
+          está abaixo da média: a diferença individual entre todas as CPUs de um mesmo modelo pode ter um 
+          efeito significativo na capacidade de overclock, portanto, comprar uma CPU desbloqueada é uma 
+          espécie de jogo.</p>
+
+          <p>Supondo que você não esteja fazendo overclock, o problema de hardware mais provável é memória 
+          ruim, que você consegue verificar com Memtest86+ oriundo de
+<a href="https://www.memtest.org/">https://www.memtest.org/</a>. <p>O superaquecimento da CPU é outro 
+          problema comum de hardware. Certifique-se de que o cooler esteja instalado corretamente com pasta 
+          térmica aplicada. E alguns coolers (especialmente coolers líquidos multifuncionais) não podem ser 
+          configurados via BIOS e precisam de controlador de núcleo e (ou) software especial (por exemplo,
+<a href='https://github.com/liquidctl/liquidctl'>liquidctl</a>) para configurar os parâmetros 
+          corretamente. Se esse cooler não estiver configurado corretamente, ele poderá funcionar em uma 
+          velocidade mais baixa (ou nem funcionar). Se o cooler já estiver funcionando em velocidade máxima, 
+          mas a CPU ainda superaquecer, atualize o cooler ou faça downclock da CPU via BIOS.</p>
+
+          <p>Se a memória ruim e o superaquecimento da CPU puderem ser descartados, veja-se a resposta 
+          longa.</p>
+
         </dd>
-        <dt id="chroot-no-such-file">"No such file or directory" trying to chroot</dt>
+        <dt id="chroot-no-such-file">“Esse arquivo ou diretório não existe” tentando fazer chroot</dt>
         <dd>
-          <p>Example of this error is:</p>
+          <p>Exemplo desse erro é:</p>
           <div class="cmd">
             <p>/usr/bin/env: /bin/bash: No such file or directory</p>
           </div>
-          <p>If you are sure $LFS/bin/bash exists,
-          what happens is likely that the path to the dynamic linker path
-          embedded inside the executable is /lib64/ld-linux-x86-64.so.2
-          (/lib/ld-linux.so.2 for 32-bit), and
-          when one goes to run the binary inside the chroot where
-          /lib64/ld-linux-x86-64.so.2 does not exist yet, the very unhelpful
-          <code>No such file or directory</code> error message is shown.</p>
-          <p>Check if the symlink $LFS/lib64/ld-linux-x86-64.so.2 (it should
-          target ../lib/ld-linux-x86-64.so.2, or ../lib/ld-linux.so.2 for
-          32-bit) and/or $LFS/lib (it should target usr/lib) are broken.
-          Note that these symlinks must be relative (i.e. it should be
-          ../lib/ld-linux-x86-64.so.2, <b>not</b>
-          $LFS/lib/ld-linux-x86-64-so.2) so they are still vaild in the
-          chroot environment.</p>
+
+          <p>Se você tem certeza de que $LFS/bin/bash existe, o que acontece provavelmente é que o caminho 
+          para o caminho do vinculador dinâmico incorporado no executável seja /lib64/ld-linux-x86-64.so.2 
+          (/lib/ld-linux.so.2 para 32 bits), e quando alguém vai executar o binário dentro do chroot onde 
+          /lib64/ld-linux-x86-64.so.2 ainda não existe, a mensagem de erro muito inútil
+<code>No such file or directory</code> é exibida.</p>
+
+          <p>Verifique se o link simbólico $LFS/lib64/ld-linux-x86-64.so.2 (deve ter como alvo 
+          ../lib/ld-linux-x86-64.so.2 ou ../lib/ld-linux.so.2 para 32 bits) e (ou) $LFS/lib (deveria ter como 
+          alvo usr/lib) estão quebrados. Observe que esses links simbólicos precisam ser relativos (ou seja, 
+          deveriam ser ../lib/ld-linux-x86-64.so.2, <b>não</b> $LFS/lib/ld-linux-x86-64-so.2), de forma que 
+          eles ainda sejam válidos no ambiente chroot.</p>
+
         </dd>
-        <dt id="configure-no-such-file">bash: ./configure: No such file or directory</dt>
+        <dt id="configure-no-such-file">bash: ./configure: Esse arquivo ou diretório não existe</dt>
         <dd>
-          <p>You forgot to <code>cd</code> into the extracted directory of the package after you've extracted it.</p>
+
+          <p>Você se esqueceu de mudar de diretório (<code>cd</code>) para dentro do diretório extraído do 
+          pacote depois de extraí-lo.</p>
+
         </dd>
-        <dt id="bad-interpreter-permission-denied">./configure: bad interpreter: Permission denied</dt>
+        <dt id="bad-interpreter-permission-denied">./configure: mau intérprete: Permissão negada</dt>
         <dd>
-          <p>You're most likely getting this while building binutils in Chapter
-          5 of the LFS Book. The problem is most likely your mount options. You
-          probably have a line in /etc/fstab like:</p>
+
+          <p>Você provavelmente está recebendo isso enquanto constrói binutils no Capítulo 5 do Livro LFS. O 
+          problema provavelmente está nas tuas opções de montagem. Você provavelmente tem uma linha no 
+          /etc/fstab como:</p>
+
           <code>/dev/sda10  /mnt/lfs  ext2  user  1  2</code>
-          <p>'user' is the mount flag, and it's the problem. To quote from the mount man page:</p>
-          <cite>user:  Allow  an  ordinary  user to mount the file system. This
-          option  implies  the options noexec, nosuid, and nodev (unless
-          overridden by subsequent options, as in the option line
-          user,exec,dev,suid).</cite>
-          <p>So change the line in /etc/fstab like this:</p>
+
+          <p>'user' é o sinalizador de montagem e é o problema. Para citar a página de manual do mount:</p>
+
+          <cite>user: Permitir que um(a) usuário(a) comum monte o sistema de arquivos. Essa opção implica as 
+          opções noexec, nosuid e nodev (a menos que substituídas por opções subsequentes, como na linha de 
+          opções user,exec,dev,suid).</cite>
+
+          <p>Portanto, mude a linha no /etc/fstab como isto:</p>
+
           <code>/dev/sda10  /mnt/lfs  ext2  defaults  1  2</code>
+
         </dd>
-        <dt id="conf-guess-fail">configure can't guess my host type.</dt>
+        <dt id="conf-guess-fail">configure não consegue adivinhar meu tipo de dispositivo.</dt>
         <dd>
-          <p>Typical symptoms look like this:</p>
+          <p>Sintomas típicos se parecem com isto:</p>
           <div class="cmd">
             <p>sk ~/tmp-0.0 $ ./configure<br />
                creating cache ./config.cache<br />
@@ -420,40 +523,47 @@ O gerenciador de pacotes do NetBSD, pkgsrc, está disponível em outros sistemas
                <strong>configure: error: can not guess host type; you must specify one</strong><br />
                sk ~/tmp-0.0 $</p>
           </div>
-          <p>The problem is usually that the script can't run the compiler.
-          Usually it's just a missing /usr/bin/cc symlink. You can fix it like
-          this:</p>
+
+          <p>O problema geralmente é que o conjunto de comandos sequenciais não consegue executar o 
+          compilador. Geralmente é apenas um link simbólico /usr/bin/cc ausente. Você consegue consertar isso 
+          assim:</p>
+
           <code>cd /usr/bin &amp;&amp; ln -s gcc cc</code>
-          <p>If that doesn't do it, check the file config.log created by
-          configure. Errors are recorded there and may indicate the
-          problem.</p>
+
+          <p>Se isso não funcionar, verifique o arquivo config.log criado pelo configure. Os erros são 
+          registrados lá e possivelmente indiquem o problema.</p>
+
         </dd>
-        <dt id="config-not-gnu-c">checking whether we are using GNU C... no</dt>
+        <dt id="config-not-gnu-c">verificando se estamos usando GNU C... não</dt>
         <dd>
-          <p>If you're getting an error from configure like:</p>
+          <p>Se você estiver recebendo um erro oriundo do configure como:</p>
           <div class="cmd">
-            <p>checking whether we are using GNU C... no<br />
-               configure: error: GNU libc must be compiled using GNU CC</p>
+            <p>verificando se estamos usando GNU C... não<br />
+               configure: erro: GNU libc precisa ser compilada usando GNU CC</p>
           </div>
-          <p>It may be because grep isn't working.
-          To test if grep is working in the chroot environment,
-          run the following command from <em>inside</em> chroot:</p>
+
+          <p>Pode ser porque o grep não está funcionando. Para testar se o grep está funcionando no ambiente 
+          chroot, execute o seguinte comando a partir <em>de dentro</em> do chroot:</p>
+
           <code>grep -E root /etc/passwd</code>
-          <p>If it doesn't print root's line from /etc/passwd, again, you have
-          a problem. (This test also works if you encounter the problem after
-          rebooting into the new LFS system.)</p>
+
+          <p>Se não imprimir a linha do root a partir do /etc/passwd, novamente, você tem um problema. (Esse 
+          teste também funciona se você encontrar o problema depois de reinicializar no novo sistema 
+          LFS).</p>
+
         </dd>
-        <dt id="no-ptys">The system has no more ptys.  Ask your system
-        administrator to create more.</dt>
+        <dt id="no-ptys">O sistema não tem mais ptys. Peça para o(a) administrador(a) do sistema criar mais.</dt>
         <dd>
-          <p>If it happens in the LFS chroot environment, ensure your host
-          kernel supports UNIX 98 pseudo terminal (all not-so-old desktop
-          or server distros should support it), and the virtual kernel
-          file systems have been mounted correctly before entering the
-          chroot environment.</p>
+
+          <p>Se isso acontecer no ambiente chroot do LFS, certifique-se de que teu núcleo do anfitrião 
+          suporta o pseudo terminal UNIX 98 (todas as distribuições de área de trabalho ou servidores não tão 
+          antigas deveriam suportá-lo) e que os sistemas de arquivos virtuais do núcleo tenham sido montados 
+          corretamente antes de entrar no ambiente chroot.</p>
+
           <p>If it happens in the complete system built following the SysV
           revision of the LFS book, it's likely you've missed the line for
           the <code>devpts</code> filesystem in <code>/etc/fstab</code>.
+
         </dd>
         <dt id="config-status-0ax-y">./config.status: line 508: 0a1,66: command not found (or any similar message with only numbers different)<dt>
         <dd>
