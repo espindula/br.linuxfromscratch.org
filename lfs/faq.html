@@ -120,9 +120,9 @@
             Linux. Ele está em
 <a href="ftp://ftp.netbsd.org/pub/pkgsrc/stable/">ftp://ftp.netbsd.org/pub/pkgsrc/stable/</a>.</li>
 
-            <li>Originalmente baseado em um script escrito pelo próprio Gerard Beekmans do LFS, install-log 
-            registra uma lista de arquivos instalados por um pacote à medida que o pacote é instalado. Ele 
-            está disponível a partir de
+            <li>Originalmente baseado em um conjunto de comandos sequenciais escritos pelo próprio Gerard 
+            Beekmans do LFS, install-log registra uma lista de arquivos instalados por um pacote à medida que 
+            o pacote é instalado. Ele está disponível a partir de
 <a href="https://install-log.sourceforge.net/">https://install-log.sourceforge.net/</a>.</li>
 
             <li>CheckInstall tenta registrar chamadas de sistema feitas por "make install". Ele está 
@@ -173,18 +173,19 @@
 
         </dd>
 
-        <dt id="rebuild-ch8">Posso ignorar um pacote do Capítulo 8, vez que ele já foi construído no Capítulo 6 ou 7 e está funcionando corretamente?</dt>
+        <dt id="rebuild-ch8">Posso ignorar um pacote do Capítulo 8, vez que ele já foi construído no Capítulo 
+        6 ou 7 e está funcionando corretamente?</dt>
         <dd>
           <p>Resposta curta: não.</p>
  
           <p>Resposta longa: queremos que o LFS seja "estabelecido": se algum pacote for reconstruído no 
           sistema LFS, o resultado (bibliotecas e binários) deveria ser o mesmo que o resultado no final do 
           livro do LFS. No Capítulo 6 as ferramentas são compiladas cruzadamente, onde muitos testes no 
-          script <code>configure</code> não conseguem ser feitos. O resultado "adivinhado" será usado, 
-          soluções alternativas desnecessárias serão habilitadas ou recursos opcionais serão desabilitados. 
-          As ferramentas no Capítulo 7 são construídas para resolver dependências circulares: muitos dos 
-          recursos opcionais delas dependem de pacotes ainda não construídos e tem de ser desabilitados. 
-          Portanto, reconstruí-las no Capítulo 8 é necessário.</p>
+          conjunto de comandos sequenciais <code>configure</code> não conseguem ser feitos. O resultado 
+          "adivinhado" será usado, soluções alternativas desnecessárias serão habilitadas ou recursos 
+          opcionais serão desabilitados. As ferramentas no Capítulo 7 são construídas para resolver 
+          dependências circulares: muitos dos recursos opcionais delas dependem de pacotes ainda não 
+          construídos e tem de ser desabilitados. Portanto, reconstruí-las no Capítulo 8 é necessário.</p>
 
           <p>Por outro lado, se você estiver construindo o Linux para alguma plataforma realmente pequena 
           onde você não consegue construir pacotes em um tempo razoável (por exemplo, um ARM de 16 MHz), você 
@@ -339,9 +340,9 @@
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;escadas.<br /></li>
 
             <li>DOS: ambos, CRLF. É por isso que se você fizer "cat -v" em um arquivo DOS, verá um "^M" 
-            (control m é retorno de carro) no final de cada linha. E é por isso que os scripts não funcionam 
-            quando escritos com o Microsoft Notepad. O núcleo procura por "/bin/sh^M" que não existe. Existe 
-            um "/bin/sh", mas nada com um "^M" anexado.</li>
+            (control m é retorno de carro) no final de cada linha. E é por isso que os conjuntos de comandos 
+            sequenciais não funcionam quando escritos com o Bloco de Notas da Microsoft. O núcleo procura por 
+            "/bin/sh^M" que não existe. Existe um "/bin/sh", mas nada com um "^M" anexado.</li>
 
             <li>MacOS clássico (antes do Mac OS X): somente CR. As impressoras provavelmente imprimem cada 
             linha acima da primeira, e as ferramentas Unix pensam que o arquivo inteiro é uma linha com "^M" 
@@ -398,10 +399,11 @@
 	<dt id="configure-errors">A saída gerada do configure mostra erros; "gcc -V" não está errado?</dt>
         <dd>
 
-	  <p>Para determinar o que está presente no sistema, os scripts de configuração tentam vários 
-	  comandos com várias opções de linha de comando. Eles então executam ações dependendo do código de 
-	  saída dos comandos. Alguns desses comandos podem escrever mensagens de erro, e é isso que você vê, 
-	  por exemplo, com "gcc -V". Mas o script de configuração em si não falhou.</p>
+	  <p>Para determinar o que está presente no sistema, os conjuntos de comandos sequenciais de 
+	  configuração tentam vários comandos com várias opções de linha de comando. Eles então executam 
+	  ações dependendo do código de saída dos comandos. Alguns desses comandos podem escrever mensagens 
+	  de erro, e é isso que você vê, por exemplo, com "gcc -V". Mas o conjunto de comandos sequenciais de 
+	  configuração em si não falhou.</p>
 
         </dd>
         <dt id="config-ice">Por que o GCC informa "Erro interno do compilador" para um programa "olá mundo"?</dt>
@@ -560,201 +562,207 @@
           antigas deveriam suportá-lo) e que os sistemas de arquivos virtuais do núcleo tenham sido montados 
           corretamente antes de entrar no ambiente chroot.</p>
 
-          <p>If it happens in the complete system built following the SysV
-          revision of the LFS book, it's likely you've missed the line for
-          the <code>devpts</code> filesystem in <code>/etc/fstab</code>.
+          <p>Se isso acontecer no sistema completo construído seguindo a revisão SysV do livro LFS, é 
+          provável que você tenha perdido a linha para o sistema de arquivos <code>devpts</code> no 
+          <code>/etc/fstab</code>.
 
         </dd>
-        <dt id="config-status-0ax-y">./config.status: line 508: 0a1,66: command not found (or any similar message with only numbers different)<dt>
+        <dt id="config-status-0ax-y">./config.status: line 508: 0a1,66: comando não encontrado (ou 
+        qualquer mensagem semelhante com apenas números diferentes)<dt>
         <dd>
-          <p>Check if <code>config.log</code> contains "configure: loading
-          cache /dev/null".  If it's the case, refer to
-          <a href='#dev-null-as-cache'>the entry for it</a>.
+
+          <p>Verifique se <code>config.log</code> contém "configure: carregando cache /dev/null". Se for o 
+          caso, consulte <a href='#dev-null-as-cache'>a entrada</a>.
+
         </dd>
-        <dt id="dev-null-as-cache">"configure: loading cache /dev/null" in
-        config.log</dt>
+        <dt id="dev-null-as-cache">"configure: carregando cache /dev/null" no config.log</dt>
         <dd>
-          <p>If it happens in the LFS chroot environment, it's likely you've
-          forgotten to bind mount <code>/dev</code> to <code>$LFS/dev</code> in
-          "Preparing Virtual Kernel File Systems".</p>
-          <p>Exit from the chroot environment first.  Then run
-          <code>ls -l /dev/null</code>.  It should output something like
-          <code>crw-rw-rw- 1 root root 1, 3 {some date} /dev/null</code>.
-          Especially, the first letter <code>c</code> and the numbers
-          <code>1, 3</code> must be correct.
-          If not, it means your host distro is somehow broken (it may happen
-          if you used the dangerous <code>rm -rf $LFS/*</code> command or
-          similar when <code>/dev</code> had been bind mounted).  For a modern host
-          distro it can be fixed by rebooting (a broken <code>/dev</code> may
-          prevent normal rebooting and you may need to use the reset button).
-          For a very old host distro, you may need to reinstall it (so why not
-          update to a modern one? :)</p>
-          <p>Now we've known the host distro is sane.  Make sure
-          <code>$LFS</code> is correctly set and the LFS partition is mounted
-          first.  Use <code>umount -R $LFS/dev</code> to unmount
-          <code>$LFS/dev</code> (in case you've mounted something wrong there),
-          then remove everything in <code>$LFS/dev</code> and follow the
-          "Preparing Virtual Kernel File Systems" section to mount
-          <code>$LFS/dev</code> and <code>$LFS/dev/pts</code> correctly.  Once
-          they are mounted, you can reenter the chroot environment and
-          continue.</p>
+
+          <p>Se isso acontecer no ambiente chroot do LFS, é provável que você tenha esquecido de montar 
+          <code>/dev</code> vinculado ao <code>$LFS/dev</code> em "Preparando Sistemas de Arquivos Virtuais 
+          do Núcleo".</p>
+
+          <p>Saia do ambiente chroot primeiro. Em seguida, execute <code>ls -l /dev/null</code>. Isso deveria 
+          gerar algo como <code>crw-rw-rw- 1 root root 1, 3 {alguma data} /dev/null</code>. Especialmente, a 
+          primeira letra <code>c</code> e os números <code>1, 3</code> precisam estar corretos. Caso 
+          contrário, significa que tua distribuição anfitriã está de alguma forma quebrada (isso 
+          possivelmente aconteça se você usou o perigoso comando <code>rm -rf $LFS/*</code> ou similar quando 
+          <code>/dev</code> foi montado vinculado). Para uma distribuição anfitriã moderna, isso pode ser 
+          corrigido reinicializando-se (um <code>/dev</code> quebrado possivelmente impeça a reinicialização 
+          normal e você possivelmente precise usar o botão reset). Para uma distribuição anfitriã muito 
+          antiga, você possivelmente precise reinstalá-la (então por que não atualizar para uma moderna? 
+          :)</p>
+
+          <p>Agora sabemos que a distribuição anfitriã está sã. Certifique-se de que <code>$LFS</code> esteja 
+          configurada corretamente e que a partição LFS seja montada primeiro. Use <code>umount -R 
+          $LFS/dev</code> para desmontar <code>$LFS/dev</code> (caso você tenha montado algo errado lá) e, 
+          então, remova tudo em <code>$LFS/dev</code> e siga a seção "Preparando Sistemas de Arquivos 
+          Virtuais do Núcleo" para montar <code>$LFS/dev</code> e <code>$LFS/dev/pts</code> corretamente. 
+          Depois que estiverem montados, você pode entrar novamente no ambiente chroot e continuar.</p>
+
         <dd>
       </dl>
-      <p><a href="#lfsfaq">Back to the top.</a></p>
+      <p><a href="#lfsfaq">Voltar para o topo.</a></p>
 
-      <h3 id="packerrors">Package-specific errors</h3>
+      <h3 id="packerrors">Erros específicos de pacote</h3>
       <dl>
-        <dt id="m4-mb-len-max-wrong">M4: Assumed value of MB_LEN_MAX wrong</dt>
+        <dt id="m4-mb-len-max-wrong">M4: Valor assumido de MB_LEN_MAX errado</dt>
         <dd>
-          <p>This error message usually indicates that <code>limits.h</code>
-          provided by GCC isn't including <code>limits.h</code> from Glibc
-          as it should be.  There is one command as a workaround for
-          <code>limits.h</code> in GCC Pass 1.  Do not forget to run the
-          command.</p>
-          <p>In LFS 10.0 through 11.3, there is another command as the
-          workaround running <code>mkheaders</code> after installing Glibc
-          (Chapter 5).  This command has been removed in LFS 12.0.  Either
-          running this command building LFS 12.0 or later (likely because of
-          a reuse of old scripts - note that such a reuse is strongly
-          discouraged) or forgetting this command building LFS 10.0 through
-          11.3 will also lead to this error message.</p>
-          <p>If you've encountered this issue, untar the GCC tarball again
-          and run the command at the bottom of GCC Pass 1 page to create
-          <code>limits.h</code>.  Then if you are building LFS 12.0 or
-          later, run <code>rm -f
-          $LFS/tools/lib/gcc/$LFS_TGT/*/include-fixed/limits.h</code> which
-          would fix the issue in case you've mistakenly run the
-          <code>mkheaders</code> command which does not belong to the LFS
-          version you are building.  If you are building LFS 11.0 through
-          11.3, run the <code>mkheaders</code> command in Chapter 5
-          Glibc.</p>
+
+          <p>Essa mensagem de erro geralmente indica que o <code>limits.h</code> fornecido pelo GCC não está 
+          incluindo o <code>limits.h</code> oriundo da Glibc como deveria. Existe um comando como solução 
+          alternativa para <code>limits.h</code> no GCC Passagem 1. Não se esqueça de executar o comando.</p>
+
+          <p>No LFS 10.0 até 11.3, existe outro comando como solução alternativa executando-se 
+          <code>mkheaders</code> depois de instalar a Glibc (Capítulo 5). Esse comando foi removido no LFS 
+          12.0. Executar esse comando construindo o LFS 12.0 ou posterior (provavelmente por causa do reuso 
+          de conjuntos de comandos sequenciais antigos - observe que tal reuso é fortemente desencorajado) ou 
+          esquecer esse comando construindo o LFS 10.0 a 11.3 também levará a essa mensagem de erro.</p>
+
+          <p>Se você tiver encontrado esse problema, desempacote o tarball do GCC novamente e execute o 
+          comando na parte inferior da página GCC Passagem 1 para criar o <code>limits.h</code>. Então, se 
+          você estiver construindo o LFS 12.0 ou posterior, execute <code>rm -f 
+          $LFS/tools/lib/gcc/$LFS_TGT/*/include-fixed/limits.h</code> que corrigiria o problema caso você 
+          tivesse erroneamente executado o comando <code>mkheaders</code> que não pertence à versão do LFS 
+          que você está construindo. Se você estiver construindo o LFS 11.0 até 11.3, execute o comando 
+          <code>mkheaders</code> na Glibc do Capítulo 5.</p>
+
         </dd>
 
-        <dt id="systemd-user-credentials-esrch">Systemd: systemd-networkd.service: Failed to determine user credentials: No such process</dt>
+        <dt id="systemd-user-credentials-esrch">Systemd: systemd-networkd.service: Falha ao determinar 
+        as credenciais de usuário(a): esse processo não existe</dt>
         <dd>
-          <p>It's likely because <code>/etc/passwd</code> for sysv revision
-          is misused in systemd-based system.  "No such process" is just the
-          "standard" error message for <code>ESRCH</code>, it's not very
-          helpful for diagnosis of this issue.</p>
+
+          <p>Provavelmente é porque <code>/etc/passwd</code> para revisão sysv seja mal usado em sistemas 
+          baseados em systemd. "Esse processo não existe" é apenas a mensagem de erro "padrão" para 
+          <code>ESRCH</code>; ela não é muito útil para o diagnóstico desse problema.</p>
+
         </dd>
       </dl>
-      <p><a href="#lfsfaq">Back to the top.</a></p>
+      <p><a href="#lfsfaq">Voltar para o topo.</a></p>
 
-      <h3 id="confboot">Configuration and booting issues</h3>
+      <h3 id="confboot">Problemas de configuração e inicialização</h3>
       <dl>
-        <dt id="unable-to-mount-root">Kernel panic - not syncing: VFS: Unable to mount root fs on ...</dt>
+        <dt id="unable-to-mount-root">Pânico de núcleo - não sincronizando: VFS: Não é possível montar o root fs em ...</dt>
         <dd>
-          <p>There are several reasons why the kernel might be unable to mount the root filesystem.</p>
+          <p>Existem várias razões pelas quais o núcleo estaria inapto para montar o sistema de arquivos raiz.</p>
           <ul>
-            <li>Did you specify the correct partition in
-            <code>/boot/grub/grub.cfg</code>?</li>
-            <li>Is support for the hard drive enabled in the kernel. For SCSI
-            this means support for the specific SCSI adapter.</li>
-            <li>Is support for the hard drive compiled into the kernel, not
-            just as a module. (Modules are stored on the filesystem. If a
-            driver needed to access the filesystem is stored as a module on
-            that filesystem, well ... you know ... ;)</li>
-            <li>Is support for the filesystem compiled into the kernel. Again,
-            not a module. Support for ext4 is enabled by default, but others
-            like reiser, jfs, and xfs are not.</li>
+
+            <li>Você especificou a partição correta em <code>/boot/grub/grub.cfg</code>?</li>
+
+            <li>O suporte para a unidade rígida está habilitado no núcleo? Para SCSI isso significa suporte 
+            para o adaptador específico SCSI.</li>
+
+            <li>O suporte para a unidade rígida está compilado internamente no núcleo, não apenas como um 
+            módulo? (Os módulos são armazenados no sistema de arquivos. Se um controlador necessário para 
+            acessar o sistema de arquivos for armazenado como um módulo nesse sistema de arquivos, bem... 
+            você sabe... ;)</li>
+
+            <li>O suporte para o sistema de arquivos está compilado internamente no núcleo? Novamente, não um 
+            módulo? O suporte para ext4 está habilitado por padrão, mas outros, como reiser, jfs e xfs, não 
+            estão.</li>
+
           </ul>
         </dd>
-        <dt id="respawning-too-fast">init: Id "1" respawning too fast: disabled for 5 minutes</dt>
+        <dt id="respawning-too-fast">init: Id &quot;1&quot; regerando muito rápido: desativado por 5 minutos</dt>
         <dd>
-          <p>When you see, in your syslogs, this line:</p>
+          <p>Quando você vir, em teus registros do sistema, esta linha:</p>
           <code>init: Id "1" respawning too fast: disabled for 5 minutes</code>
-          <p>It means you have an error in the /etc/inittab line beginning with the given id ("1" in this example).</p>
+          <p>Isso significa que você tem um erro na linha do /etc/inittab que começa com o id fornecido ("1" nesse exemplo).</p>
         </dd>
-        <dt id="eth0-unknown-interface">eth0:unknown interface:No such device [failed] </dt>
+        <dt id="eth0-unknown-interface">eth0:interface desconhecida:Não existe tal dispositivo [falhou]</dt>
         <dd>
-          <p>The full error looks like this:</p>
+          <p>O erro completo se parece com isto:</p>
           <div class="cmd">
             <p>eth0:unknown interface:No such device [failed]<br />
                Setting up default gateway...<br />
                SIOCADDRT:No such device [failed]</p>
           </div>
-          <p>eth0 is a virtual device with no /dev entry. It refers to the
-          first detected network card in your system. The reason the kernel
-          can't find this device is because you forgot to add support for your
-          network card in the kernel. The kernel detected the card but doesn't
-          have a driver for it. The LFS boot script tries to bring up the
-          network but fails because of this.</p>
-          <p>Recompile your kernel with the proper driver, either built in or
-          as a module. If you compiled the network driver as a module, then
-          also adjust /etc/modules.conf to alias the network card module as
-          eth0; for example: <code>alias eth0 8139too</code>. If you don't know
-          which network card you have, you can use <code>dmesg</code>,
-          /proc/pci or <code>lspci</code> to find out.</p>
-          <p>And, udev may rename your network devices.  For example, eth0
-          may be renamed to enp4s0.  You can run <code>ip link</code>
-          command after booting the LFS system, and examine the output to
-          know the name of your network devices.</p>
+
+          <p>eth0 é um dispositivo virtual sem entrada de /dev. Refere-se à primeira placa de rede de 
+          intercomunicação detectada em teu sistema. A razão pela qual o núcleo não consegue encontrar esse 
+          dispositivo é porque você se esqueceu de adicionar suporte para tua placa de rede de 
+          intercomunicação no núcleo. O núcleo detectou a placa, mas não tem um controlador para ela. O 
+          conjunto de comandos sequenciais de inicialização do LFS tenta ativar a rede de intercomunicação, 
+          mas falha por causa disso.</p>
+
+          <p>Recompile teu núcleo com o controlador apropriado, integrado ou como um módulo. Se você compilou 
+          o controlador de rede de intercomunicação como um módulo, então ajuste também o /etc/modules.conf 
+          para apelidar o módulo da placa de rede de intercomunicação como eth0; por exemplo: <code>alias 
+          eth0 8139too</code>. Se não souber qual placa de rede de intercomunicação tem, você pode usar 
+          <code>dmesg</code>, /proc/pci ou <code>lspci</code> para descobrir.</p>
+
+          <p>E o udev possivelmente renomeie teus dispositivos de rede de intercomunicação. Por exemplo, eth0 
+          possivelmente seja renomeado para enp4s0. Você pode executar o comando <code>ip link</code> depois 
+          de inicializar o sistema LFS e examinar a saída gerada para saber o nome dos teus dispositivos de 
+          rede de intercomunicação.</p>
+
         </dd>
-        <dt id="irq-nobody-cared">irq 9: nobody cared (try booting with the "irqpoll" option)</dt>
+        <dt id="irq-nobody-cared">IRQ 9: ninguém se importou (tente inicializar com a opção "irqpoll")</dt>
         <dd>
-          <p>It may be a bug in the firmware (BIOS) or the drivers in
-          kernel.  Some hardware vendors tend to use Windows-specific hacks
-          in their BIOS, which is misinterpreted by Linux kernel and causing
-          this kind of issue.</p>
-          <p>If you see message like this but your system functions
-          normally, you can ignore it.  If the system malfunctions, you can
-          try the combinations of several kernel options to workaround:
-          <code>irqpoll</code>, <code>noapic</code>, <code>pci=nocrs</code>,
-          and <code>i8042.nopnp=1</code>.</p>
-          <p>And, you can try <a href="https://wiki.archlinux.org/title/DSDT">ACPI DSDT override</a> if you
-          really understand it.</p>
-          <p>You can always report this kind of issue to
-          <a href="https://bugzilla.kernel.org">Kernel bug tracker</a>,
-          no matter if it's a BIOS bug.  The kernel developers want to make
-          Linux runable even if the BIOS has this kind of bug.</p>
+
+          <p>Possivelmente seja um defeito no firmware (BIOS) ou nos controladores no núcleo. Alguns(as) 
+          fornecedores(as) de hardware tendem a usar hacks específicos do Windows no BIOS deles(as), o que é 
+          mal interpretado pelo núcleo Linux e causa esse tipo de problema.</p>
+
+          <p>Se você vir uma mensagem como essa, mas teu sistema funcionar normalmente, você pode ignorá-la. 
+          Se o sistema funcionar erradamente, você pode tentar as combinações de várias opções do núcleo para 
+          contornar: <code>irqpoll</code>, <code>noapic</code>, <code>pci=nocrs</code> e 
+          <code>i8042.nopnp=1</code>.</p>
+
+          <p>E, pode tentar <a href="https://wiki.archlinux.org/title/DSDT">substituição DSDT da ACPI</a> se 
+          você realmente entendê-la.</p>
+
+          <p>Você sempre pode informar esse tipo de problema para
+<a href="https://bugzilla.kernel.org">rastreador de defeitos do Núcleo</a>, não importa se for um 
+          defeito de BIOS. Os(As) desenvolvedores(as) do núcleo querem tornar o Linux executável mesmo que o 
+          BIOS tenha esse tipo de defeito.</p>
+
         </dd>
-        <dt id="lfs-very-slow">LFS system is much slower than the host distro (or another distro)</dt>
+        <dt id="lfs-very-slow">O sistema LFS está muito mais lento que a distribuição anfitriã (ou outra distribuição)</dt>
         <dd>
-          <p>If the LFS system is slower than another distro but not much
-          slower, it's normal. We focus on building a Linux system from
-          source code and we do nothing to tweak the system for marginal
-          performance improvements.  The other distros may enable additional
-          compiler optimizations, tune kernel options (via sysctl), or use
-          other approaches to squeeze more performance out.  And, LFS uses
-          a latest GCC release which is likely slower than an old GCC
-          release.  A new GCC release often attempts to optimize the target
-          code more heavily (these optimizations will slow down the
-          compiliation, but hopefully make the compiled program faster).  So
-          LFS will take more time building a large package (like Linux
-          kernel).</p>
-          <p>But, if the LFS system is <b>very</b> slow (for example, takes
-          5 hours to build a kernel while the host distro needs only one
-          hour to build the same kernel with exactly same configuration),
-          it likely indicates a CPU dynamic frequency scaling issue.  You
-          can monitor the value of "cpu MHz" in <code>/proc/cpuinfo</code>
-          to see if your CPU is running at a reasonable frequency while a
-          workload (like, building the kernel) is running on the CPU.</p>
-          <p>If your CPU is running at a much lower frequency than expected
-          (an Intel Core i3 building the kernel but running at only 800 MHz
-          is definitely too slow), try to adjust the setting of "Default
-          CPUFreq governor" in the kernel configuration and rebuild the
-          kernel.  The ideal setting should limit the CPU at a low frequency
-          when the system is idle, but boost it to the maximum performance
-          while a workload is running.</p>
-          <p>Note that a governor may behave differently on different CPUs. 
-          For example, the "powersave" governor may work fine for one CPU
-          model, but lock another CPU at 800 MHz no matter if there is a
-          workload running.  If you can't (or don't want to spend too much
-          time to) find an ideal setting, use the "performance" governor.</p>
-          <p>On a modern Intel or AMD processor, the "energy performance
-          preference" may also have a significant impact on the performance
-          The default setting is usually "balance performance" which may
-          severely throttle down the performance, especially when the CPU
-          has many cores but only a few cores are utilized (for example,
-          when measuring the SBU with <code>make -j1</code> on a
-          Core i9-13900K). The easiest way to manange the energy performance
-          preference is via power-profiles-daemon, read
-          <a href='../blfs/view/svn/general/power-profiles-daemon.html'
-             >power-profiles-daemon (SysV)</a> or
-          <a href='../blfs/view/systemd/general/power-profiles-daemon.html'
-             >power-profiles-daemon (Systemd)</a> for how to install and
-          use it.  Alternatively you can try to change this setting via
-          the BIOS if a configuration entry is provided.</p>
+
+          <p>Se o sistema LFS estiver mais lento que outra distribuição, mas não muito mais lento, é normal. 
+          Nós focamos em construir um sistema Linux a partir do código-fonte e não fazemos nada para ajustar 
+          o sistema para melhorias marginais de desempenho. As outras distribuições possivelmente habilitem 
+          otimizações adicionais do compilador, ajustem opções do núcleo (via sysctl) ou usem outras 
+          abordagens para extrair mais desempenho. E o LFS usa um lançamento mais recente do GCC, que 
+          provavelmente é mais lento que um lançamento antigo do GCC. Um novo lançamento do GCC 
+          frequentemente tenta otimizar o código-alvo mais intensamente (essas otimizações desacelerarão a 
+          compilação, mas esperançosamente tornarão o programa compilado mais rápido). Portanto, o LFS levará 
+          mais tempo construindo um pacote grande (como o núcleo Linux).</p>
+
+          <p>Mas, se o sistema LFS estiver <b>muito</b> lento (por exemplo, levar 5 horas para construir um 
+          núcleo, enquanto a distribuição anfitriã precisa de somente uma hora para construir o mesmo núcleo 
+          com exatamente a mesma configuração), isso provavelmente indica um problema de escala de frequência 
+          dinâmica da CPU. Você consegue monitorar o valor de "cpu MHz" em <code>/proc/cpuinfo</code> para 
+          ver se tua CPU está executando em uma frequência razoável enquanto uma carga de trabalho (como 
+          construir o núcleo) está executando na CPU.</p>
+
+          <p>Se tua CPU estiver executando em uma frequência muito menor que a esperada (um Intel Core i3 
+          construindo o núcleo, mas executando a somente 800 MHz é definitivamente lento demais), tente 
+          ajustar a configuração de "Default CPUFreq governor" na configuração do núcleo e reconstrua o 
+          núcleo. A configuração ideal deveria limitar a CPU a uma frequência baixa quando o sistema estiver 
+          ocioso, mas aumentá-la para o desempenho máximo enquanto uma carga de trabalho estiver 
+          executando.</p>
+
+          <p>Observe que um regulador possivelmente se comporte diferentemente em CPUs diferentes. Por 
+          exemplo, o regulador "powersave" possivelmente funcione bem para um modelo de CPU, mas trave outra 
+          CPU em 800 MHz, não importando se existe uma carga de trabalho executando. Se você não conseguir 
+          (ou não quiser gastar muito tempo para) encontrar uma configuração ideal, use o regulador 
+          "performance".</p>
+
+          <p>Em um processador moderno Intel ou AMD, a "preferência de desempenho elétrico" também pode ter 
+          um impacto significativo no desempenho. A configuração padrão geralmente é "desempenho de 
+          equilíbrio", o que pode reduzir severamente o desempenho, especialmente quando a CPU tem muitos 
+          elementos de processamento, mas somente uns poucos elementos de processamento são utilizados (por 
+          exemplo, ao medir a UPC com <code>make -j1</code> em um Core i9-13900K). A maneira mais fácil de 
+          gerenciar a preferência de desempenho elétrico é por meio do power-profiles-daemon, leia-se
+<a href='../blfs/view/svn/general/power-profiles-daemon.html'>power-profiles-daemon (SysV)</a> ou
+<a href='../blfs/view/systemd/general/power-profiles-daemon.html'>power-profiles-daemon (Systemd)</a> 
+          para como instalá-lo e usá-lo. Alternativamente, você pode tentar mudar essa configuração por meio 
+          do BIOS se uma entrada de configuração for fornecida.</p>
+
         </dd>
       </dl>
 
