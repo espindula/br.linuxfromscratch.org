@@ -46,9 +46,9 @@
 
     <p>Os links no final de cada item apontam para detalhes mais 
     completos que tem links para os livros
-    em desenvolvimento <!-- mudar para 'lançados' quando links no 
-    consolidado forem mudados depois de um lançamento -->
-    .</p>
+    em desenvolvimento<!-- mudar para 'lançados' quando links no 
+    consolidado forem mudados depois de um lançamento -->.
+    </p>
 
     <!-- Depois de um lançamento, copiar para próxima versão do livro; 
      deixar somente coisas de modelo dentro disso; e observe que avisos 
@@ -68,7 +68,7 @@
     <p style="font-style: italic;">Atualizar a Glibc em um sistema LFS 
     em execução exige precauções extras para evitar quebrar o sistema.  
     As precauções estão documentadas em uma caixa "Importante" da seção 
-    do livro LFS para a Glibc.  Siga-as rigorosamente ou você poderá 
+    para a Glibc do livro LFS.  Siga-as rigorosamente ou você poderá 
     tornar o sistema completamente não usável.</p>
 
     -->
@@ -109,9 +109,32 @@
 
 <!-- fim de Expat -->
 
+    <h3>Glibc</h3>
+
+    <p style="font-style: italic;">Atualizar a Glibc a partir de uma 
+    versão anterior em um sistema LFS em execução exige precauções 
+    extras para evitar quebrar o sistema.  As precauções estão 
+    documentadas em uma caixa "Importante" da seção para a Glibc do 
+    livro LFS.  Siga-as rigorosamente ou você poderá tornar o sistema 
+    completamente não usável.</p>
+
+    <h4>12.1 037 Glibc Data: 2024-05-02  Gravidade: Alta</h4>
+
+    <p>Na Glibc 2.39 e anteriores, existe uma vulnerabilidade em um 
+    módulo iconv que pode permitir uma execução remota de código por 
+    intermédio de serviços de rede em execução no sistema.  Uma 
+    exploração por meio de aplicativos da web baseados em PHP foi 
+    demonstrada.  E existem quatro vulnerabilidades no Name Service 
+    Cache Daemon (NSCD) da Glibc.</p>
+
+    <p>Por favor, leia-se o link para corrigir essas vulnerabilidades:
+    <a href="https://www.linuxfromscratch.org/blfs/advisories/consolidated.html#sa-12.1-037">12.0-037</a></p>
+
+<!-- fim de Glibc -->
+
     <h3>Núcleo Linux</h3>
-    <a id="sa-11.1-011"/>
-    <h4>11.1 011 Núcleo Linux (LFS)  Data: 2022-03-15  Gravidade: Média</h4>
+    <a id="sa-12.1-029">
+    <h4>12.1 029 Núcleo Linux (LFS)  Data: 2024-04-17  Gravidade: Média</h4>
     <p>No Linux-6.8.5, uma mitigação insuficiente contra a 
     vulnerabilidade de hardware conhecida como Branch History Injection, 
     ou BHI (veja-se
