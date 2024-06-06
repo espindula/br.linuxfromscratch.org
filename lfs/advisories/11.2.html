@@ -1,0 +1,263 @@
+<!--#set var="pageTitle" value="LFS 11.2 Security Advisories" -->
+<!--#include virtual="/lfs/header.html" -->
+<!--#include virtual="/lfs/menu.html" -->
+    <div class="main">
+
+    <h2>LFS Security Advisories for LFS 11.2 and the current development books.</h2>
+
+    <a id="LFS11.2"/>
+    <p>LFS-11.2 was released on 2022-09-01</p>
+
+     <!-- Editors: Do not remove this entry, just comment it out. -->
+
+   <!--
+     <ul>
+       <li>There are currently no known security vulnerabilities for LFS-11.2.</li>
+     </ul>
+    -->
+
+    <!-- Editors: do the consolidated file first, to get the next number.
+         Checking what you have prepared is easier if you can create symlinks
+         in the directory where you put the books' html so that you can see
+         the LFS and BLFS advisories in your browser. -->
+
+<!--
+    <p style="font-style: italic;">This page is in alphabetical order of packages,
+    and if a package has multiple advisories the newer come first.</p>
+
+    <p> The links at the end of each item point to fuller details which have
+    links to the
+    development <!\-\- change to 'released' when links in consolidated are changed
+    after a release \-\->
+    books.</p>-->
+
+    <!-- After a release, copy for next book version, leave just template stuff
+     in that, and note
+     that later advisories will be in the [next release] version -->
+
+    <!-- Editors - do the consolidated page first, to get the next advisory number -->
+
+    <!-- previous glibc text retained as comment, because it is special for
+    rebuilding
+    <h3>Glibc</h3>
+
+    <p style="font-style: italic;">In LFS the only safe way to update Glibc is to
+    build a new system.</p>
+
+    <h4>10.1 NNN Glibc (LFS)  Date: 2021-02-07  Severity: High</h4>
+
+    <p>In Glibc before 2.33 there are four vulnerabilities in iconv which can lead
+    to a crash when processing less-common character encodings.</p>
+
+    <p>Please read the link to assess the severity of this for your use
+    case, and what action to take.
+    <a href="../../blfs/advisories/consolidated.html#10.1-NNN">sa-10.1-NNN</a></p>
+
+    <!\-\- End of Glibc -->
+
+   <!-- start of template
+
+    <h3>PackageName</h3>
+
+    <h4>11.2 NNN PackageName (LFS)  Date: 2022-09-01  Severity: Low</h4>
+    <p>Breif details here. See
+    <a href=i"../../blfs/advisories/consolidated.html#sa-11.2-NNN">11.2-NNN</a></p>
+
+    <!\-\- End of PackageName -->
+    <!-- End of template -->
+
+    <h3>dbus</h3>
+
+    <a id="sa-11.2-018"/>
+    <h4>11.2 018 dbus (LFS and BLFS)    Date: 2022-10-28 Severity: Medium</h4>
+    <p>In dbus-1.14.4, three security vulnerabilities were fixed that could
+    allow for unprivileged attackers to cause denial-of-service conditions
+    (system dbus-daemon crashes, as well as crashes of any programs which
+    use the libdbus library). Update to dbus-1.14.4 or later.
+    <a href="../../bifs/advisories/consolidated.html#sa-11.2-018">11.2-018</a></p>
+
+<!-- end of dbus -->
+
+    <h3>e2fsprogs</h3>
+
+    <a id="sa-11.2-083"/>
+    <h4>11.2 083 e2fsprogs (LFS)        Date: 2023-02-07  Severity: High</h4>
+    <p>In e2fsprogs-1.46.6, a security vulnerability was fixed that could allow
+    for arbitrary code execution or segmentation faults when mounting or
+    checking a specially crafted filesystem. Update to e2fsprogs-1.46.6.
+    <a href="../../blfs/advisories/consolidated.html#sa-11.2-083">11.2-083</a></p>
+
+<!-- end of e2fsprogs -->
+
+    <h3>Expat</h3>
+
+    <a id="sa-11.2-030"/>
+    <h4>11.2 030 Expat                  Date: 2022-11-01 Severity: High</h4>
+    <p>In expat-2.5.0, a security vulnerability was fixed that could allow for
+    arbitrary code execution or denial of service when a system is running
+    low on memory while processing a DTD. Update to expat-2.5.0.
+    <a href="../../blfs/advisories/consolidated.html#sa-11.2-030">11.2-030</a></p>
+
+    <a id="sa-11.2-009"/>
+    <h4>11.2 009 Expat                  Date: 2022-09-23 Severity: Critical</h4>
+    <p>In expat-2.4.9, a critical security vulnerability was fixed in the
+    doContent function that could allow for arbitrary code execution or
+    denial of service. Update to expat-2.4.9 immediately.
+    <a href="../../blfs/advisories/consolidated.html#sa-11.2-009">11.2-009</a></p>
+
+<!-- end of Expat -->
+
+    <h3>Glibc</h3>
+
+    <p style="font-style: italic;">In LFS the only safe way to update Glibc is to
+    build a new system.</p>
+
+    <h4>11.2 075 Glibc (LFS)  Date: 2021-02-07  Severity: High</h4>
+
+    <p>In Glibc 2.36 there is a vulnerability in <code>syslog</code> function
+    which may leak sensitive information into system journal if a very long
+    (&gt; 1024 bytes) message is passed.</p>
+
+    <p>Please read the link to assess the severity of this for your use
+    case, and what action to take.
+    <a href="../../blfs/advisories/consolidated.html#sa-11.2-075">11.2-075</a></p>
+
+    <!-- End of Glibc -->
+
+    <h3>Inetutils</h3>
+
+    <a id="sa-11.2-031"/>
+    <h4>11.2 031 Inetutils (LFS)        Date: 2022-11-01 Severity: High</h4>
+    <p>In inetutils-2.4, two security vulnerabilities were fixed that could
+    allow for denial of service or remote code execution. Note that additional
+    bugfixes were implemented as well which fix crashes with the 'ftp' and
+    'tftp' programs. Update to inetutils-2.4 if you use telnet, telnetd, ftp,
+    or tftp.
+    <a href="../../blfs/advisories/consolidated.html#sa-11.2-031">11.2-031</a></p>
+
+<!-- end of Inetutils -->
+
+    <h3>Linux Kernel</h3>
+
+    <a id="sa-11.2-081"/>
+    <h4>11.2 081 Linux Kernel (LFS)     Date: 2023-02-07 Severity: High</h4>
+    <p>In Linux-6.1.9 (and Linux-5.15.91), three security vulnerabilities were
+    fixed in the Netfilter subsystem, NTFS3 driver, and IPv6 subsystem that
+    could allow for full system crashes, privilege escalation, remote code
+    execution, and heap/stack address leakage. Update to Linux-6.1.9 or
+    Linux-5.15.91 (LTS) if you use IPv6, NTFS3, or Netfilter.
+    <a href="../../blfs/advisories/consolidated.html#sa-11.2-081">11.2-081</a></p>
+
+    <a id="sa-11.2-070"/>
+    <h4>11.2 070 Linux Kernel (LFS)     Date: 2023-01-19 Severity: Critical</h4>
+    <p>In Linux-6.1.6 (and Linux-5.15.89), several security vulnerabilities were
+    fixed in a variety of subsystems, including drivers, core networking,
+    multimedia, /proc filesystem, networking daemons, and the sysctl subsystem.
+    Update to Linux-6.1.6 or Linux-5.15.89 (LTS) immediately.
+    <a href="../../blfs/advisories/consolidated.html#sa-11.2-070">11.2-070</a></p>
+
+    <a id="sa-11.2-049"/>
+    <h4>11.2 049 Linux Kernel (LFS)     Date: 2022-12-04 Severity: Medium</h4>
+    <p>In Linux-6.0.11, a security vulnerability was fixed, which affects
+    12th gen intel processors integrated graphics. It allows an attacker
+    to get unauthorized access to physical memory through the GPU.  Update to
+    Linux-6.0.11 or Linux-5.15.81 (LTS).
+    <a href="../../blfs/advisories/consolidated.html#sa-11.2-049">11.2-049</a></p>
+
+    <a id="sa-11.2-047"/>
+    <h4>11.2 047 Linux Kernel (LFS)     Date: 2022-11-23 Severity: Medium</h4>
+    <p>In Linux-6.0.8, three security vulnerabilities were fixed including one
+    that allows local unprivileged attackers to cause a kernel panic (and
+    potential arbitary code execution if KASLR is disabled or bypassed) with
+    a malicious USB device.  Update to Linux-6.0.8 or Linux-5.15.78 (LTS).
+    <a href="../../blfs/advisories/consolidated.html#sa-11.2-047">11.2-047</a></p>
+
+    <a id="sa-11.2-029"/>
+    <h4>11.2 029 Linux Kernel (LFS)     Date: 2022-11-01 Severity: Medium</h4>
+    <p>In Linux-6.0.6, a security vulnerability was fixed that allows local
+    unprivileged attackers to cause a kernel panic when using an ext4
+    filesystem. Update to Linux-6.0.6 or Linux-5.15.76 (LTS).
+    <a href="../../blfs/advisories/consolidated.html#sa-11.2-029">11.2-020</a></p>
+
+    <a id="sa-11.2-016"/>
+    <h4>11.2 016 Linux Kernel (LFS)     Date: 2022-10-28 Severity: Critical</h4>
+    <p>In Linux-6.0.2, several security vulnerabilities were fixed that could
+    allow for denial of service, arbitrary code execution (especially when
+    using WiFi networks), and the ability to read memory from anywhere on the
+    system. Update to Linux-6.0.2 or Linux-5.15.75 (LTS) immediately.
+    <a href="../../blfs/advisories/consolidated.html#sa-11.2-016">11.2-016</a></p>
+
+<!-- end of Linux Kernel -->
+
+    <h3>OpenSSL</h3>
+
+    <a id="sa-11.2-082"/>
+    <h4>11.2 082 OpenSSL (LFS)          Date: 2023-02-07  Severity: High</h4>
+    <p>In OpenSSL-3.0.8, eight security vulnerabilities were fixed that could
+    allow for leakage of sensitive information, denial of service, plaintext
+    data recovery, and more. Update to OpenSSL-3.0.8 (or 1.1.1t on older
+    systems, such as LFS 11.1) <em>immediately on all systems which have
+    OpenSSL installed.</em>
+    <a href="../../blfs/advisories/consolidated.html#sa-11.2-082">11.2-082</a></p>
+
+    <a id="sa-11.2-032"/>
+    <h4>11.2 032 OpenSSL (LFS)          Date: 2022-11-01 Severity: High</h4>
+    <p>In OpenSSL-3.0.7, three security vulnerabilities were fixed which could
+    allow for remote code execution, denial of service, and for NULL encryption.
+    Update to OpenSSL-3.0.7 immediately on <em>ANY</em> system which has
+    OpenSSL-3 installed.
+    <a href="../../blfs/advisories/consolidated.html#sa-11.2-032">11.2-032</a></p>
+
+<!-- end of OpenSSL -->
+
+    <h3>Python3</h3>
+
+    <a id="sa-11.2-060"/>
+    <h4>11.2 060 Python3 (LFS and BLFS) Date: 2022-12-26 Severity: High or Critical</h4>
+    <p>In Python-3.11.1 five vulnerabilities were fixed, with one rated as High.
+    Because updating from an old Python3 series to a new one requires rebuilding all
+    the modules, if you are remaining on Python-3.10 you should update to Python-3.10.9
+    which includes a Critical fix as well as an additional fix rated as High and already
+    fixed in 3.11.0. Update to 3.11.1 or later, or 3.10.9 or later as appropriate.
+    <a href="../../blfs/advisories/consolidated.html#sa-11.2-060">11.2-060</a></p>
+
+    <a id="sa-11.2-021"/>
+    <h4>11.2 021 Python3 (LFS and BLFS) Date: 2022-10-28 Severity: High</h4>
+    <p>In Python-3.10.8, three security vulnerabilities were fixed that could
+    allow for integer overflows, shell code injection, and unsafe text
+    injection when some modules are used. Update to Python-3.10.8 or later.
+    <a href="../../blfs/advisories/consolidated.html#sa-11.2-021">11.2-021</a></p>
+
+    <a id="sa-11.2-005"/>
+    <h4>11.2 005 Python3 (LFS and BLFS) Date: 2022-09-14 Severity: High</h4>
+    <p>In Python-3.10.7, a security vulnerability was fixed that could allow
+    for a denial of service (application crash) due to algorithmic complexity.
+    Update to Python-3.10.7 or later.
+    <a href="../../blfs/advisories/consolidated.html#sa-11.2-005">11.2-005</a></p>
+
+<!-- end of Python3 -->
+
+    <h3>systemd</h3>
+
+    <a id="sa-11.2-061"/>
+    <h4>11.2 061 systemd (LFS and BLFS) Date: 2022-12-28 Severity: High</h4>
+    <p>In systemd-241 and higher, a security vulnerability was discovered that
+    could allow for a local information leak and privilege escalation due to
+    systemd-coredump not respecting a kernel option. Rebuild systemd with the
+    patch.
+    <a href="../../blfs/advisories/consolidated.html#sa-11.2-061">11.2-061</a></p>
+
+<!-- end of systemd -->
+
+    <h3>zlib</h3>
+
+    <a id="sa-11.2-036"/>
+    <h4>11.2 036 zlib (LFS)             Date: 2022-11-09 Severity: Critical</h4>
+    <p>In zlib-1.2.13, a security vulnerability was fixed that could allow for
+    trivial arbitrary code execution due to a buffer-overflow when calling
+    inflateGetHeader. Update to zlib-1.2.13 immediately and take note of the
+    special instructions for stripping.
+    <a href="../../blfs/advisories/consolidated.html#sa-11.2-036">11.2-036</a></p>
+
+<!-- end of zlib -->
+<!--#include virtual="/common/footer.html" -->

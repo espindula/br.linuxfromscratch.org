@@ -1,0 +1,29 @@
+Updating after a new release of the books:
+
+In LFS,
+
+1. update index.html -
+
+1.1 Copy the top parts to create headings for the version just released, up
+    until the next version and increment the version in what will be the new
+    link (both in the href and in the displayed link).
+
+1.2 For the previous link, change 'is released' to 'was released'.
+
+2. Copy the current 12.N.html for the new version, then edit it:
+
+2.1 Increment the id (index.html links to this).
+
+2.2 Change the first line to LFS-NN.N was released on CCYY-MM-DD with the
+    correct version and date.
+
+2.3 Remove most of the entries - keep one commented as a reminder of what to
+    put here, and keep a commented glibc item because of the different text
+    about updating.
+
+2.4 Uncomment the 'There are currently no known security vulnerabilities for lfs-NN.N'.
+
+Review, add new page, commit.
+
+
+

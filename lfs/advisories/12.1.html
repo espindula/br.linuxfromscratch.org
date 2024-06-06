@@ -1,0 +1,112 @@
+<!--#set var="pageTitle" value="LFS 12.0 Security Advisories" -->
+<!--#include virtual="/lfs/header.html" -->
+<!--#include virtual="/lfs/menu.html" -->
+    <div class="main">
+
+    <h2>LFS Security Advisories for LFS 12.1 and the current development books.</h2>
+
+    <a id="LFS12.1"/>
+    <p>LFS-12.1 was released on 2024-03-01</p>
+
+<!--
+    <h3>D-Bus (systemd only)</h3>
+
+    <a id="sa-11.3-041"/>
+    <h4>11.3 041 D-Bus (LFS and BLFS)     Date: 2023-06-17  Severity: High</h4>
+    <p>In dbus-1.14.8, a security vulnerability was fixed that could allow for
+    an unprivileged user to cause a denial-of-service (system message bus
+    daemon crash) by sending an unreplyable message when an administrator is
+    monitoring the dbus daemon. Update to dbus-1.14.8 or later.
+    <a href="consolidated.html#sa-11.3-041">11.3-041</a></p>
+
+<!-\- end of D-Bus -\->
+-->
+
+     <!-- Editors: Do not remove this entry, just comment it out. -->
+
+    <ul>
+       <li>There are currently no known security vulnerabilities for LFS-12.1.</li>
+    </ul>
+
+    <!-- Editors: do the consolidated file first, to get the next number.
+         Checking what you have prepared is easier if you can create symlinks
+         in the directory where you put the books' html so that you can see
+         the LFS and BLFS advisories in your browser. -->
+
+
+    <p style="font-style: italic;">This page is in alphabetical order of packages,
+    and if a package has multiple advisories the newer come first.</p>
+
+    <p> The links at the end of each item point to fuller details which have
+    links to the
+    development <!-- change to 'released' when links in consolidated are changed
+    after a release -->
+    books.</p>
+
+    <!-- After a release, copy for next book version, leave just template stuff
+     in that, and note
+     that later advisories will be in the [next release] version -->
+
+    <!-- Editors - do the consolidated page first, to get the next advisory number -->
+
+    <!--
+    <h3>Glibc</h3>
+
+    <p style="font-style: italic;"><del>In LFS the only safe way to update Glibc
+    is to build a new system, but reinstall the same Glibc version with
+    patches provided in security advisories should be safe.</del></p>
+
+    <p style="font-style: italic;">Updating Glibc on a running LFS system
+    requires extra precautions to avoid breaking the system.  The
+    precautions are documented in an "Important" box of the LFS book section
+    for Glibc.  Follow it strictly or you may render the system completely
+    unusable.</p>
+    -->
+    
+   <!-- start of template
+
+    <h3>PackageName</h3>
+
+    <h4>11.2 NNN PackageName (LFS)  Date: 2022-09-01  Severity: Low</h4>
+    <p>Breif details here. See
+    <a href=i"../../blfs/advisories/consolidated.html#sa-11.2-NNN">11.2-NNN</a></p>
+
+    <!\-\- End of PackageName -->
+    <!-- End of template -->
+
+    <!--
+    <h3>Coreutils</h3>
+
+    <h4>12.0 075 Coreutils (LFS)  Date: 2024-01-21  Severity: Medium</h4>
+    <p>In Coreutils-9.4, a security vulnerability was found in the split
+    program. A heap overflow may potentially leading to an application crash
+    and denial of service.
+    <a href="../../blfs/advisories/consolidated.html#sa-12.0-075">12.0-075</a></p>
+    -->
+    
+    <h3>Expat</h3>
+
+    <a id="sa-12.1-010"/>
+    <h4>12.1 010 Expat (LFS)      Date: 2024-03-20  Severity: Medium</h4>
+    <p>In Expat-2.6.2, a security vulnerability was fixed that could allow for
+    denial of service via an XML Entity Expansion attack when there is isolated
+    use of external parsers (created using the XML_ExternalEntityParserCreate
+    function). The issue has been classified as a "billion laughs" attack,
+    also known as an XML bomb attack. Update to Expat-2.6.2.
+    <a href="../../blfs/advisories/consolidated.html#sa-12.1-010">12.1-010</a></p>
+
+<!-- end of Expat -->
+
+    <h3>Linux Kernel</h3>
+    <a id="sa-11.1-011"/>
+    <h4>11.1 011 Linux Kernel (LFS)  Date: 2022-03-15  Severity: Medium</h4>
+    <p>In Linux-6.8.5, an insufficient mitigation against the hardware
+    vulnerability known as Branch History Injection, or BHI
+    (see <a href='../../blfs/advisories/consolidated.html#sa-11.1-011'>11.1-011</a>
+    for details) on some Intel processors was fixed.  Read
+    <a href="../../blfs/advisories/consolidated.html#sa-12.1-029">12.1-029</a>
+    for how to fully mitigate BHI for affected Intel processors.</p>
+
+<!-- end of Linux Kernel -->
+
+<!--#include virtual="/common/footer.html" -->

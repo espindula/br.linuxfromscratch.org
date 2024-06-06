@@ -1,0 +1,152 @@
+<!--#set var="pageTitle" value="LFS 11.3 Security Advisories" -->
+<!--#include virtual="/lfs/header.html" -->
+<!--#include virtual="/lfs/menu.html" -->
+    <div class="main">
+
+    <h2>LFS Security Advisories for LFS 11.3 and the current development books.</h2>
+
+    <a id="LFS11.3"/>
+    <p>LFS-11.3 was released on 2023-03-01</p>
+
+    <h3>D-Bus (systemd only)</h3>
+
+    <a id="sa-11.3-041"/>
+    <h4>11.3 041 D-Bus (LFS and BLFS)     Date: 2023-06-17  Severity: High</h4>
+    <p>In dbus-1.14.8, a security vulnerability was fixed that could allow for
+    an unprivileged user to cause a denial-of-service (system message bus
+    daemon crash) by sending an unreplyable message when an administrator is
+    monitoring the dbus daemon. Update to dbus-1.14.8 or later.
+    <a href="consolidated.html#sa-11.3-041">11.3-041</a></p>
+
+<!-- end of D-Bus -->
+
+    <h3>libcap</h3>
+
+    <a id="sa-11.3-032"/>
+    <h4>11.3 032 libcap (LFS) Date: 2023-06-05  Severity: Medium</h4>
+    <p>In libcap-2.69, two security vulnerabilities were fixed that could allow
+    for denial of service. These occur due to an integer overflow and a memory
+    leak, and can be triggered when using the __real_pthread_create() and the
+    _libcap_strdup() functions in libcap. Update to libcap-2.69 to fix them.
+    <a href="../../blfs/advisories/consolidated.html#sa-11.3-032">11.3-032</a></p>
+
+<!-- end of libcap -->
+
+    <h3>Linux Kernel</h3>
+
+    <a id="sa-11.3-052"/>
+    <h4>11.3 052 Linux Kernel (LFS) Date: 2023-07-06  Severity: High</h4>
+    <p>In Linux-6.4.1 (and Linux 6.1.31), a security vulnerability was fixed
+    that allows for privilege escalation due to a memory management subsystem
+    vulnerability. Update to Linux-6.4.1 or Linux-6.1.31 (LTS) to fix them.
+    <a href="../../blfs/advisories/consolidated.html#sa-11.3-052">11.3-052</a></p>
+
+    <a id="sa-11.3-011"/>
+    <h4>11.3 011 Linux Kernel (LFS)     Date: 2023-03-05 Severity: High</h4>
+    <p>In Linux-6.2.3 through 6.2.9 (and Linux-6.1.15 through 6.1.22),
+    eleven security vulnerabilities were fixed in various kernel subsystems.
+    These vulnerabilities could allow full system crash or deadlock,
+    network filter bypass, or local priviledge escalation.
+    Update to Linux-6.2.9 or Linux-6.1.22 (LTS) to fix them.
+    <a href="../../blfs/advisories/consolidated.html#sa-11.3-011">11.3-011</a></p>
+
+    <a id="sa-11.3-001"/>
+    <h4>11.3 001 Linux Kernel (LFS)     Date: 2023-03-05 Severity: High</h4>
+    <p>In Linux-6.2.2 (and Linux-6.1.14), five security vulnerabilities were
+    fixed in various kernel subsystems.  These vulnerabilities could allow
+    full system crashes or insufficient protection against hardware
+    vulnerabilities.  Update to Linux-6.2.2 or Linux-6.1.14 (LTS) to fix
+    them.
+    <a href="../../blfs/advisories/consolidated.html#sa-11.3-001">11.3-001</a></p>
+
+<!-- end of Linux Kernel -->
+
+    <h3>OpenSSL</h3>
+
+    <a id="sa-11.3-069"/>
+    <h4>11.3 069 OpenSSL (LFS)   Date: 2023-08-04 Severity: Low</h4>
+    <p>In OpenSSL-3.1.2, three security vulnerabilities were fixed that could
+    cause excessive slowdown (and thus a denial of service) when processing
+    DH keys and parameters, and for applications using the AES-SIV cipher from
+    OpenSSL to be misled. Update to OpenSSL-3.1.2 (or 1.1.1v if you prefer to
+    stay on the OpenSSL-1.1 series).
+    <a href="../../blfs/advisories/consolidated.html#sa-11.3-069">11.3-069</a></p>
+
+    <a id="sa-11.3-033"/>
+    <h4>11.3 033 OpenSSL (LFS) Date: 2023-06-05 Severity: Medium</h4>
+    <p>In OpenSSL-3.1.1, several security vulnerabilities were fixed that could
+    allow for denial of service, crashes on ARM64 platforms, certificate policy
+    bypass, and severe degredation of performance. Update to OpenSSL-3.1.1.
+    <a href="../../blfs/advisories/consolidated.html#sa-11.3-033">11.3-033</a></p>
+
+<!-- end of OpenSSL -->
+
+    <h3>Python</h3>
+
+    <a id="sa-11.3-040"/>
+    <h4>11.3 040 Python3 (LFS and BLFS)   Date: 2023-06-17  Severity: High</h4>
+    <p>In Python-3.11.4, three security vulnerabilities were fixed that could
+    allow for directory traversal, disk location exposure over HTTP, and for
+    policy bypasses. Update to Python-3.11.4.
+    <a href="../../blfs/advisories/consolidated.html#sa-11.3-040">11.3-040</a></p>
+
+<!-- end of Python -->
+
+     <!-- Editors: Do not remove this entry, just comment it out. -->
+
+<!--
+     <ul>
+       <li>There are currently no known security vulnerabilities for LFS-11.3.</li>
+     </ul>
+-->
+    <!-- Editors: do the consolidated file first, to get the next number.
+         Checking what you have prepared is easier if you can create symlinks
+         in the directory where you put the books' html so that you can see
+         the LFS and BLFS advisories in your browser. -->
+
+<!--
+    <p style="font-style: italic;">This page is in alphabetical order of packages,
+    and if a package has multiple advisories the newer come first.</p>
+
+    <p> The links at the end of each item point to fuller details which have
+    links to the
+    development <!\-\- change to 'released' when links in consolidated are changed
+    after a release \-\->
+    books.</p>-->
+
+    <!-- After a release, copy for next book version, leave just template stuff
+     in that, and note
+     that later advisories will be in the [next release] version -->
+
+    <!-- Editors - do the consolidated page first, to get the next advisory number -->
+
+    <!-- previous glibc text retained as comment, because it is special for
+    rebuilding
+    <h3>Glibc</h3>
+
+    <p style="font-style: italic;">In LFS the only safe way to update Glibc is to
+    build a new system.</p>
+
+    <h4>10.1 NNN Glibc (LFS)  Date: 2021-02-07  Severity: High</h4>
+
+    <p>In Glibc before 2.33 there are four vulnerabilities in iconv which can lead
+    to a crash when processing less-common character encodings.</p>
+
+    <p>Please read the link to assess the severity of this for your use
+    case, and what action to take.
+    <a href="../../blfs/advisories/consolidated.html#10.1-NNN">sa-10.1-NNN</a></p>
+
+    <!\-\- End of Glibc -->
+
+   <!-- start of template
+
+    <h3>PackageName</h3>
+
+    <h4>11.2 NNN PackageName (LFS)  Date: 2022-09-01  Severity: Low</h4>
+    <p>Breif details here. See
+    <a href=i"../../blfs/advisories/consolidated.html#sa-11.2-NNN">11.2-NNN</a></p>
+
+    <!\-\- End of PackageName -->
+    <!-- End of template -->
+
+<!--#include virtual="/common/footer.html" -->

@@ -1,0 +1,121 @@
+<!--#set var="pageTitle" value="LFS 10.0 Security Advisories" -->
+<!--#include virtual="/lfs/header.html" -->
+<!--#include virtual="/lfs/menu.html" -->
+    <div class="main">
+
+    <h2>LFS Security Advisories for LFS 10.0 and the current development books.</h2>
+
+     <!-- Editors: Do not remove this entry, just comment it out. -->
+<!--
+     <ul>
+       <li>There are no current known security vulnerabilities for lfs-10.0.</li>
+     </ul>
+-->
+    <!-- Editors: do the consolidated file first, to get the next number -->
+
+    <a id="LFS10.0"/>
+    <p>LFS-10.0 was released on 2020-09-01</p>
+
+    <p style="font-style: italic;">This page is in alphabetical order of packages,
+    and if a package has multiple advisories the newer come first.</p>
+
+    <p> The links at the end of each item point to fuller details which have
+    links to the
+    released <!-- change to 'released' when links in consolidated are changed
+    after a release -->
+    books.</p>
+
+    <!-- After a release, copy for next book version, leave just template stuff
+     in that, and note
+     that later advisories will be in the [next release] version -->
+
+    <!-- Editors - do the consolidated page first, to get the next advisory number -->
+
+
+    <h3>Bison</h3>
+
+    <h4>10.0 009 Bison (LFS)  Date: 2020-09-15  Severity: Low</h4>
+    <p>Bison-3.7.2 fixed all known CVE vulnerabilities in bison itself, the
+    generated code should not be affected. See
+    <a href="../../blfs/advisories/consolidated.html#sa-10.0-009">10.0-009</a></p>
+
+    <!-- End of Bison -->
+
+    <h3>Glibc</h3>
+
+    <p style="font-style: italic;">In LFS the only safe way to update Glibc is to
+    build a new system.</p>
+
+    <h4>10.0 082 (LFS) GLIBC  Date: 2021-02-07  Severity: High</h4>
+
+    <p>In Glibc before 2.33 there are four vulnerabilities in iconv which can lead
+    to a crash when processing less-common character encodings.</p>
+    <p>Please read the link to assess the severity of this for your use case, and what
+    action to take.
+    <a href="../../blfs/advisories/consolidated.html#sa-10.0-082">10.0-082</a></p>
+
+    <!-- End of GLibc -->
+
+    <h3>Linux Kernel</h3>
+
+    <h4>10.0 010 Linux Kernel (LFS)  Date: 2020-09-15  Severity: High</h4>
+    <p>In Linux kernels before 5.8.8 there is a potential privilege escalation
+    in 64-bit kernels.
+    <a href="../../blfs/advisories/consolidated.html#sa-10.0-010">10.0-010</a></p>
+
+    <!-- End of Linux Kernel -->
+
+    <h3>OpenSSL (LFS)</h3>
+
+    <h4>10.0 095 OpenSSL (LFS) Date: 2021-02-19 Severity: High</h4>
+    <p>Two vulnerabilities in OpenSSL could be exploited to cause a crash.
+    To fix this, update to OpenSSL-1.1.1j or later.
+    <a href="../../blfs/advisories/consolidated.html#sa-10.0-095">10.0-095</a></p>
+
+    <h4>10.0 053 OpenSSL (LFS) Date: 2020-12-15 Severity: High</h4>
+    <p>A vulnerability in OpenSSL could be exploited to cause a crash.
+    To fix this, update to OpenSSL-1.1.1i or later.
+    <a href="../../blfs/advisories/consolidated.html#sa-10.0-053">10.0-053</a></p>
+
+    <!-- end of OpenSSL -->
+
+    <h3>Python</h3>
+
+    <h4>10.0 097 Python (LFS and BLFS) Date: 2021-02-22 Severity: Critical</h4>
+    <p>Python-3.9.2 contains fixes for a critical security vulnerability as well
+    as a medium-level security vulnerability. The critical vulnerability can
+    lead to remote code execution. Update to Python-3.9.2 or later
+    <em>using the BLFS instructions</em>.
+    <a href="../../blfs/advisories/consolidated.html#sa-10.0-097">10.0-097</a></p>
+
+    <h4>10.0 051 Python (LFS and BLFS) Date: 2020-12-15 Severity: High</h4>
+    <p>Python-3.9.1 includes three security fixes. Update to Python-3.9.1
+    or later <em>using the BLFS instructions</em>.
+    <a href="../../blfs/advisories/consolidated.html#sa-10.0-051">10.0-051</a></p>
+
+    <!-- End of Python -->
+
+    <h3>systemd</h3>
+
+    <h4>10.1 081 systemd (LFS and BLFS) Date: 2021-07-23 Severity: High</h4>
+    <p>In systemd-220 and later, a security vulnerability exists that will
+    allow for a local attacker to crash your system by mounting a FUSE
+    filesystem that with a file path longer than 8MB present. The crash
+    occurs when reading /proc/self/mountinfo, and manifests itself as a
+    kernel panic due to PID1 (init) crashing. Because fo the changes coming in
+    LFS 11.0, updating to systemd-249 (with the patch) is not feasible.
+    However, a patch has been created for LFS 10.0/systemd-246. See the
+    advisory linked for more information. The patch replaces the current
+    systemd-246-security_fix-1.patch.
+    <a href="../../blfs/advisories/consolidated.html#sa-10.1-081">10.1-081</a></p>
+
+    <h4>10.1 072 systemd (LFS and BLFS) Date: 2021-07-09 Severity: Moderate</h4>
+    <p>systemd-249 fixed a security vulnerability that could allow for a remote
+    attacker to reconfigure the network settings on your computer. Because of
+    it's severity and the ease of exploitation, a patch has been prepared for
+    LFS 10.0/systemd-246. See the advisory linked for more information.
+    <a href="../../blfs/advisories/consolidated.html#sa-10.1-072">10.1-072</a></p>
+
+    <!-- End of systemd -->
+
+<!--#include virtual="/common/footer.html" -->

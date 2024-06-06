@@ -1,0 +1,196 @@
+<!--#set var="pageTitle" value="LFS 10.1 Security Advisories" -->
+<!--#include virtual="/lfs/header.html" -->
+<!--#include virtual="/lfs/menu.html" -->
+    <div class="main">
+
+    <h2>LFS Security Advisories for LFS 10.1 and the current development books.</h2>
+
+    <a id="LFS10.1"/>
+    <p>LFS-10.1 was released on 2021-03-01</p>
+
+     <!-- Editors: Do not remove this entry, just comment it out. -->
+<!--
+     <ul>
+       <li>There are currently no known security vulnerabilities for lfs-10.1.</li>
+     </ul>
+-->
+    <!-- Editors: do the consolidated file first, to get the next number.
+         Checking what you have prepared is easier if you can create symlinks
+         in the directory where you put the books' html so that you can see
+         the LFS and BLFS advisories in your browser. -->
+
+    <p style="font-style: italic;">This page is in alphabetical order of packages,
+    and if a package has multiple advisories the newer come first.</p>
+
+    <p> The links at the end of each item point to fuller details which have
+    links to the
+    released <!-- change to 'released' when links in consolidated are changed
+    after a release -->
+    books.</p>
+
+    <!-- After a release, copy for next book version, leave just template stuff
+     in that, and note
+     that later advisories will be in the [next release] version -->
+
+    <!-- Editors - do the consolidated page first, to get the next advisory number -->
+
+   <!-- start of template
+    <h3>Bison</h3>
+
+    <h4>10.1 NNN PackageName (LFS)  Date: 2021-03-01  Severity: Low</h4>
+    <p>Breif details here. See
+    <a href=i"../../blfs/advisories/consolidated.html#sa-10.1-NNN">10.1-NNN</a></p>
+
+    <!\-\- End of template -->
+
+    <h3>Binutils</h3>
+
+    <h4>10.1 080 Binutils Date: 2021-07-23 Severity: Moderate</h4>
+    <p>Binutils before 2.37 is vulnerable to an arbitrary filesystem access,
+    denial of service, and two arbitrary code execution vulnerabilities. These
+    vulnerabilities have been rated between Low and Moderate by NVD.
+    To fix these, update to Binutils-2.37 or later. See
+    <a href="../../blfs/advisories/consolidated.html#sa-10.1-080">10.1-080</a></p>
+
+    <!-- End of Binutils -->
+
+    <h3>Expat</h3>
+
+    <h4>10.1 052 Expat  Date: 2021-05-29  Severity: Medium</h4>
+    <!-- slackware rated ths as medium, no current state at NVD -->
+    <p>Expat before 2.4.0 is vulnerable to Denial of Service ('billion laughs')
+    attacks. The vulnerability was initially for versions up to 2.1, but
+    protection has been strengthened in the 2.4.0 release: see
+    <a href="../../blfs/advisories/consolidated.html#sa-10.1-052">10.1-052</a></p>
+
+    <!-- End of Expat -->
+
+    <h3>Glibc</h3>
+
+    <a id="sa-10.1-106"/>
+    <h4>10.1 106 (LFS) GLIBC  Date: 2022-03-01  Severity: Critical</h4>
+    <p>On reviewing the vulnerabilities fixed in glibc-2.35 it became apparent
+    that these, and one earlier vulnerability the editors had not been aware of,
+    also applied to glibc-2.33 as used in LFS-10.1. Please see
+    <a href="../../blfs/advisories/consolidated.html#sa-10.1-106">10.1-106</a></p>
+
+    <h4>10.1 098 (LFS) GLIBC  Date: 2021-08-24  Severity: High</h4>
+    <p>A vulnerability in the released version of glibc-2.34 has been discovered.
+    This is remotely exploitable and can be used to crash programs linked to
+    glibc. In the development book this unfixed vulnerability existed between
+    2021-08-02 and 2021-08-20, it was also in LFS-11.0-rc1. It has been fixed
+    with a sed in the chapter 8 glibc build. For further details see
+    <a href="../../blfs/advisories/consolidated.html#sa-10.1-098">10.1-098</a></p>
+
+    <!-- End of Glibc -->
+
+    <h3>Linux Kernel</h3>
+
+    <h4>10.1 078 Linux Kernel (LFS)  Date: 2021-07-20  Severity: High</h4>
+    <p>In linux kernels from 3.16 to 5.13.3, a vulnerability in the filesystem
+    layer can be exploited to gain root privileges. To fix this, update to
+    linux-5.13.4 or later (or 5.10.52 or later for the stable series). See
+    <a href="../../blfs/advisories/consolidated.html#sa-10.1-078">10.1-078</a></p>
+
+    <h4>10.1 062 Linux Kernel (LFS)  Date: 2021-06-16  Severity: High</h4>
+    <p>In Linux-5.12.10, several security vulnerabilities were fixed in the
+    Bluetooth stack, the Xen stack, and the Wireless stack. The Bluetooth
+    and Xen stack vulnerabilities allow for local users to cause a kernel panic.
+    The Wireless stack vulnerabilities allow for remote attackers to exfiltrate
+    data from a system, inject malicious packets and network frames into the
+    stream, and decrypt packets that are sent from wireless cards. Additional
+    fixes were made for issues in the ath10k and ath11k wireless drivers.
+    For more information, see the information in
+    <a href="../../blfs/advisories/consolidated.html#sa-10.1-062">10.1-062</a></p>
+
+    <h4>10.1 054 Linux Kernel (LFS)  Date: 2021-03-31  Severity: High</h4>
+    <p>In Linux 5.12.7 and all earlier kernels back to 2.6.12 a "confused
+    deputy" weakness exists, which makes it possible to trick another process
+    (which may have different credentials) to write to its own /proc/$pid/attr/
+    files, leading to unexpected and possibly exploitable behaviors. See
+    <a href="../../blfs/advisories/consolidated.html#sa-10.1-054">10.1-054</a></p>
+
+    <h4>10.1 005 Linux Kernel (LFS)  Date: 2021-03-15  Severity: Low</h4>
+    <p>In Linux 5.11.3 or earlier there are vulnerabilities in iSCSI
+	 subsystem which can lead to potential privilege escalation.  See
+    <a href="../../blfs/advisories/consolidated.html#sa-10.1-005">10.1-005</a></p>
+
+    <!-- End of Linux Kernel -->
+
+    <h3>OpenSSL</h3>
+    <h4>10.1 099 OpenSSL (LFS) Date: 2021-08-25 Severity: High</h4>
+    <p>In OpenSSL-1.1.1l, two high security vulnerabilities were fixed that
+    can lead to applications link to OpenSSL crash with malicious inputs.
+    Updating to OpenSSL-1.1.1l is suggested as soon as possible.
+    <a href="../../blfs/advisories/consolidated.html#sa-10.1-099">10.1-099</a>.</p>
+
+    <h4>10.1 011 OpenSSL (LFS) Date: 2021-03-26 Severity: Critical</h4>
+    <p>In OpenSSL-1.1.1k, two high severity security vulnerabilities were fixed
+    that can lead to a complete bypass of the CA Certificate Store checks, and
+    also one that can lead to crashes for applications that use OpenSSL.
+    Updating to OpenSSL-1.1.1k is suggested as soon as possible.
+    <a href="../../blfs/advisories/consolidated.html#sa-10.1-011">10.1-011</a>.</p>
+
+    <!-- End of OpenSSL -->
+
+    <h3>Python 3</h3>
+
+    <a id="sa-10.1-071"/>
+    <h4>10.1 071 Python (LFS and BLFS) Date: 2021-07-09 Severity: Medium</h4>
+    <p>In Python3 before 3.9.6, a security vulnerability exists that could
+    allow for resource exhaustion due to an infinite loop in the mod:http.client
+    Python module. Update to Python-3.9.6 or later.
+    <a href="../../blfs/advisories/consolidated.html#sa-10.1-071">10.1-071</a></p>
+
+    <a id="sa-10.1-035"/>
+    <h4>10.1 035 Python (LFS and BLFS) Date: 2021-04-29 Severity: High</h4>
+    <p>In Python3 before 3.9.4 'pydoc' can be used to read arbitrary files,
+    including those containing sensitive data. Update to Python-3.9.4 or later.
+    <a href="../../blfs/advisories/consolidated.html#sa-10.1-035">10.1-035</a></p>
+
+    <!-- end of Python 3 -->
+
+    <h3>systemd</h3>
+
+    <a id="sa-10.1-081"/>
+    <h4>10.1 081 systemd (LFS and BLFS) Date: 2021-07-23 Severity: High</h4>
+    <p>In systemd-220 and later, a security vulnerability exists that will
+    allow for a local attacker to crash your system by mounting a FUSE
+    filesystem that with a file path longer than 8MB present. The crash
+    occurs when reading /proc/self/mountinfo, and manifests itself as a
+    kernel panic due to PID1 (init) crashing. Because fo the changes coming in
+    LFS 11.0, updating to systemd-249 (with the patch) is not feasible.
+    However, a patch has been created for LFS 10.1/systemd-247. See the
+    advisory linked for more information. The patch replaces the current
+    systemd-247-security_fix-1.patch.
+    <a href="../../blfs/advisories/consolidated.html#sa-10.1-081">10.1-081</a></p>
+
+    <a id="sa-10.1-072"/>
+    <h4>10.1 072 systemd (LFS and BLFS) Date: 2021-07-09 Severity: Medium</h4>
+    <p>In systemd-249, a security vulnerability was fixed that could allow for
+    a remote attacker to reconfigure the network on your system. Because of the
+    changes coming in LFS 11.0, updating to systemd-249 is not feasible.
+    However, a patch has been created for LFS 10.1/systemd-249. See the
+    advisory linked for more information.
+    <a href="../../blfs/advisories/consolidated.html#sa-10.1-072">10.1-072</a></p>
+
+    <!-- end of systemd -->
+
+    <!-- previous glibc text retained as comment, because it is special for
+    rebuilding
+    <h3>Glibc</h3>
+
+    <p style="font-style: italic;">In LFS the only safe way to update Glibc is to
+    build a new system.</p>
+
+    <h4>10.1 NNN (LFS) GLIBC  Date: 2021-02-07  Severity: High</h4>
+
+    <p>In Glibc before 2.33 there are four vulnerabilities in iconv which can lead
+    to a crash when processing less-common character encodings.<p>
+    Please read the link to assess the severity of this for your use case, and what
+    action to take.
+    <a href="../../blfs/advisories/consolidated.html#10.1-NNN">10.1-NNN</a></p>
+
+    <!\-\- End of GLibc -->
+
+<!--#include virtual="/common/footer.html" -->

@@ -1,0 +1,260 @@
+<!--#set var="pageTitle" value="LFS 11.1 Security Advisories" -->
+<!--#include virtual="/lfs/header.html" -->
+<!--#include virtual="/lfs/menu.html" -->
+    <div class="main">
+
+    <h2>LFS Security Advisories for LFS 11.1 and the current development books.</h2>
+
+    <a id="LFS11.1"/>
+    <p>LFS-11.1 was released on 2022-03-01</p>
+
+     <!-- Editors: Do not remove this entry, just comment it out. -->
+<!--
+     <ul>
+       <li>There are currently no known security vulnerabilities for LFS-11.1.</li>
+     </ul>
+-->
+    <!-- Editors: do the consolidated file first, to get the next number.
+         Checking what you have prepared is easier if you can create symlinks
+         in the directory where you put the books' html so that you can see
+         the LFS and BLFS advisories in your browser. -->
+
+<!--
+    <p style="font-style: italic;">This page is in alphabetical order of packages,
+    and if a package has multiple advisories the newer come first.</p>
+
+    <p> The links at the end of each item point to fuller details which have
+    links to the
+    development <!\-\- change to 'released' when links in consolidated are changed
+    after a release \-\->
+    books.</p>-->
+
+    <!-- After a release, copy for next book version, leave just template stuff
+     in that, and note
+     that later advisories will be in the [next release] version -->
+
+    <!-- Editors - do the consolidated page first, to get the next advisory number -->
+
+    <!-- previous glibc text retained as comment, because it is special for
+    rebuilding
+    <h3>Glibc</h3>
+
+    <p style="font-style: italic;">In LFS the only safe way to update Glibc is to
+    build a new system.</p>
+
+    <h4>10.1 NNN (LFS) GLIBC  Date: 2021-02-07  Severity: High</h4>
+
+    <p>In Glibc before 2.33 there are four vulnerabilities in iconv which can lead
+    to a crash when processing less-common character encodings.<p>
+
+    Please read the link to assess the severity of this for your use case, and what
+    action to take.
+    <a href="../../blfs/advisories/consolidated.html#10.1-NNN">10.1-NNN</a></p>
+
+    <!\-\- End of GLibc -->
+
+   <!-- start of template
+
+    <h3>PackageName</h3>
+
+    <h4>11.0 NNN PackageName (LFS)  Date: 2021-03-01  Severity: Low</h4>
+    <p>Breif details here. See
+    <a href=i"../../blfs/advisories/consolidated.html#sa-11.0-NNN">11.0-NNN</a></p>
+
+    <!\-\- End of PackageName -->
+    <!-- End of template -->
+
+    <h3>gzip</h3>
+
+    <a id="sa-11.1-028"/>
+    <h4>11.1 028 gzip (LFS)          Date: 2022-04-15  Severity: Critical</h4>
+    <p>In gzip-1.12, a critical security vulnerability was fixed that could
+    allow for remote attackers to execute commands on your system (or overwrite
+    existing files) when 'zgrep' is run on a crafted archive. The BLFS team has
+    independently verified that the vulnerability is trivial to exploit. Update
+    to gzip-1.12 as soon as possible.
+    <a href="../../blfs/advisories/consolidated.html#sa-11.1-028">11.1-028</a></p>
+
+    <!-- end of gzip -->
+
+    <h3>Linux kernel</h3>
+
+    <a id="sa-11.1-102"/>
+    <h4>11.1 101 Linux Kernel (LFS)  Date: 2022-08-24  Severity: High</h4>
+    <p>In Linux-6.0-rc2, there is a fix for a vulnerability which could be
+    exploited to write into read-only memory mappings and cause privilege
+    escalation.  As no fixes are backported into stable releases so far,
+    disable <code>CONFIG_USERFAULTFD</code> as a workaround.
+    <a href="../../blfs/advisories/consolidated.html#sa-11.1-102">11.1-102</a></p>
+
+    <a id="sa-11.1-099"/>
+    <h4>11.1 099 Linux Kernel (LFS)  Date: 2022-08-23  Severity: High</h4>
+    <p>In Linux-5.19.2 (and 5.18.19, 5.15.62, 5.10.137) there are fixes for
+    four vulnerabilities which could be exploited to cause denial-of-service
+    or privilege escalation.  One of those vulnerabilities can be exploited
+    by an unprivileged user to cause a kernel panic easily.  Update to the
+    latest stable or LTS kernel immediately.
+    <a href="../../blfs/advisories/consolidated.html#sa-11.1-099">11.1-099</a></p>
+
+    <a id="sa-11.1-082"/>
+    <h4>11.1 082 Linux Kernel (LFS)  Date: 2022-04-24  Severity: Medium</h4>
+    <p>In Linux-5.18.14.3 (and 5.15.57) are fixes for speculative vulnerabilities
+    which might lead to information disclosure and have been named 'RETBleed'.
+    Please read
+    <a href="../../blfs/advisories/consolidated.html#sa-11.1-082">11.1-082</a>
+    to see if your processor is affected, and what mitigations are available.</p>
+
+    <a id="sa-11.1-027"/>
+    <h4>11.1 027 Linux Kernel (LFS)  Date: 2022-04-15  Severity: Moderate</h4>
+    <p>In Linux-5.17.3 (and 5.16.20, 5.15.34 and other stable releases on 2022-04-13),
+    fixes were made for three vulnerabilities in the kernel's ax25 networking
+    subsystem, all of which rated as Moderate and can cause remotely-exploitable
+    kernel panics. Upgrade to at least Linux-5.17.3 (or 5.15.34 or other stable
+    kernels released on 2022-04-13) if you are using ax25 networking.
+    <a href="../../blfs/advisories/consolidated.html#sa-11.1-027">11.1-027</a></p>
+
+    <a id="sa-11.1-017"/>
+    <h4>11.1 017 Linux Kernel (LFS)  Date: 2022-04-04  Severity: High</h4>
+    <p>In Linux-5.17.1 (and 5.16.18, 5.15.32 and other stable relases on 2022-03-28),
+    fixes were made for for two vulnerabilities in the kernel's nf_tables code, one
+    rated as high. To fix these, upgrade to at least linux-5.17.1 (or 5.15.32 or
+    other stable kernels released on 2022-03-28).
+    <a href="../../blfs/advisories/consolidated.html#sa-11.1-017">11.1-017</a></p>
+
+    <a id="sa-11.1-011"/>
+    <h4>11.1 011 Linux Kernel (LFS)  Date: 2022-03-15  Severity: Medium</h4>
+    <p>In Linux-5.16.14, workarounds for hardware vulnerabilities named
+    Branch History Injection have been added.  These vulnerabilities may be
+    exploited to cause sensitive information leakage.
+    To work around these vulnerabilities, update to at least linux-5.16.14
+    (or 5.15.28, 5.10.105, 5.4.184, 4.19.234, 4.14.271, 4.9.306 for older
+    systems using LTS stable kernels), and disable unprivileged bpf syscall.
+    <a href="../../blfs/advisories/consolidated.html#sa-11.1-011">11.1-011</a></p>
+
+    <a id="sa-11.1-009"/>
+    <h4>11.1 009 Linux Kernel (LFS)  Date: 2022-03-09  Severity: High</h4>
+    <p>In Linux since 5.8, a local privilege escalation vulnerability known as
+    'Dirty Pipe' has been discovered.
+    To fix this, update to at least linux-5.16.11 (or 5.15.25, 5.10.102 for older
+    systems using LTS stable kernels) using the instructions from the LFS book for
+    <a href="../../blfs/advisories/consolidated.html#sa-11.1-009">11.1-009</a></p>
+
+    <!-- end of Linux Kernel -->
+
+    <h3>OpenSSL</h3>
+
+    <a id="sa-11.1-081"/>
+    <h4>11.1 081 (LFS) OpenSSL  Date: 2022-07-16  Severity: Medium</h4>
+    <p>In OpenSSL 3.0.4, 1.1.1p, and earlier 3.0 or 1.1.1 releases,
+    AES OCB mode for 32-bit x86 platforms using the AES-NI assembly
+    optimised implementation will not encrypt the entirety of the data
+    under some circumstances.  This could leak sixteen bytes of the
+    plaintext in the case of "in place" encryption.  If you are running
+    a 32-bit LFS, update to at least OpenSSL-1.1.1q for 1.1.1 series, or
+    OpenSSL-3.0.5 for 3.0 releases.
+    <a href="../../blfs/advisories/consolidated.html#sa-11.1-081">11.1-081</a></p>
+
+    <a id="sa-11.1-066"/>
+    <h4>11.1 066 (LFS) OpenSSL  Date: 2022-06-22  Severity: Medium</h4>
+    <p>A bug in the c_rehash script handling shell metacharacters was
+    fixed in versions 3.0.4 and 1.1.1p.  This vulnerability may be exploited
+    to execute arbitrary commands.  Use of the c_rehash script is
+    considered obsolete and should be replaced by
+    <code>openssl rehash</code> command.  Update to at least OpenSSL-1.1.1p
+    if using the 1.1.1 series.  For 3.0 releases, update to OpenSSL-3.0.5 or
+    later.  It's not recommended to update to OpenSSL-3.0.4 because 3.0.4
+    is broken on some CPU models.
+    <a href="../../blfs/advisories/consolidated.html#sa-11.1-066">11.1-066</a></p>
+
+    <a id="sa-11.1-012"/>
+    <h4>11.1 012 (LFS) OpenSSL  Date: 2022-03-18  Severity: High</h4>
+    <p>A bug which can cause OpenSSL to loop forever when parsing a crafted
+    certificate was fixed in versions 3.0.2 and 1.1.1n. Update to at least
+    OpenSSL-3.0.2 if using the 3.0 series, or at least OpenSSL-1.1.1n if using
+    the 1.1.1 series.
+    <a href="../../blfs/advisories/consolidated.html#sa-11.1-012">11.1-012</a></p>
+
+    <!-- end of OpenSSL -->
+
+    <h3>Python3</h3>
+
+    <a id="sa-11.1-092"/>
+    <h4>11.1 092 Python3 (LFS and BLFS) Date: 2022-08-18 Severity: High</h4>
+    <p>Two security vulnerabilities were fixed in Python-3.10.6 which could
+    allow for open redirection in the built-in HTTP server, and for a
+    use-after-free when using the memoryview function. Update to Python-3.10.6.
+    <a href="../../blfs/advisories/consolidated.html#sa-11.1-092">11.1-092</a></p>
+
+    <!-- end of Python3 -->
+
+    <h3>Shadow</h3>
+
+    <a id="sa-11.1-100"/>
+    <h4>11.1 100 Shadow  Date: 2022-08-23  Severity: Low</h4>
+    <p>In Shadow-1.12.2, two security vulnerabilities were fixed that could
+    allow a symlink attack while a shadow utility is running by an
+    administrator and operating on a directory writable by the attacker.
+    Update to shadow-1.12.2 or you'll need to take caution when you run
+    the shadow utilities as root.
+    <a href="../../blfs/advisories/consolidated.html#sa-11.1-100">11.1-100</a></p>
+
+<!-- end of Shadow -->
+
+    <h3>VIM</h3>
+
+    <a id="sa-11.1-053"/>
+    <h4>11.1 053 VIM (LFS and BLFS) Date: 2022-05-29 Severity: Medium</h4>
+    <p>11 vulnerabilities causing heap-based buffer overflow, use after
+    free, NULL pointer dereference, or uncontrolled recursion and leading to
+    crashes have been fixed in vim-8.2.5014. To fix them update to
+    vim-8.2.5014 or later.
+    <a href="../../blfs/advisories/consolidated.html#sa-11.1-053">11.1-053</a></p>
+
+    <a id="sa-11.1-037"/>
+    <h4>11.1 037 VIM (LFS and BLFS) Date: 2022-05-06 Severity: High</h4>
+    <p>Three vulnerabilities causing heap-based buffer overflow or use after
+    free and leading to crashes have been fixed in vim-8.2.4814. To fix them
+    update to vim-8.2.4814 or later.
+    <a href="../../blfs/advisories/consolidated.html#sa-11.1-037">11.1-037</a></p>
+
+    <a id="sa-11.1-010"/>
+    <h4>11.1 010 VIM (LFS and BLFS) Date: 2022-03-15 Severity: High</h4>
+    <p>One vulnerability causing heap-based buffer overflow and crashing
+    have been fixed in vim-8.2.4567. To fix them update to vim-8.2.4567
+    or later.
+    <a href="../../blfs/advisories/consolidated.html#sa-11.1-010">11.1-010</a></p>
+
+    <a id="sa-11.1-001"/>
+    <h4>11.1 001 VIM (LFS and BLFS) Date: 2022-03-02 Severity: High</h4>
+    <p>Four vulnerabilities which cause crashes under certain circumstances
+    have been fixed in vim-8.2.4489. To fix them update to vim-8.2.4489
+    or later.
+    <a href="../../blfs/advisories/consolidated.html#sa-11.1-001">11.1-001</a></p>
+
+    <!-- end of VIM -->
+
+    <h3>Xz</h3>
+    <a id="sa-11.1-031"/>
+    <h4>11.1 031 Xz (LFS)   Date: 2022-04-15 Severity: Critical</h4>
+    <p>The same vulnerability in zgrep which was fixed in zlib-1.2.12 also
+    applies to using xzgrep from xz. Upstream has provided a patch.</p>
+    <p>To fix this, rebuild xz-5.2.5 with the patch or update to a later
+    version when one is released.
+    <a href="../../blfs/advisories/consolidated.html#sa-11.1-031">11.1-031</a></p>
+
+    <!-- end of xz -->
+
+    <h3>Zlib</h3>
+    <a id="sa-11.1-018"/>
+    <h4>11.1 018 Zlib  Date: 2022-04-04  Severity: High</h4>
+    <p>A  vulnerability which allows memory corruption when deflating
+    (i.e. compressing) if the input has many distant matches, has been
+    found in Zlib.</p>
+    <p>To fix this update to zlib-1.2.12 or later.
+    Note that the update will cause 9 test failures in perl testsuite
+    and these failures should be ignored.  And, if you are going to strip
+    the debug symbols for your LFS system, you need to adjust the filename
+    of zlib library in the stripping instruction.
+    <a href="../../blfs/advisories/consolidated.html#sa-11.1-018">11.1-018</a></p>
+
+<!--#include virtual="/common/footer.html" -->

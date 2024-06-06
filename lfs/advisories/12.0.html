@@ -1,0 +1,250 @@
+<!--#set var="pageTitle" value="LFS 12.0 Security Advisories" -->
+<!--#include virtual="/lfs/header.html" -->
+<!--#include virtual="/lfs/menu.html" -->
+    <div class="main">
+
+    <h2>LFS Security Advisories for LFS 12.0 and the current development books.</h2>
+
+    <a id="LFS12.0"/>
+    <p>LFS-12.0 was released on 2023-09-01</p>
+
+<!--
+    <h3>D-Bus (systemd only)</h3>
+
+    <a id="sa-11.3-041"/>
+    <h4>11.3 041 D-Bus (LFS and BLFS)     Date: 2023-06-17  Severity: High</h4>
+    <p>In dbus-1.14.8, a security vulnerability was fixed that could allow for
+    an unprivileged user to cause a denial-of-service (system message bus
+    daemon crash) by sending an unreplyable message when an administrator is
+    monitoring the dbus daemon. Update to dbus-1.14.8 or later.
+    <a href="consolidated.html#sa-11.3-041">11.3-041</a></p>
+
+<!-\- end of D-Bus -\->
+-->
+
+     <!-- Editors: Do not remove this entry, just comment it out. -->
+
+<!-- <ul>
+       <li>There are currently no known security vulnerabilities for LFS-12.0.</li>
+</ul>-->
+
+    <!-- Editors: do the consolidated file first, to get the next number.
+         Checking what you have prepared is easier if you can create symlinks
+         in the directory where you put the books' html so that you can see
+         the LFS and BLFS advisories in your browser. -->
+
+
+    <p style="font-style: italic;">This page is in alphabetical order of packages,
+    and if a package has multiple advisories the newer come first.</p>
+
+    <p>The links at the end of each item point to fuller details which have
+    links to the
+    released <!-- change to 'released' when links in consolidated are changed
+    after a release -->
+    books.</p>
+
+    <!-- After a release, copy for next book version, leave just template stuff
+     in that, and note
+     that later advisories will be in the [next release] version -->
+
+    <!-- Editors - do the consolidated page first, to get the next advisory number -->
+
+    <h3>Glibc</h3>
+
+    <p style="font-style: italic;"><del>In LFS the only safe way to update Glibc
+    is to build a new system, but reinstall the same Glibc version with
+    patches provided in security advisories should be safe.</del></p>
+
+    <p style="font-style: italic;">Updating Glibc on a running LFS system
+    requires extra precautions to avoid breaking the system.  The
+    precautions are documented in an "Important" box of the LFS book section
+    for Glibc.  Follow it strictly or you may render the system completely
+    unusable.</p>
+
+    <h4>12.0 085 Glibc Date: 2024-02-02  Severity: High</h4>
+
+    <p>In Glibc 2.38, 2.37, and 2.36 (if
+    <a href='../../blfs/advisories/consolidated.html#sa-11.2-075'>SA
+      11.2-075</a> has been applied), there are three vulnerabilities
+    in the <code>syslog</code> function and one of them can allow an
+    local privilege escalation.</p>
+
+    <p>Please read the link and fix the vulnerability immediately if you
+    are running LFS 11.2, 11.3, or 12.0.
+    <a href="../../blfs/advisories/consolidated.html#sa-12.0-085">12.0-085</a></p>
+
+    <h4>12.0 018 Glibc Date: 2023-10-03  Severity: High</h4>
+
+    <p>In Glibc 2.34 through 2.38, there is a vulnerability in
+    the dynamic linker which can lead to a trivially exploitable local
+    privilege escalation.</p>
+
+    <p>Please read the link and fix the vulnerability immediately if you
+    are running LFS 11.0, 11.1, 11.2, 11.3, or 12.0.
+    <a href="../../blfs/advisories/consolidated.html#sa-12.0-018">12.0-018</a></p>
+
+    <h4>12.0 012 Glibc Date: 2023-09-24  Severity: Low</h4>
+
+    <p>In Glibc ?? (at least 2.17) through 2.35, there is a vulnerability in
+    getaddrinfo() which can lead to a denial of service with an unsupported
+    configuration in <code>/etc/nsswitch.conf</code>.</p>
+
+    <p>Please read the link to assess the severity of this for your use
+    case, and what action to take.
+    <a href="../../blfs/advisories/consolidated.html#sa-12.0-012">12.0-012</a></p>
+
+    <h4>12.0 005 Glibc Date: 2023-09-13  Severity: Low</h4>
+
+    <p>In Glibc ?? (at least 2.17) through 2.38, there is a vulnerability in
+    getaddrinfo() which can lead to a denial of service with custom NSS
+    modules in <code>/etc/nsswitch.conf</code> and extremely rare
+    situations.</p>
+
+    <p>Please read the link to assess the severity of this for your use
+    case, and what action to take.
+    <a href="../../blfs/advisories/consolidated.html#sa-12.0-005">12.0-005</a></p>
+
+    <h4>12.0 004 Glibc Date: 2023-09-12  Severity: Medium</h4>
+
+    <p>In Glibc-2.36, 2.37, and 2.38 there is a vulnerability in the DNS
+    resolver which can lead to a denial of service or information
+    disclosure processing long DNS responses if <code>no-aaaa</code> is
+    enabled.</p>
+
+    <p>Please read the link to assess the severity of this for your use
+    case, and what action to take.
+    <a href="../../blfs/advisories/consolidated.html#sa-12.0-004">12.0-004</a></p>
+
+   <!-- start of template
+
+    <h3>PackageName</h3>
+
+    <h4>11.2 NNN PackageName (LFS)  Date: 2022-09-01  Severity: Low</h4>
+    <p>Breif details here. See
+    <a href=i"../../blfs/advisories/consolidated.html#sa-11.2-NNN">11.2-NNN</a></p>
+
+    <!\-\- End of PackageName -->
+    <!-- End of template -->
+
+    <h3>Coreutils</h3>
+
+    <h4>12.0 075 Coreutils (LFS)  Date: 2024-01-21  Severity: Medium</h4>
+    <p>In Coreutils-9.4, a security vulnerability was found in the split
+    program. A heap overflow may potentially leading to an application crash
+    and denial of service.
+    <a href="../../blfs/advisories/consolidated.html#sa-12.0-075">12.0-075</a></p>
+
+    <h3>Expat</h3>
+
+    <h4>12.0 091 Expat (LFS)      Date: 2024-02-13  Severity: High</h4>
+    <p>In Expat-2.6.0, a security vulnerability was fixed that could allow for
+    a denial of service because many full reparsings are required in the case
+    of a large token which requires multiple buffer fills.
+    <a href="../../blfs/advisories/consolidated.html#sa-12.0-091">12.0-091</a></p>
+
+<!-- end of Expat -->
+
+    <h3>Jinja2</h3>
+
+    <h4>12.0 077 Jinja2 (LFS)  Date: 2024-01-21  Severity: Medium</h4>
+    <p>In Jinja2-3.1.3, a security vulnerability was fixed that could
+    allow a cross-site scripting attack if Jinja2 is used in a Web service.
+    <a href="../../blfs/advisories/consolidated.html#sa-12.0-077">12.0-077</a></p>
+
+    <h3>Ncurses</h3>
+
+    <h4>12.0 076 Ncurses (LFS)  Date: 2024-01-21  Severity: Medium</h4>
+    <p>In Ncurses-20230520, a security vulnerability was fixed that could
+    allow local users to trigger security-relevant memory corruption via
+    malformed data.
+    <a href="../../blfs/advisories/consolidated.html#sa-12.0-076">12.0-076</a></p>
+
+    <h3>OpenSSL</h3>
+
+    <a id="sa-12.0-083"/>
+    <h4>12.0 083 OpenSSL (LFS)           Date: 2024-02-01   Severity: Low</h4>
+    <p>In OpenSSL-3.2.1, two security vulnerability was fixed that could
+    allow for Denial of Service attacks.
+    Update to OpenSSL-3.2.1 or later.
+    <a href="../../blfs/advisories/consolidated.html#sa-12.0-083">12.0-083</a></p>
+
+    <a id="sa-12.0-050"/>
+    <h4>12.0 050 OpenSSL (LFS)           Date: 2023-12-01   Severity: Low</h4>
+    <p>In OpenSSL-3.2.0, a security vulnerability was fixed that could allow for
+    performance to be very slow when generating excessively long X9.42 DH keys,
+    as well as when checking excessively long X9.42 DH keys or parameters.
+    Update to OpenSSL-3.2.0 or later.
+    <a href="../../blfs/advisories/consolidated.html#sa-12.0-050">12.0-050</a></p>
+
+    <a id="sa-12.0-035"/>
+    <h4>12.0 035 OpenSSL  Date: 2023-11-01  Severity: Medium</h4>
+    <p>In openssl-3.1.4, a security vulnerability was fixed that
+    could lead to potential truncation or overruns during the initialization 
+    of some symmetric ciphers.
+    <a href="../../blfs/advisories/consolidated.html#sa-12.0-035">12.0-035</a></p>
+
+<!-- end of OpenSSL -->
+
+    <h3>Perl</h3>
+
+    <a id="sa-12.0-049"/>
+    <h4>12.0 049 Perl (LFS)              Date: 2023-12-01   Severity: Medium</h4>
+    <p>In Perl-5.38.2, a security vulnerability was fixed that could allow for
+    writing past the end of a buffer when a user passes an illegal Unicode
+    property in a regular expression. Update to Perl-5.38.2.
+    <a href="../../blfs/advisories/consolidated.html#sa-12.0-049">12.0-049</a></p>
+
+ <!-- end of Perl -->
+
+    <h3>Procps</h3>
+
+    <a id="sa-12.0-106"/>
+    <h4>12.0 106 Procps (LFS)         Date: 2024-02-27  Severity: Low</h4>
+    <p>In Procps-ng-4.0.4, one security vulnerability was fixed that might
+    allow for a denial-of-service (application crash) when running
+    <code>ps</code> with a very long value for the <code>-C</code> option.
+    Only 32-bit systems are affected. Update to Procps-ng-4.0.4 or later if
+    running a service which may invoke <code>ps -C</code> with unsanitized
+    input on a 32-bit system.
+    <a href="../../blfs/advisories/consolidated.html#sa-12.0-106">12.0-106</a></p>
+
+ <!-- end of Procps -->
+
+    <h3>Python3</h3>
+
+    <a id="sa-12.0-092"/>
+    <h4>12.0 092 Python3  Date: 2024-02-13  Severity: High</h4>
+    <p>In Python-3.12.2, a security vulnerability was fixed that could allow
+    for silent execution of arbitrary code via hidden *.pth files. *.pth files
+    are executed automatically, unlike normal Python files which need explicit
+    importing or passing as an argument to the Python interpreter. The issue
+    was fixed upstream by skipping *.pth files with names starting with a dot
+    (or the hidden file attribute on other systems). Update to Python-3.12.2
+    (or Python-3.11.8 if you prefer to stay on that series).
+    <a href="../../blfs/advisories/consolidated.html#sa-12.0-092">12.0-092</a></p>
+
+    <a id="sa-12.0-001"/>
+    <h4>12.0 001 Python3  Date: 2023-09-03  Severity: Medium</h4>
+    <p>In Python-3.11.5, a security vulnerability was fixed that
+    could allow to bypass TLS handshake in SSL sockets. Update
+    to python-3.11.5.
+    <a href="../../blfs/advisories/consolidated.html#sa-12.0-001">12.0-001</a></p>
+
+<!-- end of Python3 -->
+
+    <h3>systemd</h3>
+
+    <a id="sa-12.0-068"/>
+    <h4>12.0 068 systemd      Date: 2023-12-30  Severity: Medium</h4>
+    <p>A security vulnerability was found in systemd-resolved that could allow
+    systemd-resolved to accept records of DNSSEC-signed domains, even when they
+    have no signature. Note that you must have DNSSEC support enabled on your
+    system to be vulnerable to this vulnerability, and that support is not
+    turned enabled by default. If you do have DNSSEC support enabled, rebuild
+    systemd with the new 'sed' using the instructions from BLFS. If you do not
+    have DNSSEC support enabled, no action is necessary.
+    <a href="consolidated.html#sa-12.0-068">12.0-068</a></p>
+
+<!-- end of systemd -->
+
+<!--#include virtual="/common/footer.html" -->
