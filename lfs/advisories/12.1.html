@@ -1,112 +1,126 @@
-<!--#set var="pageTitle" value="LFS 12.0 Security Advisories" -->
+<!--#set var="pageTitle" value="Avisos de Segurança do LFS 12.1" -->
 <!--#include virtual="/lfs/header.html" -->
 <!--#include virtual="/lfs/menu.html" -->
     <div class="main">
 
-    <h2>LFS Security Advisories for LFS 12.1 and the current development books.</h2>
+    <h2>Avisos de Segurança para o LFS 12.1 e para os livros de 
+    desenvolvimento atuais.</h2>
 
     <a id="LFS12.1"/>
-    <p>LFS-12.1 was released on 2024-03-01</p>
+    <p>LFS-12.1 foi lançado em 2024-03-01</p>
 
 <!--
-    <h3>D-Bus (systemd only)</h3>
+    <h3>D-Bus (systemd somente)</h3>
 
     <a id="sa-11.3-041"/>
-    <h4>11.3 041 D-Bus (LFS and BLFS)     Date: 2023-06-17  Severity: High</h4>
-    <p>In dbus-1.14.8, a security vulnerability was fixed that could allow for
-    an unprivileged user to cause a denial-of-service (system message bus
-    daemon crash) by sending an unreplyable message when an administrator is
-    monitoring the dbus daemon. Update to dbus-1.14.8 or later.
+    <h4>11.3 041 D-Bus (LFS e BLFS)     Date: 2023-06-17  Gravidade: Alta</h4>
+    <p>No dbus-1.14.8, uma vulnerabilidade de segurança foi corrigida 
+    que poderia permitir que um(a) usuário(a) sem privilégios causasse 
+    uma negação de serviço (quebra do processo de segundo plano do 
+    barramento de mensagens do sistema) enviando-se uma mensagem não 
+    respostável quando um(a) administrador(a) estivesse monitorando o 
+    processo de segundo plano dbus. Atualize para dbus-1.14.8 ou 
+    posterior.
     <a href="consolidated.html#sa-11.3-041">11.3-041</a></p>
 
-<!-\- end of D-Bus -\->
+<!-\- fim de D-Bus -\->
 -->
 
-     <!-- Editors: Do not remove this entry, just comment it out. -->
+     <!-- Editores(as): Não removam esta entrada, apenas comente. -->
 
     <ul>
-       <li>There are currently no known security vulnerabilities for LFS-12.1.</li>
+       <li>Atualmente não existem vulnerabilidades de segurança 
+       conhecidas para o LFS-12.1.</li>
     </ul>
 
-    <!-- Editors: do the consolidated file first, to get the next number.
-         Checking what you have prepared is easier if you can create symlinks
-         in the directory where you put the books' html so that you can see
-         the LFS and BLFS advisories in your browser. -->
+    <!-- Editores(as): faça o arquivo consolidado primeiro, para obter o 
+    próximo número. Verificar o que você preparou é mais fácil se você 
+    puder criar links simbólicos no diretório onde colocou o HTML dos 
+    livros, de forma que consiga ver os avisos do LFS e do BLFS em teu 
+    navegador. -->
 
 
-    <p style="font-style: italic;">This page is in alphabetical order of packages,
-    and if a package has multiple advisories the newer come first.</p>
+    <p style="font-style: italic;">Esta página está em ordem alfabética 
+    de pacotes e, se um pacote tiver vários avisos, o mais recente virá 
+    primeiro.</p>
 
-    <p> The links at the end of each item point to fuller details which have
-    links to the
-    development <!-- change to 'released' when links in consolidated are changed
-    after a release -->
-    books.</p>
+    <p>Os links no final de cada item apontam para detalhes mais 
+    completos que tem links para os livros
+    em desenvolvimento <!-- mudar para 'lançados' quando links no 
+    consolidado forem mudados depois de um lançamento -->
+    .</p>
 
-    <!-- After a release, copy for next book version, leave just template stuff
-     in that, and note
-     that later advisories will be in the [next release] version -->
+    <!-- Depois de um lançamento, copiar para próxima versão do livro; 
+     deixar somente coisas de modelo dentro disso; e observe que avisos 
+     posteriores estarão na [próximo lançamento] versão -->
 
-    <!-- Editors - do the consolidated page first, to get the next advisory number -->
+    <!-- Editores(as) - faça a página consolidada primeiro, para obter o 
+    próximo número de aviso -->
 
     <!--
     <h3>Glibc</h3>
 
-    <p style="font-style: italic;"><del>In LFS the only safe way to update Glibc
-    is to build a new system, but reinstall the same Glibc version with
-    patches provided in security advisories should be safe.</del></p>
+    <p style="font-style: italic;"><del>No LFS, a única maneira segura 
+    de atualizar a Glibc é a de construir um novo sistema, mas 
+    reinstalar a mesma versão da Glibc com os remendos fornecidos nos 
+    avisos de segurança deveria ser seguro.</del></p>
 
-    <p style="font-style: italic;">Updating Glibc on a running LFS system
-    requires extra precautions to avoid breaking the system.  The
-    precautions are documented in an "Important" box of the LFS book section
-    for Glibc.  Follow it strictly or you may render the system completely
-    unusable.</p>
+    <p style="font-style: italic;">Atualizar a Glibc em um sistema LFS 
+    em execução exige precauções extras para evitar quebrar o sistema.  
+    As precauções estão documentadas em uma caixa "Importante" da seção 
+    do livro LFS para a Glibc.  Siga-as rigorosamente ou você poderá 
+    tornar o sistema completamente não usável.</p>
+
     -->
     
-   <!-- start of template
+   <!-- início do modelo
 
-    <h3>PackageName</h3>
+    <h3>Nome do Pacote</h3>
 
-    <h4>11.2 NNN PackageName (LFS)  Date: 2022-09-01  Severity: Low</h4>
-    <p>Breif details here. See
+    <h4>11.2 NNN Nome do Pacote (LFS)  Data: 2022-09-01  Gravidade: Baixa</h4>
+    <p>Breves detalhes aqui. Veja-se
     <a href=i"../../blfs/advisories/consolidated.html#sa-11.2-NNN">11.2-NNN</a></p>
 
-    <!\-\- End of PackageName -->
-    <!-- End of template -->
+    <!\-\- Fim de Nome do Pacote -->
+    <!-- Fim do modelo -->
 
     <!--
     <h3>Coreutils</h3>
 
-    <h4>12.0 075 Coreutils (LFS)  Date: 2024-01-21  Severity: Medium</h4>
-    <p>In Coreutils-9.4, a security vulnerability was found in the split
-    program. A heap overflow may potentially leading to an application crash
-    and denial of service.
+    <h4>12.0 075 Coreutils (LFS)  Data: 2024-01-21  Gravidade: Média</h4>
+    <p>No Coreutils-9.4, uma vulnerabilidade de segurança foi encontrada 
+    no aplicativo split. Um estouro de heap pode potencialmente conduzir 
+    para uma quebra no aplicativo e negação de serviço.
     <a href="../../blfs/advisories/consolidated.html#sa-12.0-075">12.0-075</a></p>
     -->
     
     <h3>Expat</h3>
 
     <a id="sa-12.1-010"/>
-    <h4>12.1 010 Expat (LFS)      Date: 2024-03-20  Severity: Medium</h4>
-    <p>In Expat-2.6.2, a security vulnerability was fixed that could allow for
-    denial of service via an XML Entity Expansion attack when there is isolated
-    use of external parsers (created using the XML_ExternalEntityParserCreate
-    function). The issue has been classified as a "billion laughs" attack,
-    also known as an XML bomb attack. Update to Expat-2.6.2.
-    <a href="../../blfs/advisories/consolidated.html#sa-12.1-010">12.1-010</a></p>
+    <h4>12.1 010 Expat (LFS)      Data: 2024-03-20  Gravidade: Média</h4>
+    <p>No Expat-2.6.2, uma vulnerabilidade de segurança foi corrigida 
+    que poderia permitir a negação de serviço por meio de um ataque de 
+    Expansão de Entidade de XML quando existir uso isolado de 
+    analisadores externos (criados usando a função 
+    XML_ExternalEntityParserCreate). O problema foi classificado como um 
+    ataque de “bilhões de risadas”, também conhecido como um ataque de 
+    bomba de XML. Atualize para Expat-2.6.2.
+    <a href="https://www.linuxfromscratch.org/blfs/advisories/consolidated.html#sa-12.1-010">12.1-010</a></p>
 
-<!-- end of Expat -->
+<!-- fim de Expat -->
 
-    <h3>Linux Kernel</h3>
+    <h3>Núcleo Linux</h3>
     <a id="sa-11.1-011"/>
-    <h4>11.1 011 Linux Kernel (LFS)  Date: 2022-03-15  Severity: Medium</h4>
-    <p>In Linux-6.8.5, an insufficient mitigation against the hardware
-    vulnerability known as Branch History Injection, or BHI
-    (see <a href='../../blfs/advisories/consolidated.html#sa-11.1-011'>11.1-011</a>
-    for details) on some Intel processors was fixed.  Read
-    <a href="../../blfs/advisories/consolidated.html#sa-12.1-029">12.1-029</a>
-    for how to fully mitigate BHI for affected Intel processors.</p>
+    <h4>11.1 011 Núcleo Linux (LFS)  Data: 2022-03-15  Gravidade: Média</h4>
+    <p>No Linux-6.8.5, uma mitigação insuficiente contra a 
+    vulnerabilidade de hardware conhecida como Branch History Injection, 
+    ou BHI (veja-se
+<a href='https://www.linuxfromscratch.org/blfs/advisories/consolidated.html#sa-11.1-011'>11.1-011</a>
+    para detalhes), em alguns processadores Intel foi corrigida. Leia-se
+<a href="https://www.linuxfromscratch.org/blfs/advisories/consolidated.html#sa-12.1-029">12.1-029</a>
+    para como mitigar totalmente o BHI para processadores Intel 
+    afetados.</p>
 
-<!-- end of Linux Kernel -->
+<!-- fim de Núcleo Linux -->
 
 <!--#include virtual="/common/footer.html" -->
