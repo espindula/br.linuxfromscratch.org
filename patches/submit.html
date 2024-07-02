@@ -1,140 +1,186 @@
-<!--#set var="pageTitle" value="Submit a Patch" -->
+<!--#set var="pageTitle" value="Submeta um Remendo" -->
 <!--#include virtual="header.html" -->
 <!--#include virtual="menu.html" -->
     <div class="main">
 
-<h1>Patches Submission Guidelines</h1>
+<h1>Diretrizes de Submissão de Remendos</h1>
 
-        <p>Before submitting a patch, check if there is an already existing
-        patch for the current version or a previous version. If there is a
-        patch for the previous version that applies without an error (Note:
-        Getting an offset/fuzz when applying the patch is not an error) just
-        drop a note on the list and the patches maintainers will copy the file
-        over to the new version.  </p>
-        
-        <p>A suggested command for creating the patch file is:</p>
+        <p>Antes de submeter um remendo, verifique se já existe um 
+        remendo para a versão atual ou para uma versão anterior. Se 
+        existir um remendo para a versão anterior que se aplique sem 
+        erros (Observação: obter um deslocamento/discrepância ao aplicar 
+        o remendo não é um erro), basta deixar uma observação na lista e 
+        os(as) mantenedores(as) dos remendos copiarão o arquivo para a 
+        nova versão.</p>
+
+        <p>Um comando sugerido para criar o arquivo de remendo é:</p>
         
         <div class="cmd">
-          <p>LC_ALL=C TZ=UTC0 diff -Naur [old...] [new...] &gt; [patch name...].patch</p>
+          <p>LC_ALL=C TZ=UTC0 diff -Naur [antigo...] [novo...] &gt; [nome_do_remendo...].patch</p>
         </div>
         
-        <p>Note that this is not an absolute requirement and you are free to
-        create the patch any way you like as long as the following requirement
-        is satisfied.  When creating the patch, you should be in a directory
-        just above the package directory so that the resulting patch can be
-        applied with <code>patch -p1</code> as per the current instructions in
-        the book.  </p>
+        <p>Observe que esse não é uma exigência absoluta e você é livre 
+        para criar o remendo da maneira que desejar, desde que a 
+        exigência a seguir seja atendida. Ao criar o remendo, você 
+        deveria estar em um diretório logo acima do diretório do pacote, 
+        de forma que o remendo resultante possa ser aplicado com 
+        <code>patch -p1</code> conforme as instruções atuais no 
+        livro.</p>
+
+        <p>O nome do arquivo do remendo deveria estar no seguinte formato:</p>
         
-        <p>The patch file name should be in the following format:</p>
-        
-        <p><code>${packageName}-${packageVersion}-${patchName}-${patchVersion}.patch</code></p>
+        <p><code>${Nomepacote}-${Versãopacote}-${Nomeremendo}-${Versãoremendo}.patch</code></p>
         
         <p>
          <dl>
-           <dt>packageName</dt>
-                <dd>Official name of the package. Be sure to follow the same
-                capitalization that is followed by the official tarball for the
-                package (i.e. cracklib would be cracklib-2.9.7, gcc would be
-                gcc-10.2.0, etc). changing conventions (e.g. ',' or '-' or
-                different package names) shouldn't be a consideration &ndash; 
-                it's up to upstream how they package their tarballs and we should
-                reflect their naming convention. Where package descriptions
-                have multiple words, those words should be '_' separated to
-                differentiate between the '-' separated fields we have on the
-                patches project at present.</dd>           
+           <dt>Nomepacote</dt>
 
-           <dt>packageVersion</dt>
-                <dd>Version against which the patch applies.</dd>
+                <dd>Nome oficial do pacote. Certifique-se de seguir a 
+                mesma capitalização seguida pelo tarball oficial para o 
+                pacote (ou seja, cracklib seria cracklib-2.9.7, gcc 
+                seria gcc-10.2.0, etc). Mudar convenções (por exemplo, 
+                ',' ou '-' ou nomes diferentes de pacotes) não deveria 
+                ser uma consideração &ndash; cabe inteiramente ao fluxo 
+                de desenvolvimento como eles(as) empacotam os tarballs 
+                deles(as) e nós deveríamos refletir a convenção 
+                deles(as) de nomenclatura. Onde as descrições dos 
+                pacotes tiverem múltiplas palavras, essas palavras 
+                deveriam ser separadas por '_' para diferenciar entre os 
+                campos separados por '-' que temos no projeto de 
+                remendos atualmente.</dd>
+
+           <dt>Versãopacote</dt>
+
+                <dd>Versão em relação a qual o remendo se aplica.</dd>
            
-           <dt>patchName</dt>
-                <dd>Short name for the patch (also include architecture if the 
-                 patch is for a particular architecture).</dd>
-           
-           <dt>patchVersion</dt>
-                <dd>Version of the patch (starting at 1, if there is no 
-                previous version). This field is mandatory.</dd>
+           <dt>Nomeremendo</dt>
+
+                <dd>Nome abreviado para o remendo (inclua também a 
+                arquitetura se o remendo for para uma arquitetura 
+                específica).</dd>
+
+           <dt>Versãoremendo</dt>
+
+                <dd>Versão do remendo (começando com 1, se não existir 
+                versão anterior). Esse campo é obrigatório.</dd>
+
          </dl>
         </p>
         
-        <p>The patch should have the following information, each item on a
-        seperate line and in the same order (Be sure to follow the
-        capitalization of the headers so that it is easier for scripts to parse
-        the fields):</p> <p>
+        <p>O remendo deveria ter as seguintes informações, cada item em 
+        uma linha separada e na mesma ordem (certifique-se de seguir a 
+        capitalização dos cabeçalhos, de forma que seja mais fácil para 
+        scripts analisarem os campos):</p>
 
+        <p>
          <dl>
-           <dt>Submitted By</dt>
-                <dd>Name and/or E-mail of submitter.</dd>
+           <dt>Submetido Por</dt>
 
-           <dt>Date</dt>
-                <dd>Date Patch Submitted in YYYY-MM-DD format. It is easier 
-                for everyone to undeerstand the international format, please 
-                do not use any other.</dd>
+                <dd>Nome e (ou) correio eletrônico do(a) 
+                submetente.</dd>
+
+           <dt>Data</dt>
+
+                <dd>Datar o Remendo Submetido no formato AAAA-MM-DD. É 
+                mais fácil para todos(as) entenderem o formato 
+                internacional; por favor, não use nenhum outro.</dd>
+
+           <dt>Versão Inicial do Pacote</dt>
+
+                <dd>Versão em relação a qual o remendo foi preparado 
+                inicialmente.</dd>
            
-           <dt>Initial Package Version</dt>
-                <dd>Version against which the patch was initially prepared.</dd>
-           
-           <dt>Upstream Status</dt>
-                <dd>Whether the patch has been submitted to and/or accepted by 
-                the original developers. The following are some suggestions for 
-                this field along with the explanations:
+           <dt>Situação de Fluxo de Desenvolvimento</dt>
+
+                <dd>Se o remendo foi submetido e (ou) aceito pelos(as) 
+                desenvolvedores(as) originais. A seguir estão algumas 
+                sugestões para esse campo junto com as explicações:
+
                   <dl>
-                    <dt>Not submitted &ndash; LFS Specific</dt>
-                        <dd>The patch is specific to LFS and has no value upstream. This
-                            should generally be avoided.</dd>
-                    
-                    <dt>Not submitted &ndash; [Test Version, Hack, Maintainer AWOL, ...]</dt>
-                        <dd>The patch has not been submitted upstream for some reason &ndash; e.g.
-                            the patch needs to be properly tested, the patch is a hack that
-                            will not be acceptable upstream, the maintainer is AWOL, ...</dd>
-                    
-                    <dt>From Upstream</dt>
-                        <dd>The patch is submitted upstream (not necessarily by you) and will
-                            be available in a future release.</dd>
-                    
-                    <dt>Submitted Upstream</dt>
-                        <dd>The patch has been submitted upstream (not necessarily by you)
-                            but there is no word yet from the maintainers.</dd>
-                    
-                    <dt>Rejected Upstream</dt>
-                        <dd>The patch was submitted upstream (not necessarily by you)
-                            but was rejected by the maintainers.</dd>
+                    <dt>Não submetido &ndash; Específico do LFS</dt>
+
+                        <dd>O remendo é específico para o LFS e não tem 
+                        valor para o fluxo de desenvolvimento. Isso 
+                        geralmente deveria ser evitado.</dd>
+
+                    <dt>Não submetido &ndash; [Versão de Teste, Hack, Ausência de Mantenedor(a), ...]</dt>
+
+                        <dd>O remendo não foi submetido ao fluxo de 
+                        desenvolvimento por algum motivo &ndash; por 
+                        exemplo, o remendo precisa ser testado 
+                        adequadamente; o remendo é um hack que não será 
+                        aceitável no fluxo de desenvolvimento; o(a) 
+                        mantenedor(a) está ausente; ...</dd>
+
+                    <dt>Oriundo do Fluxo de Desenvolvimento</dt>
+
+                        <dd>O remendo foi submetido ao fluxo de 
+                        desenvolvimento (não necessariamente por você) e 
+                        estará disponível em um lançamento futuro.</dd>
+
+                    <dt>Submetido ao Fluxo de Desenvolvimento</dt>
+
+                        <dd>O remendo foi submetido ao fluxo de 
+                        desenvolvimento (não necessariamente por você), 
+                        mas ainda não existe nenhuma decisão proveniente 
+                        dos(as) mantenedores(as).</dd>
+
+                    <dt>Rejeitado pelo Fluxo de Desenvolvimento</dt>
+
+                        <dd>O remendo foi submetido ao fluxo de 
+                        desenvolvimento (não necessariamente por você), 
+                        mas foi rejeitado pelos(as) 
+                        mantenedores(as).</dd>
+
                   </dl>
 
-                    If someone other than you had submitted the patch upstream, please
-                    acknowledge the person in the Description section. Also, it is always
-                    useful to add an URI for the relevant discussion.
+                    Se alguém além de você tiver submetido o remendo ao 
+                    fluxo de desenvolvimento, por favor, reconheça a 
+                    pessoa na seção Descrição. Além disso, sempre é útil 
+                    adicionar um URI para a discussão relevante.
+
                 </dd>
            
-           <dt>Origin</dt>
-                <dd>Where the patch originated. This is useful for the users when
-                    considering whether to apply the patch. Please keep this field short
-                    and restricted to a single line. A URI to a mailing-list discussion
-                    on the patch is the best fit for this field. Another option, if the
-                    patch is taken from a distro package is to write the name of the
-                    distribution and the package name (e.g. Redhat mozilla-1.4-12.src.rpm).
-                    If the patch is created by you and there is no URI to reference, just
-                    add your name in the field.
-                </dd>
-           
-           <dt>Description</dt>
-                <dd>Description of what the patch does, links to more information
-                    related to the patch, etc. The more information you give to potential
-                    appliers of the patch, the better chance it has of being used. If you
-                    are modifying an existing patch, be sure to credit the original author.
-                </dd>
+           <dt>Origem</dt>
+
+                <dd>Onde o remendo se originou. Isso é útil para os(as) 
+                usuários(as) ao considerarem a aplicação do remendo. Por 
+                favor, mantenha esse campo curto e restrito a uma linha. 
+                Um URI para uma discussão em lista de discussão relativa 
+                ao remendo é o mais adequado para esse campo. Outra 
+                opção, se o remendo for retirado a partir de um pacote 
+                de distribuição, é a de escrever o nome da distribuição 
+                e o nome do pacote (por exemplo, mozilla-1.4-12.src.rpm 
+                da Redhat). Se o remendo for criado por você e não 
+                existir URI para referência, basta adicionar teu nome no 
+                campo.</dd>
+
+           <dt>Descrição</dt>
+
+                <dd>Descrição do que o remendo faz, links para mais 
+                informações relacionadas ao remendo, etc. Quanto mais 
+                informações você fornecer para possíveis aplicadores(as) 
+                do remendo, maiores serão as chances de ele ser usado. 
+                Se você estiver modificando um remendo existente, 
+                certifique-se de creditar ao autor original.</dd>
+
          </dl>
         </p>
+
+        <p><em>Observação: Veja-se o
+<a href="package-1.0-sample4patch.patch">remendo amostra</a>.</em></p>
         
-        <p><em>Note: See the <a href="package-1.0-sample4patch.patch">sample patch</a>.</em></p>
-        
-        <p>Patches should be mailed to
-           <a href="https://lists.linuxfromscratch.org/sympa/info/blfs-dev">
-           the blfs-dev mailing list</a>. The patches maintainers prefer receiving download
-           URIs also along with the patches. Even if you include a URI, please attach the
-           patch along with your submission for the archives. Please gzip or bzip2 the patches
-           so that it is easy for people to download the patches directly from the list
-           archives. At the same time it saves some bandwidth. The patches will be gunziped
-           or bunzip2ed before uploading so that they can be viewed online.
-        </p>
+        <p>Remendos deveriam ser enviados para
+<a href="https://lists.linuxfromscratch.org/sympa/info/blfs-dev">a 
+        lista de discussão blfs-dev</a>. Os(As) mantenedores(as) dos 
+        remendos preferem receber URIs de download também junto com os 
+        remendos. Mesmo se você incluir um URI, por favor, anexe o 
+        remendo junto com tua submissão para os arquivamentos. Por 
+        favor, comprima (com gzip ou bzip2) os remendos, de forma que 
+        seja fácil para as pessoas baixar os remendos diretamente a 
+        partir dos arquivamentos da lista. Ao mesmo tempo, economiza 
+        alguma largura de banda. Os remendos serão comprimidos (com gzip 
+        ou bunzip2) antes do upload, de forma que possam ser 
+        visualizados on-line.</p>
         
 <!--#include virtual="/common/footer.html" -->
