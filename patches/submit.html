@@ -1,0 +1,140 @@
+<!--#set var="pageTitle" value="Submit a Patch" -->
+<!--#include virtual="header.html" -->
+<!--#include virtual="menu.html" -->
+    <div class="main">
+
+<h1>Patches Submission Guidelines</h1>
+
+        <p>Before submitting a patch, check if there is an already existing
+        patch for the current version or a previous version. If there is a
+        patch for the previous version that applies without an error (Note:
+        Getting an offset/fuzz when applying the patch is not an error) just
+        drop a note on the list and the patches maintainers will copy the file
+        over to the new version.  </p>
+        
+        <p>A suggested command for creating the patch file is:</p>
+        
+        <div class="cmd">
+          <p>LC_ALL=C TZ=UTC0 diff -Naur [old...] [new...] &gt; [patch name...].patch</p>
+        </div>
+        
+        <p>Note that this is not an absolute requirement and you are free to
+        create the patch any way you like as long as the following requirement
+        is satisfied.  When creating the patch, you should be in a directory
+        just above the package directory so that the resulting patch can be
+        applied with <code>patch -p1</code> as per the current instructions in
+        the book.  </p>
+        
+        <p>The patch file name should be in the following format:</p>
+        
+        <p><code>${packageName}-${packageVersion}-${patchName}-${patchVersion}.patch</code></p>
+        
+        <p>
+         <dl>
+           <dt>packageName</dt>
+                <dd>Official name of the package. Be sure to follow the same
+                capitalization that is followed by the official tarball for the
+                package (i.e. cracklib would be cracklib-2.9.7, gcc would be
+                gcc-10.2.0, etc). changing conventions (e.g. ',' or '-' or
+                different package names) shouldn't be a consideration &ndash; 
+                it's up to upstream how they package their tarballs and we should
+                reflect their naming convention. Where package descriptions
+                have multiple words, those words should be '_' separated to
+                differentiate between the '-' separated fields we have on the
+                patches project at present.</dd>           
+
+           <dt>packageVersion</dt>
+                <dd>Version against which the patch applies.</dd>
+           
+           <dt>patchName</dt>
+                <dd>Short name for the patch (also include architecture if the 
+                 patch is for a particular architecture).</dd>
+           
+           <dt>patchVersion</dt>
+                <dd>Version of the patch (starting at 1, if there is no 
+                previous version). This field is mandatory.</dd>
+         </dl>
+        </p>
+        
+        <p>The patch should have the following information, each item on a
+        seperate line and in the same order (Be sure to follow the
+        capitalization of the headers so that it is easier for scripts to parse
+        the fields):</p> <p>
+
+         <dl>
+           <dt>Submitted By</dt>
+                <dd>Name and/or E-mail of submitter.</dd>
+
+           <dt>Date</dt>
+                <dd>Date Patch Submitted in YYYY-MM-DD format. It is easier 
+                for everyone to undeerstand the international format, please 
+                do not use any other.</dd>
+           
+           <dt>Initial Package Version</dt>
+                <dd>Version against which the patch was initially prepared.</dd>
+           
+           <dt>Upstream Status</dt>
+                <dd>Whether the patch has been submitted to and/or accepted by 
+                the original developers. The following are some suggestions for 
+                this field along with the explanations:
+                  <dl>
+                    <dt>Not submitted &ndash; LFS Specific</dt>
+                        <dd>The patch is specific to LFS and has no value upstream. This
+                            should generally be avoided.</dd>
+                    
+                    <dt>Not submitted &ndash; [Test Version, Hack, Maintainer AWOL, ...]</dt>
+                        <dd>The patch has not been submitted upstream for some reason &ndash; e.g.
+                            the patch needs to be properly tested, the patch is a hack that
+                            will not be acceptable upstream, the maintainer is AWOL, ...</dd>
+                    
+                    <dt>From Upstream</dt>
+                        <dd>The patch is submitted upstream (not necessarily by you) and will
+                            be available in a future release.</dd>
+                    
+                    <dt>Submitted Upstream</dt>
+                        <dd>The patch has been submitted upstream (not necessarily by you)
+                            but there is no word yet from the maintainers.</dd>
+                    
+                    <dt>Rejected Upstream</dt>
+                        <dd>The patch was submitted upstream (not necessarily by you)
+                            but was rejected by the maintainers.</dd>
+                  </dl>
+
+                    If someone other than you had submitted the patch upstream, please
+                    acknowledge the person in the Description section. Also, it is always
+                    useful to add an URI for the relevant discussion.
+                </dd>
+           
+           <dt>Origin</dt>
+                <dd>Where the patch originated. This is useful for the users when
+                    considering whether to apply the patch. Please keep this field short
+                    and restricted to a single line. A URI to a mailing-list discussion
+                    on the patch is the best fit for this field. Another option, if the
+                    patch is taken from a distro package is to write the name of the
+                    distribution and the package name (e.g. Redhat mozilla-1.4-12.src.rpm).
+                    If the patch is created by you and there is no URI to reference, just
+                    add your name in the field.
+                </dd>
+           
+           <dt>Description</dt>
+                <dd>Description of what the patch does, links to more information
+                    related to the patch, etc. The more information you give to potential
+                    appliers of the patch, the better chance it has of being used. If you
+                    are modifying an existing patch, be sure to credit the original author.
+                </dd>
+         </dl>
+        </p>
+        
+        <p><em>Note: See the <a href="package-1.0-sample4patch.patch">sample patch</a>.</em></p>
+        
+        <p>Patches should be mailed to
+           <a href="https://lists.linuxfromscratch.org/sympa/info/blfs-dev">
+           the blfs-dev mailing list</a>. The patches maintainers prefer receiving download
+           URIs also along with the patches. Even if you include a URI, please attach the
+           patch along with your submission for the archives. Please gzip or bzip2 the patches
+           so that it is easy for people to download the patches directly from the list
+           archives. At the same time it saves some bandwidth. The patches will be gunziped
+           or bunzip2ed before uploading so that they can be viewed online.
+        </p>
+        
+<!--#include virtual="/common/footer.html" -->
