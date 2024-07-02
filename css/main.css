@@ -71,6 +71,10 @@ hr {
   height: 1px;
 }
 
+.centralized-h2-title {
+  text-align: center;
+}
+
 
 /* Header: logo, top menu and search     */
 /* ===================================== */
@@ -274,7 +278,7 @@ div.navbar {
 }
 
 
-/* Conteúdo e rodapé da página príncipal */
+/* Main page content & footer            */
 /* ===================================== */
 
 div.main {
