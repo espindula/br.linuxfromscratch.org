@@ -1,0 +1,43 @@
+<!--#set var="pageTitle" value="Download jhalfs" -->
+<!--#include virtual="header.html" -->
+<!--#include virtual="menu.html" -->
+    <div class="main">
+      <h1>Download jhalfs</h1>
+      <h2>Obtain jhalfs</h2>
+      <p>jhalfs is maintained as a rolling release. It can be obtained from
+         the git repository:</p>
+      <div class="cmd"><p>git clone
+         https://git.linuxfromscratch.org/jhalfs.git</p></div>
+      <h2>Packages required for jhalfs</h2>
+      <p>Before it can parse the LFS book for commands, jhalfs needs to have a
+         local copy of the book's XML source. Currently, jhalfs relies on <a
+         href="https://git-scm.com/">git</a> to ensure that it
+         has the most up-to-date version of the LFS Book. There are <a
+         href="/blfs/view/stable/general/git.html">build
+         instructions</a> in BLFS.</p>
+      <p>To extract the commands from the LFS book, jhalfs relies on xsltproc
+         from the <a href="http://xmlsoft.org/XSLT/">libxslt</a> package and
+         its dependencies.
+         There are <a href="/blfs/view/stable/general/libxslt.html">build
+         instructions</a> in BLFS.</p>
+      <p>The <a href="https://docbook.org/specs/docbook-4.5-spec.html">DocBook
+         XML DTD</a> and
+         <a href="https://cdn.docbook.org/release/xsl-nons/1.79.2/">DocBook
+         XSL stylesheets</a> are now needed for profiling the book. There are
+         build instructions for
+         <a href="/blfs/view/stable/pst/docbook.html">DocBook XML
+         DTD</a> and
+         <a href="/blfs/view/stable/pst/docbook-xsl.html">DocBook XSL
+         stylesheets</a> in BLFS.</p>
+      <p>If you want jhalfs to automatically download the source packages LFS
+         uses, you'll need to have <a
+         href="https://www.gnu.org/software/wget/wget.html">wget</a> installed.
+         There are <a href="/blfs/view/stable/basicnet/wget.html">build
+         instructions</a> in BLFS.</p>
+      <p>Last but not least, jhalfs relies on <a
+         href="https://www.sudo.ws/">sudo</a> for running privileged
+         instructions. Again, <a href="/blfs/view/stable/postlfs/sudo.html">
+         build instructions</a> can be found in BLFS. The README file
+         has some advice on how to configure /etc/sudoers.</p>
+
+<!--#include virtual="/common/footer.html" -->
