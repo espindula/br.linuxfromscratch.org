@@ -4,20 +4,52 @@
     <div class = "main">
       <h1>Baixar jhalfs</h1>
       <h2>Obter jhalfs</h2>
-      <p>jhalfs é mantido como um lançamento contínuo. Ele pode ser obtido a partir do repositório git:</p>
 
-      <div class = "cmd"><p>git clone https://git.linuxfromscratch.org/jhalfs.git</p></div>
+      <p>jhalfs é mantido como um lançamento contínuo. Ele pode ser 
+      obtido a partir do repositório git:</p>
+
+      <div class = "cmd">
+<p>git clone https://git.linuxfromscratch.org/jhalfs.git</p></div>
 
       <h2>Pacotes exigidos para jhalfs</h2>
 
-      <p>Antes que consiga analisar o livro LFS em busca de comandos, o jhalfs precisa ter uma cópia local do fonte XML do livro. Atualmente, jhalfs depende do <a href="https://git-scm.com/">git</a> para garantir que tenha a versão mais atualizada do livro LFS. Existem <a href="/blfs/view/stable/general/git.html">instruções de construção</a> no BLFS.</p>
+      <p>Antes que consiga analisar o livro LFS em busca de comandos, o 
+      jhalfs precisa ter uma cópia local do fonte XML do livro. 
+      Atualmente, jhalfs depende do
+<a href = "https://git-scm.com/">git</a> para garantir que tenha a 
+      versão mais atualizada do livro LFS. Existem
+<a href = "/blfs/view/stable/general/git.html">instruções de 
+      construção</a> no BLFS.</p>
 
-      <p>Para extrair os comandos a partir do livro LFS, o jhalfs depende do xsltproc oriundo do pacote <a href="http://xmlsoft.org/XSLT/">libxslt</a> e das dependências dele. Existem <a href="/blfs/view/stable/general/libxslt.html">instruções de construção</a> no BLFS.</p>
+      <p>Para extrair os comandos a partir do livro LFS, o jhalfs 
+      depende do xsltproc oriundo do pacote
+<a href = "http://xmlsoft.org/XSLT/">libxslt</a> e das dependências 
+      dele. Existem
+<a href = "/blfs/view/stable/general/libxslt.html">instruções de 
+      construção</a> no BLFS.</p>
 
-      <p>O <a href="https://docbook.org/specs/docbook-4.5-spec.html">DTD do XML do DocBook</a> e <a href="https://cdn.docbook.org/release/xsl-nons/1.79.2/">folhas de estilo XSL do DocBook</a> agora são necessárias para perfilar o livro. Existem instruções de construção para <a href="/blfs/view/stable/pst/docbook.html">DTD do XML do DocBook</a> e para <a href="/blfs/view/stable/pst/docbook-xsl.html">folhas de estilo XSL do DocBook</a> no BLFS.</p>
+      <p>O
+<a href = "https://docbook.org/specs/docbook-4.5-spec.html">DTD do XML do DocBook</a> e
+<a href = "https://cdn.docbook.org/release/xsl-nons/1.79.2/">folhas de estilo XSL do DocBook</a>
+      agora são necessárias para perfilar o livro. Existem instruções de 
+      construção para
+<a href = "/blfs/view/stable/pst/docbook.html">DTD do XML do DocBook</a>
+      e para
+<a href = "/blfs/view/stable/pst/docbook-xsl.html">folhas de estilo XSL do DocBook</a>
+      no BLFS.</p>
 
-      <p>Se você quiser que o jhalfs baixe automaticamente os pacotes fonte que o LFS usa, você precisará ter o <a href="https://www.gnu.org/software/wget/wget.html">wget</a> instalado. Existem <a href="/blfs/view/stable/basicnet/wget.html">instruções de construção</a> no BLFS.</p>
+      <p>Se você quiser que o jhalfs baixe automaticamente os pacotes 
+      fonte que o LFS usa, você precisará ter o
+<a href = "https://www.gnu.org/software/wget/wget.html">wget</a> 
+      instalado. Existem
+<a href = "/blfs/view/stable/basicnet/wget.html">instruções de construção</a>
+      no BLFS.</p>
 
-      <p>Por último, porém não menos importante, jhalfs depende do <a href="https://www.sudo.ws/">sudo</a> para executar instruções privilegiadas. Novamente, <a href="/blfs/view/stable/postlfs/sudo.html">instruções de construção</a> podem ser encontradas no BLFS. O arquivo README tem alguns conselhos acerca de como configurar /etc/sudoers.</p>
+      <p>Por último, porém não menos importante, jhalfs depende do
+<a href = "https://www.sudo.ws/">sudo</a> para executar instruções 
+      privilegiadas. Novamente,
+<a href = "/blfs/view/stable/postlfs/sudo.html">instruções de construção</a>
+      podem ser encontradas no BLFS. O arquivo README tem alguns 
+      conselhos acerca de como configurar /etc/sudoers.</p>
 
 <!--#include virtual="/common/footer.html" -->
