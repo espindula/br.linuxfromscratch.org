@@ -1,0 +1,115 @@
+<!--#set var="pageTitle" value="MLFS Project Homepage" -->
+<!--#include virtual="header.html" -->
+<!--#include virtual="menu.html" -->
+
+    <div class="main">
+    <h1>What is MLFS (Multilib-LFS)?</h1>
+
+    <p>
+      Multilib-LFS is a variant of the <a href="/lfs/view/development/">LFS book</a>.
+      This variant builds a system which is able to execute 32-bit binaries.
+    </p>
+
+    <p>
+      That sounds trivial, but it isn't. Nowadays, nearly all CPUs in our
+      computers are 64-bit, and most of them are Intel-compatible.
+      This has happened before, many years ago, where 16-bit CPUs (8086)
+      were common and new 32-bit CPUs were coming up (80386). Common to all
+      these CPUs is that they are able to execute machine instructions of
+      previous architectures, meaning that a 32-bit CPU can execute 16-bit
+      instructions, a 64-bit CPU can execute 32-bit instructions, and so on.
+      The problem is that the binary format in which those instructions
+      are stored differs.
+    </p>
+
+    <p>
+      Since this CPU architecture has existed for decades now, there is also
+      a lot of software written for it. Unfortunatly, some of this software
+      is only available in a pre-compiled binary, and no source code is
+      available anymore. This can be due to several different reasons, such
+      as the source code getting lost or never being published due to licensing
+      issues or because the creator did not want to release the source code.
+      In these cases though, the binary is still available.
+    </p>
+
+    <p>
+      Since the format of 64-bit and 32-bit binaries are different, these
+      old programs cannot be executed on modern systems. This is where
+      the multilib systems come to play and therefore Multilib-LFS. Multilib
+      systems provide the environment so that 32-bit binaries can be executed
+      on a 64-bit OS as well. This needs to be support in the kernel, but it
+      also needs several other core libraries to be available in 32-bit
+      versions.
+    </p>
+
+    <p>
+      But thats not all. There is another architecture which is somewhat
+      between 32- and 64-bit. Its called x32. That is, the binaries operate
+      with the full instruction set of a 64-bit CPU, but address space is
+      limited to 32-bit (~4GB). Executing such binaries does either need a
+      system built explicitly for x32 or a multilib system which is capable
+      of running those binaries.
+    </p>
+
+    <p>
+      The Multilib-LFS book is based on the actual LFS book but has some
+      extensions in the instructions. In most cases, this extensions are
+      repetitions of the build instructions, but just in another mode
+      (m32 and/or mx32).
+    </p>
+
+    <h2>Why would I want an MLFS system?</h2>
+    <p>Usually, there is no need to run a multilib system. But there
+    might be circumstances where you need one:</p>
+
+    <h3>Old software only available as binary</h3>
+    <p>There might be software you want to use where that software is 32bit
+    and there are no sources available to recompile it. Even when source
+    code is available though, it might not be possible to recompile because of
+    unresolvable dependencies to other (old) packages. A printer driver
+    only available as 32bit binary was one of the reasons to kick-off
+    the mlfs project.</p>
+
+    <h3>Other software requires multilib</h3>
+    <p>For virtualization (here <a href="https://www.virtualbox.org/">VirtualBox</a>) m32-multilib
+    is named as a prerequisite. When you want to install VirtualBox
+    on a LFS system to be your VM host, only four additional non-BLFS
+    packages are need. If you want to rebuild the 64bit and 32bit guest
+    additions, a multilib OS is required to build them.</p>
+    <p>Also, <a href="/glfs">GLFS (Gaming LFS)</a> depends on multilib.</p>
+
+    <h2>Read online</h2>
+    <p>
+      There are three versions of the Multilib-LFS online:
+      <ul>
+        <li><a href="/~thomas/multilib-m32/">MLFS with m32 extensions</a>
+           (probably what you want)</li>
+        <li><a href="/~thomas/multilib-mx32/">MLFS with mx32 extensions</a></li>
+        <li><a href="/~thomas/multilib/">MLFS including both extensions</a></li>
+      </ul>
+      These books are created when the LFS trunk has been merged to
+      the multilib branch. That merge is currently done manually and
+      therefore, it might be a few days behind.
+    </p>
+
+    <h2>Limitations</h2>
+    <p>
+      MLFS is hard to test unless there are old binaries available to use.
+      When such a binary is executable, it unfortunatly does not mean
+      that any other of those binaries will run, too. There might be
+      BLFS library packages required as dependencies in that particular
+      multilib environment. Neither MLFS nor BLFS covers that at the
+      moment (there is no MBLFS) but MLFS should give the user an idea on how
+      to build multilib versions of libraries.
+    </p>
+
+    <h2>Thanks to</h2>
+    <ul>
+      <li>William Feely who started a
+          <a href="https://www.williamfeely.info/lfs-multilib/">similar project</a>
+          a decade ago
+      </li>
+      <li>DJ Lucas, Xi Ruoyao, Douglas R. Reno and many others more</li>
+    </ul>
+
+<!--#include virtual="/common/footer.html" -->

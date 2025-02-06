@@ -1,0 +1,68 @@
+<!--#set var="pageTitle" value="Download mlfs" -->
+<!--#include virtual="header.html" -->
+<!--#include virtual="menu.html" -->
+    <div class="main">
+      <h1>Download mlfs</h1>
+
+      <h2>Obtain mlfs</h2>
+
+      <p>mlfs is maintained as a rolling release, it is based on the
+      actual development version of the LFS book. Currently, there
+      are no releases and because it is based on the development
+      version, there might be hickups from time to time. mlfs is meant
+      for experienced users.</p>
+
+      <p>mlfs can be obtained from the git repository:</p>
+      <div class="cmd"><p>git clone --branch multilib
+         https://git.linuxfromscratch.org/lfs.git mlfs</p></div>
+      <p>It is recommended to give the name of the directory (here:
+        <tt>mlfs</tt>) to avoid clashes with other clones of the LFS
+        repository.</p>
+
+      <p>If there is a clone downloaded already, it can be used too. In this
+        case, checkout the multilib branch:</p>
+      <div class="cmd"><p>cd &lt;where-clone-is&gt; &amp;&amp;
+         git checkout multilib</p></div>
+
+
+      <h2>Rendering the mlfs book</h2>
+
+      <p>Rendering works the same way as it does with the LFS book.
+        The essential parameter <tt>REV</tt> and <tt>BASEDIR</tt>
+        should be set. In addition to the common parameters, mlfs
+        has introduced <em><tt>ARCH</tt></em> which specifies which
+        kind of extensions should be included in the produced html.
+        <tt>ARCH</tt> can be set to
+        <ul>
+          <li><tt>ml_32</tt>: Include m32 extensions only</li>
+          <li><tt>ml_x32</tt>: Include mx32 extensions only</li>
+          <li><tt>ml_all</tt>: Include both, m32 and mx32</li>
+          <li><tt>default</tt>: Include none</li>
+        </ul>
+        Leaving <tt>ARCH</tt> unset or set it to <tt>default</tt> will
+        produce a LFS book without any of the multilib extensions which
+        therefore should result in a book basically identical to the
+        'original' book.</p>
+
+      <p>Samples:
+        <ul>
+          <li>Init system: sysv, ML extension: m32<br>
+          <div class="cmd"><p>make BASEDIR=... REV=sysv ARCH=ml_32</p></div>
+          </li>
+          <li>Init system: systemd, ML extension: m32 and mx32<br>
+          <div class="cmd"><p>make BASEDIR=... REV=systemd ARCH=ml_all</p></div>
+          </li>
+        </ul>
+      </p>
+
+      <h2>Packages for mlfs</h2>
+
+      <p>As usual, mlfs has a list of packages and patches which you
+        should download. These are the same as in the LFS book with
+        currently following exceptions:
+        <ul>
+	  <li>Chapter 8: ISL is added to be used by the final gcc</li>
+        </ul>
+      </p>
+
+<!--#include virtual="/common/footer.html" -->

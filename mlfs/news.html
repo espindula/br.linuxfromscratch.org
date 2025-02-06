@@ -1,0 +1,35 @@
+<!--#set var="pageTitle" value="MLFS News" -->
+<!--#include virtual="header.html" -->
+<!--#include virtual="menu.html" -->
+    <div class="main">
+    <h1>MLFS News</h1>
+
+    <p>Noteworthy changes in the MLFS system. In addition to the
+      entries in the books changelog, relevant changes you should
+      be aware of are reported here:</p>
+
+<!--
+    <dl class="newsItem">
+      <dt>Teaser</dt>
+      <dd><em>Thomas Trepl - YYYY/MM/DD</em>
+        <p>Description</p>
+      </dd>
+    </dl>
+-->
+    <dl class="newsItem">
+      <dt>gcc defaults changed</dt>
+      <dd><em>Thomas Trepl - 2024/11/12</em>
+        <p>Added a <tt>sed</tt> to all of the gcc build instructions
+        (chapter 5, 6, 8) to make the <tt>-mstackrealign</tt> flag
+        set by default for the m32 builds.</p>
+      </dd>
+    </dl>
+
+    <dl class="newsItem">
+      <dt>ISL added</dt>
+      <dd><em>Thomas Trepl - long ago</em>
+        <p>The package ISL (<a href="http://libisl.sourceforge.io/">see here</a>)
+        has been added so that gcc will pick it up for some optimizations.</p>
+      </dd>
+    </dl>
+<!--#include virtual="/common/footer.html" -->
