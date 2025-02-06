@@ -1,97 +1,106 @@
-<!--#set var="pageTitle" value="GLFS Project Homepage" -->
+<!--#set var="pageTitle" value="Página inicial do Projeto GLFS" -->
 <!--#include virtual="header.html" -->
 <!--#include virtual="menu.html" -->
 
     <div class="main">
-    <h1>What is Gaming Linux From Scratch?</h1>
+    <h1>O que é Gaming Linux From Scratch?</h1>
 
     <p>
-      Gaming Linux From Scratch, which is based on the
-      <a href="/blfs/view/svn/">BLFS book</a>, helps you install gaming
-      support software, like Steam or Wine, on a new LFS system.
+      O Gaming Linux From Scratch, o qual é baseado no <a 
+      href="https://www.linuxfromscratch.org/blfs/view/svn/">livro 
+      BLFS</a>, ajuda você a instalar software de suporte a jogos, como 
+      Steam ou Wine, em um novo sistema LFS.
     </p>
 
     <p>
-      This process can be pretty involved, especially if you are using an
-      x86_64 CPU. When it comes to gaming, Steam is the most popular choice.
-      On Linux, Steam itself is a 32-bit binary that cannot be compiled due
-      to unavailability of source code.
-      That means you will need to emulate it on an x86_64 CPU. If you are
-      using a 32-bit CPU, Steam does work, but CEF
-      (<a href="https://github.com/chromiumembedded/cef">Chromium Embedded Framework</a>)
-      sandboxing will not. This is a feature Steam uses for the store page, as
-      Steam uses Chromium. The sandboxing feature can be disabled by passing an
-      option when running Steam.
+      Esse processo pode ser bem complexo, especialmente se você estiver 
+      usando uma CPU x86_64. Quando se trata de jogos, o Steam é a 
+      escolha mais popular. No Linux, o Steam em si é um binário de 32 
+      bits que não pode ser compilado devido à indisponibilidade do 
+      código-fonte. Isso significa que você precisará emulá-lo em uma 
+      CPU x86_64. Se você estiver usando uma CPU de 32 bits, o Steam 
+      funciona, mas o sandboxing do CEF (<a 
+      href="https://github.com/chromiumembedded/cef">Chromium Embedded 
+      Framework</a>) não. Esse é um recurso que o Steam usa para a 
+      página da loja, pois o Steam usa o Chromium. O recurso de 
+      sandboxing pode ser desabilitado passando-se uma opção ao executar 
+      o Steam.
     </p>
 
     <p>
-      The next option is Wine. It can allow you to run any Windows
-      software, like games, without the need for any specialized launchers. It
-      is useful beyond games. A possible usecase is using the Windows version
-      of a package via Wine if the Linux version is not working or has a notable
-      issue interfering with your workflow.
+      A próxima opção é o Wine. Ele pode permitir que você execute 
+      qualquer software do Windows, como jogos, sem a necessidade de 
+      nenhum iniciador especializado. Ele é útil além dos jogos. Um 
+      possível caso de uso é o de usar a versão do Windows de um pacote 
+      via Wine se a versão do Linux não estiver funcionando ou tiver um 
+      problema notável interferindo no teu fluxo de trabalho.
     </p>
 
     <p>
-      In both cases, if you are using an x86_64 CPU, installing 32-bit software
-      for compatibilty with 32-bit software is the best move. A lot of
-      games are still 32-bit. Even if you plan to just use Wine, which can be
-      compiled for 64-bit, a lot of Windows software are also 32-bit only.
+      Em ambos os casos, se você estiver usando uma CPU x86_64, instalar 
+      software de 32 bits para compatibilidade com software de 32 bits é 
+      o melhor movimento. Um monte de jogos ainda é de 32 bits. Mesmo se 
+      você planeja usar apenas o Wine, que pode ser compilado para 64 
+      bits, um monte de software do Windows também é somente de 32 bits.
     </p>
 
     <p>
-      <a href="/mlfs">MLFS</a> is therefore a strongly recommended
-      prerequisuite for this book. It is recommended for Wine and required for
-      Steam. <a href="/~thomas/multilib-m32/">MLFS with m32 extensions</a> is
-      the recommended choice to save disk usage and build times. x32-bit at
-      present time is not very useful for Steam or Wine.
+      <a href="/mlfs">MLFS</a> é, portanto, um pré-requisito fortemente 
+      recomendado para este livro. É recomendado para Wine e exigido 
+      para Steam. <a href="/~thomas/multilib-m32/">MLFS com extensões 
+      m32</a> é a escolha recomendada para economizar uso de disco e 
+      tempo de construção. x32 bits no momento não é muito útil para 
+      Steam ou Wine.
     </p>
 
     <p>
-      If you are on a 32-bit CPU, you won't need to bother with MLFS and can
-      install LFS normally.
+      Se você estiver em uma CPU de 32 bits, não precisará se preocupar 
+      com o MLFS e poderá instalar o LFS normalmente.
     </p>
 
 
-    <h2>Why would I want a GLFS system?</h2>
+    <h2>Por que eu quereria um sistema GLFS?</h2>
 
     <p>
-      Installing binary-only software on an LFS system is a contentious topic
-      in the LFS community. However, a lot of people still want to play games
-      and use Windows software on their new LFS system. GLFS shows how to go
-      about it, allowing your LFS system to be a viable gaming platform. If you
-      don't care about gaming, this book is probably not for you but it still
-      offers instructions on how to install certain packages for 32-bit on
-      64-bit. It also offers instructions on how to install Wine which you
-      still may want to use.
+      Instalar software somente binário em um sistema LFS é um tópico 
+      controverso na comunidade LFS. No entanto, muitas pessoas ainda 
+      querem jogar e usar software Windows no novo sistema LFS delas. 
+      GLFS mostra como fazer isso, permitindo que teu sistema LFS seja 
+      uma plataforma viável de jogos. Se você não se importa com jogos, 
+      este livro provavelmente não é para você, mas ele ainda oferece 
+      instruções acerca do como instalar certos pacotes para 32 bits em 
+      64 bits. Ele também oferece instruções acerca do como instalar o 
+      Wine, o qual você ainda possivelmente queira usar.
     </p>
 
 
-    <h2>What can I do with my GLFS system?</h2>
+    <h2>O que eu consigo fazer com meu sistema GLFS?</h2>
 
     <p>
-      You will be able to use Steam, play popular games using Vulkan and
-      OpenGL, use the NVIDIA Proprietary or AMDGPU PRO drivers, and run Windows
-      software via Wine.
+      Você estará apto(a) a usar o Steam, jogar jogos populares usando 
+      Vulkan e OpenGL, usar os controladores NVIDIA Proprietary ou 
+      AMDGPU PRO e executar software do Windows via Wine.
     </p>
 
 
-    <h2>Read Online</h2>
+    <h2>Leia Online</h2>
 
     <p>
-      You can read the book <a href="https://glfs-book.github.io/glfs">here.</a>
-      The book is rolling release, like MLFS. The only online rendered version
-      right now is System V, although you can
-      <a href="/glfs/download.html">download</a> the edition of the book that
-      has Systemd support.
+      Você consegue ler o livro <a 
+      href="https://glfs-book.github.io/glfs">aqui</a>. O livro é um 
+      lançamento contínuo, como o MLFS. A única versão renderizada 
+      online no momento é a System V, embora você consiga <a 
+      href="/glfs/download.html">baixar</a> a edição do livro que tem 
+      suporte ao Systemd.
     </p>
 
 
-    <h2>Thanks to</h2>
+    <h2>Agradecimentos para</h2>
 
       <p>
-        Rahul Chandra, Thomas Trepl, Xi Ruoyao, and the
-        <a href="https://glfs-book.github.io/glfs/introduction/credits.html">GLFS contributors</a>
+        Rahul Chandra, Thomas Trepl, Xi Ruoyao e os(as) <a 
+        href="https://glfs-book.github.io/glfs/introduction/credits.html">contribuidores(as) 
+        do GLFS</a>
       </p>
 
 <!--#include virtual="/common/footer.html" -->
