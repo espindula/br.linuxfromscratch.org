@@ -1,115 +1,126 @@
-<!--#set var="pageTitle" value="MLFS Project Homepage" -->
+<!--#set var="pageTitle" value="Página inicial do Projeto MLFS" -->
 <!--#include virtual="header.html" -->
 <!--#include virtual="menu.html" -->
 
     <div class="main">
-    <h1>What is MLFS (Multilib-LFS)?</h1>
+    <h1>O que é MLFS (Multilib-LFS)?</h1>
 
     <p>
-      Multilib-LFS is a variant of the <a href="/lfs/view/development/">LFS book</a>.
-      This variant builds a system which is able to execute 32-bit binaries.
+      Multilib-LFS é uma variante do <a 
+      href="/lfs/view/development/">livro LFS</a>. Essa variante 
+      constrói um sistema o qual é apto a executar binários de 32 bits.
     </p>
 
     <p>
-      That sounds trivial, but it isn't. Nowadays, nearly all CPUs in our
-      computers are 64-bit, and most of them are Intel-compatible.
-      This has happened before, many years ago, where 16-bit CPUs (8086)
-      were common and new 32-bit CPUs were coming up (80386). Common to all
-      these CPUs is that they are able to execute machine instructions of
-      previous architectures, meaning that a 32-bit CPU can execute 16-bit
-      instructions, a 64-bit CPU can execute 32-bit instructions, and so on.
-      The problem is that the binary format in which those instructions
-      are stored differs.
+      Isso parece trivial, porém não é. Hoje em dia, quase todas as CPUs 
+      em nossos computadores são de 64 bits, e a maioria delas é 
+      compatível com Intel. Isso já aconteceu antes, muitos anos atrás, 
+      quando CPUs de 16 bits (8086) eram comuns e novas CPUs de 32 bits 
+      estavam surgindo (80386). Comum a todas essas CPUs é que elas são 
+      aptas a executar instruções de máquina de arquiteturas anteriores, 
+      significando que uma CPU de 32 bits consegue executar instruções 
+      de 16 bits, uma CPU de 64 bits consegue executar instruções de 32 
+      bits, e assim por diante. O problema é que o formato do binário no 
+      qual essas instruções são armazenadas difere.
     </p>
 
     <p>
-      Since this CPU architecture has existed for decades now, there is also
-      a lot of software written for it. Unfortunatly, some of this software
-      is only available in a pre-compiled binary, and no source code is
-      available anymore. This can be due to several different reasons, such
-      as the source code getting lost or never being published due to licensing
-      issues or because the creator did not want to release the source code.
-      In these cases though, the binary is still available.
+      Dado que essa arquitetura de CPU tem existido por décadas agora, 
+      também existe um monte de software escrito para ela. Infelizmente, 
+      alguns desses softwares estão disponíveis somente em um binário 
+      pré-compilado, e nenhum código-fonte está mais disponível. Isso 
+      pode ser devido a vários motivos, tais como o código-fonte se 
+      perder ou nunca ser publicado devido a problemas de licenciamento 
+      ou porque o(a) criador(a) não quis liberar o código-fonte. Nesses 
+      casos, porém, o binário ainda está disponível.
     </p>
 
     <p>
-      Since the format of 64-bit and 32-bit binaries are different, these
-      old programs cannot be executed on modern systems. This is where
-      the multilib systems come to play and therefore Multilib-LFS. Multilib
-      systems provide the environment so that 32-bit binaries can be executed
-      on a 64-bit OS as well. This needs to be support in the kernel, but it
-      also needs several other core libraries to be available in 32-bit
-      versions.
+      Dado que o formato dos binários de 64 bits e 32 bits são 
+      diferentes, esses programas antigos não podem ser executados em 
+      sistemas modernos. É aqui que os sistemas multilib entram em ação 
+      e, portanto, o Multilib-LFS. Os sistemas multilib fornecem o 
+      ambiente para que os binários de 32 bits também possam ser 
+      executados em um SO de 64 bits. Isso precisa ser suportado no 
+      núcleo, porém também precisa que várias outras bibliotecas 
+      centrais estejam disponíveis em versões de 32 bits.
     </p>
 
     <p>
-      But thats not all. There is another architecture which is somewhat
-      between 32- and 64-bit. Its called x32. That is, the binaries operate
-      with the full instruction set of a 64-bit CPU, but address space is
-      limited to 32-bit (~4GB). Executing such binaries does either need a
-      system built explicitly for x32 or a multilib system which is capable
-      of running those binaries.
+      Todavia isso não é tudo. Existe outra arquitetura que está um 
+      pouco entre 32 e 64 bits. Ela é chamada x32. Ou seja, os binários 
+      operam com o conjunto completo de instruções de uma CPU de 64 
+      bits, porém o espaço de endereço é limitado a 32 bits (~4 GB). 
+      Executar tais binários ou precisa de um sistema construído 
+      explicitamente para x32 ou um sistema multilib que seja capaz de 
+      executar esses binários.
     </p>
 
     <p>
-      The Multilib-LFS book is based on the actual LFS book but has some
-      extensions in the instructions. In most cases, this extensions are
-      repetitions of the build instructions, but just in another mode
-      (m32 and/or mx32).
+      O livro Multilib-LFS é baseado no livro LFS real, mas tem algumas 
+      extensões nas instruções. Na maioria dos casos, essas extensões 
+      são repetições das instruções de construção, entretanto apenas em 
+      outro modo (m32 e (ou) mx32).
     </p>
 
-    <h2>Why would I want an MLFS system?</h2>
-    <p>Usually, there is no need to run a multilib system. But there
-    might be circumstances where you need one:</p>
+    <h2>Por que eu quereria um sistema MLFS?</h2>
+    <p>Usualmente, não existe necessidade de executar um sistema 
+    multilib. Porém pode existir circunstâncias nas quais você precise 
+    de um:</p>
 
-    <h3>Old software only available as binary</h3>
-    <p>There might be software you want to use where that software is 32bit
-    and there are no sources available to recompile it. Even when source
-    code is available though, it might not be possible to recompile because of
-    unresolvable dependencies to other (old) packages. A printer driver
-    only available as 32bit binary was one of the reasons to kick-off
-    the mlfs project.</p>
+    <h3>Software antigo disponível somente como binário</h3>
+    <p>Pode existir software que você queira usar, onde esse software é 
+    de 32 bits e não existam fontes disponíveis para recompilá-lo. Mesmo 
+    quando o código-fonte esteja disponível, pode não ser possível 
+    recompilar devido a dependências não resolvíveis para outros pacotes 
+    (antigos). Um controlador de impressora disponível somente como 
+    binário de 32 bits foi um dos motivos para iniciar o projeto 
+    mlfs.</p>
 
-    <h3>Other software requires multilib</h3>
-    <p>For virtualization (here <a href="https://www.virtualbox.org/">VirtualBox</a>) m32-multilib
-    is named as a prerequisite. When you want to install VirtualBox
-    on a LFS system to be your VM host, only four additional non-BLFS
-    packages are need. If you want to rebuild the 64bit and 32bit guest
-    additions, a multilib OS is required to build them.</p>
-    <p>Also, <a href="/glfs">GLFS (Gaming LFS)</a> depends on multilib.</p>
+    <h3>Outros softwares exigem multilib</h3>
+    <p>Para virtualização (aqui <a 
+    href="https://www.virtualbox.org/">VirtualBox</a>) m32-multilib é 
+    nomeado como um pré-requisito. Quando você quer instalar o 
+    VirtualBox em um sistema LFS para ser teu dispositivo de VM, somente 
+    quatro pacotes adicionais não-BLFS são necessários. Se você quer 
+    reconstruir as adições de convidado de 64 bits e 32 bits, um SO 
+    multilib é exigido para construí-las.</p>
+    <p>Também, o <a href="/glfs">GLFS (Gaming LFS)</a> depende do 
+    multilib.</p>
 
-    <h2>Read online</h2>
+    <h2>Leia online</h2>
     <p>
-      There are three versions of the Multilib-LFS online:
+      Existem três versões do Multilib-LFS online:
       <ul>
-        <li><a href="/~thomas/multilib-m32/">MLFS with m32 extensions</a>
-           (probably what you want)</li>
-        <li><a href="/~thomas/multilib-mx32/">MLFS with mx32 extensions</a></li>
-        <li><a href="/~thomas/multilib/">MLFS including both extensions</a></li>
+        <li><a href="/~thomas/multilib-m32/">MLFS com extensões m32</a>
+           (provavelmente o que você quer)</li>
+        <li><a href="/~thomas/multilib-mx32/">MLFS com extensões mx32</a></li>
+        <li><a href="/~thomas/multilib/">MLFS incluindo ambas extensões</a></li>
       </ul>
-      These books are created when the LFS trunk has been merged to
-      the multilib branch. That merge is currently done manually and
-      therefore, it might be a few days behind.
+      Esses livros são criados quando o tronco LFS tiver sido mesclado à 
+      ramificação multilib. Essa mesclagem atualmente é feita 
+      manualmente e, portanto, pode estar alguns dias para traz.
     </p>
 
-    <h2>Limitations</h2>
+    <h2>Limitações</h2>
     <p>
-      MLFS is hard to test unless there are old binaries available to use.
-      When such a binary is executable, it unfortunatly does not mean
-      that any other of those binaries will run, too. There might be
-      BLFS library packages required as dependencies in that particular
-      multilib environment. Neither MLFS nor BLFS covers that at the
-      moment (there is no MBLFS) but MLFS should give the user an idea on how
-      to build multilib versions of libraries.
+      O MLFS é difícil de testar, a menos que existam binários antigos 
+      disponíveis para uso. Quando tal binário for executável, 
+      infelizmente isso não significa que qualquer outro desses binários 
+      executará, também. Podem existir pacotes de biblioteca do BLFS 
+      exigidos como dependências naquele ambiente multilib particular. 
+      Nem o MLFS nem o BLFS cobrem isso no momento (não existe MBLFS), 
+      mas o MLFS deveria dar para o(a) usuário(a) uma ideia de como 
+      construir versões multilib de bibliotecas.
     </p>
 
-    <h2>Thanks to</h2>
+    <h2>Agradecimentos para</h2>
     <ul>
-      <li>William Feely who started a
-          <a href="https://www.williamfeely.info/lfs-multilib/">similar project</a>
-          a decade ago
+      <li>William Feely que iniciou um
+          <a href="https://www.williamfeely.info/lfs-multilib/">projeto similar</a>
+          há uma década
       </li>
-      <li>DJ Lucas, Xi Ruoyao, Douglas R. Reno and many others more</li>
+      <li>DJ Lucas, Xi Ruoyao, Douglas R. Reno e muitos(as) outros(as) mais</li>
     </ul>
 
 <!--#include virtual="/common/footer.html" -->
