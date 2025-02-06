@@ -1,0 +1,97 @@
+<!--#set var="pageTitle" value="GLFS Project Homepage" -->
+<!--#include virtual="header.html" -->
+<!--#include virtual="menu.html" -->
+
+    <div class="main">
+    <h1>What is Gaming Linux From Scratch?</h1>
+
+    <p>
+      Gaming Linux From Scratch, which is based on the
+      <a href="/blfs/view/svn/">BLFS book</a>, helps you install gaming
+      support software, like Steam or Wine, on a new LFS system.
+    </p>
+
+    <p>
+      This process can be pretty involved, especially if you are using an
+      x86_64 CPU. When it comes to gaming, Steam is the most popular choice.
+      On Linux, Steam itself is a 32-bit binary that cannot be compiled due
+      to unavailability of source code.
+      That means you will need to emulate it on an x86_64 CPU. If you are
+      using a 32-bit CPU, Steam does work, but CEF
+      (<a href="https://github.com/chromiumembedded/cef">Chromium Embedded Framework</a>)
+      sandboxing will not. This is a feature Steam uses for the store page, as
+      Steam uses Chromium. The sandboxing feature can be disabled by passing an
+      option when running Steam.
+    </p>
+
+    <p>
+      The next option is Wine. It can allow you to run any Windows
+      software, like games, without the need for any specialized launchers. It
+      is useful beyond games. A possible usecase is using the Windows version
+      of a package via Wine if the Linux version is not working or has a notable
+      issue interfering with your workflow.
+    </p>
+
+    <p>
+      In both cases, if you are using an x86_64 CPU, installing 32-bit software
+      for compatibilty with 32-bit software is the best move. A lot of
+      games are still 32-bit. Even if you plan to just use Wine, which can be
+      compiled for 64-bit, a lot of Windows software are also 32-bit only.
+    </p>
+
+    <p>
+      <a href="/mlfs">MLFS</a> is therefore a strongly recommended
+      prerequisuite for this book. It is recommended for Wine and required for
+      Steam. <a href="/~thomas/multilib-m32/">MLFS with m32 extensions</a> is
+      the recommended choice to save disk usage and build times. x32-bit at
+      present time is not very useful for Steam or Wine.
+    </p>
+
+    <p>
+      If you are on a 32-bit CPU, you won't need to bother with MLFS and can
+      install LFS normally.
+    </p>
+
+
+    <h2>Why would I want a GLFS system?</h2>
+
+    <p>
+      Installing binary-only software on an LFS system is a contentious topic
+      in the LFS community. However, a lot of people still want to play games
+      and use Windows software on their new LFS system. GLFS shows how to go
+      about it, allowing your LFS system to be a viable gaming platform. If you
+      don't care about gaming, this book is probably not for you but it still
+      offers instructions on how to install certain packages for 32-bit on
+      64-bit. It also offers instructions on how to install Wine which you
+      still may want to use.
+    </p>
+
+
+    <h2>What can I do with my GLFS system?</h2>
+
+    <p>
+      You will be able to use Steam, play popular games using Vulkan and
+      OpenGL, use the NVIDIA Proprietary or AMDGPU PRO drivers, and run Windows
+      software via Wine.
+    </p>
+
+
+    <h2>Read Online</h2>
+
+    <p>
+      You can read the book <a href="https://glfs-book.github.io/glfs">here.</a>
+      The book is rolling release, like MLFS. The only online rendered version
+      right now is System V, although you can
+      <a href="/glfs/download.html">download</a> the edition of the book that
+      has Systemd support.
+    </p>
+
+
+    <h2>Thanks to</h2>
+
+      <p>
+        Rahul Chandra, Thomas Trepl, Xi Ruoyao, and the
+        <a href="https://glfs-book.github.io/glfs/introduction/credits.html">GLFS contributors</a>
+      </p>
+
+<!--#include virtual="/common/footer.html" -->
