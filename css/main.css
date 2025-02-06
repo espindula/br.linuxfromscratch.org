@@ -71,10 +71,6 @@ hr {
   height: 1px;
 }
 
-.centralized-h2-title {
-  text-align: center;
-}
-
 
 /* Header: logo, top menu and search     */
 /* ===================================== */
@@ -133,19 +129,38 @@ div.navbar {
   text-decoration: none;
 }
 
-#lfsactive:link, #lfsactive:visited, #alfsactive:link, #alfsactive:visited, #blfsactive:link, #blfsactive:visited, #hlfsactive:link, #hlfsactive:visited, #hintsactive:link, #hintsactive:visited, #livecdactive:link, #livecdactive:visited, #patchesactive:link, #patchesactive:visited {
+#lfsactive:link,     #lfsactive:visited, 
+#blfsactive:link,    #blfsactive:visited, 
+#alfsactive:link,    #alfsactive:visited, 
+#mlfsactive:link,    #mlfsactive:visited,
+#glfsactive:link,    #glfsactive:visited,
+#hintsactive:link,   #hintsactive:visited, 
+#patchesactive:link, #patchesactive:visited {
   color: white;
   font-weight: bold;
   padding: 5px 20px;
 }
 
-#lfs:link, #lfs:visited, #blfs:link, #blfs:visited, #alfs:link, #alfs:visited, #clfs:link, #clfs:visited, #hlfs:link, #hlfs:visited, #hints:link, #hints:visited, #livecd:link, #livecd:visited, #patches:link, #patches:visited {
+#lfs:link,     #lfs:visited, 
+#blfs:link,    #blfs:visited, 
+#alfs:link,    #alfs:visited, 
+#mlfs:link,    #mlfs:visited, 
+#glfs:link,    #glfs:visited, 
+#hints:link,   #hints:visited, 
+#patches:link, #patches:visited {
   font-weight: bold;
   color: #777;
 }
 
-#lfs:hover, #lfsactive:hover, #alfs:hover, #alfsactive:hover, #blfs:hover, #blfsactive:hover, #clfs:hover, #hlfs:hover, #hlfsactive:hover, #hints:hover, #hintsactive:hover, #livecd:hover, #livecdactive:hover, #patches:hover, #patchesactive:hover { background-color: #ddd }
-
+#lfs:hover,     #lfsactive:hover, 
+#alfs:hover,    #alfsactive:hover, 
+#blfs:hover,    #blfsactive:hover, 
+#mlfs:hover,    #mlfsactive:hover, 
+#glfs:hover,    #glfsactive:hover, 
+#hints:hover,   #hintsactive:hover, 
+#patches:hover, #patchesactive:hover { 
+background-color: #ddd;
+}
 
 /* Project specfic left-hand menus       */
 /* ===================================== */
@@ -198,18 +213,18 @@ div.navbar {
   color: white;
 }
 
-#hlfsmenulist a:hover {
-  background: #fd7700;
+#mlfsmenulist a:hover {
+  background: #05c3f2;
+  color: white;
+}
+
+#glfsmenulist a:hover {
+  background: #5f700c;
   color: white;
 }
 
 #hintsmenulist a:hover {
   background: #8400ff;
-  color: white;
-}
-
-#livecdmenulist a:hover {
-  background: red;
   color: white;
 }
 
@@ -227,14 +242,14 @@ div.navbar {
 #blfsactive:link, #blfsactive:visited {
   background: #a27700;
 }
-#hlfsactive:link, #hlfsactive:visited {
-  background: #fd7700;
+#mlfsactive:link, #mlfsactive:visited {
+  background: #05c3f2;
+}
+#glfsactive:link, #glfsactive:visited {
+  background: #5f700c;
 }
 #hintsactive:link, #hintsactive:visited {
   background: #8400ff;
-}
-#livecdactive:link, #livecdactive:visited {
-  background: red;
 }
 #patchesactive:link, #patchesactive:visited {
   background: #0c0470;
