@@ -1,67 +1,50 @@
-<!--#set var="pageTitle" value="Download mlfs" -->
+<!--#set var="pageTitle" value="Baixar MLFS" -->
 <!--#include virtual="header.html" -->
 <!--#include virtual="menu.html" -->
     <div class="main">
-      <h1>Download mlfs</h1>
+      <h1>Baixar MLFS</h1>
 
-      <h2>Obtain mlfs</h2>
+      <h2>Obtenha o MLFS</h2>
 
-      <p>mlfs is maintained as a rolling release, it is based on the
-      actual development version of the LFS book. Currently, there
-      are no releases and because it is based on the development
-      version, there might be hickups from time to time. mlfs is meant
-      for experienced users.</p>
+      <p>O MLFS é mantido como um lançamento contínuo; ele é baseado na versão real de desenvolvimento do livro LFS. Atualmente, não existem lançamentos e, como ele é baseado na versão de desenvolvimento, podem existir soluços de tempos em tempos. O MLFS é destinado para usuários(as) experientes.</p>
 
-      <p>mlfs can be obtained from the git repository:</p>
+      <p>O MLFS pode ser obtido a partir do repositório git:</p>
       <div class="cmd"><p>git clone --branch multilib
          https://git.linuxfromscratch.org/lfs.git mlfs</p></div>
-      <p>It is recommended to give the name of the directory (here:
-        <tt>mlfs</tt>) to avoid clashes with other clones of the LFS
-        repository.</p>
+      <p>É recomendado fornecer o nome do diretório (aqui: <tt>mlfs</tt>) para evitar conflitos com outros clones do repositório LFS.</p>
 
-      <p>If there is a clone downloaded already, it can be used too. In this
-        case, checkout the multilib branch:</p>
-      <div class="cmd"><p>cd &lt;where-clone-is&gt; &amp;&amp;
+      <p>Se já existir um clone baixado, ele pode ser usado também. Nesse caso, alterne para a ramificação multilib:</p>
+      <div class="cmd"><p>cd &lt;onde estiver clone&gt; &amp;&amp;
          git checkout multilib</p></div>
 
 
-      <h2>Rendering the mlfs book</h2>
+      <h2>Renderizando o livro MLFS</h2>
 
-      <p>Rendering works the same way as it does with the LFS book.
-        The essential parameter <tt>REV</tt> and <tt>BASEDIR</tt>
-        should be set. In addition to the common parameters, mlfs
-        has introduced <em><tt>ARCH</tt></em> which specifies which
-        kind of extensions should be included in the produced html.
-        <tt>ARCH</tt> can be set to
+      <p>A renderização funciona da mesma forma que no livro LFS. Os parâmetros essenciais <tt>REV</tt> e <tt>BASEDIR</tt> deveriam estar definidos. Além dos parâmetros comuns, o MLFS introduziu <em><tt>ARCH</tt></em> que especifica quais tipos de extensões deveriam ser incluídas no HTML produzido. <tt>ARCH</tt> pode ser configurado como
         <ul>
-          <li><tt>ml_32</tt>: Include m32 extensions only</li>
-          <li><tt>ml_x32</tt>: Include mx32 extensions only</li>
-          <li><tt>ml_all</tt>: Include both, m32 and mx32</li>
-          <li><tt>default</tt>: Include none</li>
+          <li><tt>ml_32</tt>: Incluir somente extensões m32</li>
+          <li><tt>ml_x32</tt>: Incluir somente extensões mx32</li>
+          <li><tt>ml_all</tt>: Incluir ambos, m32 e mx32</li>
+          <li><tt>default</tt>: Incluir nenhuma</li>
         </ul>
-        Leaving <tt>ARCH</tt> unset or set it to <tt>default</tt> will
-        produce a LFS book without any of the multilib extensions which
-        therefore should result in a book basically identical to the
-        'original' book.</p>
+        Deixar <tt>ARCH</tt> desconfigurado ou configurá-lo como <tt>default</tt> produzirá um livro LFS sem nenhuma das extensões multilib, o que, portanto, deveria resultar em um livro basicamente idêntico ao livro "original".</p>
 
-      <p>Samples:
+      <p>Amostras:
         <ul>
-          <li>Init system: sysv, ML extension: m32<br>
+          <li>Sistema de iniciação: sysv, extensão ML: m32<br>
           <div class="cmd"><p>make BASEDIR=... REV=sysv ARCH=ml_32</p></div>
           </li>
-          <li>Init system: systemd, ML extension: m32 and mx32<br>
+          <li>Sistema de iniciação: systemd, extensão ML: m32 e mx32<br>
           <div class="cmd"><p>make BASEDIR=... REV=systemd ARCH=ml_all</p></div>
           </li>
         </ul>
       </p>
 
-      <h2>Packages for mlfs</h2>
+      <h2>Pacotes para MLFS</h2>
 
-      <p>As usual, mlfs has a list of packages and patches which you
-        should download. These are the same as in the LFS book with
-        currently following exceptions:
+      <p>Como de costume, o MLFS tem uma lista de pacotes e remendos que você deveria baixar. Eles são os mesmos do livro LFS, atualmente com as seguintes exceções:
         <ul>
-	  <li>Chapter 8: ISL is added to be used by the final gcc</li>
+	  <li>Capítulo 8: ISL é adicionado para ser usado pelo gcc final</li>
         </ul>
       </p>
 
