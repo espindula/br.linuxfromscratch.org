@@ -1,53 +1,54 @@
-<!--#set var="pageTitle" value="Download GLFS" -->
+<!--#set var="pageTitle" value="Baixar GLFS" -->
 <!--#include virtual="header.html" -->
 <!--#include virtual="menu.html" -->
     <div class="main">
-      <h1>Download GLFS</h1>
+      <h1>Baixar GLFS</h1>
 
-      <h2>GLFS Releases</h2>
+      <h2>Lançamentos do GLFS</h2>
 
-      <p>On the GLFS site, the book is rolling release and is often rendered
-         right after the last Git commit or batch of commits in the Git source.
-         However, there are chunked HTML
-         <a href="https://github.com/glfs-book/glfs/releases">releases</a>.
-         Each of them are versioned with the first four or more unique
-         characters of the
-         <a href="https://graphite.dev/guides/git-hashing">Git hash</a> at the
-         time of release. There are unstable (or pre-release) releases and
-         stable releases. If you don't want to download a release, you can also
-         render the book yourself.
+      <p>No sítio do GLFS, o livro é lançamento contínuo e geralmente é 
+      renderizado logo depois da última submissão de Git ou lote de 
+      submissões no fonte de Git. No entanto, existem HTML fragmentadas
+         <a href="https://github.com/glfs-book/glfs/releases">lançamentos</a>.
+         Cada um deles é versionado com os quatro primeiros ou mais caracteres únicos do
+         <a href="https://graphite.dev/guides/git-hashing">Git hash</a>
+
+         ao tempo do lançamento. Existem lançamentos instáveis (ou 
+         pré-lançamento) e lançamentos estáveis. Se não quiser baixar um 
+         lançamento, você também consegue renderizar o livro você 
+         mesmo(a).
       </p>
 
-      <h2>GLFS Git</h2>
+      <h2>Git do GLFS</h2>
 
-      <p>GLFS can be obtained from the Github repository:</p>
+      <p>O GLFS pode ser obtido a partir do repositório GitHub:</p>
       <div class="cmd">
         <p>git clone https://github.com/glfs-book/glfs</p>
       </div>
 
-      <p>You can update the source by doing:</p>
+      <p>Você consegue atualizar o fonte fazendo:</p>
       <div class="cmd"><p>git pull</p></div>
 
 
-      <h2>Rendering the GLFS book</h2>
+      <h2>Renderizando o livro do GLFS</h2>
 
-      <p>Rendering works the same way as it does with the *LFS books.
-         Read the included <tt>INSTALL.md</tt> for finding out what packages
-         you need in order to render the book in the way you want to.
-         <tt>README.md</tt> also provides information like rendering options
-         you may want to set.
-      </p>
+      <p>A renderização funciona da mesma forma que com os livros *LFS. 
+      Leia o <tt>INSTALL.md</tt> incluso para descobrir quais pacotes 
+      você precisa para a finalidade de renderizar o livro da maneira 
+      que você quer. <tt>README.md</tt> também fornece informações como 
+      opções de renderização que você possivelmente queira 
+      configurar.</p>
 
-      <p>If you want to render the Systemd version of the book, for example,
-         run:</p>
+      <p>Se você quiser renderizar a versão Systemd do livro, por 
+      exemplo, execute:</p>
       <div class="cmd">
         <p>make REV=systemd</p>
       </div>
 
-      <h2>Packages for GLFS</h2>
+      <h2>Pacotes para GLFS</h2>
 
-      <p>GLFS has a list of packages which you can download. Please use the
-         versions listed in the book unless you know what you are doing.
-      </p>
+      <p>O GLFS tem uma lista de pacotes que você consegue baixar. Por 
+      favor, use as versões listadas no livro, a menos que você saiba o 
+      que está fazendo.</p>
 
 <!--#include virtual="/common/footer.html" -->
