@@ -1,0 +1,55 @@
+<!--#set var="pageTitle" value="Getting Involved with BLFS" -->
+<!--#include virtual="header.html" -->
+<!--#include virtual="menu.html" -->
+    <div class="main">
+     <h1>Getting Involved with BLFS</h1>
+     
+     <p>A common question on the mailing lists is: "How do I get involved?".
+     Therefore, we wrote this page to try and answer that question.</p>
+    
+     <p>The first thing which we suggest you do is to subscribe to the <a
+     href="/mail.html">blfs-book and blfs-dev mailing lists</a>. blfs-dev
+     contains discussion about the book's development while blfs-book receives
+     information on all commits and ticket traffic associated with BLFS.</p>
+
+     <p>You need to install Git on your computer to really be able to
+     help out with BLFS. Naturally, the best way to do this is by following the
+     instructions in the BLFS book itself! You can then check out the XML
+     source to the book using the following command:</p>
+
+     <div class="cmd">
+       <p>git clone https://git.linuxfromscratch.org/blfs.git blfs-git</p>
+     </div>
+
+     <p>The procedure above will get the current trunk of the repository. 
+        When you wish to update your tree, simply issue:</p>
+
+     <div class="cmd">
+       <p>git pull</p>
+     </div>
+
+     <p>while in the blfs-git directory.</p>
+
+     <p>Information on converting the book from XML into HTML format can be
+     found in the INSTALL and README files. You will need to install libxslt,
+     DocBook XSL Stylesheets, HTML Tidy (optional for html), Lynx
+     (for text) and FOP (for PDF) for this to work. Full information is in the
+     INSTALL file.</p>
+
+     <p>Once you have familiarized yourself with the book layout, have a look
+     at our <a href="https://wiki.linuxfromscratch.org/blfs/">Ticket
+     System</a>. If you want to be able to create tickets, ask for
+     access on the <a href="https://lists.linuxfromscratch.org/sympa/info/blfs-dev/">
+     blfs-dev</a> mailing list.</p>
+
+     <p>Finally, have fun and get involved with discussions on the lists. Try
+     emailing blfs-dev (for book issues) or blfs-support (for build issues) when
+     you have problems as the BLFS team reads those lists regularly. Once you
+     have something which you wish to submit, create a diff file (preferably
+     using diff -Naur) and submit it to the blfs-dev list where one of the
+     editors will pick it up. For more details about how to update the BLFS
+     book, take a look at the <a
+     href="https://rivendell.linuxfromscratch.org/lfs/LFS-EDITORS-GUIDE.html">
+     LFS Editor's Guide</a>.</p>
+
+<!--#include virtual="/common/footer.html" -->
