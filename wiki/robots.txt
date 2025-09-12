@@ -1,0 +1,2 @@
+Disallow: /blfs
+Disallow: /lfs                                                                                                                                                                                                   Disallow: /alfs 
