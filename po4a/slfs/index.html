@@ -1,0 +1,78 @@
+<!--#set var="pageTitle" value="SLFS Project Homepage" -->
+<!--#include virtual="header.html" -->
+<!--#include virtual="menu.html" -->
+
+    <div class="main">
+    <h1>What is Supplemental Linux From Scratch?</h1>
+
+    <p>
+      Supplemental Linux From Scratch aims to supplement an LFS installation
+      and supports LFS, MLFS, BLFS, and GLFS. In essence, SLFS is a sort of
+      BLFS 2, but doesn't include any of the pages from BLFS, except for some
+      cases where a package needs to be re-installed for compatibility.
+    </p>
+
+    <p>
+      The focus of SLFS is generalized and contains a wide array of packages to
+      install from, such as general monitoring utilities like htop or BTOP++ or
+      fetch programs like fastfetch, to video game emulators like Dolphin or
+      Mupen64Plus, graphical environments like Hyprland and CDE, multimedia
+      libraries that enhance existing packages in BLFS (FFmpeg and MLT) like
+      Rubberband and LADSPA-SDK, and support for binaries and containers like
+      Fuse2 and Flatpak. This list isn't exaughstive.
+    </p>
+
+    <p>
+      As the focus of SLFS is similar to BLFS, it also exists to offload any
+      potential BLFS package additions to reduce burden on maintainers of BLFS.
+    </p>
+
+    <p>
+      Since BLFS provides such a large base of packages, SLFS externally links
+      to a given page if a package calls for a dependency in BLFS. At other
+      times, the links will point to within the book or GLFS.
+    </p>
+
+
+    <h2>Why would I want a SLFS system?</h2>
+
+    <p>
+      BLFS provides a lot of packages that can get users to either 100% of 80%
+      of what they need from a system. The problem is the remaining percentage
+      of packages that may have complicated installation instructions or just
+      takes too long to do manually. SLFS helps bridge the gap and gets users
+      closer to that 100%.
+    </p>
+
+
+    <h2>What can I do with my SLFS system?</h2>
+
+    <p>
+      You will be able to use various system monitoring utilites, fetch
+      programs, a YouTube video downloading tool, SDL3, various terminal
+      emulators, application launchers, screenshot tools, wallpapers selectors,
+      OBS-Studio, IMEs, various graphical environments like Hyprland, CDE, and
+      Wayfire, various computer and video game emulators, a Minecraft launcher,
+      SVR4-style tooling, Flatpak, and enable libvpl and Intel-MediaSDK support
+      in various packages.
+    </p>
+
+    <h2>Read Online</h2>
+
+    <p>
+      You can read the book <a href="https://glfs-book.github.io/slfs">here.</a>
+      The book is rolling release, like MLFS and GLFS. The only online rendered
+      version right now is System V, although you can
+      <a href="/slfs/download.html">download</a> the edition of the book that
+      has Systemd support.
+    </p>
+
+
+    <h2>Thanks to</h2>
+
+      <p>
+        The
+        <a href="https://glfs-book.github.io/slfs/introduction/credits.html">SLFS contributors</a>.
+      </p>
+
+<!--#include virtual="/common/footer.html" -->
