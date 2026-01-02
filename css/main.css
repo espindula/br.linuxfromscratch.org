@@ -134,6 +134,7 @@ div.navbar {
 #alfsactive:link,    #alfsactive:visited, 
 #mlfsactive:link,    #mlfsactive:visited,
 #glfsactive:link,    #glfsactive:visited,
+#slfsactive:link,    #slfsactive:visited,
 #hintsactive:link,   #hintsactive:visited, 
 #patchesactive:link, #patchesactive:visited {
   color: white;
@@ -146,6 +147,7 @@ div.navbar {
 #alfs:link,    #alfs:visited, 
 #mlfs:link,    #mlfs:visited, 
 #glfs:link,    #glfs:visited, 
+#slfs:link,    #slfs:visited, 
 #hints:link,   #hints:visited, 
 #patches:link, #patches:visited {
   font-weight: bold;
@@ -157,6 +159,7 @@ div.navbar {
 #blfs:hover,    #blfsactive:hover, 
 #mlfs:hover,    #mlfsactive:hover, 
 #glfs:hover,    #glfsactive:hover, 
+#slfs:hover,    #slfsactive:hover, 
 #hints:hover,   #hintsactive:hover, 
 #patches:hover, #patchesactive:hover { 
 background-color: #ddd;
@@ -219,7 +222,12 @@ background-color: #ddd;
 }
 
 #glfsmenulist a:hover {
-  background: #5f700c;
+  background: #967aa2;
+  color: white;
+}
+
+#slfsmenulist a:hover {
+  background: #427b42;
   color: white;
 }
 
@@ -246,7 +254,10 @@ background-color: #ddd;
   background: #05c3f2;
 }
 #glfsactive:link, #glfsactive:visited {
-  background: #5f700c;
+  background: #967aa2;
+}
+#slfsactive:link, #slfsactive:visited {
+  background: #427b42;
 }
 #hintsactive:link, #hintsactive:visited {
   background: #8400ff;
