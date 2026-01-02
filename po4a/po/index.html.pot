@@ -1,0 +1,110 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Jamenson Ferreira Espindula de Almeida Melo
+# This file is distributed under the same license as the Arquivos do sÃ­tio LFS brasileiro package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Arquivos do sÃ­tio LFS brasileiro 1.0\n"
+"Report-Msgid-Bugs-To: jafesp@gmail.com\n"
+"POT-Creation-Date: 2026-01-02 14:16-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Content of: <div><h1>
+#: index.html:6
+msgid "Welcome to Linux From Scratch!"
+msgstr ""
+
+#. type: Content of: <div><p>
+#: index.html:8
+msgid ""
+"Linux From Scratch (LFS) is a project that provides you with step-by-step "
+"instructions for building your own custom Linux system, entirely from source "
+"code."
+msgstr ""
+
+#. type: Content of: <div><p>
+#: index.html:13
+msgid ""
+"Currently, the Linux From Scratch organization consists of the following "
+"subprojects:"
+msgstr ""
+
+#. type: Content of: <div><ul><li>
+#: index.html:19
+msgid ""
+"<a href=\"lfs/\">LFS</a> :: Linux From Scratch is the main book, the base "
+"from which all other projects are derived."
+msgstr ""
+
+#. type: Content of: <div><ul><li>
+#: index.html:22
+msgid ""
+"<a href=\"blfs/\">BLFS</a> :: Beyond Linux From Scratch helps you extend "
+"your finished LFS installation into a more customized and usable system."
+msgstr ""
+
+#. type: Content of: <div><ul><li>
+#: index.html:26
+msgid ""
+"<a href=\"alfs/\">ALFS</a> :: Automated Linux From Scratch provides tools "
+"for automating and managing LFS and BLFS builds."
+msgstr ""
+
+#. type: Content of: <div><ul><li>
+#: index.html:29
+msgid ""
+"<a href=\"mlfs/\">MLFS</a> :: Multilib Linux From Scratch is a variant of "
+"LFS which sets up an LFS system that is able to build and execute 32-bit "
+"binaries."
+msgstr ""
+
+#. type: Content of: <div><ul><li>
+#: index.html:33
+msgid ""
+"<a href=\"glfs/\">GLFS</a> :: Gaming Linux From Scratch is based on BLFS and "
+"helps you install gaming support software like Steam or Wine on a new LFS or "
+"MLFS system."
+msgstr ""
+
+#. type: Content of: <div><ul><li>
+#: index.html:37
+msgid ""
+"<a href=\"slfs/\">SLFS</a> :: Supplemental Linux From Scratch supplements an "
+"LFS installation beyond BLFS."
+msgstr ""
+
+#. type: Content of: <div><ul><li>
+#: index.html:40
+msgid ""
+"<a href=\"hints/\">Hints</a> :: The Hints project is a collection of "
+"documents that explain how to enhance your LFS system in ways that are not "
+"included in the LFS or BLFS books."
+msgstr ""
+
+#. type: Content of: <div><ul><li>
+#: index.html:44
+msgid ""
+"<a href=\"patches/\">Patches</a> :: The Patches project serves as a central "
+"repository for all patches useful to an LFS user."
+msgstr ""
+
+#. type: Content of: <div><ul><li>
+#: index.html:47
+msgid ""
+"<a href=\"lfs/LFS-EDITORS-GUIDE.html\">LFS Editor's Guide</a> :: A document "
+"that describes the LFS development process."
+msgstr ""
+
+#. type: Content of: <div><ul><li>
+#: index.html:50
+msgid ""
+"<a href=\"museum/\">Museum</a> :: Copies of ancient LFS and BLFS versions."
+msgstr ""

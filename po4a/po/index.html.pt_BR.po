@@ -1,0 +1,140 @@
+# Portuguese translations for Arquivos do sÃ­tio LFS brasileiro package
+# Copyright (C) 2026 Jamenson Ferreira Espindula de Almeida Melo
+# This file is distributed under the same license as the Arquivos do sÃ­tio LFS brasileiro package.
+# Automatically generated, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Arquivos do sÃ­tio LFS brasileiro 1.0\n"
+"Report-Msgid-Bugs-To: jafesp@gmail.com\n"
+"POT-Creation-Date: 2026-01-02 14:16-0300\n"
+"PO-Revision-Date: 2026-01-02 14:00-0300\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#. type: Content of: <div><h1>
+#: index.html:6
+msgid "Welcome to Linux From Scratch!"
+msgstr "Bem-vindo(a) ao Linux From Scratch!"
+
+#. type: Content of: <div><p>
+#: index.html:8
+msgid ""
+"Linux From Scratch (LFS) is a project that provides you with step-by-step "
+"instructions for building your own custom Linux system, entirely from source "
+"code."
+msgstr ""
+"O Linux From Scratch (LFS) é um projeto que fornece a você instruções passo-"
+"a-passo para construir o teu próprio sistema personalizado GNU/Linux, "
+"inteiramente a partir do código fonte."
+
+#. type: Content of: <div><p>
+#: index.html:13
+msgid ""
+"Currently, the Linux From Scratch organization consists of the following "
+"subprojects:"
+msgstr ""
+"Atualmente, a organização Linux From Scratch consiste dos seguintes "
+"subprojetos:"
+
+#. type: Content of: <div><ul><li>
+#: index.html:19
+msgid ""
+"<a href=\"lfs/\">LFS</a> :: Linux From Scratch is the main book, the base "
+"from which all other projects are derived."
+msgstr ""
+"<a href = \"lfs/\">LFS</a> :: Linux From Scratch é o livro principal, a base "
+"a partir da qual todos os outros projetos são derivados."
+
+#. type: Content of: <div><ul><li>
+#: index.html:22
+msgid ""
+"<a href=\"blfs/\">BLFS</a> :: Beyond Linux From Scratch helps you extend "
+"your finished LFS installation into a more customized and usable system."
+msgstr ""
+"<a href = \"blfs/\">BLFS</a> :: Beyond Linux From Scratch ajuda você a "
+"estender a tua instalação finalizada do LFS em um sistema mais personalizado "
+"e usável."
+
+#. type: Content of: <div><ul><li>
+#: index.html:26
+msgid ""
+"<a href=\"alfs/\">ALFS</a> :: Automated Linux From Scratch provides tools "
+"for automating and managing LFS and BLFS builds."
+msgstr ""
+"<a href = \"alfs/\">ALFS</a> :: Automated Linux From Scratch fornece "
+"ferramentas para automatizar e gerenciar construções do LFS e do BLFS."
+
+#. type: Content of: <div><ul><li>
+#: index.html:29
+msgid ""
+"<a href=\"mlfs/\">MLFS</a> :: Multilib Linux From Scratch is a variant of "
+"LFS which sets up an LFS system that is able to build and execute 32-bit "
+"binaries."
+msgstr ""
+"<a href = \"mlfs/\">MLFS</a> :: Multilib Linux From Scratch é uma variante "
+"do LFS que configura um sistema LFS que esteja apto para construir e "
+"executar binários de 32 bits."
+
+#. type: Content of: <div><ul><li>
+#: index.html:33
+msgid ""
+"<a href=\"glfs/\">GLFS</a> :: Gaming Linux From Scratch is based on BLFS and "
+"helps you install gaming support software like Steam or Wine on a new LFS or "
+"MLFS system."
+msgstr ""
+"<a href = \"glfs/\">GLFS</a> :: Gaming Linux From Scratch é baseado no BLFS "
+"e te ajuda a instalar software de suporte a jogos como Steam ou Wine em um "
+"novo sistema LFS ou MLFS."
+
+#. type: Content of: <div><ul><li>
+#: index.html:37
+msgid ""
+"<a href=\"slfs/\">SLFS</a> :: Supplemental Linux From Scratch supplements an "
+"LFS installation beyond BLFS."
+msgstr ""
+"<a href = \"slfs/\">SLFS</a> :: Supplemental Linux From Scratch suplementa "
+"uma instalação do LFS além do BLFS."
+
+#. type: Content of: <div><ul><li>
+#: index.html:40
+msgid ""
+"<a href=\"hints/\">Hints</a> :: The Hints project is a collection of "
+"documents that explain how to enhance your LFS system in ways that are not "
+"included in the LFS or BLFS books."
+msgstr ""
+"<a href = \"hints/\">Dicas</a> :: O projeto Dicas é uma coleção de "
+"documentos que explicam como melhorar o teu sistema LFS de maneiras que não "
+"estão inclusas nos livros LFS ou BLFS."
+
+#. type: Content of: <div><ul><li>
+#: index.html:44
+msgid ""
+"<a href=\"patches/\">Patches</a> :: The Patches project serves as a central "
+"repository for all patches useful to an LFS user."
+msgstr ""
+"<a href = \"patches/\">Remendos</a> :: O projeto Remendos serve como um "
+"repositório central para todos os remendos úteis para um(a) usuário(a) do "
+"LFS."
+
+#. type: Content of: <div><ul><li>
+#: index.html:47
+msgid ""
+"<a href=\"lfs/LFS-EDITORS-GUIDE.html\">LFS Editor's Guide</a> :: A document "
+"that describes the LFS development process."
+msgstr ""
+"<a href = \"lfs/LFS-EDITORS-GUIDE.html\">Guia do(a) Editor(a) do LFS</a> :: "
+"Um documento que descreve o processo de desenvolvimento do LFS."
+
+#. type: Content of: <div><ul><li>
+#: index.html:50
+msgid ""
+"<a href=\"museum/\">Museum</a> :: Copies of ancient LFS and BLFS versions."
+msgstr ""
+"<a href = \"museum/\">Museu</a> :: Cópias das versões antigas do LFS e do "
+"BLFS."
