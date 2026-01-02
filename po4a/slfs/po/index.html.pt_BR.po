@@ -1,11 +1,11 @@
-# Portuguese translations for Arquivos do sÃ­tio LFS brasileiro package
+# Portuguese translations for Arquivos do sítio LFS brasileiro package
 # Copyright (C) 2026 Jamenson Ferreira Espindula de Almeida Melo
 # This file is distributed under the same license as the Arquivos do sÃ­tio LFS brasileiro package.
 # Automatically generated, 2026.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Arquivos do sÃ­tio LFS brasileiro 1.0\n"
+"Project-Id-Version: Arquivos do sítio LFS brasileiro 1.0\n"
 "Report-Msgid-Bugs-To: jafesp@gmail.com\n"
 "POT-Creation-Date: 2026-01-02 17:23-0300\n"
 "PO-Revision-Date: 2026-01-02 17:23-0300\n"
@@ -20,7 +20,7 @@ msgstr ""
 #. type: Content of: <div><h1>
 #: index.html:6
 msgid "What is Supplemental Linux From Scratch?"
-msgstr ""
+msgstr "O que é Supplemental Linux From Scratch?"
 
 #. type: Content of: <div><p>
 #: index.html:9
@@ -30,6 +30,10 @@ msgid ""
 "but doesn't include any of the pages from BLFS, except for some cases where "
 "a package needs to be re-installed for compatibility."
 msgstr ""
+"Supplemental Linux From Scratch visa a complementar uma instalação do LFS e "
+"suporta LFS, MLFS, BLFS e GLFS. Em essência, SLFS é uma espécie de BLFS 2, "
+"mas não inclui nenhuma das páginas originárias do BLFS, exceto para alguns "
+"casos onde um pacote precise ser reinstalado para compatibilidade."
 
 #. type: Content of: <div><p>
 #: index.html:16
@@ -42,6 +46,13 @@ msgid ""
 "Rubberband and LADSPA-SDK, and support for binaries and containers like "
 "Fuse2 and Flatpak. This list isn't exaughstive."
 msgstr ""
+"O foco do SLFS é generalizado e contém uma ampla variedade de pacotes para "
+"instalação, tais como utilitários de monitoramento geral, como htop ou BTOP+"
+"+, ou programas de busca, como fastfetch, até emuladores de videogame, como "
+"Dolphin ou Mupen64Plus, ambientes gráficos, como Hyprland e CDE, bibliotecas "
+"multimídia que aprimoram pacotes existentes no BLFS (FFmpeg e MLT), como "
+"Rubberband e LADSPA-SDK, e suporte para binários e contêineres, como Fuse2 e "
+"Flatpak. Essa lista não é exaustiva."
 
 #. type: Content of: <div><p>
 #: index.html:26
@@ -49,6 +60,9 @@ msgid ""
 "As the focus of SLFS is similar to BLFS, it also exists to offload any "
 "potential BLFS package additions to reduce burden on maintainers of BLFS."
 msgstr ""
+"Como o foco do SLFS é semelhante ao do BLFS, ele também existe para "
+"descarregar quaisquer possíveis adições de pacotes do BLFS para reduzir a "
+"carga sobre os(as) mantenedores(as) do BLFS."
 
 #. type: Content of: <div><p>
 #: index.html:31
@@ -57,11 +71,14 @@ msgid ""
 "a given page if a package calls for a dependency in BLFS. At other times, "
 "the links will point to within the book or GLFS."
 msgstr ""
+"Como o BLFS fornece uma base tão grande de pacotes, o SLFS se linca "
+"externamente a uma determinada página se um pacote exigir uma dependência no "
+"BLFS. Outras vezes, os linques apontarão para dentro do livro ou do GLFS."
 
 #. type: Content of: <div><h2>
 #: index.html:37
 msgid "Why would I want a SLFS system?"
-msgstr ""
+msgstr "Por que eu iria querer um sistema SLFS?"
 
 #. type: Content of: <div><p>
 #: index.html:40
@@ -72,11 +89,16 @@ msgid ""
 "too long to do manually. SLFS helps bridge the gap and gets users closer to "
 "that 100%."
 msgstr ""
+"O BLFS fornece um monte de pacotes que podem levar os(as) usuários(as) para "
+"100% de 80% do que precisam de um sistema. O problema é a porcentagem "
+"restante de pacotes que podem ter instruções de instalação complicadas ou "
+"que apenas demoram muito para se fazer manualmente. O SLFS ajuda a preencher "
+"a lacuna e aproxima os(as) usuários(as) desses 100%."
 
 #. type: Content of: <div><h2>
 #: index.html:48
 msgid "What can I do with my SLFS system?"
-msgstr ""
+msgstr "O que posso fazer com meu sistema SLFS?"
 
 #. type: Content of: <div><p>
 #: index.html:51
@@ -89,11 +111,19 @@ msgid ""
 "tooling, Flatpak, and enable libvpl and Intel-MediaSDK support in various "
 "packages."
 msgstr ""
+"Você estará apto(a) para usar vários utilitários de monitoramento de "
+"sistema, programas de busca, uma ferramenta de transferência de vídeos do "
+"YouTube, SDL3, vários emuladores de terminal, inicializadores de "
+"aplicativos, ferramentas de captura de tela, seletores de papéis de parede, "
+"OBS-Studio, IMEs, vários ambientes gráficos como Hyprland, CDE e Wayfire, "
+"vários emuladores de computador e de videogame, um iniciador Minecraft, "
+"ferramentas estilo SVR4, Flatpak e habilitar suporte a libvpl e Intel-"
+"MediaSDK em vários pacotes."
 
 #. type: Content of: <div><h2>
 #: index.html:60
 msgid "Read Online"
-msgstr ""
+msgstr "Leia online"
 
 #. type: Content of: <div><p>
 #: index.html:63
@@ -103,11 +133,17 @@ msgid ""
 "version right now is System V, although you can <a href=\"/slfs/download."
 "html\">download</a> the edition of the book that has Systemd support."
 msgstr ""
+"Você consegue ler o livro (somente em inglês) <a href=\"https://glfs-book."
+"github.io/slfs\">aqui</a>. O livro está em lançamento contínuo, como o MLFS "
+"e o GLFS. A única versão renderizada on-line no momento é a System V, embora "
+"você consiga <a href=\"https://www.linuxfromscratch.org/slfs/download."
+"html\">baixar</a> a edição do livro (somente em inglês) que tem suporte para "
+"o Systemd."
 
 #. type: Content of: <div><h2>
 #: index.html:71
 msgid "Thanks to"
-msgstr ""
+msgstr "Agradecimentos para"
 
 #. type: Content of: <div><p>
 #: index.html:74
@@ -115,3 +151,5 @@ msgid ""
 "The <a href=\"https://glfs-book.github.io/slfs/introduction/credits."
 "html\">SLFS contributors</a>."
 msgstr ""
+"Os(As) <a href=\"https://glfs-book.github.io/slfs/introduction/credits."
+"html\"> colaboradores(as) do SLFS</a>."
