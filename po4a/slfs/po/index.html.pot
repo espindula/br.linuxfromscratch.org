@@ -1,0 +1,117 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Jamenson Ferreira Espindula de Almeida Melo
+# This file is distributed under the same license as the Arquivos do sÃ­tio LFS brasileiro package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Arquivos do sÃ­tio LFS brasileiro 1.0\n"
+"Report-Msgid-Bugs-To: jafesp@gmail.com\n"
+"POT-Creation-Date: 2026-01-02 17:23-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Content of: <div><h1>
+#: index.html:6
+msgid "What is Supplemental Linux From Scratch?"
+msgstr ""
+
+#. type: Content of: <div><p>
+#: index.html:9
+msgid ""
+"Supplemental Linux From Scratch aims to supplement an LFS installation and "
+"supports LFS, MLFS, BLFS, and GLFS. In essence, SLFS is a sort of BLFS 2, "
+"but doesn't include any of the pages from BLFS, except for some cases where "
+"a package needs to be re-installed for compatibility."
+msgstr ""
+
+#. type: Content of: <div><p>
+#: index.html:16
+msgid ""
+"The focus of SLFS is generalized and contains a wide array of packages to "
+"install from, such as general monitoring utilities like htop or BTOP++ or "
+"fetch programs like fastfetch, to video game emulators like Dolphin or "
+"Mupen64Plus, graphical environments like Hyprland and CDE, multimedia "
+"libraries that enhance existing packages in BLFS (FFmpeg and MLT) like "
+"Rubberband and LADSPA-SDK, and support for binaries and containers like "
+"Fuse2 and Flatpak. This list isn't exaughstive."
+msgstr ""
+
+#. type: Content of: <div><p>
+#: index.html:26
+msgid ""
+"As the focus of SLFS is similar to BLFS, it also exists to offload any "
+"potential BLFS package additions to reduce burden on maintainers of BLFS."
+msgstr ""
+
+#. type: Content of: <div><p>
+#: index.html:31
+msgid ""
+"Since BLFS provides such a large base of packages, SLFS externally links to "
+"a given page if a package calls for a dependency in BLFS. At other times, "
+"the links will point to within the book or GLFS."
+msgstr ""
+
+#. type: Content of: <div><h2>
+#: index.html:37
+msgid "Why would I want a SLFS system?"
+msgstr ""
+
+#. type: Content of: <div><p>
+#: index.html:40
+msgid ""
+"BLFS provides a lot of packages that can get users to either 100% of 80% of "
+"what they need from a system. The problem is the remaining percentage of "
+"packages that may have complicated installation instructions or just takes "
+"too long to do manually. SLFS helps bridge the gap and gets users closer to "
+"that 100%."
+msgstr ""
+
+#. type: Content of: <div><h2>
+#: index.html:48
+msgid "What can I do with my SLFS system?"
+msgstr ""
+
+#. type: Content of: <div><p>
+#: index.html:51
+msgid ""
+"You will be able to use various system monitoring utilites, fetch programs, "
+"a YouTube video downloading tool, SDL3, various terminal emulators, "
+"application launchers, screenshot tools, wallpapers selectors, OBS-Studio, "
+"IMEs, various graphical environments like Hyprland, CDE, and Wayfire, "
+"various computer and video game emulators, a Minecraft launcher, SVR4-style "
+"tooling, Flatpak, and enable libvpl and Intel-MediaSDK support in various "
+"packages."
+msgstr ""
+
+#. type: Content of: <div><h2>
+#: index.html:60
+msgid "Read Online"
+msgstr ""
+
+#. type: Content of: <div><p>
+#: index.html:63
+msgid ""
+"You can read the book <a href=\"https://glfs-book.github.io/slfs\">here.</a> "
+"The book is rolling release, like MLFS and GLFS. The only online rendered "
+"version right now is System V, although you can <a href=\"/slfs/download."
+"html\">download</a> the edition of the book that has Systemd support."
+msgstr ""
+
+#. type: Content of: <div><h2>
+#: index.html:71
+msgid "Thanks to"
+msgstr ""
+
+#. type: Content of: <div><p>
+#: index.html:74
+msgid ""
+"The <a href=\"https://glfs-book.github.io/slfs/introduction/credits."
+"html\">SLFS contributors</a>."
+msgstr ""
