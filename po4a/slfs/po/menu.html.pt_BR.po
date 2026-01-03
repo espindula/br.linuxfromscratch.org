@@ -1,11 +1,11 @@
-# Portuguese translations for Arquivos do sÃ­tio LFS brasileiro package
+# Portuguese translations for Arquivos do sítio LFS brasileiro package
 # Copyright (C) 2026 Jamenson Ferreira Espindula de Almeida Melo
 # This file is distributed under the same license as the Arquivos do sÃ­tio LFS brasileiro package.
 # Automatically generated, 2026.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Arquivos do sÃ­tio LFS brasileiro 1.0\n"
+"Project-Id-Version: Arquivos do sítio LFS brasileiro 1.0\n"
 "Report-Msgid-Bugs-To: jafesp@gmail.com\n"
 "POT-Creation-Date: 2026-01-03 10:19-0300\n"
 "PO-Revision-Date: 2026-01-03 10:19-0300\n"
@@ -19,49 +19,39 @@ msgstr ""
 
 #. type: Content of: <div><ul><li>
 #: menu.html:3
-#, fuzzy
-#| msgid "<a id=\"lfs\" href=\"/lfs/\">LFS</a>"
 msgid "<a href=\"/\">Home</a>"
-msgstr "<a id=\"lfs\" href=\"/lfs/\">LFS</a>"
+msgstr "<a href=\"/\">Página inicial</a>"
 
 #. type: Content of: <div><ul><li>
 #: menu.html:4
-#, fuzzy
-#| msgid "<a id=\"lfs\" href=\"/lfs/\">LFS</a>"
 msgid "<a href=\"/slfs/index.html\">SLFS Home</a>"
-msgstr "<a id=\"lfs\" href=\"/lfs/\">LFS</a>"
+msgstr "<a href=\"/slfs/index.html\">Página inicial do SLFS</a>"
 
 #. type: Content of: <div><ul><li>
 #: menu.html:5
-#, fuzzy
-#| msgid "<a id=\"lfs\" href=\"/lfs/\">LFS</a>"
 msgid "<a href=\"/slfs/news.html\">News</a>"
-msgstr "<a id=\"lfs\" href=\"/lfs/\">LFS</a>"
+msgstr "<a href=\"/slfs/news.html\">Notícias</a>"
 
 #. type: Content of: <div><ul><li>
 #: menu.html:6
 msgid "<a href=\"/slfs/download.html\">Download</a>"
-msgstr ""
+msgstr "<a href=\"/slfs/download.html\">Transferência</a>"
 
 #. type: Content of: <div><ul><li>
 #: menu.html:7
-#, fuzzy
-#| msgid ""
-#| "The <a href=\"https://glfs-book.github.io/slfs/introduction/credits."
-#| "html\">SLFS contributors</a>."
 msgid ""
 "<a href=\"https://glfs-book.github.io/slfs/introduction/askhelp."
 "html\">Support</a>"
 msgstr ""
-"Os(As) <a href=\"https://glfs-book.github.io/slfs/introduction/credits."
-"html\"> colaboradores(as) do SLFS</a>."
+"<a href=\"https://glfs-book.github.io/slfs/introduction/askhelp."
+"html\">Suporte</a>"
 
 #. type: Content of: <div><ul><li>
 #: menu.html:8
 msgid "<a href=\"/slfs/advisories.html\">Advisories</a>"
-msgstr ""
+msgstr "<a href=\"/slfs/advisories.html\">Recomendações</a>"
 
 #. type: Content of: <div><ul><li>
 #: menu.html:9
 msgid "<a href=\"https://github.com/glfs-book/slfs/issues\">Issues</a>"
-msgstr ""
+msgstr "<a href=\"https://github.com/glfs-book/slfs/issues\">Problemas</a>"
