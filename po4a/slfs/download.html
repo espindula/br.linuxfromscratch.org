@@ -1,0 +1,54 @@
+<!--#set var="pageTitle" value="Download SLFS" -->
+<!--#include virtual="header.html" -->
+<!--#include virtual="menu.html" -->
+    <div class="main">
+      <h1>Download SLFS</h1>
+
+      <h2>SLFS Releases</h2>
+
+      <p>On the SLFS site, the book is rolling release and is often rendered
+         right after the last Git commit or batch of commits in the Git source.
+         However, there are chunked HTML
+         <a href="https://github.com/glfs-book/slfs/releases">releases</a>.
+         Each of them are versioned with the first four or more unique
+         characters of the
+         <a href="https://graphite.dev/guides/git-hashing">Git hash</a> at the
+         time of release. There are unstable (or pre-release) releases and
+         stable releases. If you don't want to download a release, you can also
+         render the book yourself. Stable releases will also show how to render
+         a local copy of the stable version on each Github release listing.
+      </p>
+
+      <h2>SLFS Git</h2>
+
+      <p>SLFS can be obtained from the Github repository:</p>
+      <div class="cmd">
+        <p>git clone https://github.com/glfs-book/slfs</p>
+      </div>
+
+      <p>You can update the source by doing:</p>
+      <div class="cmd"><p>git pull</p></div>
+
+
+      <h2>Rendering the SLFS book</h2>
+
+      <p>Rendering works the same way as it does with the *LFS books.
+         Read the included <tt>INSTALL.md</tt> for finding out what packages
+         you need in order to render the book in the way you want to.
+         <tt>README.md</tt> also provides information like rendering options
+         you may want to set.
+      </p>
+
+      <p>If you want to render the Systemd version of the book, for example,
+         run:</p>
+      <div class="cmd">
+        <p>make REV=systemd</p>
+      </div>
+
+      <h2>Packages for SLFS</h2>
+
+      <p>SLFS has a list of packages which you can download. Please use the
+         versions listed in the book unless you know what you are doing.
+      </p>
+
+<!--#include virtual="/common/footer.html" -->
