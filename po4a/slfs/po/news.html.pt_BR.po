@@ -1,0 +1,122 @@
+# Portuguese translations for Arquivos do sÃ­tio LFS brasileiro package
+# Copyright (C) 2026 Jamenson Ferreira Espindula de Almeida Melo
+# This file is distributed under the same license as the Arquivos do sÃ­tio LFS brasileiro package.
+# Automatically generated, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Arquivos do sÃ­tio LFS brasileiro 1.0\n"
+"Report-Msgid-Bugs-To: jafesp@gmail.com\n"
+"POT-Creation-Date: 2026-01-03 11:39-0300\n"
+"PO-Revision-Date: 2026-01-03 11:39-0300\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#. type: Content of: <div><h1>
+#: news.html:5
+msgid "SLFS News"
+msgstr ""
+
+#. type: Content of: <div><p>
+#: news.html:7
+msgid ""
+"This section covers noteworthy changes in SLFS. In addition to the entries "
+"in the book's changelog, relevant changes you should be aware of are "
+"reported here."
+msgstr ""
+
+#. type: Content of: <div><dl><dt>
+#: news.html:12
+msgid "SLFS 12.4 has been released!"
+msgstr ""
+
+#. type: Content of: <div><dl><dd>
+#: news.html:13
+msgid "<em>Zeckma - 2025/08/31</em>"
+msgstr ""
+
+#. type: Content of: <div><dl><dd><p>
+#: news.html:15
+msgid ""
+"The GLFS team is proud to present version 12.4 of Supplemental Linux From "
+"Scratch (previously LFS-QOL). This version includes over 140 packages beyond "
+"the base Linux From Scratch and Beyond Linux From Scratch books."
+msgstr ""
+
+#. type: Content of: <div><dl><dd><p>
+#: news.html:21
+msgid ""
+"New in this release includes the Common Desktop Environment (CDE), Wayfire, "
+"Mupen64Plus, the Dolphin emulator, MelonDS, mGBA, PrismLauncher the "
+"Minecraft launcher, OpenJDK-17 LTS, socat, neofetch, fastfetch, htop, BTOP+"
+"+, GNAT (GCC-Ada), CUDA, nv-codec-headers, Alacritty, scdoc, rpmextract, "
+"tllist, foot, wbg, uthash, OBS-Studio, xdg-desktop-portal-wlr, "
+"libdatachannel, asio, QR-Code-Generator, websocketpp, eza, tmux, Rofi, Rofi-"
+"Wayland, Wofi, Dunst, cava, xeyes, yt-dlp, inxi, tealdeer, Mesa-Demos, xcb-"
+"imdkit, cldr-emoji-annotation, libime, Anthy, m17n, Fcitx5, OpenTTD, sxwm, "
+"nvchecker, rubberband, SDL3, sdl2-compat, libmspack, Winetricks, xtrace, "
+"ncdu, wev, Intel-MediaSDK, intel-onevpl, libvpl, libvpl-tools, and several "
+"dependencies."
+msgstr ""
+
+#. type: Content of: <div><dl><dd><p>
+#: news.html:35
+msgid ""
+"seatd and xcb-util-errors were from Gaming Linux From Scratch that got moved "
+"to this book in this release."
+msgstr ""
+
+#. type: Content of: <div><dl><dd><p>
+#: news.html:39
+msgid ""
+"There has been extensive efforts to ensure compatibility with Mesa libGL and "
+"libglvnd libOpenGL. In some cases like GLU, this version offers duplicates "
+"of packages from BLFS to ensure compatibility. In other cases like with OBS-"
+"Studio, patches or seds have been constructed to allow an unsupported OpenGL "
+"vendor like Mesa libGL.  This makes this version compatible with both Beyond "
+"Linux From Scratch and Gaming Linux From Scratch."
+msgstr ""
+
+#. type: Content of: <div><dl><dd><p>
+#: news.html:48
+msgid ""
+"Beyond package additions are some other important changes. The entire book "
+"has been rearranged to be more akin to the form of Beyond Linux From Scratch "
+"to make organization of the book easier. Documentation has been improved and "
+"dependency information has been made more accurate. A new logo has been "
+"added, along with a CSS color change to have a more green look. Different "
+"configurations have been considered and build failures have been fixed. "
+"Beyond all that, some typos have been fixed."
+msgstr ""
+
+#. type: Content of: <div><dl><dd><p>
+#: news.html:58
+msgid ""
+"This release may not be matched in terms of scale in proceeding releases. "
+"The amount of package additions, including moved packages from GLFS, reaches "
+"over 100 packages, over 3x the amount seen in version 12.3."
+msgstr ""
+
+#. type: Content of: <div><dl><dd><p>
+#: news.html:63
+msgid "This is a coordinated release with SLFS-12.4-systemd."
+msgstr ""
+
+#. type: Content of: <div><dl><dd><p>
+#: news.html:64
+msgid ""
+"You can read the 12.4 version via <a href=\"/slfs/download.html\">download.</"
+"a>"
+msgstr ""
+
+#. type: Content of: <div><dl><dd><p>
+#: news.html:67
+msgid ""
+"For any issues, please direct them to the <a href=\"https://github.com/glfs-"
+"book/slfs/issues\">issue tracker</a>."
+msgstr ""
