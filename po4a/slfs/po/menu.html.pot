@@ -1,0 +1,55 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Jamenson Ferreira Espindula de Almeida Melo
+# This file is distributed under the same license as the Arquivos do sÃ­tio LFS brasileiro package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Arquivos do sÃ­tio LFS brasileiro 1.0\n"
+"Report-Msgid-Bugs-To: jafesp@gmail.com\n"
+"POT-Creation-Date: 2026-01-03 10:19-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Content of: <div><ul><li>
+#: menu.html:3
+msgid "<a href=\"/\">Home</a>"
+msgstr ""
+
+#. type: Content of: <div><ul><li>
+#: menu.html:4
+msgid "<a href=\"/slfs/index.html\">SLFS Home</a>"
+msgstr ""
+
+#. type: Content of: <div><ul><li>
+#: menu.html:5
+msgid "<a href=\"/slfs/news.html\">News</a>"
+msgstr ""
+
+#. type: Content of: <div><ul><li>
+#: menu.html:6
+msgid "<a href=\"/slfs/download.html\">Download</a>"
+msgstr ""
+
+#. type: Content of: <div><ul><li>
+#: menu.html:7
+msgid ""
+"<a href=\"https://glfs-book.github.io/slfs/introduction/askhelp."
+"html\">Support</a>"
+msgstr ""
+
+#. type: Content of: <div><ul><li>
+#: menu.html:8
+msgid "<a href=\"/slfs/advisories.html\">Advisories</a>"
+msgstr ""
+
+#. type: Content of: <div><ul><li>
+#: menu.html:9
+msgid "<a href=\"https://github.com/glfs-book/slfs/issues\">Issues</a>"
+msgstr ""
