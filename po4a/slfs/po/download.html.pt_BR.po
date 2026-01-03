@@ -1,0 +1,105 @@
+# Portuguese translations for Arquivos do sÃ­tio LFS brasileiro package
+# Copyright (C) 2026 Jamenson Ferreira Espindula de Almeida Melo
+# This file is distributed under the same license as the Arquivos do sÃ­tio LFS brasileiro package.
+# Automatically generated, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Arquivos do sÃ­tio LFS brasileiro 1.0\n"
+"Report-Msgid-Bugs-To: jafesp@gmail.com\n"
+"POT-Creation-Date: 2026-01-03 10:36-0300\n"
+"PO-Revision-Date: 2026-01-03 10:36-0300\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#. type: Content of: <div><h1>
+#: download.html:5
+msgid "Download SLFS"
+msgstr ""
+
+#. type: Content of: <div><h2>
+#: download.html:7
+msgid "SLFS Releases"
+msgstr ""
+
+#. type: Content of: <div><p>
+#: download.html:9
+msgid ""
+"On the SLFS site, the book is rolling release and is often rendered right "
+"after the last Git commit or batch of commits in the Git source.  However, "
+"there are chunked HTML <a href=\"https://github.com/glfs-book/slfs/"
+"releases\">releases</a>.  Each of them are versioned with the first four or "
+"more unique characters of the <a href=\"https://graphite.dev/guides/git-"
+"hashing\">Git hash</a> at the time of release. There are unstable (or pre-"
+"release) releases and stable releases. If you don't want to download a "
+"release, you can also render the book yourself. Stable releases will also "
+"show how to render a local copy of the stable version on each Github release "
+"listing."
+msgstr ""
+
+#. type: Content of: <div><h2>
+#: download.html:22
+msgid "SLFS Git"
+msgstr ""
+
+#. type: Content of: <div><p>
+#: download.html:24
+msgid "SLFS can be obtained from the Github repository:"
+msgstr ""
+
+#. type: Content of: <div><div><p>
+#: download.html:26
+msgid "git clone https://github.com/glfs-book/slfs"
+msgstr ""
+
+#. type: Content of: <div><p>
+#: download.html:29
+msgid "You can update the source by doing:"
+msgstr ""
+
+#. type: Content of: <div><div><p>
+#: download.html:30
+msgid "git pull"
+msgstr ""
+
+#. type: Content of: <div><h2>
+#: download.html:33
+msgid "Rendering the SLFS book"
+msgstr ""
+
+#. type: Content of: <div><p>
+#: download.html:35
+msgid ""
+"Rendering works the same way as it does with the *LFS books.  Read the "
+"included <tt>INSTALL.md</tt> for finding out what packages you need in order "
+"to render the book in the way you want to.  <tt>README.md</tt> also provides "
+"information like rendering options you may want to set."
+msgstr ""
+
+#. type: Content of: <div><p>
+#: download.html:42
+msgid ""
+"If you want to render the Systemd version of the book, for example, run:"
+msgstr ""
+
+#. type: Content of: <div><div><p>
+#: download.html:45
+msgid "make REV=systemd"
+msgstr ""
+
+#. type: Content of: <div><h2>
+#: download.html:48
+msgid "Packages for SLFS"
+msgstr ""
+
+#. type: Content of: <div><p>
+#: download.html:50
+msgid ""
+"SLFS has a list of packages which you can download. Please use the versions "
+"listed in the book unless you know what you are doing."
+msgstr ""
