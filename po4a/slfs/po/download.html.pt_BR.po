@@ -1,11 +1,11 @@
-# Portuguese translations for Arquivos do sÃ­tio LFS brasileiro package
+# Portuguese translations for Arquivos do sítio LFS brasileiro package
 # Copyright (C) 2026 Jamenson Ferreira Espindula de Almeida Melo
 # This file is distributed under the same license as the Arquivos do sÃ­tio LFS brasileiro package.
 # Automatically generated, 2026.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Arquivos do sÃ­tio LFS brasileiro 1.0\n"
+"Project-Id-Version: Arquivos do sítio LFS brasileiro 1.0\n"
 "Report-Msgid-Bugs-To: jafesp@gmail.com\n"
 "POT-Creation-Date: 2026-01-03 10:36-0300\n"
 "PO-Revision-Date: 2026-01-03 10:36-0300\n"
@@ -20,12 +20,12 @@ msgstr ""
 #. type: Content of: <div><h1>
 #: download.html:5
 msgid "Download SLFS"
-msgstr ""
+msgstr "Transferência do SLFS"
 
 #. type: Content of: <div><h2>
 #: download.html:7
 msgid "SLFS Releases"
-msgstr ""
+msgstr "Lançamentos do SLFS"
 
 #. type: Content of: <div><p>
 #: download.html:9
@@ -41,36 +41,46 @@ msgid ""
 "show how to render a local copy of the stable version on each Github release "
 "listing."
 msgstr ""
+"No sítio do SLFS, o livro é lançamento contínuo e frequentemente é "
+"renderizado logo depois da última submissão de Git ou lote de submissões no "
+"fonte Git. No entanto, existem <a href=\"https://github.com/glfs-book/slfs/"
+"releases\">lançamentos</a> em HTML fragmentados. Cada um deles é versionado "
+"com os primeiros quatro ou mais caracteres únicos do <a href=\"https://"
+"graphite.dev/guides/git-hashing\">resumo de Git</a> ao tempo do lançamento. "
+"Existem lançamentos instáveis (ou pré-lançamento) e lançamentos estáveis. Se "
+"não quiser baixar um lançamento, você também consegue renderizar o livro "
+"você mesmo(a). Lançamentos estáveis também mostrarão como renderizar uma "
+"cópia local da versão estável em cada listagem do lançamento do Github."
 
 #. type: Content of: <div><h2>
 #: download.html:22
 msgid "SLFS Git"
-msgstr ""
+msgstr "Git do SLFS"
 
 #. type: Content of: <div><p>
 #: download.html:24
 msgid "SLFS can be obtained from the Github repository:"
-msgstr ""
+msgstr "O SLFS pode ser obtido a partir do repositório Github:"
 
 #. type: Content of: <div><div><p>
 #: download.html:26
 msgid "git clone https://github.com/glfs-book/slfs"
-msgstr ""
+msgstr "git clone https://github.com/glfs-book/slfs"
 
 #. type: Content of: <div><p>
 #: download.html:29
 msgid "You can update the source by doing:"
-msgstr ""
+msgstr "Você consegue atualizar o fonte fazendo:"
 
 #. type: Content of: <div><div><p>
 #: download.html:30
 msgid "git pull"
-msgstr ""
+msgstr "git pull"
 
 #. type: Content of: <div><h2>
 #: download.html:33
 msgid "Rendering the SLFS book"
-msgstr ""
+msgstr "Renderizando o livro do SLFS"
 
 #. type: Content of: <div><p>
 #: download.html:35
@@ -80,22 +90,28 @@ msgid ""
 "to render the book in the way you want to.  <tt>README.md</tt> also provides "
 "information like rendering options you may want to set."
 msgstr ""
+"A renderização funciona da mesma maneira que nos livros *LFS. Leia-se o "
+"<tt>INSTALL.md</tt> incluído para descobrir quais pacotes você precisa para "
+"a finalidade de renderizar o livro da maneira que quiser. <tt>README.md</tt> "
+"também fornece informações como opções de renderização que você "
+"possivelmente queira configurar."
 
 #. type: Content of: <div><p>
 #: download.html:42
 msgid ""
 "If you want to render the Systemd version of the book, for example, run:"
 msgstr ""
+"Se você quiser renderizar a versão Systemd do livro, por exemplo, execute:"
 
 #. type: Content of: <div><div><p>
 #: download.html:45
 msgid "make REV=systemd"
-msgstr ""
+msgstr "make REV=systemd"
 
 #. type: Content of: <div><h2>
 #: download.html:48
 msgid "Packages for SLFS"
-msgstr ""
+msgstr "Pacotes para o SLFS"
 
 #. type: Content of: <div><p>
 #: download.html:50
@@ -103,3 +119,5 @@ msgid ""
 "SLFS has a list of packages which you can download. Please use the versions "
 "listed in the book unless you know what you are doing."
 msgstr ""
+"O SLFS tem uma lista de pacotes que você consegue baixar. Por favor, use as "
+"versões listadas no livro, a menos que você saiba o que está fazendo."

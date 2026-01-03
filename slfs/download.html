@@ -1,0 +1,58 @@
+<!--#set var="pageTitle" value="Transferência do SLFS" -->
+<!--#include virtual="header.html" -->
+<!--#include virtual="menu.html" -->
+    <div class="main">
+      <h1>Transferência do SLFS</h1>
+
+      <h2>Lançamentos do SLFS</h2>
+
+      <p>No sítio do SLFS, o livro é lançamento contínuo e 
+	 frequentemente é renderizado logo depois da última submissão de 
+	 Git ou lote de submissões no fonte Git. No entanto, existem <a 
+	 href="https://github.com/glfs-book/slfs/releases">lançamentos</a> 
+	 em HTML fragmentados. Cada um deles é versionado com os 
+	 primeiros quatro ou mais caracteres únicos do <a 
+	 href="https://graphite.dev/guides/git-hashing">resumo de 
+	 Git</a> ao tempo do lançamento. Existem lançamentos instáveis 
+	 (ou pré-lançamento) e lançamentos estáveis. Se não quiser 
+	 baixar um lançamento, você também consegue renderizar o livro 
+	 você mesmo(a). Lançamentos estáveis também mostrarão como 
+	 renderizar uma cópia local da versão estável em cada listagem 
+	 do lançamento do Github.
+      </p>
+
+      <h2>Git do SLFS</h2>
+
+      <p>O SLFS pode ser obtido a partir do repositório Github:</p>
+      <div class="cmd">
+        <p>git clone https://github.com/glfs-book/slfs</p>
+      </div>
+
+      <p>Você consegue atualizar o fonte fazendo:</p>
+      <div class="cmd"><p>git pull</p></div>
+
+
+      <h2>Renderizando o livro do SLFS</h2>
+
+      <p>A renderização funciona da mesma maneira que nos livros *LFS. 
+	 Leia-se o <tt>INSTALL.md</tt> incluído para descobrir quais 
+	 pacotes você precisa para a finalidade de renderizar o livro da 
+	 maneira que quiser. <tt>README.md</tt> também fornece 
+	 informações como opções de renderização que você possivelmente 
+	 queira configurar.
+      </p>
+
+      <p>Se você quiser renderizar a versão Systemd do livro, por 
+	 exemplo, execute:</p>
+      <div class="cmd">
+        <p>make REV=systemd</p>
+      </div>
+
+      <h2>Pacotes para o SLFS</h2>
+
+      <p>O SLFS tem uma lista de pacotes que você consegue baixar. Por 
+	 favor, use as versões listadas no livro, a menos que você saiba 
+	 o que está fazendo.
+      </p>
+
+<!--#include virtual="/common/footer.html" -->
