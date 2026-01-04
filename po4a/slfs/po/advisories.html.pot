@@ -1,0 +1,238 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Jamenson Ferreira Espindula de Almeida Melo
+# This file is distributed under the same license as the Arquivos do sÃ­tio LFS brasileiro package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Arquivos do sÃ­tio LFS brasileiro 1.0\n"
+"Report-Msgid-Bugs-To: jafesp@gmail.com\n"
+"POT-Creation-Date: 2026-01-03 22:24-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Content of: <div><h1>
+#: advisories.html:5
+msgid "SLFS Advisories"
+msgstr ""
+
+#. type: Content of: <div><p>
+#: advisories.html:7
+msgid ""
+"This page covers advisories, notably in relation with security and changes "
+"that may have broken earlier versions of the book."
+msgstr ""
+
+#. type: Content of: <div><p>
+#: advisories.html:10
+msgid ""
+"This page is ordered like the Changelog of the book, with newest items first."
+msgstr ""
+
+#. type: Content of: <div><h2>
+#: advisories.html:13
+msgid "12.4 to 12.5"
+msgstr ""
+
+#. type: Content of: <div><h2>
+#: advisories.html:14
+msgid "Broken changes"
+msgstr ""
+
+#. type: Content of: <div><p>
+#: advisories.html:15
+msgid ""
+"Packages removed from SLFS that are in BLFS may have gotten security "
+"updates. Read <a href=\"/blfs/advisories/12.4.html\">BLFS 12.4 Security "
+"Advisories</a> and <a href=\"/blfs/advisories/consolidated.html\">BLFS "
+"Consolidated Security Advisories</a> for such packages."
+msgstr ""
+
+#. type: Content of: <div>
+#: advisories.html:20
+msgid "<a id=\"slfs-brk-12.4-003\"/>"
+msgstr ""
+
+#. type: Content of: <div><h4>
+#: advisories.html:21
+msgid "slfs-brk-12.4-003: CUDA (Date: December 23rd, 2025)"
+msgstr ""
+
+#. type: Content of: <div><p>
+#: advisories.html:22
+msgid ""
+"The CUDA package has been moved to GLFS. NVIDIA recently released the r590 "
+"major branch, dropping support for pre-Turing NVIDIA cards, and CUDA "
+"followed. GLFS now has both NVIDIA r580 and r590 to support pre and post-"
+"Turing. Two CUDA versions are also included for each branch.  Please refer "
+"to the <a href=\"https://glfs-book.github.io/glfs/shareddeps/drivers-nvidia."
+"html\">GLFS Graphics Drivers - NVIDIA</a> page for future updates to both "
+"NVIDIA and CUDA's multiple versions."
+msgstr ""
+
+#. type: Content of: <div>
+#: advisories.html:31
+msgid "<a id=\"slfs-brk-12.4-002\"/>"
+msgstr ""
+
+#. type: Content of: <div><h4>
+#: advisories.html:32
+msgid ""
+"slfs-brk-12.4-002: nv-codec-headers (ffnvcodec) (Date: November 24th, 2025)"
+msgstr ""
+
+#. type: Content of: <div><p>
+#: advisories.html:33
+msgid ""
+"The nv-codec-headers (ffnvcodec) package has been moved to GLFS to be more "
+"convenient and concise when installing the NVIDIA driver and other related "
+"components. Please refer to the <a href=\"https://glfs-book.github.io/glfs/"
+"shareddeps/nv-codec-headers.html\">GLFS nv-codec-headers (ffnvcodec)</a> "
+"page for future updates."
+msgstr ""
+
+#. type: Content of: <div>
+#: advisories.html:39
+msgid "<a id=\"slfs-brk-12.4-001\"/>"
+msgstr ""
+
+#. type: Content of: <div><h4>
+#: advisories.html:40
+msgid "slfs-brk-12.4-001: SDL3 (Date: November 18th, 2025)"
+msgstr ""
+
+#. type: Content of: <div><p>
+#: advisories.html:41
+msgid ""
+"SLFS used to provide instructions for installing SDL3 and sdl2-compat.  This "
+"was done as a reference implementation of what it may look like when it'd "
+"inevitably land in BLFS. Eventually, other packages like the Dolphin "
+"emulator required SDL3, so it became a necessary part of SLFS. Now, BLFS has "
+"SDL3 and instructions for sdl2-compat. SLFS has thus removed the "
+"instructions for installing SDL3 and sdl2-compat. GLFS has followed suit "
+"with BLFS. Please go to BLFS or GLFS for updates to SDL3 and sdl2-compat."
+msgstr ""
+
+#. type: Content of: <div><h2>
+#: advisories.html:50
+msgid "Security Advisories"
+msgstr ""
+
+#. type: Content of: <div>
+#: advisories.html:52
+msgid "<a id=\"slfs-sa-12.4-004\"/>"
+msgstr ""
+
+#. type: Content of: <div><h4>
+#: advisories.html:53
+msgid "slfs-sa-12.4-004: i3 - Rating: High (Date: December 30th, 2025)"
+msgstr ""
+
+#. type: Content of: <div><p>
+#: advisories.html:54
+msgid ""
+"In i3-4.25, along with other code improvements, the update fixed a memory "
+"leak and use-after-free. These weren't assigned any IDs with any security "
+"authority. To be safe, users should update to i3-4.25 or later by following "
+"the <a href=\"https://glfs-book.github.io/slfs/wm/i3-wm.html\">i3 "
+"installation page</a>. SysVinit and Systemd instructions for the page do not "
+"differ."
+msgstr ""
+
+#. type: Content of: <div>
+#: advisories.html:62
+msgid "<a id=\"slfs-sa-12.4-003\"/>"
+msgstr ""
+
+#. type: Content of: <div><h4>
+#: advisories.html:63
+msgid "slfs-sa-12.4-003: tornado - Rating: High (Date: December 15th, 2025)"
+msgstr ""
+
+#. type: Content of: <div><p>
+#: advisories.html:64
+msgid ""
+"In tornado-6.5.3, three security vulnerabilties were fixed that could allow "
+"for header injection, cross-site scription, and denial of service attacks.  "
+"These security vulnerabilities have been assigned <a href=\"https://nvd.nist."
+"gov/vuln/detail/CVE-2025-67724\">CVE-2025-67724</a>, <a href=\"https://nvd."
+"nist.gov/vuln/detail/CVE-2025-67725\">CVE-2025-67725</a>, and <a "
+"href=\"https://nvd.nist.gov/vuln/detail/CVE-2025-67726\">CVE-2025-67726</a>."
+msgstr ""
+
+#. type: Content of: <div><p>
+#: advisories.html:71
+msgid ""
+"To update to tornado-6.5.3, follow the <a href=\"https://glfs-book.github.io/"
+"slfs/general/python-dependencies.html#tornado\">tornado installation page</"
+"a>. SysVinit and Systemd instructions for the page do not differ."
+msgstr ""
+
+#. type: Content of: <div>
+#: advisories.html:76
+msgid "<a id=\"slfs-sa-12.4-002\"/>"
+msgstr ""
+
+#. type: Content of: <div><h4>
+#: advisories.html:77
+msgid "slfs-sa-12.4-002: Mbed-TLS - Rating: Medium (Date: December 15th, 2025)"
+msgstr ""
+
+#. type: Content of: <div><p>
+#: advisories.html:78
+msgid ""
+"In Mbed-TLS-3.6.5, two security vulnerabilties were fixed that could allow "
+"for partial recovery of CBC-PKCS7-encrypted plaintext and private key "
+"material disclosure.  These security vulnerabilities have been assigned <a "
+"href=\"https://nvd.nist.gov/vuln/detail/CVE-2025-54764\">CVE-2025-54764</a> "
+"and <a href=\"https://nvd.nist.gov/vuln/detail/"
+"CVE-2025-59438\">CVE-2025-59438</a>."
+msgstr ""
+
+#. type: Content of: <div><p>
+#: advisories.html:84
+msgid ""
+"To update to Mbed-TLS-3.6.5, follow the <a href=\"https://glfs-book.github."
+"io/slfs/general/mbedtls.html\">Mbed-TLS installation page</a>. SysVinit and "
+"Systemd instructions for the page do not differ."
+msgstr ""
+
+#. type: Content of: <div>
+#: advisories.html:89
+msgid "<a id=\"slfs-sa-12.4-001\"/>"
+msgstr ""
+
+#. type: Content of: <div><h4>
+#: advisories.html:90
+msgid "slfs-sa-12.4-001: OpenJDK-17 - Rating: High (Date: October 23rd, 2025)"
+msgstr ""
+
+#. type: Content of: <div><p>
+#: advisories.html:91
+msgid ""
+"In OpenJDK-17.0.17-ga, two security vulnerabilties were fixed that could "
+"allow for exploitation of APIs via multiple network protocols, leading to "
+"creation, modification, and deletion of data. This is especially an issue "
+"with Minecraft servers, as an affected JDK version will have elevated "
+"privileges because of calls to mods/modpacks. These vulnerabilities affect "
+"other major JDK versions. If you have multiple OpenJDK versions built, "
+"update all of them if there is an update present.  These security "
+"vulnerabilities have been assigned <a href=\"https://nvd.nist.gov/vuln/"
+"detail/CVE-2025-53057\">CVE-2025-53057</a> and <a href=\"https://nvd.nist."
+"gov/vuln/detail/CVE-2025-53066\">CVE-2025-53066</a>."
+msgstr ""
+
+#. type: Content of: <div><p>
+#: advisories.html:101
+msgid ""
+"To update to OpenJDK-17.0.17-ga, follow the <a href=\"https://glfs-book."
+"github.io/slfs/general/openjdk.html\">OpenJDK installation page</a>. "
+"SysVinit and Systemd instructions for the page do not differ. The Java page "
+"also has the new version."
+msgstr ""
