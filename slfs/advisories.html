@@ -1,0 +1,120 @@
+
+
+
+    <!--#set var="pageTitle" value="SLFS Advisories" -->
+<!--#include virtual="header.html" -->
+<!--#include virtual="menu.html" -->
+<div class="main">
+    <h1>Avisos do SLFS</h1>
+
+    <p>Esta página cobre avisos, notavelmente em relação à segurança e
+mudanças que possivelmente tenham quebrado versões anteriores do livro.</p>
+
+    <p style="font-style: italic;">Esta página está ordenada como o Registro das Mudanças do livro, com os
+itens mais recentes primeiro.</p>
+
+    <h2>12.4 para 12.5</h2>
+    <h2>Mudanças quebradas</h2>
+    <p>Pacotes removidos do SLFS que estão no BLFS possivelmente tenham
+recebido atualizações de segurança. Leia-se <a
+href="/blfs/advisories/12.4.html">Avisos de Segurança do BLFS 12.4</a> e
+<a href="/blfs/advisories/consolidated.html">Avisos de Segurança
+Consolidados do BLFS</a> para esses pacotes.</p>
+
+    <a id="slfs-brk-12.4-003"/>
+    <h4>slfs-brk-12.4-003: CUDA (Data: 23 de dezembro de 2025)</h4>
+    <p>O pacote CUDA foi movido para GLFS. A NVIDIA lançou recentemente o ramo
+principal r590, abandonando o suporte para placas NVIDIA pré-Turing, e
+CUDA o seguiu. O GLFS agora tem ambos r580 e r590 da NVIDIA para
+suportar pré e pós-Turing. Duas versões CUDA também estão incluídas para
+cada ramo. Por favor, refira-se à página <a
+href="https://glfs-book.github.io/glfs/shareddeps/drivers-nvidia.html">Controladores
+Gráficos do GLFS - NVIDIA</a> para atualizações futuras das diversas
+versões da NVIDIA e do CUDA.</p>
+
+    <a id="slfs-brk-12.4-002"/>
+    <h4>slfs-brk-12.4-002: nv-codec-headers (ffnvcodec) (Data: 24 de novembro de
+2025)</h4>
+    <p>O pacote nv-codec-headers (ffnvcodec) foi movido para GLFS para ser mais
+conveniente e conciso ao instalar o controlador NVIDIA e outros
+componentes relacionados. Por favor, refira-se à página <a
+href="https://glfs-book.github.io/glfs/shareddeps/nv-codec-headers.html">nv-codec-headers
+(ffnvcodec) do GLFS</a> para atualizações futuras.</p>
+
+    <a id="slfs-brk-12.4-001"/>
+    <h4>slfs-brk-12.4-001: SDL3 (Data: 18 de novembro de 2025)</h4>
+    <p>O SLFS usado para fornecer instruções para instalar o SDL3 e o
+sdl2-compat. Isso foi feito como uma implementação de referência de como
+seria quando inevitavelmente aterrisasse no BLFS. Eventualmente, outros
+pacotes, como o emulador Dolphin, exigiram o SDL3, de forma que ele se
+tornou uma parte necessária do SLFS. Agora, o BLFS tem SDL3 e instruções
+para sdl2-compat. O SLFS, então, removeu as instruções para instalar o
+SDL3 e o sdl2-compat. O GLFS seguiu o exemplo do BLFS. Por favor, vá
+para BLFS ou para GLFS para atualizações para SDL3 e sdl2-compat.</p>
+
+    <h2>Avisos de Segurança</h2>
+
+    <a id="slfs-sa-12.4-004"/>
+    <h4>slfs-sa-12.4-004: i3 - Avaliação: Alta (Data: 30 de dezembro de 2025)</h4>
+    <p>No i3-4.25, junto com outras melhorias de código, a atualização corrigiu
+um vazamento de memória e uso após liberação. Eles não receberam nenhum
+ID de nenhuma autoridade de segurança. Por segurança, os(as)
+usuários(as) deveriam atualizar para i3-4.25 ou posterior seguindo a <a
+href="https://glfs-book.github.io/slfs/wm/i3-wm.html">página de
+instalação do i3</a>. As instruções do SysVinit e do Systemd para a
+página não diferem.</p>
+
+    <a id="slfs-sa-12.4-003"/>
+    <h4>slfs-sa-12.4-003: tornado - Avaliação: Alta (Data: 15 de dezembro de
+2025)</h4>
+    <p>No tornado-6.5.3, três vulnerabilidades de segurança foram corrigidas
+que poderiam permitir injeção de cabeçalho, inscrição entre sites e
+ataques de negação de serviço. Essas vulnerabilidades de segurança foram
+atribuídas a <a
+href="https://nvd.nist.gov/vuln/detail/CVE-2025-67724">CVE-2025-67724</a>,
+<a
+href="https://nvd.nist.gov/vuln/detail/CVE-2025-67725">CVE-2025-67725</a>
+e <a
+href="https://nvd.nist.gov/vuln/detail/CVE-2025-67726">CVE-2025-67726</a>.</p>
+    <p>Para atualizar para o tornado-6.5.3, siga a <a
+href="https://glfs-book.github.io/slfs/general/python-dependencies.html#tornado">página
+de instalação do tornado</a>. As instruções do SysVinit e do Systemd
+para a página não diferem.</p>
+
+    <a id="slfs-sa-12.4-002"/>
+    <h4>slfs-sa-12.4-002: Mbed-TLS - Avaliação: Média (Data: 15 de dezembro de
+2025)</h4>
+    <p>No Mbed-TLS-3.6.5, duas vulnerabilidades de segurança foram corrigidas
+que poderiam permitir a recuperação parcial de texto simples
+criptografado por CBC-PKCS7 e divulgação de material de chave
+privada. Essas vulnerabilidades de segurança foram atribuídas a <a
+href="https://nvd.nist.gov/vuln/detail/CVE-2025-54764">CVE-2025-54764</a>
+e <a
+href="https://nvd.nist.gov/vuln/detail/CVE-2025-59438">CVE-2025-59438</a>.</p>
+    <p>Para atualizar para Mbed-TLS-3.6.5, siga a <a
+href="https://glfs-book.github.io/slfs/general/mbedtls.html">página de
+instalação do Mbed-TLS</a>. As instruções do SysVinit e do Systemd para
+a página não diferem.</p>
+
+    <a id="slfs-sa-12.4-001"/>
+    <h4>slfs-sa-12.4-001: OpenJDK-17 - Avaliação: Alta (Data: 23 de outubro de
+2025)</h4>
+    <p>No OpenJDK-17.0.17-ga, duas vulnerabilidades de segurança foram
+corrigidas que poderiam permitir a exploração de APIs por meio de vários
+protocolos de rede, levando à criação, modificação e deleção de
+dados. Esse é um problema especialmente com servidores do Minecraft,
+pois uma versão JDK afetada terá privilégios elevados devido a chamadas
+para mods/modpacks. Essas vulnerabilidades afetam outras versões
+principais do JDK. Se você tiver várias versões do OpenJDK construídas,
+atualize todas elas se existir uma atualização presente. Essas
+vulnerabilidades de segurança foram atribuídas a <a
+href="https://nvd.nist.gov/vuln/detail/CVE-2025-53057">CVE-2025-53057</a>
+e <a
+href="https://nvd.nist.gov/vuln/detail/CVE-2025-53066">CVE-2025-53066</a>.</p>
+    <p>Para atualizar para o OpenJDK-17.0.17-ga, siga a <a
+href="https://glfs-book.github.io/slfs/general/openjdk.html">página de
+instalação do OpenJDK</a>. As instruções do SysVinit e do Systemd para a
+página não diferem. A página do Java também tem a nova versão.</p>
+
+
+<!--#include virtual="/common/footer.html" -->
