@@ -40,16 +40,16 @@ msgstr "<a href=\"/slfs/download.html\">Transferência</a>"
 #. type: Content of: <div><ul><li>
 #: menu.html:7
 msgid ""
-"<a href=\"https://glfs-book.github.io/slfs/introduction/askhelp."
-"html\">Support</a>"
+"<a "
+"href=\"https://glfs-book.github.io/slfs/introduction/askhelp.html\">Support</a>"
 msgstr ""
-"<a href=\"https://glfs-book.github.io/slfs/introduction/askhelp."
-"html\">Suporte</a>"
+"<a "
+"href=\"https://glfs-book.github.io/slfs/introduction/askhelp.html\">Suporte</a>"
 
 #. type: Content of: <div><ul><li>
 #: menu.html:8
 msgid "<a href=\"/slfs/advisories.html\">Advisories</a>"
-msgstr "<a href=\"/slfs/advisories.html\">Recomendações</a>"
+msgstr "<a href=\"/slfs/advisories.html\">Avisos</a>"
 
 #. type: Content of: <div><ul><li>
 #: menu.html:9
