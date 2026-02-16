@@ -1,16 +1,17 @@
-# Portuguese translations for Arquivos do sÃ­tio LFS brasileiro package
-# Traduções em português brasileiro para o pacote Arquivos do sÃ­tio LFS brasileiro
+# Portuguese translations for Arquivos do sítio LFS brasileiro package
+# Traduções em português brasileiro para o pacote Arquivos do sítio LFS brasileiro
 # Copyright (C) 2026 Jamenson Ferreira Espindula de Almeida Melo
-# This file is distributed under the same license as the Arquivos do sÃ­tio LFS brasileiro package.
+# This file is distributed under the same license as the Arquivos do sítio LFS
+# brasileiro package.
 # Automatically generated, 2026.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Arquivos do sÃ­tio LFS brasileiro 1.0\n"
+"Project-Id-Version: Arquivos do sítio LFS brasileiro 1.0\n"
 "Report-Msgid-Bugs-To: jafesp@gmail.com\n"
-"POT-Creation-Date: 2026-02-16 09:14-0300\n"
-"PO-Revision-Date: 2026-02-16 09:14-0300\n"
-"Last-Translator: Automatically generated\n"
+"POT-Creation-Date: 2026-02-16 09:30-0300\n"
+"PO-Revision-Date: 2026-02-16 09:30-0300\n"
+"Last-Translator: Jamenson Ferreira Espindula de Almeida Melo\n"
 "Language-Team: none\n"
 "Language: pt_BR\n"
 "MIME-Version: 1.0\n"
@@ -18,230 +19,129 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
-#. type: Content of: <html><body><div><h1>
-#: news.html:7 news.html:89
+#. type: Content of: <div><h1>
+#: news.html:5
 msgid "MLFS News"
-msgstr ""
+msgstr "Notícias do MLFS"
 
-#
-#
-#
-#.         <img src="/images/lfs-logo.png" 
-#.         alt="Linux From Scratch | Your Distro, Your Rules" />
-#.  
-#.   High res image, but it needs size/location help.  
-#.       The old image was 192x75, but the new image has a ratio of 2 (1024x512).
-#. type: Content of: <html><body><div><a>
-#: news.html:12
-msgid "<a href=\"/index.html\">"
+#. type: Content of: <div><p>
+#: news.html:7
+msgid ""
+"Noteworthy changes in the MLFS system. In addition to the entries in the "
+"books changelog, relevant changes you should be aware of are reported here:"
 msgstr ""
+"Mudanças notáveis no sistema MLFS. Além das entradas no registro das "
+"mudanças dos livros, as mudanças relevantes das quais você deveria estar "
+"ciente estão informadas aqui:"
 
-#. type: Attribute 'alt' of: <html><body><div><a><img>
+#. type: Content of: <div><dl><dt>
 #: news.html:21
-msgid "Linux From Scratch | Your Distro, Your Rules"
-msgstr ""
-
-#. type: Content of: <html><body><div>
-#: news.html:22
-msgid "</a>"
-msgstr ""
-
-#. type: Content of: <html><body><form><p>
-#: news.html:28
-msgid ""
-"<input type=\"hidden\" name=\"client\" "
-"value=\"pub-1920546463376456\" /> <input type=\"hidden\" "
-"name=\"forid\" value=\"1\" /> <input type=\"hidden\" name=\"ie\" "
-"value=\"ISO-8859-1\" /> <input type=\"hidden\" name=\"oe\" "
-"value=\"ISO-8859-1\" /> <input type=\"hidden\" name=\"safe\" "
-"value=\"active\" /> <input type=\"hidden\" name=\"cof\" "
-"value=\"GALT:#008000;GL:1;DIV:#336699;VLC:663399;AH:center;BGC:FFFFFF;LBGC:336699;ALC:0000FF;LC:0000FF;T:000000;GFNT:0000FF;GIMP:0000FF;LH:50;LW:128;L:http://"
-"www.linuxfromscratch.org/images/lfs-logo.png;S:http://"
-"www.linuxfromscratch.org;FORID:1\" /> <input type=\"hidden\" "
-"name=\"hl\" value=\"en\" /> <input type=\"hidden\" name=\"domains\" "
-"value=\"linuxfromscratch.org\" /> <input type=\"text\" name=\"q\" "
-"size=\"31\" maxlength=\"255\" id=\"sbi\" />"
-msgstr ""
-
-#. type: Content of: <html><body><form><p>
-#: news.html:40
-msgid ""
-"<input type=\"submit\" name=\"sa\" value=\"Google Search\" "
-"id=\"sbb\" /> <input type=\"radio\" name=\"sitesearch\" value=\"\" "
-"id=\"ss0\" /> <label for=\"ss0\" title=\"Search the Web\">Web</label> "
-"<input type=\"radio\" name=\"sitesearch\" "
-"value=\"linuxfromscratch.org\" checked=\"checked\" id=\"ss1\" /> "
-"<label for=\"ss1\" title=\"Search www.linuxfromscratch.org\">LFS</"
-"label>"
-msgstr ""
-
-#. type: Content of: <html><body><div><ul><li>
-#: news.html:65
-msgid "<a id=\"patches\" href=\"/patches/\">Patches</a>"
-msgstr ""
-
-#. type: Content of: <html><body><div><ul><li>
-#: news.html:66
-msgid "<a id=\"hints\" href=\"/hints/\">Hints</a>"
-msgstr ""
-
-#. type: Content of: <html><body><div><ul><li>
-#: news.html:67
-msgid "<a id=\"slfs\" href=\"/slfs/\">SLFS</a>"
-msgstr ""
-
-#. type: Content of: <html><body><div><ul><li>
-#: news.html:68
-msgid "<a id=\"glfs\" href=\"/glfs/\">GLFS</a>"
-msgstr ""
-
-#. type: Content of: <html><body><div><ul><li>
-#: news.html:69
-msgid "<a id=\"mlfsactive\" href=\"/mlfs/\">MLFS</a>"
-msgstr ""
-
-#. type: Content of: <html><body><div><ul><li>
-#: news.html:70
-msgid "<a id=\"alfs\" href=\"/alfs/\">ALFS</a>"
-msgstr ""
-
-#. type: Content of: <html><body><div><ul><li>
-#: news.html:71
-msgid "<a id=\"blfs\" href=\"/blfs/\">BLFS</a>"
-msgstr ""
-
-#. type: Content of: <html><body><div><ul><li>
-#: news.html:72
-msgid "<a id=\"lfs\" href=\"/lfs/\">LFS</a>"
-msgstr ""
-
-#. type: Content of: <html><body><div><ul><li>
-#: news.html:79
-msgid "<a href=\"/\">Home</a>"
-msgstr ""
-
-#. type: Content of: <html><body><div><ul><li>
-#: news.html:80
-msgid "<a href=\"/mlfs/index.html\">MLFS Home</a>"
-msgstr ""
-
-#. type: Content of: <html><body><div><ul><li>
-#: news.html:81
-msgid "<a href=\"/mlfs/news.html\">News</a>"
-msgstr ""
-
-#. type: Content of: <html><body><div><ul><li>
-#: news.html:82
-msgid "<a href=\"/mlfs/download.html\">Download</a>"
-msgstr ""
-
-#. type: Content of: <html><body><div><ul><li>
-#: news.html:83
-msgid "<a href=\"/support.html\">Support</a>"
-msgstr ""
-
-#. type: Content of: <html><body><div><ul><li>
-#: news.html:84
-msgid "<a href=\"/mail.html\">Mailing Lists</a>"
-msgstr ""
-
-#. type: Content of: <html><body><div><p>
-#: news.html:91
-msgid ""
-"Noteworthy changes in the MLFS system. In addition to the entries in "
-"the books changelog, relevant changes you should be aware of are "
-"reported here:"
-msgstr ""
-
-#. type: Content of: <html><body><div><dl><dt>
-#: news.html:105
 msgid "More releases online, change of editorship"
-msgstr ""
+msgstr "Mais lançamentos online, mudança de editoria"
 
-#. type: Content of: <html><body><div><dl><dd>
-#: news.html:106
+#. type: Content of: <div><dl><dd>
+#: news.html:22
 msgid "<em>Zeckma - 2026/02/15</em>"
-msgstr ""
+msgstr "<em>Zeckma - 2026/02/15</em>"
 
-#. type: Content of: <html><body><div><dl><dd><p>
-#: news.html:107
+#. type: Content of: <div><dl><dd><p>
+#: news.html:23
 msgid ""
-"Starting off, there have been efforts for a while to get MLFS "
-"rendered in a more official place, have official releases, and have "
-"all of them viewable online. That has now finally happened. Releases "
-"will now take place alongside LFS's releases, starting with 13.0-rc1 "
-"which can be read <a href=\"view/13.0-rc1/\">here</a>. 13.0, when LFS "
-"and the other projects release it, will be followed with MLFS-13.0.  "
-"For more releases, you can read the <a href=\"index.html\">main page</"
-"a> for more details."
+"Starting off, there have been efforts for a while to get MLFS rendered in a "
+"more official place, have official releases, and have all of them viewable "
+"online. That has now finally happened. Releases will now take place "
+"alongside LFS's releases, starting with 13.0-rc1 which can be read <a "
+"href=\"view/13.0-rc1/\">here</a>. 13.0, when LFS and the other projects "
+"release it, will be followed with MLFS-13.0.  For more releases, you can "
+"read the <a href=\"index.html\">main page</a> for more details."
 msgstr ""
+"No início, tem havido esforços há algum tempo para que o MLFS seja "
+"renderizado em um local mais oficial, tenha lançamentos oficiais e sejam "
+"todos eles visualizáveis online. Isso finalmente aconteceu. Os lançamentos "
+"agora ocorrerão junto com os lançamentos do LFS, começando com 13.0-rc1, "
+"que pode ser lido <a "
+"href=\"https://linuxfromscratch.org/mlfs/view/13.0-rc1/\">aqui</a>. 13.0, "
+"quando o LFS e outros projetos o lançarem, será seguido pelo MLFS-13.0. "
+"Para mais lançamentos, você pode ler a <a "
+"href=\"https://www.br.linuxfromscratch.org/mlfs/index.html\">página "
+"principal</a> para mais detalhes."
 
-#. type: Content of: <html><body><div><dl><dd><p>
-#: news.html:115
+#. type: Content of: <div><dl><dd><p>
+#: news.html:31
 msgid ""
-"Editorship has also been changed for months. Thomas Trepl, who "
-"maintained MLFS for a long time, stepped down. We thank him for all "
-"his work he made on MLFS. I was thus charged in the care of MLFS and "
-"have been cleaning various things up. Some of you may have noticed "
-"these changes. Stability and cleanliness are the forefront goals of "
-"MLFS and most of the work required has now come to pass."
+"Editorship has also been changed for months. Thomas Trepl, who maintained "
+"MLFS for a long time, stepped down. We thank him for all his work he made on "
+"MLFS. I was thus charged in the care of MLFS and have been cleaning various "
+"things up. Some of you may have noticed these changes. Stability and "
+"cleanliness are the forefront goals of MLFS and most of the work required "
+"has now come to pass."
 msgstr ""
+"A editoria também foi mudada há meses. Thomas Trepl, que manteve o MLFS "
+"por muito tempo, deixou o cargo. Nós agradecemos a ele por todo o trabalho "
+"que realizou no MLFS. Assim, eu fui encarregado de cuidar do MLFS e tenho "
+"organizado várias coisas. Alguns(mas) de vocês devem ter notado essas "
+"mudanças. Estabilidade e organização são os principais objetivos do MLFS "
+"e a maior parte do trabalho exigido agora já foi realizado."
 
-#. type: Content of: <html><body><div><dl><dd><p>
-#: news.html:121
+#. type: Content of: <div><dl><dd><p>
+#: news.html:37
 msgid ""
-"I have various methods of contacting, so if you have any issues with "
-"MLFS, you can report them on the <a href=\"/mail.html\">mailing "
-"lists</a>, or to my email <a "
-"href=\"mailto:zeckma@linuxfromscratch.org\">zeckma@linuxfromscratch.org</"
-"a>.  My Discord is also open if that suits you, which is "
-"<kbd>@zeckma</kbd> or <kbd>zeckma#0000</kbd>."
+"I have various methods of contacting, so if you have any issues with MLFS, "
+"you can report them on the <a href=\"/mail.html\">mailing lists</a>, or to "
+"my email <a "
+"href=\"mailto:zeckma@linuxfromscratch.org\">zeckma@linuxfromscratch.org</a>.  "
+"My Discord is also open if that suits you, which is <kbd>@zeckma</kbd> or "
+"<kbd>zeckma#0000</kbd>."
 msgstr ""
+"Eu tenho vários métodos de contato, de modo que se tiver algum problema "
+"com o MLFS, você pode informá-lo nas <a "
+"href=\"https://www.br.linuxfromscratch.org/mail.html\">listas de "
+"discussão</a> ou no meu correio eletrônico <a "
+"href=\"mailto:zeckma@linuxfromscratch.org\">zeckma@linuxfromscratch.org</a>. "
+"Meu Discord também está aberto se preferir, que é <kbd>@zeckma</kbd> ou "
+"<kbd>zeckma#0000</kbd>."
 
-#. type: Content of: <html><body><div><dl><dd><p>
-#: news.html:127
+#. type: Content of: <div><dl><dd><p>
+#: news.html:43
 msgid "Happy compiling!"
-msgstr ""
+msgstr "Feliz compilagem!"
 
-#. type: Content of: <html><body><div><dl><dt>
-#: news.html:132
+#. type: Content of: <div><dl><dt>
+#: news.html:48
 msgid "gcc defaults changed"
-msgstr ""
+msgstr "padrões do gcc mudados"
 
-#. type: Content of: <html><body><div><dl><dd>
-#: news.html:133
+#. type: Content of: <div><dl><dd>
+#: news.html:49
 msgid "<em>Thomas Trepl - 2024/11/12</em>"
-msgstr ""
+msgstr "<em>Thomas Trepl - 2024/11/12</em>"
 
-#. type: Content of: <html><body><div><dl><dd><p>
-#: news.html:134
+#. type: Content of: <div><dl><dd><p>
+#: news.html:50
 msgid ""
-"Added a <kbd>sed</kbd> to all of the gcc build instructions (chapter "
-"5, 6, 8) to make the <kbd>-mstackrealign</kbd> flag set by default "
-"for the m32 builds."
+"Added a <kbd>sed</kbd> to all of the gcc build instructions (chapter 5, 6, "
+"8) to make the <kbd>-mstackrealign</kbd> flag set by default for the m32 "
+"builds."
 msgstr ""
+"Adicionado um <kbd>sed</kbd> para todas as instruções de construção do "
+"gcc (capítulo 5, 6, 8) para tornar o sinalizador <kbd>-mstackrealign</kbd> "
+"configurado por padrão para as construções m32."
 
-#. type: Content of: <html><body><div><dl><dt>
-#: news.html:141
+#. type: Content of: <div><dl><dt>
+#: news.html:57
 msgid "ISL added"
-msgstr ""
+msgstr "ISL adicionado"
 
-#. type: Content of: <html><body><div><dl><dd>
-#: news.html:142
+#. type: Content of: <div><dl><dd>
+#: news.html:58
 msgid "<em>Thomas Trepl - long ago</em>"
-msgstr ""
+msgstr "<em>Thomas Trepl - há muito tempo</em>"
 
-#. type: Content of: <html><body><div><dl><dd><p>
-#: news.html:143
+#. type: Content of: <div><dl><dd><p>
+#: news.html:59
 msgid ""
-"The package ISL (<a href=\"http://libisl.sourceforge.io/\">see here</"
-"a>)  has been added so that gcc will pick it up for some "
-"optimizations."
+"The package ISL (<a href=\"http://libisl.sourceforge.io/\">see here</a>)  "
+"has been added so that gcc will pick it up for some optimizations."
 msgstr ""
-
-#. type: Content of: <html><body><div><div><p>
-#: news.html:149
-msgid ""
-"&copy; 1998-2026 Gerard Beekmans. Website design by Jeremy Huntwork "
-"&amp; Matthew Burgess."
-msgstr ""
+"O pacote ISL (<a href=\"http://libisl.sourceforge.io/\">veja-se aqui</a>) "
+"foi adicionado, de modo que o gcc o pegará para algumas otimizações."

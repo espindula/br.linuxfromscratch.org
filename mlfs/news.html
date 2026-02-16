@@ -1,37 +1,69 @@
 <!--#set var="pageTitle" value="Notícias do MLFS" -->
 <!--#include virtual="header.html" -->
 <!--#include virtual="menu.html" -->
-    <div class="main">
+<div class="main">
     <h1>Notícias do MLFS</h1>
 
-    <p>Mudanças notáveis no sistema MLFS. Além das entradas no registro 
-    das mudanças dos livros, mudanças relevantes das quais você deveria 
-    estar ciente estão informadas aqui:</p>
+    <p>Mudanças notáveis no sistema MLFS. Além das entradas no registro das
+mudanças dos livros, as mudanças relevantes das quais você deveria estar
+ciente estão informadas aqui:</p>
 
-<!--
+
+
+    <!--
     <dl class="newsItem">
+
       <dt>Teaser</dt>
       <dd><em>Thomas Trepl - YYYY/MM/DD</em>
         <p>Description</p>
       </dd>
     </dl>
 -->
+<dl class="newsItem">
+      <dt>Mais lançamentos online, mudança de editoria</dt>
+      <dd><em>Zeckma - 2026/02/15</em>
+        <p>No início, tem havido esforços há algum tempo para que o MLFS seja
+renderizado em um local mais oficial, tenha lançamentos oficiais e sejam
+todos eles visualizáveis online. Isso finalmente aconteceu. Os lançamentos
+agora ocorrerão junto com os lançamentos do LFS, começando com 13.0-rc1, que
+pode ser lido <a
+href="https://linuxfromscratch.org/mlfs/view/13.0-rc1/">aqui</a>. 13.0,
+quando o LFS e outros projetos o lançarem, será seguido pelo MLFS-13.0. Para
+mais lançamentos, você pode ler a <a
+href="https://www.br.linuxfromscratch.org/mlfs/index.html">página
+principal</a> para mais detalhes.</p>
+        <p>A editoria também foi mudada há meses. Thomas Trepl, que manteve o MLFS por
+muito tempo, deixou o cargo. Nós agradecemos a ele por todo o trabalho que
+realizou no MLFS. Assim, eu fui encarregado de cuidar do MLFS e tenho
+organizado várias coisas. Alguns(mas) de vocês devem ter notado essas
+mudanças. Estabilidade e organização são os principais objetivos do MLFS e a
+maior parte do trabalho exigido agora já foi realizado.</p>
+        <p>Eu tenho vários métodos de contato, de modo que se tiver algum problema com
+o MLFS, você pode informá-lo nas <a
+href="https://www.br.linuxfromscratch.org/mail.html">listas de discussão</a>
+ou no meu correio eletrônico <a
+href="mailto:zeckma@linuxfromscratch.org">zeckma@linuxfromscratch.org</a>.
+Meu Discord também está aberto se preferir, que é <kbd>@zeckma</kbd> ou
+<kbd>zeckma#0000</kbd>.</p>
+        <p>Feliz compilagem!</p>
+      </dd>
+    </dl>
+
     <dl class="newsItem">
       <dt>padrões do gcc mudados</dt>
       <dd><em>Thomas Trepl - 2024/11/12</em>
-        <p>Adicionado um <tt>sed</tt> para todas as instruções de 
-        construção do gcc (capítulo 5, 6, 8) para tornar o sinalizador 
-        <tt>-mstackrealign</tt> configurado por padrão para as 
-        construções m32.</p>
+        <p>Adicionado um <kbd>sed</kbd> para todas as instruções de construção do gcc
+(capítulo 5, 6, 8) para tornar o sinalizador <kbd>-mstackrealign</kbd>
+configurado por padrão para as construções m32.</p>
       </dd>
     </dl>
 
     <dl class="newsItem">
       <dt>ISL adicionado</dt>
       <dd><em>Thomas Trepl - há muito tempo</em>
-        <p>O pacote ISL (<a href="http://libisl.sourceforge.io/">veja 
-        aqui</a>) foi adicionado de forma que o gcc o pegará para 
-        algumas otimizações.</p>
+        <p>O pacote ISL (<a href="http://libisl.sourceforge.io/">veja-se aqui</a>) foi
+adicionado, de modo que o gcc o pegará para algumas otimizações.</p>
       </dd>
     </dl>
+
 <!--#include virtual="/common/footer.html" -->
