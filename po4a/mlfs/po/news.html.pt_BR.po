@@ -1,0 +1,247 @@
+# Portuguese translations for Arquivos do sÃ­tio LFS brasileiro package
+# Traduções em português brasileiro para o pacote Arquivos do sÃ­tio LFS brasileiro
+# Copyright (C) 2026 Jamenson Ferreira Espindula de Almeida Melo
+# This file is distributed under the same license as the Arquivos do sÃ­tio LFS brasileiro package.
+# Automatically generated, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Arquivos do sÃ­tio LFS brasileiro 1.0\n"
+"Report-Msgid-Bugs-To: jafesp@gmail.com\n"
+"POT-Creation-Date: 2026-02-16 09:14-0300\n"
+"PO-Revision-Date: 2026-02-16 09:14-0300\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#. type: Content of: <html><body><div><h1>
+#: news.html:7 news.html:89
+msgid "MLFS News"
+msgstr ""
+
+#
+#
+#
+#.         <img src="/images/lfs-logo.png" 
+#.         alt="Linux From Scratch | Your Distro, Your Rules" />
+#.  
+#.   High res image, but it needs size/location help.  
+#.       The old image was 192x75, but the new image has a ratio of 2 (1024x512).
+#. type: Content of: <html><body><div><a>
+#: news.html:12
+msgid "<a href=\"/index.html\">"
+msgstr ""
+
+#. type: Attribute 'alt' of: <html><body><div><a><img>
+#: news.html:21
+msgid "Linux From Scratch | Your Distro, Your Rules"
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: news.html:22
+msgid "</a>"
+msgstr ""
+
+#. type: Content of: <html><body><form><p>
+#: news.html:28
+msgid ""
+"<input type=\"hidden\" name=\"client\" "
+"value=\"pub-1920546463376456\" /> <input type=\"hidden\" "
+"name=\"forid\" value=\"1\" /> <input type=\"hidden\" name=\"ie\" "
+"value=\"ISO-8859-1\" /> <input type=\"hidden\" name=\"oe\" "
+"value=\"ISO-8859-1\" /> <input type=\"hidden\" name=\"safe\" "
+"value=\"active\" /> <input type=\"hidden\" name=\"cof\" "
+"value=\"GALT:#008000;GL:1;DIV:#336699;VLC:663399;AH:center;BGC:FFFFFF;LBGC:336699;ALC:0000FF;LC:0000FF;T:000000;GFNT:0000FF;GIMP:0000FF;LH:50;LW:128;L:http://"
+"www.linuxfromscratch.org/images/lfs-logo.png;S:http://"
+"www.linuxfromscratch.org;FORID:1\" /> <input type=\"hidden\" "
+"name=\"hl\" value=\"en\" /> <input type=\"hidden\" name=\"domains\" "
+"value=\"linuxfromscratch.org\" /> <input type=\"text\" name=\"q\" "
+"size=\"31\" maxlength=\"255\" id=\"sbi\" />"
+msgstr ""
+
+#. type: Content of: <html><body><form><p>
+#: news.html:40
+msgid ""
+"<input type=\"submit\" name=\"sa\" value=\"Google Search\" "
+"id=\"sbb\" /> <input type=\"radio\" name=\"sitesearch\" value=\"\" "
+"id=\"ss0\" /> <label for=\"ss0\" title=\"Search the Web\">Web</label> "
+"<input type=\"radio\" name=\"sitesearch\" "
+"value=\"linuxfromscratch.org\" checked=\"checked\" id=\"ss1\" /> "
+"<label for=\"ss1\" title=\"Search www.linuxfromscratch.org\">LFS</"
+"label>"
+msgstr ""
+
+#. type: Content of: <html><body><div><ul><li>
+#: news.html:65
+msgid "<a id=\"patches\" href=\"/patches/\">Patches</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><ul><li>
+#: news.html:66
+msgid "<a id=\"hints\" href=\"/hints/\">Hints</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><ul><li>
+#: news.html:67
+msgid "<a id=\"slfs\" href=\"/slfs/\">SLFS</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><ul><li>
+#: news.html:68
+msgid "<a id=\"glfs\" href=\"/glfs/\">GLFS</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><ul><li>
+#: news.html:69
+msgid "<a id=\"mlfsactive\" href=\"/mlfs/\">MLFS</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><ul><li>
+#: news.html:70
+msgid "<a id=\"alfs\" href=\"/alfs/\">ALFS</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><ul><li>
+#: news.html:71
+msgid "<a id=\"blfs\" href=\"/blfs/\">BLFS</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><ul><li>
+#: news.html:72
+msgid "<a id=\"lfs\" href=\"/lfs/\">LFS</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><ul><li>
+#: news.html:79
+msgid "<a href=\"/\">Home</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><ul><li>
+#: news.html:80
+msgid "<a href=\"/mlfs/index.html\">MLFS Home</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><ul><li>
+#: news.html:81
+msgid "<a href=\"/mlfs/news.html\">News</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><ul><li>
+#: news.html:82
+msgid "<a href=\"/mlfs/download.html\">Download</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><ul><li>
+#: news.html:83
+msgid "<a href=\"/support.html\">Support</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><ul><li>
+#: news.html:84
+msgid "<a href=\"/mail.html\">Mailing Lists</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: news.html:91
+msgid ""
+"Noteworthy changes in the MLFS system. In addition to the entries in "
+"the books changelog, relevant changes you should be aware of are "
+"reported here:"
+msgstr ""
+
+#. type: Content of: <html><body><div><dl><dt>
+#: news.html:105
+msgid "More releases online, change of editorship"
+msgstr ""
+
+#. type: Content of: <html><body><div><dl><dd>
+#: news.html:106
+msgid "<em>Zeckma - 2026/02/15</em>"
+msgstr ""
+
+#. type: Content of: <html><body><div><dl><dd><p>
+#: news.html:107
+msgid ""
+"Starting off, there have been efforts for a while to get MLFS "
+"rendered in a more official place, have official releases, and have "
+"all of them viewable online. That has now finally happened. Releases "
+"will now take place alongside LFS's releases, starting with 13.0-rc1 "
+"which can be read <a href=\"view/13.0-rc1/\">here</a>. 13.0, when LFS "
+"and the other projects release it, will be followed with MLFS-13.0.  "
+"For more releases, you can read the <a href=\"index.html\">main page</"
+"a> for more details."
+msgstr ""
+
+#. type: Content of: <html><body><div><dl><dd><p>
+#: news.html:115
+msgid ""
+"Editorship has also been changed for months. Thomas Trepl, who "
+"maintained MLFS for a long time, stepped down. We thank him for all "
+"his work he made on MLFS. I was thus charged in the care of MLFS and "
+"have been cleaning various things up. Some of you may have noticed "
+"these changes. Stability and cleanliness are the forefront goals of "
+"MLFS and most of the work required has now come to pass."
+msgstr ""
+
+#. type: Content of: <html><body><div><dl><dd><p>
+#: news.html:121
+msgid ""
+"I have various methods of contacting, so if you have any issues with "
+"MLFS, you can report them on the <a href=\"/mail.html\">mailing "
+"lists</a>, or to my email <a "
+"href=\"mailto:zeckma@linuxfromscratch.org\">zeckma@linuxfromscratch.org</"
+"a>.  My Discord is also open if that suits you, which is "
+"<kbd>@zeckma</kbd> or <kbd>zeckma#0000</kbd>."
+msgstr ""
+
+#. type: Content of: <html><body><div><dl><dd><p>
+#: news.html:127
+msgid "Happy compiling!"
+msgstr ""
+
+#. type: Content of: <html><body><div><dl><dt>
+#: news.html:132
+msgid "gcc defaults changed"
+msgstr ""
+
+#. type: Content of: <html><body><div><dl><dd>
+#: news.html:133
+msgid "<em>Thomas Trepl - 2024/11/12</em>"
+msgstr ""
+
+#. type: Content of: <html><body><div><dl><dd><p>
+#: news.html:134
+msgid ""
+"Added a <kbd>sed</kbd> to all of the gcc build instructions (chapter "
+"5, 6, 8) to make the <kbd>-mstackrealign</kbd> flag set by default "
+"for the m32 builds."
+msgstr ""
+
+#. type: Content of: <html><body><div><dl><dt>
+#: news.html:141
+msgid "ISL added"
+msgstr ""
+
+#. type: Content of: <html><body><div><dl><dd>
+#: news.html:142
+msgid "<em>Thomas Trepl - long ago</em>"
+msgstr ""
+
+#. type: Content of: <html><body><div><dl><dd><p>
+#: news.html:143
+msgid ""
+"The package ISL (<a href=\"http://libisl.sourceforge.io/\">see here</"
+"a>)  has been added so that gcc will pick it up for some "
+"optimizations."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><p>
+#: news.html:149
+msgid ""
+"&copy; 1998-2026 Gerard Beekmans. Website design by Jeremy Huntwork "
+"&amp; Matthew Burgess."
+msgstr ""
