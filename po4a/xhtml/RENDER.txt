@@ -1,0 +1,1 @@
+po4a-translate -f xhtml -k 0 -m upstream/lfs/news.html -M UTF-8 -p po/lfs/news.html.pt_BR.po -l translated/lfs/news.html
