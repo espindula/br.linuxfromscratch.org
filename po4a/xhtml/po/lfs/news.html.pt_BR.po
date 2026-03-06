@@ -1820,12 +1820,12 @@ msgstr ""
 #. type: Content of: <div><dl><dt>
 #: xhtml/upstream/lfs/news.html:1074
 msgid "LFS Stable Version 9.1 Release"
-msgstr ""
+msgstr "Lançamento do LFS Estável Versão 9.1"
 
 #. type: Content of: <div><dl><dd>
 #: xhtml/upstream/lfs/news.html:1075
 msgid "<em>Bruce Dubbs - 2020/03/01</em>"
-msgstr ""
+msgstr "<em>Bruce Dubbs - 2020/03/01</em>"
 
 #. type: Content of: <div><dl><dd><p>
 #: xhtml/upstream/lfs/news.html:1077
@@ -1837,6 +1837,12 @@ msgid ""
 "throughout the book.  The Linux kernel has also been updated to version "
 "5.5.3."
 msgstr ""
+"A comunidade Linux From Scratch anuncia o lançamento da versão 9.1 do LFS. "
+"As principais mudanças incluematualizações do conjunto de ferramentas "
+"para glibc-2.31 e binutils-2.34. Um novo pacote, zstd-1.4.4, também foi "
+"adicionado. No total, 35 pacotes foram atualizados desde o último "
+"lançamento. Mudanças no texto também foram feitas ao longo do livro. O "
+"núcleo Linux também foi atualizado para a versão 5.5.3."
 
 #. type: Content of: <div><dl><dd><p>
 #: xhtml/upstream/lfs/news.html:1089
@@ -1844,6 +1850,10 @@ msgid ""
 "You can read the book <a href=\"/lfs/view/9.1/\">online</a>, or <a "
 "href=\"/lfs/downloads/9.1/\">download</a> to read locally."
 msgstr ""
+"Você consegue ler o livro (escrito em inglês) <a "
+"href=\"https://www.linuxfromscratch.org/lfs/view/9.1/\">online</a> ou <a "
+"href=\"https://www.linuxfromscratch.org/lfs/downloads/9.1/\">baixar</a> para "
+"ler localmente."
 
 #. type: Content of: <div><dl><dd><p><p>
 #: xhtml/upstream/lfs/news.html:1100
@@ -1852,16 +1862,22 @@ msgid ""
 "href=\"/lfs/view/9.1-systemd/\">LFS-systemd</a>, or <a "
 "href=\"/lfs/downloads/9.1-systemd/\">download-systemd</a> to read locally."
 msgstr ""
+"Você consegue ler a versão systemd do livro (escrito em inglês) online em "
+"<a "
+"href=\"https://www.linuxfromscratch.org/lfs/view/9.1-systemd/\">LFS-systemd</a> "
+"ou <a "
+"href=\"https://www.linuxfromscratch.org/lfs/downloads/9.1-systemd/\">baixar-systemd</a> "
+"para ler localmente."
 
 #. type: Content of: <div><dl><dt>
 #: xhtml/upstream/lfs/news.html:1115
 msgid "LFS 9.1-rc1 Release"
-msgstr ""
+msgstr "Lançamento do LFS 9.1-rc1"
 
 #. type: Content of: <div><dl><dd>
 #: xhtml/upstream/lfs/news.html:1116
 msgid "<em>Bruce Dubbs - 2020/02/14</em>"
-msgstr ""
+msgstr "<em>Bruce Dubbs - 2020/02/14</em>"
 
 #. type: Content of: <div><dl><dd><p>
 #: xhtml/upstream/lfs/news.html:1118
@@ -1873,6 +1889,12 @@ msgid ""
 "made throughout the book.  The Linux kernel has also been updated to version "
 "5.5.3."
 msgstr ""
+"A comunidade Linux From Scratch anuncia o lançamento da versão 9.1-rc1 do "
+"LFS. Ela é uma versão preliminar do LFS-9.1. As principais mudanças "
+"incluem atualizações do conjunto de ferramentas para binutils-2.34 e "
+"glibc-2.31. No total, 36 pacotes foram atualizados desde o último "
+"lançamento. Mudanças no texto também foram feitas ao longo do livro. O "
+"núcleo Linux também foi atualizado para a versão 5.5.3."
 
 #. type: Content of: <div><dl><dd><p>
 #: xhtml/upstream/lfs/news.html:1129
@@ -1880,6 +1902,10 @@ msgid ""
 "You can read the book <a href=\"/lfs/view/9.1-rc1/\">online</a>, or <a "
 "href=\"/lfs/downloads/9.1-rc1/\">download</a> to read locally."
 msgstr ""
+"Você consegue ler o livro (escrito em inglês) <a "
+"href=\"https://www.linuxfromscratch.org/lfs/view/9.1-rc1/\">online</a> ou <a "
+"href=\"https://www.linuxfromscratch.org/lfs/downloads/9.1-rc1/\">baixar</a> "
+"para ler localmente."
 
 #. type: Content of: <div><dl><dd><p>
 #: xhtml/upstream/lfs/news.html:1134
@@ -1889,16 +1915,22 @@ msgid ""
 "href=\"/lfs/downloads/9.1-systemd-rc1/\">download-systemd-rc1</a> to read "
 "locally."
 msgstr ""
+"Você consegue ler a versão systemd do livro (escrito em inglês) online em "
+"<a "
+"href=\"https://www.linuxfromscratch.org/lfs/view/9.1-systemd-rc1/\">LFS-systemd-rc1</a> "
+"ou <a "
+"href=\"https://www.linuxfromscratch.org/lfs/downloads/9.1-systemd-rc1/\">baixar-systemd-rc1</a> "
+"para ler localmente."
 
 #. type: Content of: <div><dl><dt>
 #: xhtml/upstream/lfs/news.html:1149
 msgid "LFS Stable Version 9.0 Release"
-msgstr ""
+msgstr "Lançamento do LFS Estável Versão 9.0"
 
 #. type: Content of: <div><dl><dd>
 #: xhtml/upstream/lfs/news.html:1150
 msgid "<em>Bruce Dubbs - 2019/09/01</em>"
-msgstr ""
+msgstr "<em>Bruce Dubbs - 2019/09/01</em>"
 
 #. type: Content of: <div><dl><dd><p>
 #: xhtml/upstream/lfs/news.html:1152
@@ -1909,6 +1941,11 @@ msgid ""
 "have also been made throughout the book.  The Linux kernel has also been "
 "updated to version 5.2.8."
 msgstr ""
+"A comunidade Linux From Scratch anuncia o lançamento da versão 9.0 do LFS. "
+"As principais mudanças incluematualizações do conjunto de ferramentas "
+"para glibc-2.30 e gcc-9.2.0. No total, 33 pacotes foram atualizados desde o "
+"último lançamento. Mudanças no texto também foram feitas ao longo do "
+"livro. O núcleo Linux também foi atualizado para a versão 5.2.8."
 
 #. type: Content of: <div><dl><dd><p>
 #: xhtml/upstream/lfs/news.html:1159
@@ -1917,6 +1954,10 @@ msgid ""
 "keep LFS and BLFS version numbers synchronized.  The BLFS System V version "
 "has added the elogind package which now allowed Gnome to be added."
 msgstr ""
+"Observe que a versão principal do LFS mudou para 9. Isso foi feito para "
+"manter os números de versão do LFS e BLFS sincronizados. A versão System "
+"V do BLFS adicionou o pacote elogind que agora permitiu que o Gnome fosse "
+"adicionado."
 
 #. type: Content of: <div><dl><dd><p>
 #: xhtml/upstream/lfs/news.html:1164
@@ -1924,6 +1965,10 @@ msgid ""
 "You can read the book <a href=\"/lfs/view/9.0/\">online</a>, or <a "
 "href=\"/lfs/downloads/9.0/\">download</a> to read locally."
 msgstr ""
+"Você consegue ler o livro (escrito em inglês) <a "
+"href=\"https://www.linuxfromscratch.org/lfs/view/9.0/\">online</a> ou <a "
+"href=\"https://www.linuxfromscratch.org/lfs/downloads/9.0/\">baixar</a> para "
+"ler localmente."
 
 #. type: Content of: <div><dl><dd><p><p>
 #: xhtml/upstream/lfs/news.html:1175
@@ -1932,16 +1977,22 @@ msgid ""
 "href=\"/lfs/view/9.0-systemd/\">LFS-systemd</a>, or <a "
 "href=\"/lfs/downloads/9.0-systemd/\">download-systemd</a> to read locally."
 msgstr ""
+"Você consegue ler a versão systemd do livro (escrito em inglês) online em "
+"<a "
+"href=\"https://www.linuxfromscratch.org/lfs/view/9.0-systemd/\">LFS-systemd</a> "
+"ou <a "
+"href=\"https://www.linuxfromscratch.org/lfs/downloads/9.0-systemd/\">baixar-systemd</a> "
+"para ler localmente."
 
 #. type: Content of: <div><dl><dt>
 #: xhtml/upstream/lfs/news.html:1190
 msgid "LFS 9.0-rc1 Release"
-msgstr ""
+msgstr "Lançamento do LFS 9.0-rc1"
 
 #. type: Content of: <div><dl><dd>
 #: xhtml/upstream/lfs/news.html:1191
 msgid "<em>Bruce Dubbs - 2019/08/15</em>"
-msgstr ""
+msgstr "<em>Bruce Dubbs - 2019/08/15</em>"
 
 #. type: Content of: <div><dl><dd><p>
 #: xhtml/upstream/lfs/news.html:1193
@@ -1953,6 +2004,12 @@ msgid ""
 "throughout the book.  The Linux kernel has also been updated to version "
 "5.2.8."
 msgstr ""
+"A comunidade Linux From Scratch anuncia o lançamento da versão 9.0-rc1 do "
+"LFS. Ela é uma versão preliminar do LFS-9.0. As principais mudanças "
+"incluem atualizações do conjunto de ferramentas para gcc-9.2.0 e "
+"glibc-2.30. No total, 33 pacotes foram atualizados desde o último "
+"lançamento. Mudanças no texto também foram feitas ao longo do livro. O "
+"núcleo Linux também foi atualizado para a versão 5.2.8."
 
 #. type: Content of: <div><dl><dd><p>
 #: xhtml/upstream/lfs/news.html:1201
@@ -1962,6 +2019,10 @@ msgid ""
 "has added the elogind package which now allows Gnome to be built in the new "
 "environment."
 msgstr ""
+"Observe que a versão principal do LFS mudou para 9. Isso foi feito para "
+"manter os números de versão do LFS e BLFS sincronizados. A versão System "
+"V do BLFS adicionou o pacote elogind que agora permite que o Gnome seja "
+"construído no novo ambiente."
 
 #. type: Content of: <div><dl><dd><p>
 #: xhtml/upstream/lfs/news.html:1210
@@ -1969,6 +2030,10 @@ msgid ""
 "You can read the book <a href=\"/lfs/view/9.0-rc1/\">online</a>, or <a "
 "href=\"/lfs/downloads/9.0-rc1/\">download</a> to read locally."
 msgstr ""
+"Você consegue ler o livro (escrito em inglês) <a "
+"href=\"https://www.linuxfromscratch.org/lfs/view/9.0-rc1/\">online</a> ou <a "
+"href=\"https://www.linuxfromscratch.org/lfs/downloads/9.0-rc1/\">baixar</a> "
+"para ler localmente."
 
 #. type: Content of: <div><dl><dd><p>
 #: xhtml/upstream/lfs/news.html:1215
@@ -1978,16 +2043,22 @@ msgid ""
 "href=\"/lfs/downloads/9.0-systemd-rc1/\">download-systemd-rc1</a> to read "
 "locally."
 msgstr ""
+"Você consegue ler a versão systemd do livro (escrito em inglês) online em "
+"<a "
+"href=\"https://www.linuxfromscratch.org/lfs/view/9.0-systemd-rc1/\">LFS-systemd-rc1</a> "
+"ou <a "
+"href=\"https://www.linuxfromscratch.org/lfs/downloads/9.0-systemd-rc1/\">baixar-systemd-rc1</a> "
+"para ler localmente."
 
 #. type: Content of: <div><dl><dt>
 #: xhtml/upstream/lfs/news.html:1230
 msgid "LFS Stable Version 8.4 Release"
-msgstr ""
+msgstr "Lançamento do LFS Estável Versão 8.4"
 
 #. type: Content of: <div><dl><dd>
 #: xhtml/upstream/lfs/news.html:1231
 msgid "<em>Bruce Dubbs - 2019/03/01</em>"
-msgstr ""
+msgstr "<em>Bruce Dubbs - 2019/03/01</em>"
 
 #. type: Content of: <div><dl><dd><p>
 #: xhtml/upstream/lfs/news.html:1233
@@ -1998,6 +2069,12 @@ msgid ""
 "Changes to the text have also been made throughout the book.  The Linux "
 "kernel has also been updated to version 4.20.12."
 msgstr ""
+"A comunidade Linux From Scratch anuncia o lançamento da versão 8.4 do LFS. "
+"As principais mudanças incluem atualizações do conjunto de ferramentas "
+"para glibc-2.29, binutils-2.32 e bash-5.0. No total, 34 pacotes foram "
+"atualizados desde o último lançamento. Mudanças no texto também foram "
+"feitas ao longo do livro. O núcleo Linux também foi atualizado para a "
+"versão 4.20.12."
 
 #. type: Content of: <div><dl><dd><p>
 #: xhtml/upstream/lfs/news.html:1244
@@ -2005,6 +2082,11 @@ msgid ""
 "You can read the book <a href=\"/lfs/view/8.4/\">online</a>, or <a "
 "href=\"/lfs/downloads/8.4/\">download</a> to read locally."
 msgstr ""
+"Você consegue ler o livro (escrito em inglês) <a "
+"href=\"https://www.linuxfromscratch.org/museum/lfs-museum/8.4/LFS-BOOK-8.4-HTML/\">online</a> "
+"ou <a "
+"href=\"https://www.linuxfromscratch.org/museum/lfs-museum/8.4/\">baixar</a> "
+"para ler localmente."
 
 #. type: Content of: <div><dl><dd><p><p>
 #: xhtml/upstream/lfs/news.html:1255
@@ -2013,16 +2095,22 @@ msgid ""
 "href=\"/lfs/view/8.4-systemd/\">LFS-systemd</a>, or <a "
 "href=\"/lfs/downloads/8.4-systemd/\">download-systemd</a> to read locally."
 msgstr ""
+"Você consegue ler a versão systemd do livro (escrito em inglês) online em "
+"<a "
+"href=\"https://www.linuxfromscratch.org/museum/lfs-museum/8.4-systemd/LFS-BOOK-8.4-systemd-HTML/\">LFS-systemd</a> "
+"ou <a "
+"href=\"https://www.linuxfromscratch.org/museum/lfs-museum/8.4-systemd/\">baixar-systemd</a> "
+"para ler localmente."
 
 #. type: Content of: <div><dl><dt>
 #: xhtml/upstream/lfs/news.html:1271
 msgid "LFS 8.4-rc1 Release"
-msgstr ""
+msgstr "Lançamento do LFS 8.4-rc1"
 
 #. type: Content of: <div><dl><dd>
 #: xhtml/upstream/lfs/news.html:1272
 msgid "<em>Bruce Dubbs - 2019/02/15</em>"
-msgstr ""
+msgstr "<em>Bruce Dubbs - 2019/02/15</em>"
 
 #. type: Content of: <div><dl><dd><p>
 #: xhtml/upstream/lfs/news.html:1274
@@ -2034,6 +2122,12 @@ msgid ""
 "made throughout the book.  The Linux kernel has also been updated to version "
 "4.20."
 msgstr ""
+"A comunidade Linux From Scratch anuncia o lançamento da versão 8.4-rc1 do "
+"LFS. Ela é uma versão preliminar do LFS-8.4. As principais mudanças "
+"incluem atualizações do conjunto de ferramentas para glibc-2.29 e "
+"binutils-2.32. No total, 34 pacotes foram atualizados desde o último "
+"lançamento. Mudanças no texto também foram feitas ao longo do livro. O "
+"núcleo Linux também foi atualizado para a versão 4.20."
 
 #. type: Content of: <div><dl><dd><p>
 #: xhtml/upstream/lfs/news.html:1286
@@ -2041,6 +2135,11 @@ msgid ""
 "You can read the book <a href=\"/lfs/view/8.4-rc1/\">online</a>, or <a "
 "href=\"/lfs/downloads/8.4-rc1/\">download</a> to read locally."
 msgstr ""
+"Você consegue ler o livro (escrito em inglês) <a "
+"href=\"https://www.linuxfromscratch.org/museum/lfs-museum/8.4-rc1/LFS-BOOK-8.4-rc1-HTML/\">online</a> "
+"ou <a "
+"href=\"https://www.linuxfromscratch.org/museum/lfs-museum/8.4-rc1/\">baixar</a> "
+"para ler localmente."
 
 #. type: Content of: <div><dl><dd><p>
 #: xhtml/upstream/lfs/news.html:1291
@@ -2050,16 +2149,22 @@ msgid ""
 "href=\"/lfs/downloads/8.4-systemd-rc1/\">download-systemd-rc1</a> to read "
 "locally."
 msgstr ""
+"Você consegue ler a versão systemd do livro (escrito em inglês) online em "
+"<a "
+"href=\"https://www.linuxfromscratch.org/museum/lfs-museum/8.4-systemd-rc1/LFS-BOOK-8.4-systemd-rc1-HTML/\">LFS-systemd-rc1</a> "
+"ou <a "
+"href=\"https://www.linuxfromscratch.org/museum/lfs-museum/8.4-systemd-rc1/\">baixar-systemd-rc1</a> "
+"para ler localmente."
 
 #. type: Content of: <div><dl><dt>
 #: xhtml/upstream/lfs/news.html:1306
 msgid "LFS Stable Version 8.3 Release"
-msgstr ""
+msgstr "Lançamento do LFS Estável Versão 8.3"
 
 #. type: Content of: <div><dl><dd>
 #: xhtml/upstream/lfs/news.html:1307
 msgid "<em>Bruce Dubbs - 2018/09/01</em>"
-msgstr ""
+msgstr "<em>Bruce Dubbs - 2018/09/01</em>"
 
 #. type: Content of: <div><dl><dd><p>
 #: xhtml/upstream/lfs/news.html:1309
@@ -2070,6 +2175,12 @@ msgid ""
 "Changes to the text have also been made throughout the book.  The Linux "
 "kernel has also been updated to version 4.18.5."
 msgstr ""
+"A comunidade Linux From Scratch anuncia o lançamento da versão 8.3 do LFS. "
+"As principais mudanças incluem atualizações do conjunto de ferramentas "
+"para glibc-2.28, binutils-2.31.1 e gcc-8.2.0. No total, 31 pacotes foram "
+"atualizados desde o último lançamento. Mudanças no texto também foram "
+"feitas ao longo do livro. O núcleo Linux também foi atualizado para a "
+"versão 4.18.5."
 
 #. type: Content of: <div><dl><dd><p>
 #: xhtml/upstream/lfs/news.html:1320
@@ -2077,6 +2188,11 @@ msgid ""
 "You can read the book <a href=\"/lfs/view/8.3/\">online</a>, or <a "
 "href=\"/lfs/downloads/8.3/\">download</a> to read locally."
 msgstr ""
+"Você consegue ler o livro (escrito em inglês) <a "
+"href=\"https://www.linuxfromscratch.org/museum/lfs-museum/8.3/LFS-BOOK-8.3-HTML/\">online</a> "
+"ou a "
+"<href=\"https://www.linuxfromscratch.org/museum/lfs-museum/8.3/\">baixar</a> "
+"para ler localmente."
 
 #. type: Content of: <div><dl><dd><p><p>
 #: xhtml/upstream/lfs/news.html:1331
@@ -2085,16 +2201,22 @@ msgid ""
 "href=\"/lfs/view/8.3-systemd/\">LFS-systemd</a>, or <a "
 "href=\"/lfs/downloads/8.3-systemd/\">download-systemd</a> to read locally."
 msgstr ""
+"Você consegue ler a versão systemd do livro (escrito em inglês) online em "
+"<a "
+"href=\"https://www.linuxfromscratch.org/museum/lfs-museum/8.3-systemd/LFS-BOOK-8.3-systemd-HTML/\">LFS-systemd</a> "
+"ou <a "
+"href=\"https://www.linuxfromscratch.org/museum/lfs-museum/8.3-systemd/\">baixar-systemd</a> "
+"para ler localmente."
 
 #. type: Content of: <div><dl><dt>
 #: xhtml/upstream/lfs/news.html:1346
 msgid "LFS 8.3-rc2 Release"
-msgstr ""
+msgstr "Lançamento do LFS 8.3-rc2"
 
 #. type: Content of: <div><dl><dd>
 #: xhtml/upstream/lfs/news.html:1347
 msgid "<em>Bruce Dubbs - 2018/08/16</em>"
-msgstr ""
+msgstr "<em>Bruce Dubbs - 2018/08/16</em>"
 
 #. type: Content of: <div><dl><dd><p>
 #: xhtml/upstream/lfs/news.html:1349
@@ -2104,6 +2226,11 @@ msgid ""
 "the kernel and openssl.  At the same time updates to expat and iproute2 that "
 "were released after the previous release candidate are also included."
 msgstr ""
+"A comunidade Linux From Scratch anuncia o lançamento da versão 8.3-rc2 do "
+"LFS. Essa é uma atualização da 8.3-rc1 devido a versões relacionadas a "
+"segurança no núcleo e no openssl. Ao mesmo tempo, atualizações para "
+"expat e iproute2 que foram lançadas depois da candidata a lançamento "
+"anterior também estão incluídas."
 
 #. type: Content of: <div><dl><dd><p>
 #: xhtml/upstream/lfs/news.html:1359
@@ -2111,6 +2238,11 @@ msgid ""
 "You can read the book <a href=\"/lfs/view/8.3-rc2/\">online</a>, or <a "
 "href=\"/lfs/downloads/8.3-rc2/\">download</a> to read locally."
 msgstr ""
+"Você consegue ler o livro (escrito em inglês) <a "
+"href=\"https://www.linuxfromscratch.org/museum/lfs-museum/8.3-rc2/LFS-BOOK-8.3-rc2-HTML/\">online</a> "
+"ou <a "
+"href=\"https://www.linuxfromscratch.org/museum/lfs-museum/8.3-rc2/\">baixar</a> "
+"para ler localmente."
 
 #. type: Content of: <div><dl><dd><p>
 #: xhtml/upstream/lfs/news.html:1364
@@ -2120,16 +2252,22 @@ msgid ""
 "href=\"/lfs/downloads/8.3-systemd-rc2/\">download-systemd-rc2</a> to read "
 "locally."
 msgstr ""
+"Você consegue ler a versão systemd do livro (escrito em inglês) online em "
+"<a "
+"href=\"https://www.linuxfromscratch.org/museum/lfs-museum/8.3-systemd-rc2/LFS-BOOK-8.3-systemd-rc2-HTML/\">LFS-systemd-rc2</a> "
+"ou <a "
+"href=\"https://www.linuxfromscratch.org/museum/lfs-museum/8.3-systemd-rc2/\">baixar-systemd-rc2</a> "
+"para ler localmente."
 
 #. type: Content of: <div><dl><dt>
 #: xhtml/upstream/lfs/news.html:1379
 msgid "LFS 8.3-rc1 Release"
-msgstr ""
+msgstr "Lançamento do LFS 8.3-rc1"
 
 #. type: Content of: <div><dl><dd>
 #: xhtml/upstream/lfs/news.html:1380
 msgid "<em>Bruce Dubbs - 2018/08/13</em>"
-msgstr ""
+msgstr "<em>Bruce Dubbs - 2018/08/13</em>"
 
 #. type: Content of: <div><dl><dd><p>
 #: xhtml/upstream/lfs/news.html:1382
@@ -2141,6 +2279,12 @@ msgid ""
 "have also been made throughout the book.  The Linux kernel has also been "
 "updated to version 4.18."
 msgstr ""
+"A comunidade Linux From Scratch anuncia o lançamento da versão 8.3-rc1 do "
+"LFS. Ela é uma versão preliminar do LFS-8.3. As principais mudanças "
+"incluem atualizações do conjunto de ferramentas para glibc-2.28, "
+"binutils-2.31.1 e gcc-8.2.0. No total, 31 pacotes foram atualizados desde o "
+"último lançamento. Mudanças no texto também foram feitas ao longo do "
+"livro. O núcleo Linux também foi atualizado para a versão 4.18."
 
 #. type: Content of: <div><dl><dd><p>
 #: xhtml/upstream/lfs/news.html:1394
@@ -2148,6 +2292,11 @@ msgid ""
 "You can read the book <a href=\"/lfs/view/8.3-rc1/\">online</a>, or <a "
 "href=\"/lfs/downloads/8.3-rc1/\">download</a> to read locally."
 msgstr ""
+"Você consegue ler o livro (escrito em inglês) <a "
+"href=\"https://www.linuxfromscratch.org/museum/lfs-museum/8.3-rc1/LFS-BOOK-8.3-rc1-HTML/\">online</a> "
+"ou <a "
+"href=\"https://www.linuxfromscratch.org/museum/lfs-museum/8.3-rc1/\">baixar</a> "
+"para ler localmente."
 
 #. type: Content of: <div><dl><dd><p><p>
 #: xhtml/upstream/lfs/news.html:1405
@@ -2157,16 +2306,22 @@ msgid ""
 "href=\"/lfs/downloads/8.3-systemd-rc1/\">download-systemd-rc1</a> to read "
 "locally."
 msgstr ""
+"Você consegue ler a versão systemd do livro (escrito em inglês) online em "
+"<a "
+"href=\"https://www.linuxfromscratch.org/museum/lfs-museum/8.3-systemd-rc1/LFS-BOOK-8.3-systemd-rc1-HTML/\">LFS-systemd-rc1</a> "
+"ou <a "
+"href=\"https://www.linuxfromscratch.org/museum/lfs-museum/8.3-systemd-rc1/\">baixar-systemd-rc1</a> "
+"para ler localmente."
 
 #. type: Content of: <div><dl><dt>
 #: xhtml/upstream/lfs/news.html:1420
 msgid "LFS Stable Version 8.2 Release"
-msgstr ""
+msgstr "Lançamento do LFS Estável Versão 8.2"
 
 #. type: Content of: <div><dl><dd>
 #: xhtml/upstream/lfs/news.html:1421
 msgid "<em>Bruce Dubbs - 2018/03/02</em>"
-msgstr ""
+msgstr "<em>Bruce Dubbs - 2018/03/02</em>"
 
 #. type: Content of: <div><dl><dd><p>
 #: xhtml/upstream/lfs/news.html:1423
@@ -2179,6 +2334,13 @@ msgid ""
 "also been made throughout the book.  The Linux kernel has also been updated "
 "to version 4.15.3."
 msgstr ""
+"A comunidade Linux From Scratch anuncia o lançamento da versão 8.2 do LFS. "
+"As principais mudanças incluem atualizações do conjunto de ferramentas "
+"para glibc-2.27, binutils-2.30 e gcc-7.3.0. No total, 34 pacotes foram "
+"atualizados desde o último lançamento. Além disso, cinco novos pacotes "
+"foram movidos do BLFS para o livro base do LFS: libffi, openssl, Python3, "
+"ninja e meson. Mudanças no texto também foram feitas ao longo do livro. O "
+"núcleo Linux também foi atualizado para a versão 4.15.3."
 
 #. type: Content of: <div><dl><dd><p>
 #: xhtml/upstream/lfs/news.html:1436
@@ -2186,6 +2348,11 @@ msgid ""
 "You can read the book <a href=\"/lfs/view/8.2/\">online</a>, or <a "
 "href=\"/lfs/downloads/8.2/\">download</a> to read locally."
 msgstr ""
+"Você consegue ler o livro (escrito em inglês) <a "
+"href=\"https://www.linuxfromscratch.org/museum/lfs-museum/8.2/LFS-BOOK-8.2-HTML/\">online</a> "
+"ou <a "
+"href=\"https://www.linuxfromscratch.org/museum/lfs-museum/8.2/\">baixar</a> "
+"para ler localmente."
 
 #. type: Content of: <div><dl><dd><p><p>
 #: xhtml/upstream/lfs/news.html:1447
@@ -2194,16 +2361,22 @@ msgid ""
 "href=\"/lfs/view/8.2-systemd/\">LFS-systemd</a>, or <a "
 "href=\"/lfs/downloads/8.2-systemd/\">download-systemd</a> to read locally."
 msgstr ""
+"Você consegue ler a versão systemd do livro (escrito em inglês) online em "
+"<a "
+"href=\"https://www.linuxfromscratch.org/museum/lfs-museum/8.2-systemd/LFS-BOOK-8.2-systemd-HTML/\">LFS-systemd</a> "
+"ou <a "
+"href=\"https://www.linuxfromscratch.org/museum/lfs-museum/8.2-systemd/\">baixar-systemd</a> "
+"para ler localmente."
 
 #. type: Content of: <div><dl><dt>
 #: xhtml/upstream/lfs/news.html:1462
 msgid "LFS 8.2-rc1 Release"
-msgstr ""
+msgstr "Lançamento do LFS 8.2-rc1"
 
 #. type: Content of: <div><dl><dd>
 #: xhtml/upstream/lfs/news.html:1463
 msgid "<em>Bruce Dubbs - 2018/02/16</em>"
-msgstr ""
+msgstr "<em>Bruce Dubbs - 2018/02/16</em>"
 
 #. type: Content of: <div><dl><dd><p>
 #: xhtml/upstream/lfs/news.html:1465
@@ -2217,6 +2390,14 @@ msgid ""
 "throughout the book.  The Linux kernel has also been updated to version "
 "4.15.3."
 msgstr ""
+"A comunidade Linux From Scratch anuncia o lançamento da versão 8.2-rc1 do "
+"LFS. Ela é uma versão preliminar do LFS-8.2. As principais mudanças "
+"incluem atualizações do conjunto de ferramentas para glibc-2.27, "
+"binutils-2.30 e gcc-7.0.0. No total, 34 pacotes foram atualizados desde o "
+"último lançamento. Além disso, cinco novos pacotes foram movidos para o "
+"livro LFS base oriundos do BLFS: libffi, openssl, Python3, ninja e meson. "
+"Mudanças no texto também foram feitas ao longo do livro. O núcleo Linux "
+"também foi atualizado para a versão 4.15.3."
 
 #. type: Content of: <div><dl><dd><p>
 #: xhtml/upstream/lfs/news.html:1478
@@ -2224,6 +2405,11 @@ msgid ""
 "You can read the book <a href=\"/lfs/view/8.2-rc1/\">online</a>, or <a "
 "href=\"/lfs/downloads/8.2-rc1/\">download</a> to read locally."
 msgstr ""
+"Você consegue ler o livro (escrito em inglês) <a "
+"href=\"https://www.linuxfromscratch.org/museum/lfs-museum/8.2-rc1/LFS-BOOK-8.2-rc1-HTML/\">online</a> "
+"ou <a "
+"href=\"https://www.linuxfromscratch.org/museum/lfs-museum/8.2-rc1/\">baixar</a> "
+"para ler localmente."
 
 #. type: Content of: <div><dl><dd><p><p>
 #: xhtml/upstream/lfs/news.html:1489
@@ -2233,16 +2419,22 @@ msgid ""
 "href=\"/lfs/downloads/8.2-systemd-rc1/\">download-systemd-rc1</a> to read "
 "locally."
 msgstr ""
+"Você consegue ler a versão systemd do livro (escrito em inglês) online em "
+"<a "
+"href=\"https://www.linuxfromscratch.org/museum/lfs-museum/8.2-systemd-rc1/LFS-BOOK-8.2-systemd-rc1-HTML/\">LFS-systemd-rc1</a> "
+"ou <a "
+"href=\"https://www.linuxfromscratch.org/museum/lfs-museum/8.2-systemd-rc1/\">baixar-systemd-rc1</a> "
+"para ler localmente."
 
 #. type: Content of: <div><dl><dt>
 #: xhtml/upstream/lfs/news.html:1503
 msgid "LFS Stable Version 8.1 Release"
-msgstr ""
+msgstr "Lançamento do LFS Estável Versão 8.1"
 
 #. type: Content of: <div><dl><dd>
 #: xhtml/upstream/lfs/news.html:1504
 msgid "<em>Bruce Dubbs - 2017/09/01</em>"
-msgstr ""
+msgstr "<em>Bruce Dubbs - 2017/09/01</em>"
 
 #. type: Content of: <div><dl><dd><p>
 #: xhtml/upstream/lfs/news.html:1506
@@ -2253,6 +2445,12 @@ msgid ""
 "release. Changes to the text have also been made throughout the book.  The "
 "Linux kernel has also been updated to version 4.12.7."
 msgstr ""
+"A comunidade Linux From Scratch anuncia o lançamento da versão 8.1 do LFS. "
+"As principais mudanças incluem atualizações do conjunto de ferramentas "
+"para glibc-2.26, binutils-2.29 e gcc-7.2.0. No total, 32 pacotes foram "
+"atualizados desde a última versão estável. Mudanças no texto também "
+"foram feitas ao longo do livro. O núcleo Linux também foi atualizado para "
+"a versão 4.12.7."
 
 #. type: Content of: <div><dl><dd><p>
 #: xhtml/upstream/lfs/news.html:1517
@@ -2260,6 +2458,11 @@ msgid ""
 "You can read the book <a href=\"/lfs/view/8.1/\">online</a>, or <a "
 "href=\"/lfs/downloads/8.1/\">download</a> to read locally."
 msgstr ""
+"Você consegue ler o livro (escrito em inglês) <a "
+"href=\"https://www.linuxfromscratch.org/museum/lfs-museum/8.1/LFS-BOOK-8.1-HTML/\">online</a> "
+"ou <a "
+"href=\"https://www.linuxfromscratch.org/museum/lfs-museum/8.1/\">baixar</a> "
+"para ler localmente."
 
 #. type: Content of: <div><dl><dd><p><p>
 #: xhtml/upstream/lfs/news.html:1528
@@ -2268,16 +2471,22 @@ msgid ""
 "href=\"/lfs/view/8.1-systemd/\">LFS-systemd</a>, or <a "
 "href=\"/lfs/downloads/8.1-systemd/\">download-systemd</a> to read locally."
 msgstr ""
+"Você consegue ler a versão systemd do livro (escrito em inglês) online em "
+"<a "
+"href=\"https://www.linuxfromscratch.org/museum/lfs-museum/8.1-systemd/LFS-BOOK-8.1-systemd-HTML/\">LFS-systemd</a> "
+"ou <a "
+"href=\"https://www.linuxfromscratch.org/museum/lfs-museum/8.1-systemd/\">baixar-systemd</a> "
+"para ler localmente."
 
 #. type: Content of: <div><dl><dt>
 #: xhtml/upstream/lfs/news.html:1543
 msgid "LFS 8.1-rc2 Release"
-msgstr ""
+msgstr "Lançamento do LFS 8.1-rc2"
 
 #. type: Content of: <div><dl><dd>
 #: xhtml/upstream/lfs/news.html:1544
 msgid "<em>Bruce Dubbs - 2017/08/18</em>"
-msgstr ""
+msgstr "<em>Bruce Dubbs - 2017/08/18</em>"
 
 #. type: Content of: <div><dl><dd><p>
 #: xhtml/upstream/lfs/news.html:1546
@@ -2286,6 +2495,9 @@ msgid ""
 "8.1-rc2.  It differs from version 8.1-rc1 only in the build options given to "
 "glibc in Chapter 6."
 msgstr ""
+"A comunidade Linux From Scratch anuncia o lançamento da versão 8.1-rc2 do "
+"LFS. Ela difere da versão 8.1-rc1 somente nas opções de construção "
+"fornecidas para a glibc no Capítulo 6."
 
 #. type: Content of: <div><dl><dd><p>
 #: xhtml/upstream/lfs/news.html:1554
@@ -2293,6 +2505,11 @@ msgid ""
 "You can read the book <a href=\"/lfs/view/8.1-rc2/\">online</a>, or <a "
 "href=\"/lfs/downloads/8.1-rc2/\">download</a> to read locally."
 msgstr ""
+"Você consegue ler o livro (escrito em inglês) <a "
+"href=\"https://www.linuxfromscratch.org/museum/lfs-museum/8.1-rc2/LFS-BOOK-8.1-rc2-HTML/\">online</a> "
+"ou <a "
+"href=\"https://www.linuxfromscratch.org/museum/lfs-museum/8.1-rc2/\">baixar</a> "
+"para ler localmente."
 
 #. type: Content of: <div><dl><dd><p><p>
 #: xhtml/upstream/lfs/news.html:1565
@@ -2302,16 +2519,22 @@ msgid ""
 "href=\"/lfs/downloads/8.1-systemd-rc2/\">download-systemd-rc1</a> to read "
 "locally."
 msgstr ""
+"Você consegue ler a versão systemd do livro (escrito em inglês) online em "
+"<a "
+"href=\"https://www.linuxfromscratch.org/museum/lfs-museum/8.1-systemd-rc2/LFS-BOOK-8.1-systemd-rc2-HTML/\">LFS-systemd-rc1</a> "
+"ou <a "
+"href=\"https://www.linuxfromscratch.org/museum/lfs-museum/8.1-systemd-rc2/\">baixar-systemd-rc1</a> "
+"para ler localmente."
 
 #. type: Content of: <div><dl><dt>
 #: xhtml/upstream/lfs/news.html:1580
 msgid "LFS 8.1-rc1 Release"
-msgstr ""
+msgstr "Lançamento do LFS 8.1-rc1"
 
 #. type: Content of: <div><dl><dd>
 #: xhtml/upstream/lfs/news.html:1581
 msgid "<em>Bruce Dubbs - 2017/08/16</em>"
-msgstr ""
+msgstr "<em>Bruce Dubbs - 2017/08/16</em>"
 
 #. type: Content of: <div><dl><dd><p>
 #: xhtml/upstream/lfs/news.html:1583
@@ -2323,6 +2546,12 @@ msgid ""
 "have also been made throughout the book.  The Linux kernel has also been "
 "updated to version 4.12.7."
 msgstr ""
+"A comunidade Linux From Scratch anuncia o lançamento da versão 8.1-rc1 do "
+"LFS. Ela é uma versão preliminar do LFS-8.1. As principais mudanças "
+"incluem atualizações do conjunto de ferramentas para glibc-2.25, "
+"binutils-2.29 e gcc-7.2.0. No total, 32 pacotes foram atualizados desde o "
+"último lançamento. Mudanças no texto também foram feitas ao longo do "
+"livro. O núcleo Linux também foi atualizado para a versão 4.12.7."
 
 #. type: Content of: <div><dl><dd><p>
 #: xhtml/upstream/lfs/news.html:1594
@@ -2330,6 +2559,11 @@ msgid ""
 "You can read the book <a href=\"/lfs/view/8.1-rc1/\">online</a>, or <a "
 "href=\"/lfs/downloads/8.1-rc1/\">download</a> to read locally."
 msgstr ""
+"Você consegue ler o livro (escrito em inglês) <a "
+"href=\"https://www.linuxfromscratch.org/museum/lfs-museum/8.1-rc1/LFS-BOOK-8.1-rc1-HTML/\">online</a> "
+"ou <a "
+"href=\"https://www.linuxfromscratch.org/museum/lfs-museum/8.1-rc1/\">baixar</a> "
+"para ler localmente."
 
 #. type: Content of: <div><dl><dd><p><p>
 #: xhtml/upstream/lfs/news.html:1605
@@ -2339,16 +2573,22 @@ msgid ""
 "href=\"/lfs/downloads/8.1-systemd-rc1/\">download-systemd-rc1</a> to read "
 "locally."
 msgstr ""
+"Você consegue ler a versão systemd do livro (escrito em inglês) online em "
+"<a "
+"href=\"https://www.linuxfromscratch.org/museum/lfs-museum/8.1-systemd-rc1/LFS-BOOK-8.1-systemd-rc1-HTML/\">LFS-systemd-rc1</a> "
+"ou <a "
+"href=\"https://www.linuxfromscratch.org/museum/lfs-museum/8.1-systemd-rc1/\">baixar-systemd-rc1</a> "
+"para ler localmente."
 
 #. type: Content of: <div><dl><dt>
 #: xhtml/upstream/lfs/news.html:1619
 msgid "LFS Stable Version 8.0 Release"
-msgstr ""
+msgstr "Lançamento do LFS Estável Versão 8.0"
 
 #. type: Content of: <div><dl><dd>
 #: xhtml/upstream/lfs/news.html:1620
 msgid "<em>Bruce Dubbs - 2017/02/25</em>"
-msgstr ""
+msgstr "<em>Bruce Dubbs - 2017/02/25</em>"
 
 #. type: Content of: <div><dl><dd><p>
 #: xhtml/upstream/lfs/news.html:1622
@@ -2359,6 +2599,11 @@ msgid ""
 "have also been made throughout the book.  The Linux kernel has also been "
 "updated to version 4.9.9."
 msgstr ""
+"A comunidade Linux From Scratch anuncia o lançamento da versão 8.0 do LFS. "
+"As principais mudanças incluem atualizações do conjunto de ferramentas "
+"para glibc-2.25 e gcc-6.3.0. No total, 28 pacotes foram atualizados desde o "
+"último lançamento. Mudanças no texto também foram feitas ao longo do "
+"livro. O núcleo Linux também foi atualizado para a versão 4.9.9."
 
 #. type: Content of: <div><dl><dd><p>
 #: xhtml/upstream/lfs/news.html:1628 xhtml/upstream/lfs/news.html:1671
@@ -2368,6 +2613,10 @@ msgid ""
 "/usr/lib64.  An additional feature is that the gold linker "
 "(/usr/bin/ld.gold) is now available although it is not the default linker."
 msgstr ""
+"Essa é uma nova versão principal do LFS. A mudança para 8.0 é devida à "
+"remoção do link simbólico de /lib para /lib64 e à remoção completa de "
+"/usr/lib64. Um recurso adicional é que o vinculador gold (/usr/bin/ld.gold) "
+"agora está disponível, embora ele não seja o vinculador padrão."
 
 #. type: Content of: <div><dl><dd><p>
 #: xhtml/upstream/lfs/news.html:1634 xhtml/upstream/lfs/news.html:1715
@@ -2375,6 +2624,8 @@ msgid ""
 "This is a coordinated release and both System V and systemd versions of the "
 "book have been updated."
 msgstr ""
+"Esse é um lançamento coordenado e ambas as versões System V e systemd do "
+"livro foram atualizadas."
 
 #. type: Content of: <div><dl><dd><p>
 #: xhtml/upstream/lfs/news.html:1637
@@ -2383,6 +2634,11 @@ msgid ""
 "to the <a href=\"/lfs/downloads/8.0/\">System V download</a> site to read "
 "locally."
 msgstr ""
+"Você consegue ler o <a "
+"href=\"https://www.linuxfromscratch.org/museum/lfs-museum/8.0/LFS-BOOK-8.0-HTML/\">livro "
+"System V online</a> (escrito em inglês) ou ir para o sítio de <a "
+"href=\"https://www.linuxfromscratch.org/museum/lfs-museum/8.0/\">download do "
+"System V</a> para ler localmente."
 
 #. type: Content of: <div><dl><dd><p>
 #: xhtml/upstream/lfs/news.html:1644
@@ -2391,16 +2647,21 @@ msgid ""
 "or go to the <a href=\"/lfs/downloads/8.0-systemd/\">systemd download</a> "
 "site to read locally."
 msgstr ""
+"Você consegue ler o <a "
+"href=\"https://www.linuxfromscratch.org/museum/lfs-museum/8.0-systemd/LFS-BOOK-8.0-systemd-HTML/\">livro "
+"systemd online</a> (escrito em inglês) ou ir para o sítio de <a "
+"href=\"https://www.linuxfromscratch.org/museum/lfs-museum/8.0-systemd/\">download "
+"do systemd</a> para ler localmente."
 
 #. type: Content of: <div><dl><dt>
 #: xhtml/upstream/lfs/news.html:1661
 msgid "LFS 8.0-rc1 Release"
-msgstr ""
+msgstr "Lançamento do LFS 8.0-rc1"
 
 #. type: Content of: <div><dl><dd>
 #: xhtml/upstream/lfs/news.html:1662
 msgid "<em>Bruce Dubbs - 2017/02/14</em>"
-msgstr ""
+msgstr "<em>Bruce Dubbs - 2017/02/14</em>"
 
 #. type: Content of: <div><dl><dd><p>
 #: xhtml/upstream/lfs/news.html:1664
@@ -2412,6 +2673,12 @@ msgid ""
 "throughout the book.  The Linux kernel has also been updated to version "
 "4.9.9."
 msgstr ""
+"A comunidade Linux From Scratch anuncia o lançamento da versão 8.0-rc1 do "
+"LFS. Ela é uma versão preliminar do LFS-8.0. As principais mudanças "
+"incluem atualizações do conjunto de ferramentas para glibc-2.25 e "
+"gcc-6.3.0. No total, 28 pacotes foram atualizados desde o último "
+"lançamento. Mudanças no texto também foram feitas ao longo do livro. O "
+"núcleo Linux também foi atualizado para a versão 4.9.9."
 
 #. type: Content of: <div><dl><dd><p>
 #: xhtml/upstream/lfs/news.html:1681
@@ -2419,6 +2686,11 @@ msgid ""
 "You can read the book <a href=\"/lfs/view/8.0-rc1/\">online</a>, or <a "
 "href=\"/lfs/downloads/8.0-rc1/\">download</a> to read locally."
 msgstr ""
+"Você consegue ler o livro (escrito em inglês) <a "
+"href=\"https://www.linuxfromscratch.org/museum/lfs-museum/8.0-rc1/LFS-BOOK-8.0-rc1-HTML/\">online</a> "
+"ou <a "
+"href=\"https://www.linuxfromscratch.org/museum/lfs-museum/8.0-rc1/\">baixar</a> "
+"para ler localmente."
 
 #. type: Content of: <div><dl><dd><p><p>
 #: xhtml/upstream/lfs/news.html:1692
@@ -2428,16 +2700,22 @@ msgid ""
 "href=\"/lfs/downloads/8.0-systemd-rc1/\">download-systemd-rc1</a> to read "
 "locally."
 msgstr ""
+"Você consegue ler a versão systemd do livro (escrito em inglês) online em "
+"<a "
+"href=\"https://www.linuxfromscratch.org/museum/lfs-museum/8.0-systemd-rc1/LFS-BOOK-8.0-systemd-rc1-HTML/\">LFS-systemd-rc1</a> "
+"ou <a "
+"href=\"https://www.linuxfromscratch.org/museum/lfs-museum/8.0-systemd-rc1/\">baixar-systemd-rc1</a> "
+"para ler localmente."
 
 #. type: Content of: <div><dl><dt>
 #: xhtml/upstream/lfs/news.html:1706
 msgid "LFS Stable Version 7.10 Release"
-msgstr ""
+msgstr "Lançamento do LFS Estável Versão 7.10"
 
 #. type: Content of: <div><dl><dd>
 #: xhtml/upstream/lfs/news.html:1707
 msgid "<em>Bruce Dubbs - 2016/09/07</em>"
-msgstr ""
+msgstr "<em>Bruce Dubbs - 2016/09/07</em>"
 
 #. type: Content of: <div><dl><dd><p>
 #: xhtml/upstream/lfs/news.html:1709
@@ -2447,6 +2725,10 @@ msgid ""
 "and gcc-6.2.0.  In total, 29 packages were updated and changes to text have "
 "been made throughout the book."
 msgstr ""
+"A comunidade Linux From Scratch anuncia o lançamento da versão 7.10 do "
+"LFS. Ela é uma versão principal com atualizações do conjunto de "
+"ferramentas para glibc-2.24, binutils-2.27 e gcc-6.2.0. No total, 29 pacotes "
+"foram atualizados e mudanças no texto foram feitas ao longo do livro."
 
 #. type: Content of: <div><dl><dd><p>
 #: xhtml/upstream/lfs/news.html:1718
@@ -2455,6 +2737,11 @@ msgid ""
 "to the <a href=\"/lfs/downloads/7.10/\">System V download</a> site to read "
 "locally."
 msgstr ""
+"Você consegue ler o <a "
+"href=\"https://www.linuxfromscratch.org/museum/lfs-museum/7.10/LFS-BOOK-7.10-HTML/\">livro "
+"System V online</a> (escrito em inglês) ou ir para o sítio de <a "
+"href=\"https://www.linuxfromscratch.org/museum/lfs-museum/7.10/\">download "
+"do System V</a> para ler localmente."
 
 #. type: Content of: <div><dl><dd><p>
 #: xhtml/upstream/lfs/news.html:1725
@@ -2463,16 +2750,21 @@ msgid ""
 "online</a>, or go to the <a href=\"/lfs/downloads/7.10-systemd/\">systemd "
 "download</a> site to read locally."
 msgstr ""
+"Você consegue ler o <a "
+"href=\"https://www.linuxfromscratch.org/museum/lfs-museum/7.10-systemd/LFS-BOOK-7.10-systemd-HTML/\">livro "
+"systemd online</a> (escrito em inglês) ou ir para o sítio de <a "
+"href=\"https://www.linuxfromscratch.org/museum/lfs-museum/7.10-systemd/\">download "
+"do systemd</a> para ler localmente."
 
 #. type: Content of: <div><dl><dt>
 #: xhtml/upstream/lfs/news.html:1742
 msgid "LFS 7.10-rc1 Release"
-msgstr ""
+msgstr "Lançamento do LFS 7.10-rc1"
 
 #. type: Content of: <div><dl><dd>
 #: xhtml/upstream/lfs/news.html:1743
 msgid "<em>Bruce Dubbs - 2016/08/24</em>"
-msgstr ""
+msgstr "<em>Bruce Dubbs - 2016/08/24</em>"
 
 #. type: Content of: <div><dl><dd><p>
 #: xhtml/upstream/lfs/news.html:1745
@@ -2484,6 +2776,12 @@ msgid ""
 "been made throughout the book.  The Linux kernel has also been updated to "
 "version 4.7.2."
 msgstr ""
+"A comunidade Linux From Scratch anuncia o lançamento da versão 7.10-rc1 do "
+"LFS. Ela é uma versão preliminar do LFS-7.10. As principais mudanças "
+"incluem atualizações do conjunto de ferramentas para binutils-2.27, "
+"glibc-2.24 e gcc-6.2.0. No total, 29 pacotes foram atualizados desde o "
+"último lançamento. Mudanças no texto também foram feitas ao longo do "
+"livro. O núcleo Linux também foi atualizado para a versão 4.7.2."
 
 #. type: Content of: <div><dl><dd><p>
 #: xhtml/upstream/lfs/news.html:1756
@@ -2491,6 +2789,11 @@ msgid ""
 "You can read the book <a href=\"/lfs/view/7.10-rc1/\">online</a>, or <a "
 "href=\"/lfs/downloads/7.10-rc1/\">download</a> to read locally."
 msgstr ""
+"Você consegue ler o livro (escrito em inglês) <a "
+"href=\"https://www.linuxfromscratch.org/museum/lfs-museum/7.10-rc1/LFS-BOOK-7.10-rc1-HTML/\">online</a> "
+"ou <a "
+"href=\"https://www.linuxfromscratch.org/museum/lfs-museum/7.10-rc1/\">baixar</a> "
+"para ler localmente."
 
 #. type: Content of: <div><dl><dd><p><p>
 #: xhtml/upstream/lfs/news.html:1767
@@ -2500,16 +2803,22 @@ msgid ""
 "href=\"/lfs/downloads/7.10-systemd-rc1/\">download-systemd-rc1</a> to read "
 "locally."
 msgstr ""
+"Você consegue ler a versão systemd do livro (escrito em inglês) online em "
+"<a "
+"href=\"https://www.linuxfromscratch.org/museum/lfs-museum/7.10-systemd-rc1/LFS-BOOK-7.10-systemd-rc1-HTML/\">LFS-systemd-rc1</a> "
+"ou <a "
+"href=\"https://www.linuxfromscratch.org/museum/lfs-museum/7.10-systemd-rc1/\">baixar-systemd-rc1</a> "
+"para ler localmente."
 
 #. type: Content of: <div><dl><dt>
 #: xhtml/upstream/lfs/news.html:1782
 msgid "LFS Stable Systemd Version 7.9 Release"
-msgstr ""
+msgstr "Lançamento do LFS Estável Systemd Versão 7.9"
 
 #. type: Content of: <div><dl><dd>
 #: xhtml/upstream/lfs/news.html:1783 xhtml/upstream/lfs/news.html:1807
 msgid "<em>Bruce Dubbs - 2016/03/08</em>"
-msgstr ""
+msgstr "<em>Bruce Dubbs - 2016/03/08</em>"
 
 #. type: Content of: <div><dl><dd><p>
 #: xhtml/upstream/lfs/news.html:1785
@@ -2519,6 +2828,11 @@ msgid ""
 "binutils-2.26, gcc-5.3.0, and systemd-229.  In total, 26 packages were "
 "updated and changes to text have been made throughout the book."
 msgstr ""
+"A comunidade Linux From Scratch anuncia o lançamento da versão estável "
+"Systemd 7.9 do LFS. Ela é uma versão principal com atualizações do "
+"conjunto de ferramentas para glibc-2.23, binutils-2.26, gcc-5.3.0 e "
+"systemd-229. No total, 26 pacotes foram atualizados e mudanças no texto "
+"foram feitas ao longo do livro."
 
 #. type: Content of: <div><dl><dd><p>
 #: xhtml/upstream/lfs/news.html:1791
@@ -2526,11 +2840,16 @@ msgid ""
 "You can read the book <a href=\"/lfs/view/7.9-systemd/\">online</a>, or <a "
 "href=\"/lfs/downloads/7.9-systemd/\">download</a> to read locally."
 msgstr ""
+"Você consegue ler o livro (escrito em inglês) <a "
+"href=\"https://www.linuxfromscratch.org/museum/lfs-museum/7.9-systemd/LFS-BOOK-7.9-systemd-HTML/\">online</a> "
+"ou <a "
+"href=\"https://www.linuxfromscratch.org/museum/lfs-museum/7.9-systemd/\">baixar</a> "
+"para ler localmente."
 
 #. type: Content of: <div><dl><dt>
 #: xhtml/upstream/lfs/news.html:1806
 msgid "LFS 7.9 Stable Release"
-msgstr ""
+msgstr "Lançamento do LFS 7.9 Estável"
 
 #. type: Content of: <div><dl><dd><p>
 #: xhtml/upstream/lfs/news.html:1809
@@ -2540,6 +2859,10 @@ msgid ""
 "binutils-2.26, and gcc-5.3.0.  In total, 25 packages were updated and "
 "changes to text have been made throughout the book."
 msgstr ""
+"A comunidade Linux From Scratch anuncia o lançamento da versão estável "
+"7.9 do LFS. Ela é uma versão principal com atualizações do conjunto de "
+"ferramentas para glibc-2.23, binutils-2.26 e gcc-5.3.0. No total, 25 pacotes "
+"foram atualizados e mudanças no texto foram feitas ao longo do livro."
 
 #. type: Content of: <div><dl><dd><p>
 #: xhtml/upstream/lfs/news.html:1815
@@ -2547,16 +2870,21 @@ msgid ""
 "You can read the book <a href=\"/lfs/view/7.9/\">online</a>, or <a "
 "href=\"/lfs/downloads/7.9/\">download</a> to read locally."
 msgstr ""
+"Você consegue ler o livro (escrito em inglês) <a "
+"href=\"https://www.linuxfromscratch.org/museum/lfs-museum/7.9/LFS-BOOK-7.9-HTML/\">online</a> "
+"ou <a "
+"href=\"https://www.linuxfromscratch.org/museum/lfs-museum/7.9/\">baixar</a> "
+"para ler localmente."
 
 #. type: Content of: <div><dl><dt>
 #: xhtml/upstream/lfs/news.html:1830
 msgid "LFS 7.9-rc2 Release"
-msgstr ""
+msgstr "Lançamento do LFS 7.9-rc2"
 
 #. type: Content of: <div><dl><dd>
 #: xhtml/upstream/lfs/news.html:1831
 msgid "<em>Bruce Dubbs - 2016/02/19</em>"
-msgstr ""
+msgstr "<em>Bruce Dubbs - 2016/02/19</em>"
 
 #. type: Content of: <div><dl><dd><p>
 #: xhtml/upstream/lfs/news.html:1833
@@ -2568,6 +2896,12 @@ msgid ""
 "been made throughout the book.  The Linux kernel has also been updated to "
 "version 4.4.2."
 msgstr ""
+"A comunidade Linux From Scratch anuncia o lançamento da versão 7.9-rc2 do "
+"LFS. Ela é uma versão preliminar do LFS-7.9. As principais mudanças "
+"incluem atualizações do conjunto de ferramentas para binutils-2.26, "
+"glibc-2.23 e gcc-5.3.0. No total, 25 pacotes foram atualizados desde o "
+"último lançamento. Mudanças no texto também foram feitas ao longo do "
+"livro. O núcleo Linux também foi atualizado para a versão 4.4.2."
 
 #. type: Content of: <div><dl><dd><p>
 #: xhtml/upstream/lfs/news.html:1844
@@ -2575,6 +2909,11 @@ msgid ""
 "You can read the book <a href=\"/lfs/view/7.9-rc2/\">online</a>, or <a "
 "href=\"/lfs/downloads/7.9-rc2/\">download</a> to read locally."
 msgstr ""
+"Você consegue ler o livro (escrito em inglês) <a "
+"href=\"https://www.linuxfromscratch.org/museum/lfs-museum/7.9-rc2/LFS-BOOK-7.9-rc2-HTML/\">online</a> "
+"ou <a "
+"href=\"https://www.linuxfromscratch.org/museum/lfs-museum/7.9-rc2/\">baixar</a> "
+"para ler localmente."
 
 #. type: Content of: <div><dl><dd><p><p>
 #: xhtml/upstream/lfs/news.html:1855
@@ -2584,16 +2923,22 @@ msgid ""
 "href=\"/lfs/downloads/7.9-systemd-rc2/\">download-systemd-rc2</a> to read "
 "locally."
 msgstr ""
+"Você consegue ler a versão systemd do livro (escrito em inglês) online em "
+"<a "
+"href=\"https://www.linuxfromscratch.org/museum/lfs-museum/7.9-systemd-rc2/LFS-BOOK-7.9-systemd-rc2-HTML/\">LFS-systemd-rc2</a> "
+"ou <a "
+"href=\"https://www.linuxfromscratch.org/museum/lfs-museum/7.9-systemd-rc2/\">baixar-systemd-rc2</a> "
+"para ler localmente."
 
 #. type: Content of: <div><dl><dt>
 #: xhtml/upstream/lfs/news.html:1870
 msgid "LFS 7.9-rc1 Release"
-msgstr ""
+msgstr "Lançamento do LFS 7.9-rc1"
 
 #. type: Content of: <div><dl><dd>
 #: xhtml/upstream/lfs/news.html:1871
 msgid "<em>Bruce Dubbs - 2016/02/14</em>"
-msgstr ""
+msgstr "<em>Bruce Dubbs - 2016/02/14</em>"
 
 #. type: Content of: <div><dl><dd><p>
 #: xhtml/upstream/lfs/news.html:1873
@@ -2605,6 +2950,12 @@ msgid ""
 "throughout the book.  The Linux kernel has also been updated to version "
 "4.4.1."
 msgstr ""
+"A comunidade Linux From Scratch anuncia o lançamento da versão 7.9-rc1 do "
+"LFS. Ela é uma versão preliminar do LFS-7.9. As principais mudanças "
+"incluem atualizações do conjunto de ferramentas para binutils-2.26 e "
+"gcc-5.3.0. No total, 24 pacotes foram atualizados desde o último "
+"lançamento. Mudanças no texto também foram feitas ao longo do livro. O "
+"núcleo Linux também foi atualizado para a versão 4.4.1."
 
 #. type: Content of: <div><dl><dd><p>
 #: xhtml/upstream/lfs/news.html:1884
@@ -2612,6 +2963,11 @@ msgid ""
 "You can read the book <a href=\"/lfs/view/7.9-rc1/\">online</a>, or <a "
 "href=\"/lfs/downloads/7.9-rc1/\">download</a> to read locally."
 msgstr ""
+"Você consegue ler o livro (escrito em inglês) <a "
+"href=\"https://www.linuxfromscratch.org/museum/lfs-museum/7.9-rc1/LFS-BOOK-7.9-rc1-HTML/\">online</a> "
+"ou <a "
+"href=\"https://www.linuxfromscratch.org/museum/lfs-museum/7.9-rc1/\">baixar</a> "
+"para ler localmente."
 
 #. type: Content of: <div><dl><dd><p><p>
 #: xhtml/upstream/lfs/news.html:1895
@@ -2621,16 +2977,22 @@ msgid ""
 "href=\"/lfs/downloads/7.9-systemd-rc1/\">download-systemd-rc1</a> to read "
 "locally."
 msgstr ""
+"Você consegue ler a versão systemd do livro (escrito em inglês) online em "
+"<a "
+"href=\"https://www.linuxfromscratch.org/museum/lfs-museum/7.9-systemd-rc1/LFS-BOOK-7.9-systemd-rc1-HTML/\">LFS-systemd-rc1</a> "
+"ou <a "
+"href=\"https://www.linuxfromscratch.org/museum/lfs-museum/7.9-systemd-rc1/\">baixar-systemd-rc1</a> "
+"para ler localmente."
 
 #. type: Content of: <div><dl><dt>
 #: xhtml/upstream/lfs/news.html:1910
 msgid "LFS 7.8 Stable Release"
-msgstr ""
+msgstr "Lançamento do LFS 7.8 Estável"
 
 #. type: Content of: <div><dl><dd>
 #: xhtml/upstream/lfs/news.html:1911
 msgid "<em>Bruce Dubbs - 2015/10/01</em>"
-msgstr ""
+msgstr "<em>Bruce Dubbs - 2015/10/01</em>"
 
 #. type: Content of: <div><dl><dd><p>
 #: xhtml/upstream/lfs/news.html:1913
@@ -2640,6 +3002,11 @@ msgid ""
 "binutils-2.25.1, and gcc-5.2.0.  In total, 30 packages were updated and "
 "changes to bootscripts and text have been made throughout the book."
 msgstr ""
+"A comunidade Linux From Scratch anuncia o lançamento da versão estável "
+"7.8 do LFS. Ela é uma versão principal com atualizações do conjunto de "
+"ferramentas para glibc-2.22, binutils-2.25.1 e gcc-5.2.0. No total, 30 "
+"pacotes foram atualizados e mudanças nos scripts de inicialização e no "
+"texto foram feitas ao longo do livro."
 
 #. type: Content of: <div><dl><dd><p>
 #: xhtml/upstream/lfs/news.html:1919
@@ -2647,6 +3014,11 @@ msgid ""
 "You can read the book <a href=\"/lfs/view/7.8/\">online</a>, or <a "
 "href=\"/lfs/downloads/7.8/\">download</a> to read locally."
 msgstr ""
+"Você consegue ler o livro (escrito em inglês) <a "
+"href=\"https://www.linuxfromscratch.org/museum/lfs-museum/7.8/LFS-BOOK-7.8-HTML/\">online</a> "
+"ou <a "
+"href=\"https://www.linuxfromscratch.org/museum/lfs-museum/7.8/\">baixar</a> "
+"para ler localmente."
 
 #. type: Content of: <div><dl><dd><p>
 #: xhtml/upstream/lfs/news.html:1924
@@ -2656,6 +3028,10 @@ msgid ""
 "style of system initializaion and control and is consistent with LFS in most "
 "packages."
 msgstr ""
+"Em coordenação com esse lançamento, uma nova versão do LFS usando o "
+"pacote systemd também está sendo lançada. Esse pacote implementa o estilo "
+"systemd mais recente de inicialização e controle do sistema e é "
+"consistente com o LFS na maioria dos pacotes."
 
 #. type: Content of: <div><dl><dd><p><p>
 #: xhtml/upstream/lfs/news.html:1930
@@ -2664,16 +3040,22 @@ msgid ""
 "href=\"/lfs/view/7.8-systemd/\">LFS-systemd</a>, or <a "
 "href=\"/lfs/downloads/7.8-systemd/\">download-systemd</a> to read locally."
 msgstr ""
+"Você consegue ler a versão systemd do livro (escrito em inglês) online em "
+"<a "
+"href=\"https://www.linuxfromscratch.org/museum/lfs-museum/7.8-systemd/LFS-BOOK-7.8-systemd-HTML/\">LFS-systemd</a> "
+"ou <a "
+"href=\"https://www.linuxfromscratch.org/museum/lfs-museum/7.8-systemd/\">baixar-systemd</a> "
+"para ler localmente."
 
 #. type: Content of: <div><dl><dt>
 #: xhtml/upstream/lfs/news.html:1945
 msgid "LFS 7.8-rc1 Release"
-msgstr ""
+msgstr "Lançamento do LFS 7.8-rc1"
 
 #. type: Content of: <div><dl><dd>
 #: xhtml/upstream/lfs/news.html:1946
 msgid "<em>Bruce Dubbs - 2015/09/07</em>"
-msgstr ""
+msgstr "<em>Bruce Dubbs - 2015/09/07</em>"
 
 #. type: Content of: <div><dl><dd><p>
 #: xhtml/upstream/lfs/news.html:1948
@@ -2685,6 +3067,12 @@ msgid ""
 "also been made throughout the book.  The Linux kernel has also been updated "
 "to version 4.2."
 msgstr ""
+"A comunidade Linux From Scratch anuncia o lançamento da versão 7.8-rc1 do "
+"LFS. Ela é uma versão preliminar do LFS-7.8. As principais mudanças "
+"incluem atualizações do conjunto de ferramentas para binutils-2.25.1, "
+"glibc-2.22 e gcc-5.2.0. No total, 30 pacotes foram atualizados desde o "
+"último lançamento. Mudanças no texto também foram feitas ao longo do "
+"livro. O núcleo Linux também foi atualizado para a versão 4.2."
 
 #. type: Content of: <div><dl><dd><p>
 #: xhtml/upstream/lfs/news.html:1959
@@ -2692,16 +3080,21 @@ msgid ""
 "You can read the book <a href=\"/lfs/view/7.8-rc1/\">online</a>, or <a "
 "href=\"/lfs/downloads/7.8-rc1/\">download</a> to read locally."
 msgstr ""
+"Você consegue ler o livro (escrito em inglês) <a "
+"href=\"https://www.linuxfromscratch.org/museum/lfs-museum/7.8-rc1/LFS-BOOK-7.8-rc1-HTML/\">online</a> "
+"ou <a "
+"href=\"https://www.linuxfromscratch.org/museum/lfs-museum/7.8-rc1/\">baixar</a> "
+"para ler localmente."
 
 #. type: Content of: <div><dl><dt>
 #: xhtml/upstream/lfs/news.html:1974
 msgid "LFS 7.7 Stable Release"
-msgstr ""
+msgstr "Lançamento do LFS 7.7"
 
 #. type: Content of: <div><dl><dd>
 #: xhtml/upstream/lfs/news.html:1975
 msgid "<em>Bruce Dubbs - 2015/03/06</em>"
-msgstr ""
+msgstr "<em>Bruce Dubbs - 2015/03/06</em>"
 
 #. type: Content of: <div><dl><dd><p>
 #: xhtml/upstream/lfs/news.html:1977
@@ -2711,6 +3104,11 @@ msgid ""
 "gcc-4.9.2.  In total, 30 packages were updated and changes to bootscripts "
 "and text have been made throughout the book."
 msgstr ""
+"A comunidade Linux From Scratch anuncia o lançamento da versão estável "
+"7.7 do LFS. Ela é uma versão principal com atualizações do conjunto de "
+"ferramentas para glibc-2.21 e gcc-4.9.2. No total, 30 pacotes foram "
+"atualizados e mudanças nos scripts de inicialização e no texto foram "
+"feitas ao longo do livro."
 
 #. type: Content of: <div><dl><dd><p>
 #: xhtml/upstream/lfs/news.html:1984
@@ -2718,16 +3116,21 @@ msgid ""
 "You can read the book <a href=\"/lfs/view/7.7/\">online</a>, or <a "
 "href=\"/lfs/downloads/7.7/\">download</a> to read locally."
 msgstr ""
+"Você consegue ler o livro (escrito em inglês) <a "
+"href=\"https://www.linuxfromscratch.org/museum/lfs-museum/7.7/LFS-BOOK-7.7-HTML/\">online</a> "
+"ou <a "
+"href=\"https://www.linuxfromscratch.org/museum/lfs-museum/7.7/\">baixar</a> "
+"para ler localmente."
 
 #. type: Content of: <div><dl><dt>
 #: xhtml/upstream/lfs/news.html:2010
 msgid "LFS 7.7-rc1 Release"
-msgstr ""
+msgstr "Lançamento do LFS 7.7-rc1"
 
 #. type: Content of: <div><dl><dd>
 #: xhtml/upstream/lfs/news.html:2011
 msgid "<em>Bruce Dubbs - 2015/02/19</em>"
-msgstr ""
+msgstr "<em>Bruce Dubbs - 2015/02/19</em>"
 
 #. type: Content of: <div><dl><dd><p>
 #: xhtml/upstream/lfs/news.html:2013
@@ -2739,6 +3142,12 @@ msgid ""
 "been made throughout the book.  The Linux kernel has also been updated to "
 "version 3.19."
 msgstr ""
+"A comunidade Linux From Scratch anuncia o lançamento da versão 7.7-rc1 do "
+"LFS. Ela é uma versão preliminar do LFS-7.7. As principais mudanças "
+"incluem atualizações do conjunto de ferramentas para binutils-2.25, "
+"glibc-2.21 e gcc-4.9.2. No total, 30 pacotes foram atualizados desde o "
+"último lançamento. Mudanças no texto também foram feitas ao longo do "
+"livro. O núcleo Linux também foi atualizado para a versão 3.19."
 
 #. type: Content of: <div><dl><dd><p>
 #: xhtml/upstream/lfs/news.html:2026
@@ -2746,16 +3155,21 @@ msgid ""
 "You can read the book <a href=\"/lfs/view/7.7-rc1/\">online</a>, or <a "
 "href=\"/lfs/downloads/7.7-rc1/\">download</a> to read locally."
 msgstr ""
+"Você consegue ler o livro (escrito em inglês) <a "
+"href=\"https://www.linuxfromscratch.org/museum/lfs-museum/7.7-rc1/LFS-BOOK-7.7-rc1-HTML/\">online</a> "
+"ou <a "
+"href=\"https://www.linuxfromscratch.org/museum/lfs-museum/7.7-rc1/\">baixar</a> "
+"para ler localmente."
 
 #. type: Content of: <div><dl><dt>
 #: xhtml/upstream/lfs/news.html:2041
 msgid "LFS 7.6 Stable Release"
-msgstr ""
+msgstr "Lançamento do LFS 7.6 Estável"
 
 #. type: Content of: <div><dl><dd>
 #: xhtml/upstream/lfs/news.html:2042
 msgid "<em>Bruce Dubbs - 2014/09/23</em>"
-msgstr ""
+msgstr "<em>Bruce Dubbs - 2014/09/23</em>"
 
 #. type: Content of: <div><dl><dd><p>
 #: xhtml/upstream/lfs/news.html:2044
@@ -2766,6 +3180,11 @@ msgid ""
 "LFS-7.5 and changes to bootscripts and text have been made throughout the "
 "book."
 msgstr ""
+"A comunidade Linux From Scratch anuncia o lançamento da versão estável "
+"7.6 do LFS. Ela é uma versão principal com atualizações do conjunto de "
+"ferramentas para glibc-2.20 e gcc-4.9.1. No total, 26 pacotes foram "
+"atualizados e 8 pacotes adicionados a partir do LFS-7.5 e mudanças nos "
+"scripts de inicialização e no texto foram feitas ao longo do livro."
 
 #. type: Content of: <div><dl><dd><p>
 #: xhtml/upstream/lfs/news.html:2051
@@ -2773,6 +3192,11 @@ msgid ""
 "You can read the book <a href=\"/lfs/view/7.6/\">online</a>, or <a "
 "href=\"/lfs/downloads/7.6/\">download</a> to read locally."
 msgstr ""
+"Você consegue ler o livro (escrito em inglês) <a "
+"href=\"https://www.linuxfromscratch.org/museum/lfs-museum/7.6/LFS-BOOK-7.6-HTML/\">online</a> "
+"ou <a "
+"href=\"https://www.linuxfromscratch.org/museum/lfs-museum/7.6/\">baixar</a> "
+"para ler localmente."
 
 #. type: Content of: <div><dl><dd><p>
 #: xhtml/upstream/lfs/news.html:2056
@@ -2782,6 +3206,10 @@ msgid ""
 "style of system initializaion and control and is consistent with LFS in most "
 "packages."
 msgstr ""
+"Em coordenação com esse lançamento, uma nova versão do LFS usando o "
+"pacote systemd também foi lançada criada. Esse pacote implementa o estilo "
+"systemd mais recente de inicialização e controle do sistema e é "
+"consistente com o LFS na maioria dos pacotes."
 
 #. type: Content of: <div><dl><dd><p><p>
 #: xhtml/upstream/lfs/news.html:2062
@@ -2790,16 +3218,22 @@ msgid ""
 "href=\"/lfs/view/7.6-systemd/\">LFS-systemd</a>, or <a "
 "href=\"/lfs/downloads/7.6-systemd/\">download-systemd</a> to read locally."
 msgstr ""
+"Você consegue ler a versão systemd do livro (escrito em inglês) online em "
+"<a "
+"href=\"https://www.linuxfromscratch.org/museum/lfs-museum/7.6-systemd/LFS-BOOK-7.6-systemd-HTML/\">LFS-systemd</a> "
+"ou <a "
+"href=\"https://www.linuxfromscratch.org/museum/lfs-museum/7.6-systemd/\">baixar-systemd</a> "
+"para ler localmente."
 
 #. type: Content of: <div><dl><dt>
 #: xhtml/upstream/lfs/news.html:2077
 msgid "LFS 7.6-rc1 Release"
-msgstr ""
+msgstr "Lançamento do LFS 7.6-rc1"
 
 #. type: Content of: <div><dl><dd>
 #: xhtml/upstream/lfs/news.html:2078
 msgid "<em>Bruce Dubbs - 2014/09/08</em>"
-msgstr ""
+msgstr "<em>Bruce Dubbs - 2014/09/08</em>"
 
 #. type: Content of: <div><dl><dd><p>
 #: xhtml/upstream/lfs/news.html:2080
@@ -2812,6 +3246,14 @@ msgid ""
 "added since the last release. Changes to the text has been made throughout "
 "the book.  The linux kernel has also been updated to version 3.16.2."
 msgstr ""
+"A comunidade Linux From Scratch anuncia o lançamento do LFS versão "
+"7.6-rc1. Ele é uma versão preliminar do LFS-7.6. As principais mudanças "
+"incluem atualizações do conjunto de ferramentas para glibc-2.20 e "
+"gcc-4.9.1. Outra mudança importante é o uso do pacote eudev como "
+"substituto para a extração do udev a partir do código-fonte do systemd. "
+"No total, 26 pacotes foram atualizados e 8 pacotes adicionados desde o "
+"último lançamento. Mudanças no texto foram feitas ao longo do livro. O "
+"núcleo Linux também foi atualizado para a versão 3.16.2."
 
 #. type: Content of: <div><dl><dd><p>
 #: xhtml/upstream/lfs/news.html:2093
@@ -2819,3 +3261,8 @@ msgid ""
 "You can read the book <a href=\"/lfs/view/7.6-rc1/\">online</a>, or <a "
 "href=\"/lfs/downloads/7.6-rc1/\">download</a> to read locally."
 msgstr ""
+"Você consegue ler o livro (escrito em inglês) <a "
+"href=\"https://www.linuxfromscratch.org/museum/lfs-museum/7.6-rc1/LFS-BOOK-7.6-rc1-HTML/\">online</a> "
+"ou <a "
+"href=\"https://www.linuxfromscratch.org/museum/lfs-museum/7.6-rc1/\">baixar</a> "
+"para ler localmente."
