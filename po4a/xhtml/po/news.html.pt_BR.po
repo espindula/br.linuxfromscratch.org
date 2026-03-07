@@ -39,8 +39,7 @@ msgstr "<em>Bruce Dubbs - 2026/03/05</em>"
 msgid ""
 "The Linux From Scratch community announces the release of LFS Version 13.0."
 msgstr ""
-"A comunidade brasileira do Linux From Scratch anuncia o lançamento do LFS "
-"Versão 13.0."
+"A comunidade do Linux From Scratch anuncia o lançamento do LFS Versão 13.0."
 
 #. type: Content of: <div><dl><dd><p>
 #: xhtml/upstream/lfs/news.html:13
