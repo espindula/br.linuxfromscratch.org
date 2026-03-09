@@ -4,6 +4,51 @@
    <div class = "main">
       <h1>Notícias do BLFS</h1>
 
+         <dl class="newsItem">
+           <dt>BLFS 13.0 foi lançado!</dt>
+           <dd><em>Jamenson Espindula - 2026/03/09</em>
+
+	     <p>A Equipe do BLFS está orgulhosa de apresentar a versão 13.0 do
+	     Beyond Linux From Scratch. Essa versão inclui mais de 1.000
+	     pacotes além do livro base Linux From Scratch Versão 13.0. O livro
+	     tem mais que 1.500 atualizações a partir da versão anterior,
+	     incluindo muitas mudanças de texto e de formatação. Esse
+	     lançamento também inclui 112 atualizações de segurança a mais que
+	     o lançamento anterior.</p>
+
+	     <p>O livro inclui os ambientes de área de trabalho Gnome, KDE
+	     Plasma, XFCE e LXQt. Ele também inclui muitos aplicativos,
+	     incluindo navegadores, clientes de mensagens eletrônicas,
+	     reprodutores de vídeo e aplicativos de escritório.</p>
+
+	     <p>Novos pacotes que foram adicionados incluem: carregador de
+	     imagem isolado Glycin, Showtime - reprodutor de víideos do GNOME,
+	     Loupe - visualizador de imagens do GNOME (substituindo EOG),
+	     simdutf (necessário para VTE), kquickimageeditor e qtkeychain
+	     (necessários para Plasma), kddockwidgets (necessário para
+	     Kdenlive), lxqt-wayland-session (adicionando suporte Wayland para
+	     LXQt), libheif e libde265 (necessários para Glycin), libfyaml
+	     (necessário para AppStream), SVT-AV1 e dav1d (adicionando suporte
+	     adicional para codificação e decodificação de AV1), SDL3 e
+	     sdl2-compat (substituindo SDL2 com suporte significantemente
+	     melhorado para Wayland, controladores de entrada e mais), Maturin,
+	     setuptools_rust, semantic_version e uv_build (módulos Python
+	     necessários para CacheControl), e blueprint-compiler (módulo
+	     Python) usado por aplicações GNOME. Por favor, veja-se o Registro
+	     das Mudanças no livro para uma lista completa das mudanças.</p>
+
+	     <p>Os seguintes pacotes foram removidos: atkmm-2.28.x (não
+	     necessário com gtkmm-4), dhcpcd (não necessário no systemd),
+	     bridge-utils (não necessário no systemd), pcre2 e sqlite (movidos
+	     para LFS), Sendmail (não necessário com Exim e Postfix) e
+	     webp-pixbuf-loader (não necessário com glycin).</p>
+
+             <p>Você consegue visualizar a versão 13.0 do systemd em <a
+href="./view/13.0-systemd">online systemd</a> ou <a
+href="./downloads/13.0-systemd/">baixar-systemd</a> para ler localmente.</p>
+           </dd>
+         </dl>
+
      <dl class="newsItem">
            <dt>BLFS 12.4 foi lançado!</dt>
            <dd><em>Jamenson Espindula - 2025/09/01</em>
@@ -20,9 +65,13 @@
              aplicativos, incluindo navegadores, leitores de mensagens 
              eletrônicas e aplicativos de escritório.</p>
 
-             <p>Os novos pacotes que foram adicionados incluem: roman-numerals-py (módulo Python), Clone::PP (módulo Perl) e fast_float. Por favor, veja-se o Registro das Mudanças no livro para uma lista completa das mudanças.</p>
+	     <p>Os novos pacotes que foram adicionados incluem:
+	     roman-numerals-py (módulo Python), Clone::PP (módulo Perl) e
+	     fast_float. Por favor, veja-se o Registro das Mudanças no livro
+	     para uma lista completa das mudanças.</p>
 
-             <p>Os seguintes pacotes foram removidos: libsoup2, libgdata, uhttpmock e AbiWord.</p>
+	     <p>Os seguintes pacotes foram removidos: libsoup2, libgdata,
+	     uhttpmock e AbiWord.</p>
 
              <p>Esse é um lançamento coordenado com 
              BLFS-12.4-systemd.</p>
