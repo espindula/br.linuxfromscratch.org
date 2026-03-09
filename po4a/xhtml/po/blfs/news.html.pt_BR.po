@@ -1,0 +1,1058 @@
+# Portuguese translations for Arquivos do sÃ­tio LFS brasileiro package
+# Traduções em português brasileiro para o pacote Arquivos do sÃ­tio LFS brasileiro
+# Copyright (C) 2026 Jamenson Ferreira Espindula de Almeida Melo
+# This file is distributed under the same license as the Arquivos do sÃ­tio LFS brasileiro package.
+# Automatically generated, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Arquivos do sÃ­tio LFS brasileiro 1.0\n"
+"Report-Msgid-Bugs-To: jafesp@gmail.com\n"
+"POT-Creation-Date: 2026-03-09 11:51-0300\n"
+"PO-Revision-Date: 2026-03-09 11:51-0300\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#. type: Content of: <div><h1>
+#: xhtml/upstream/blfs/news.html:5
+msgid "BLFS News"
+msgstr ""
+
+#. type: Content of: <div><dl><dt>
+#: xhtml/upstream/blfs/news.html:8
+msgid "BLFS 13.0 has been released!"
+msgstr ""
+
+#. type: Content of: <div><dl><dd>
+#: xhtml/upstream/blfs/news.html:9
+msgid "<em>Bruce Dubbs - 2026/03/05</em>"
+msgstr ""
+
+#. type: Content of: <div><dl><dd><p>
+#: xhtml/upstream/blfs/news.html:11
+msgid ""
+"The BLFS Team is proud to present version 13.0 of Beyond Linux From "
+"Scratch. This version includes over 1000 packages beyond the base "
+"Linux From Scratch Version 13.0 book.  The book has over 1500 updates "
+"from the previous version including many text and formatting changes. "
+"This release also includes 112 security updates over the previous "
+"release."
+msgstr ""
+
+#. type: Content of: <div><dl><dd><p>
+#: xhtml/upstream/blfs/news.html:18
+msgid ""
+"The book includes the GNOME, KDE Plasma, XFCE, and LXQt Desktop "
+"environments. It also includes many applications including browsers, "
+"email clients, video players, and office applications."
+msgstr ""
+
+#. type: Content of: <div><dl><dd><p>
+#: xhtml/upstream/blfs/news.html:23
+msgid ""
+"New packages that were added include: Glycin sandboxed image loader, "
+"Showtime - GNOME video player, Loupe - GNOME image viewer (replacing "
+"EOG), simdutf (needed for VTE), kquickimageeditor and qtkeychain "
+"(needed for Plasma), kddockwidgets (needed for Kdenlive), lxqt-"
+"wayland-session (adding Wayland support to LXQt), libheif and "
+"libde265 (needed for Glycin), libfyaml (needed for AppStream), SVT-"
+"AV1 and dav1d (adding additional support for AV1 encoding and "
+"decoding), SDL3 and sdl2-compat (replacing SDL2 with significantly "
+"improved support for Wayland, input devices, and more), Maturin, "
+"setuptools_rust, semantic_version, and uv_build (Python modules "
+"needed for CacheControl), and blueprint-compiler (Python module) used "
+"by GNOME applications.  Please see the ChangeLog in the book for a "
+"full list of changes."
+msgstr ""
+
+#. type: Content of: <div><dl><dd><p>
+#: xhtml/upstream/blfs/news.html:43
+msgid ""
+"The following packages have been removed: atkmm-2.28.x (not needed "
+"with gtkmm-4), dhcpcd (not needed in systemd), bridge-utils (not "
+"needed in systemd), pcre2 and sqlite (moved to LFS), Sendmail (not "
+"needed with Exim and Postfix), and webp-pixbuf-loader (not needed "
+"with glycin)"
+msgstr ""
+
+#. type: Content of: <div><dl><dd><p>
+#: xhtml/upstream/blfs/news.html:52
+msgid ""
+"You can view the 13.0 systemd version at <a href=\"./view/13.0-"
+"systemd\">online systemd</a> or <a href=\"./downloads/13.0-systemd/"
+"\">download-systemd</a> to read locally."
+msgstr ""
+
+#. type: Content of: <div><dl><dt>
+#: xhtml/upstream/blfs/news.html:60
+msgid "BLFS 12.4 has been released!"
+msgstr ""
+
+#. type: Content of: <div><dl><dd>
+#: xhtml/upstream/blfs/news.html:61
+msgid "<em>Bruce Dubbs - 2025/09/01</em>"
+msgstr ""
+
+#. type: Content of: <div><dl><dd><p>
+#: xhtml/upstream/blfs/news.html:63
+msgid ""
+"The BLFS Team is proud to present version 12.4 of Beyond Linux From "
+"Scratch. This version includes over 1000 packages beyond the base "
+"Linux From Scratch Version 12.4 book.  The book has over 1300 updates "
+"from the previous version including many text and formatting changes."
+msgstr ""
+
+#. type: Content of: <div><dl><dd><p>
+#: xhtml/upstream/blfs/news.html:69 xhtml/upstream/blfs/news.html:111
+#: xhtml/upstream/blfs/news.html:153 xhtml/upstream/blfs/news.html:192
+msgid ""
+"The book includes the Gnome, KDE/Plasma, xfce, and LXQt Desktop "
+"environments. It also includes many applications including browsers, "
+"email readers, and office applications."
+msgstr ""
+
+#. type: Content of: <div><dl><dd><p>
+#: xhtml/upstream/blfs/news.html:74
+msgid ""
+"New packages that were added include: roman-numerals-py (Python "
+"module), Clone::PP (Perl Module), and fast_float.  Please see the "
+"ChangeLog in the book for a full list of changes."
+msgstr ""
+
+#. type: Content of: <div><dl><dd><p>
+#: xhtml/upstream/blfs/news.html:82
+msgid ""
+"The following packages have been removed: libsoup2, libgdata, "
+"uhttpmock, and AbiWord."
+msgstr ""
+
+#. type: Content of: <div><dl><dd><p>
+#: xhtml/upstream/blfs/news.html:89
+msgid "This is a coordinated release with BLFS-12.4-systemd."
+msgstr ""
+
+#. type: Content of: <div><dl><dd><p>
+#: xhtml/upstream/blfs/news.html:91
+msgid ""
+"You can view the 12.4 version at <a href=\"./view/12.4\">online</a> "
+"or <a href=\"./downloads/12.4/\">download</a> to read locally."
+msgstr ""
+
+#. type: Content of: <div><dl><dd><p>
+#: xhtml/upstream/blfs/news.html:94
+msgid ""
+"You can view the 12.4 systemd version at <a href=\"./view/12.4-"
+"systemd\">online systemd</a> or <a href=\"./downloads/12.4-systemd/"
+"\">download-systemd</a> to read locally."
+msgstr ""
+
+#. type: Content of: <div><dl><dt>
+#: xhtml/upstream/blfs/news.html:102
+msgid "BLFS 12.3 has been released!"
+msgstr ""
+
+#. type: Content of: <div><dl><dd>
+#: xhtml/upstream/blfs/news.html:103
+msgid "<em>Bruce Dubbs - 2025/03/05</em>"
+msgstr ""
+
+#. type: Content of: <div><dl><dd><p>
+#: xhtml/upstream/blfs/news.html:105
+msgid ""
+"The BLFS Team is proud to present version 12.3 of Beyond Linux From "
+"Scratch. This version includes over 1000 packages beyond the base "
+"Linux From Scratch Version 12.3 book.  The book has over 1560 updates "
+"from the previous version including many text and formatting changes."
+msgstr ""
+
+#. type: Content of: <div><dl><dd><p>
+#: xhtml/upstream/blfs/news.html:116
+msgid ""
+"New packages that were added include: sysmon3/sysmond, zxing-"
+"cpp-2.3.0, kdsoap-ws-discovery-client and plasma-activities-stats for "
+"kio-extras, docbook-xsl-ns, libgstgtk4 in support of Snapshot, cargo-"
+"c-0.10.4 needed for librsvg-2.59.1, LuaJIT to replace Lua 5.2 and "
+"glslc from shaderc-2024.2 needed for gtk4-4.16.0.  Please see the "
+"ChangeLog in the book for a full list of changes."
+msgstr ""
+
+#. type: Content of: <div><dl><dd><p>
+#: xhtml/upstream/blfs/news.html:129
+msgid "The following package has been removed: qt5."
+msgstr ""
+
+#. type: Content of: <div><dl><dd><p>
+#: xhtml/upstream/blfs/news.html:131
+msgid "This is a coordinated release with BLFS-12.3-systemd."
+msgstr ""
+
+#. type: Content of: <div><dl><dd><p>
+#: xhtml/upstream/blfs/news.html:133
+msgid ""
+"You can view the 12.3 version at <a href=\"./view/12.3\">online</a> "
+"or <a href=\"./downloads/12.3/\">download</a> to read locally."
+msgstr ""
+
+#. type: Content of: <div><dl><dd><p>
+#: xhtml/upstream/blfs/news.html:136
+msgid ""
+"You can view the 12.3 systemd version at <a href=\"./view/12.3-"
+"systemd\">online systemd</a> or <a href=\"./downloads/12.3-systemd/"
+"\">download-systemd</a> to read locally."
+msgstr ""
+
+#. type: Content of: <div><dl><dt>
+#: xhtml/upstream/blfs/news.html:144
+msgid "BLFS 12.2 has been released!"
+msgstr ""
+
+#. type: Content of: <div><dl><dd>
+#: xhtml/upstream/blfs/news.html:145
+msgid "<em>Bruce Dubbs - 2024/09/01</em>"
+msgstr ""
+
+#. type: Content of: <div><dl><dd><p>
+#: xhtml/upstream/blfs/news.html:147
+msgid ""
+"The BLFS Team is proud to present version 12.2 of Beyond Linux From "
+"Scratch. This version includes over 1000 packages beyond the base "
+"Linux From Scratch Version 12.2 book.  The book has over 1750 updates "
+"from the previous version including many text and formatting changes."
+msgstr ""
+
+#. type: Content of: <div><dl><dd><p>
+#: xhtml/upstream/blfs/news.html:157
+msgid ""
+"New in this version of BLFS is the upgrade from KDE5 (Frameworks, "
+"Gear, Plasma) to KDE6. New packages of interest that were added are "
+"FreeRDP, gnome-connections, and KDE's dolphin and konversation. A "
+"total of 32 other packages were added to support other packages "
+"already in the book.  In addition 21 unmaintained packages have been "
+"removed. This includes Python2 and GTK2 and packages that have not "
+"been updated to use more current versions.  Please see the ChangeLog "
+"in the book for a full list of changes."
+msgstr ""
+
+#. type: Content of: <div><dl><dd><p>
+#: xhtml/upstream/blfs/news.html:168
+msgid "DEPRECATION NOTICE: Future versions of BLFS will remove qt5."
+msgstr ""
+
+#. type: Content of: <div><dl><dd><p>
+#: xhtml/upstream/blfs/news.html:170
+msgid "This is a coordinated release with BLFS-12.2-systemd."
+msgstr ""
+
+#. type: Content of: <div><dl><dd><p>
+#: xhtml/upstream/blfs/news.html:172
+msgid ""
+"You can view the 12.2 version at <a href=\"./view/12.2\">online</a> "
+"or <a href=\"./downloads/12.2/\">download</a> to read locally."
+msgstr ""
+
+#. type: Content of: <div><dl><dd><p>
+#: xhtml/upstream/blfs/news.html:175
+msgid ""
+"You can view the 12.2 systemd version at <a href=\"./view/12.2-"
+"systemd\">online systemd</a> or <a href=\"./downloads/12.2-systemd/"
+"\">download-systemd</a> to read locally."
+msgstr ""
+
+#. type: Content of: <div><dl><dt>
+#: xhtml/upstream/blfs/news.html:183
+msgid "BLFS 12.1 has been released!"
+msgstr ""
+
+#. type: Content of: <div><dl><dd>
+#: xhtml/upstream/blfs/news.html:184
+msgid "<em>Bruce Dubbs - 2024/03/01</em>"
+msgstr ""
+
+#. type: Content of: <div><dl><dd><p>
+#: xhtml/upstream/blfs/news.html:186
+msgid ""
+"The BLFS Team is proud to present version 12.1 of Beyond Linux From "
+"Scratch. This version includes over 1000 packages beyond the base "
+"Linux From Scratch Version 12.1 book.  The book has 1685 updates from "
+"the previous version including many text and formatting changes."
+msgstr ""
+
+#. type: Content of: <div><dl><dd><p>
+#: xhtml/upstream/blfs/news.html:196
+msgid ""
+"New in this version of BLFS are Qt6, sysmon-qt, xdg-desktop-portal, "
+"simple-scan, snapshot, wireplumber, power-profiles-daemon, and "
+"several supporting packages.  This version also added SPIRV and "
+"Vulkan packages in support of Vulkan drivers for mesa.  Please see "
+"the ChangeLog in the book for a full list of changes."
+msgstr ""
+
+#. type: Content of: <div><dl><dd><p>
+#: xhtml/upstream/blfs/news.html:205
+msgid ""
+"DEPRECATION NOTICE: Future versions of BLFS will remove the "
+"unmaintained GTK2 library and Python2."
+msgstr ""
+
+#. type: Content of: <div><dl><dd><p>
+#: xhtml/upstream/blfs/news.html:208
+msgid "This is a coordinated release with BLFS-12.1-systemd."
+msgstr ""
+
+#. type: Content of: <div><dl><dd><p>
+#: xhtml/upstream/blfs/news.html:210
+msgid ""
+"You can view the 12.1 version at <a href=\"./view/12.1\">online</a> "
+"or <a href=\"./downloads/12.1/\">download</a> to read locally."
+msgstr ""
+
+#. type: Content of: <div><dl><dd><p>
+#: xhtml/upstream/blfs/news.html:213
+msgid ""
+"You can view the 12.1 systemd version at <a href=\"./view/12.1-"
+"systemd\">online systemd</a> or <a href=\"./downloads/12.1-systemd/"
+"\">download-systemd</a> to read locally."
+msgstr ""
+
+#. type: Content of: <div><dl><dt>
+#: xhtml/upstream/blfs/news.html:221
+msgid "BLFS 12.0 has been released!"
+msgstr ""
+
+#. type: Content of: <div><dl><dd>
+#: xhtml/upstream/blfs/news.html:222
+msgid "<em>Bruce Dubbs - 2023/09/01</em>"
+msgstr ""
+
+#. type: Content of: <div><dl><dd><p>
+#: xhtml/upstream/blfs/news.html:224
+msgid ""
+"The BLFS Team is proud to present version 12.0 of Beyond Linux From "
+"Scratch. This version includes over 1000 packages beyond the base "
+"Linux From Scratch Version 12.0 book.  The book has 1543 updates from "
+"the previous version including many text and formatting changes."
+msgstr ""
+
+#. type: Content of: <div><dl><dd><p>
+#: xhtml/upstream/blfs/news.html:230
+msgid ""
+"The book includes the Gnome, KDE/Plasma, xfce, and lxde Desktop "
+"environments. It also includes many applications including browsers, "
+"email readers, and office applications."
+msgstr ""
+
+#. type: Content of: <div><dl><dd><p>
+#: xhtml/upstream/blfs/news.html:234
+msgid ""
+"New in this version of BLFS is the LXQt Desktop Environment and an "
+"alternative method of building Qt with lighter dependency "
+"requirements than the full Qt package."
+msgstr ""
+
+#. type: Content of: <div><dl><dd><p>
+#: xhtml/upstream/blfs/news.html:238
+msgid ""
+"DEPRECATION NOTICE: Future versions of BLFS will remove the "
+"unmaintained LXDE Desktop Environment and support for the Reiser file "
+"system (reiserfsprogs)."
+msgstr ""
+
+#. type: Content of: <div><dl><dd><p>
+#: xhtml/upstream/blfs/news.html:242
+msgid "This is a coordinated release with BLFS-12.0-systemd."
+msgstr ""
+
+#. type: Content of: <div><dl><dd><p>
+#: xhtml/upstream/blfs/news.html:244
+msgid ""
+"You can view the 12.0 version at <a href=\"./view/12.0\">online</a> "
+"or <a href=\"./downloads/12.0/\">download</a> to read locally."
+msgstr ""
+
+#. type: Content of: <div><dl><dd><p>
+#: xhtml/upstream/blfs/news.html:247
+msgid ""
+"You can view the 12.0 systemd version at <a href=\"./view/12.0-"
+"systemd\">online systemd</a> or <a href=\"./downloads/12.0-systemd/"
+"\">download-systemd</a> to read locally."
+msgstr ""
+
+#. type: Content of: <div><dl><dt>
+#: xhtml/upstream/blfs/news.html:255
+msgid "BLFS 11.3 has been released!"
+msgstr ""
+
+#. type: Content of: <div><dl><dd>
+#: xhtml/upstream/blfs/news.html:256
+msgid "<em>Bruce Dubbs - 2023/03/01</em>"
+msgstr ""
+
+#. type: Content of: <div><dl><dd><p>
+#: xhtml/upstream/blfs/news.html:258
+msgid ""
+"The BLFS Team is proud to present version 11.3 of Beyond Linux From "
+"Scratch. This version includes over 1000 packages beyond the base "
+"Linux From Scratch Version 11.3 book.  The book has 1357 updates from "
+"the previous version including many text and formatting changes."
+msgstr ""
+
+#. type: Content of: <div><dl><dd><p>
+#: xhtml/upstream/blfs/news.html:264 xhtml/upstream/blfs/news.html:290
+msgid ""
+"The book includes the Gnome, KDE/Plasma, xfce, and lxde environments. "
+"It also includes many applications including browsers, email readers, "
+"and office applications."
+msgstr ""
+
+#. type: Content of: <div><dl><dd><p>
+#: xhtml/upstream/blfs/news.html:268
+msgid "This is a coordinated release with BLFS-11.3-systemd."
+msgstr ""
+
+#. type: Content of: <div><dl><dd><p>
+#: xhtml/upstream/blfs/news.html:270
+msgid ""
+"You can view the 11.3 version at <a href=\"./view/11.3\">online</a> "
+"or <a href=\"./downloads/11.3/\">download</a> to read locally."
+msgstr ""
+
+#. type: Content of: <div><dl><dd><p>
+#: xhtml/upstream/blfs/news.html:273
+msgid ""
+"You can view the 11.3 systemd version at <a href=\"./view/11.3-"
+"systemd\">online systemd</a> or <a href=\"./downloads/11.3-systemd/"
+"\">download-systemd</a> to read locally."
+msgstr ""
+
+#. type: Content of: <div><dl><dt>
+#: xhtml/upstream/blfs/news.html:281
+msgid "BLFS 11.2 has been released!"
+msgstr ""
+
+#. type: Content of: <div><dl><dd>
+#: xhtml/upstream/blfs/news.html:282
+msgid "<em>Bruce Dubbs - 2022/09/01</em>"
+msgstr ""
+
+#. type: Content of: <div><dl><dd><p>
+#: xhtml/upstream/blfs/news.html:284
+msgid ""
+"The BLFS Team is proud to present version 11.2 of Beyond Linux From "
+"Scratch. This version includes approximately 1000 packages beyond the "
+"base Linux From Scratch Version 11.1 book.  The book has over 1100 "
+"updates from the previous version including many text and formatting "
+"changes."
+msgstr ""
+
+#. type: Content of: <div><dl><dd><p>
+#: xhtml/upstream/blfs/news.html:294
+msgid "This is a coordinated release with BLFS-11.2-systemd."
+msgstr ""
+
+#. type: Content of: <div><dl><dd><p>
+#: xhtml/upstream/blfs/news.html:296
+msgid ""
+"You can view the 11.2 version at <a href=\"./view/11.2\">online</a> "
+"or <a href=\"./downloads/11.2/\">download</a> to read locally."
+msgstr ""
+
+#. type: Content of: <div><dl><dd><p>
+#: xhtml/upstream/blfs/news.html:299
+msgid ""
+"You can view the 11.2 systemd version at <a href=\"./view/11.2-"
+"systemd\">online systemd</a> or <a href=\"./downloads/11.2-systemd/"
+"\">download-systemd</a> to read locally."
+msgstr ""
+
+#. type: Content of: <div><dl><dt>
+#: xhtml/upstream/blfs/news.html:307
+msgid "BLFS 11.1 has been released!"
+msgstr ""
+
+#. type: Content of: <div><dl><dd>
+#: xhtml/upstream/blfs/news.html:308
+msgid "<em>Bruce Dubbs - 2022/03/01</em>"
+msgstr ""
+
+#. type: Content of: <div><dl><dd><p>
+#: xhtml/upstream/blfs/news.html:310
+msgid ""
+"The BLFS Team is proud to present version 11.1 of Beyond Linux From "
+"Scratch. This version includes approximately 1000 packages beyond the "
+"base Linux From Scratch Version 11.0 book.  The book has over 700 "
+"updates from the previous version plus many other text and formatting "
+"changes."
+msgstr ""
+
+#. type: Content of: <div><dl><dd><p>
+#: xhtml/upstream/blfs/news.html:316 xhtml/upstream/blfs/news.html:342
+#: xhtml/upstream/blfs/news.html:368 xhtml/upstream/blfs/news.html:394
+msgid ""
+"The book includes the Gnome, KDE/plasma, xfce, and lxde environments. "
+"It also includes many applications including browsers, email readers, "
+"and office applications."
+msgstr ""
+
+#. type: Content of: <div><dl><dd><p>
+#: xhtml/upstream/blfs/news.html:320
+msgid "This is a coordinated release with BLFS-11.1-systemd."
+msgstr ""
+
+#. type: Content of: <div><dl><dd><p>
+#: xhtml/upstream/blfs/news.html:322
+msgid ""
+"You can view the 11.1 version at <a href=\"./view/11.1\">online</a> "
+"or <a href=\"./downloads/11.1/\">download</a> to read locally."
+msgstr ""
+
+#. type: Content of: <div><dl><dd><p>
+#: xhtml/upstream/blfs/news.html:325
+msgid ""
+"You can view the 11.1 systemd version at <a href=\"./view/11.1-"
+"systemd\">online systemd</a> or <a href=\"./downloads/11.1-systemd/"
+"\">download-systemd</a> to read locally."
+msgstr ""
+
+#. type: Content of: <div><dl><dt>
+#: xhtml/upstream/blfs/news.html:333
+msgid "BLFS 11.0 has been released!"
+msgstr ""
+
+#. type: Content of: <div><dl><dd>
+#: xhtml/upstream/blfs/news.html:334
+msgid "<em>Bruce Dubbs - 2021/09/01</em>"
+msgstr ""
+
+#. type: Content of: <div><dl><dd><p>
+#: xhtml/upstream/blfs/news.html:336
+msgid ""
+"The BLFS Team is proud to present version 11.0 of Beyond Linux From "
+"Scratch. This version includes approximately 1000 packages beyond the "
+"base Linux From Scratch Version 10.0 book.  The book has over 900 "
+"updates from the previous version plus many other text and formatting "
+"changes."
+msgstr ""
+
+#. type: Content of: <div><dl><dd><p>
+#: xhtml/upstream/blfs/news.html:346
+msgid "This is a coordinated release with BLFS-11.0-systemd."
+msgstr ""
+
+#. type: Content of: <div><dl><dd><p>
+#: xhtml/upstream/blfs/news.html:348
+msgid ""
+"You can view the 11.0 version at <a href=\"./view/11.0\">online</a> "
+"or <a href=\"./downloads/11.0/\">download</a> to read locally."
+msgstr ""
+
+#. type: Content of: <div><dl><dd><p>
+#: xhtml/upstream/blfs/news.html:351
+msgid ""
+"You can view the 11.0 systemd version at <a href=\"./view/11.0-"
+"systemd\">online systemd</a> or <a href=\"./downloads/11.0-systemd/"
+"\">download-systemd</a> to read locally."
+msgstr ""
+
+#. type: Content of: <div><dl><dt>
+#: xhtml/upstream/blfs/news.html:359
+msgid "BLFS 10.1 has been released!"
+msgstr ""
+
+#. type: Content of: <div><dl><dd>
+#: xhtml/upstream/blfs/news.html:360
+msgid "<em>Bruce Dubbs - 2021/03/01</em>"
+msgstr ""
+
+#. type: Content of: <div><dl><dd><p>
+#: xhtml/upstream/blfs/news.html:362
+msgid ""
+"The BLFS Team is proud to present version 10.1 of Beyond Linux From "
+"Scratch. This version includes approximately 1000 packages beyond the "
+"base Linux From Scratch Version 10.0 book.  The book has 856 updates "
+"from the previous version plus many other text and formatting changes."
+msgstr ""
+
+#. type: Content of: <div><dl><dd><p>
+#: xhtml/upstream/blfs/news.html:372
+msgid "This is a coordinated release with BLFS-10.1-systemd."
+msgstr ""
+
+#. type: Content of: <div><dl><dd><p>
+#: xhtml/upstream/blfs/news.html:374
+msgid ""
+"You can view the 10.1 version at <a href=\"./view/10.1\">online</a> "
+"or <a href=\"./downloads/10.1/\">download</a> to read locally."
+msgstr ""
+
+#. type: Content of: <div><dl><dd><p>
+#: xhtml/upstream/blfs/news.html:377
+msgid ""
+"You can view the 10.1 systemd version at <a href=\"./view/10.1-"
+"systemd\">online systemd</a> or <a href=\"./downloads/10.1-systemd/"
+"\">download-systemd</a> to read locally."
+msgstr ""
+
+#. type: Content of: <div><dl><dt>
+#: xhtml/upstream/blfs/news.html:385
+msgid "BLFS 10.0 has been released!"
+msgstr ""
+
+#. type: Content of: <div><dl><dd>
+#: xhtml/upstream/blfs/news.html:386
+msgid "<em>Bruce Dubbs - 2020/09/01</em>"
+msgstr ""
+
+#. type: Content of: <div><dl><dd><p>
+#: xhtml/upstream/blfs/news.html:388
+msgid ""
+"The BLFS Team is proud to present version 10.0 of Beyond Linux From "
+"Scratch. This version includes approximately 1000 packages beyond the "
+"base Linux From Scratch Version 10.0 book.  The book has 913 updates "
+"from the previous version plus many other text and formatting changes."
+msgstr ""
+
+#. type: Content of: <div><dl><dd><p>
+#: xhtml/upstream/blfs/news.html:398
+msgid "This is a coordinated release with BLFS-10.0-systemd."
+msgstr ""
+
+#. type: Content of: <div><dl><dd><p>
+#: xhtml/upstream/blfs/news.html:400
+msgid ""
+"You can view the 10.0 version at <a href=\"./view/10.0\">online</a> "
+"or <a href=\"./downloads/10.0/\">download</a> to read locally."
+msgstr ""
+
+#. type: Content of: <div><dl><dd><p>
+#: xhtml/upstream/blfs/news.html:403
+msgid ""
+"You can view the 10.0 systemd version at <a href=\"./view/10.0-"
+"systemd\">online systemd</a> or <a href=\"./downloads/10.0-systemd/"
+"\">download-systemd</a> to read locally."
+msgstr ""
+
+#. type: Content of: <div><dl><dt>
+#: xhtml/upstream/blfs/news.html:411
+msgid "BLFS 9.1 has been released!"
+msgstr ""
+
+#. type: Content of: <div><dl><dd>
+#: xhtml/upstream/blfs/news.html:412
+msgid "<em>Bruce Dubbs - 2020/03/01</em>"
+msgstr ""
+
+#. type: Content of: <div><dl><dd><p>
+#: xhtml/upstream/blfs/news.html:414
+msgid ""
+"The BLFS Team is proud to present version 9.1 of Beyond Linux From "
+"Scratch. This version includes approximately 1000 packages beyond the "
+"base Linux From Scratch Version 9.1 book.  The book has 840 updates "
+"from the previous version plus many other text and formatting changes."
+msgstr ""
+
+#. type: Content of: <div><dl><dd><p>
+#: xhtml/upstream/blfs/news.html:420
+msgid ""
+"The System V version of the book includes the Gnome, KDE/plasma, "
+"xfce, and lxde environments."
+msgstr ""
+
+#. type: Content of: <div><dl><dd><p>
+#: xhtml/upstream/blfs/news.html:423
+msgid "This is a coordinated release with BLFS-9.1-systemd."
+msgstr ""
+
+#. type: Content of: <div><dl><dd><p>
+#: xhtml/upstream/blfs/news.html:425
+msgid ""
+"You can view the 9.1 version at <a href=\"./view/9.1\">online</a> or "
+"<a href=\"./downloads/9.1/\">download</a> to read locally."
+msgstr ""
+
+#. type: Content of: <div><dl><dd><p>
+#: xhtml/upstream/blfs/news.html:428
+msgid ""
+"You can view the 9.1 systemd version at <a href=\"./view/9.1-"
+"systemd\">online systemd</a> or <a href=\"./downloads/9.1-systemd/"
+"\">download-systemd</a> to read locally."
+msgstr ""
+
+#. type: Content of: <div><dl><dt>
+#: xhtml/upstream/blfs/news.html:436
+msgid "BLFS 9.0 has been released!"
+msgstr ""
+
+#. type: Content of: <div><dl><dd>
+#: xhtml/upstream/blfs/news.html:437
+msgid "<em>Bruce Dubbs - 2019/09/01</em>"
+msgstr ""
+
+#. type: Content of: <div><dl><dd><p>
+#: xhtml/upstream/blfs/news.html:439
+msgid ""
+"The BLFS Team is proud to present version 9.0 of Beyond Linux From "
+"Scratch. This version includes approximately 1000 packages beyond the "
+"base Linux From Scratch Version 9.0 book.  The book has 850 updates "
+"from the previous version plus many other text and formatting changes."
+msgstr ""
+
+#. type: Content of: <div><dl><dd><p>
+#: xhtml/upstream/blfs/news.html:445
+msgid ""
+"The System V version of the book now has added Gnome as an additional "
+"desktop environment in addition to the previous KDE/plasma, xfce, and "
+"lxde environments."
+msgstr ""
+
+#. type: Content of: <div><dl><dd><p>
+#: xhtml/upstream/blfs/news.html:449
+msgid "This is a coordinated release with BLFS-9.0-systemd."
+msgstr ""
+
+#. type: Content of: <div><dl><dd><p>
+#: xhtml/upstream/blfs/news.html:451
+msgid ""
+"You can view the 9.0 version at <a href=\"./view/9.0\">online</a> or "
+"<a href=\"./downloads/9.0/\">download</a> to read locally."
+msgstr ""
+
+#. type: Content of: <div><dl><dd><p>
+#: xhtml/upstream/blfs/news.html:454
+msgid ""
+"You can view the 9.0 systemd version at <a href=\"./view/9.0-"
+"systemd\">online systemd</a> or <a href=\"./downloads/9.0-systemd/"
+"\">download-systemd</a> to read locally."
+msgstr ""
+
+#. type: Content of: <div><dl><dt>
+#: xhtml/upstream/blfs/news.html:462
+msgid "BLFS 8.4 has been released!"
+msgstr ""
+
+#. type: Content of: <div><dl><dd>
+#: xhtml/upstream/blfs/news.html:463
+msgid "<em>Bruce Dubbs - 2019/03/01</em>"
+msgstr ""
+
+#. type: Content of: <div><dl><dd><p>
+#: xhtml/upstream/blfs/news.html:465
+msgid ""
+"The BLFS Team is proud to present version 8.4 of Beyond Linux From "
+"Scratch. This version includes approximately 1000 packages beyond the "
+"base Linux From Scratch Version 8.4 book.  The book has 700 updates "
+"from the previous version plus many other text and formatting changes."
+msgstr ""
+
+#. type: Content of: <div><dl><dd><p>
+#: xhtml/upstream/blfs/news.html:471
+msgid "This is a coordinated release with BLFS-8.4-systemd."
+msgstr ""
+
+#. type: Content of: <div><dl><dd><p>
+#: xhtml/upstream/blfs/news.html:473
+msgid ""
+"You can view the 8.4 version at <a href=\"./view/8.4\">online</a> or "
+"<a href=\"./downloads/8.4/\">download</a> to read locally."
+msgstr ""
+
+#. type: Content of: <div><dl><dd><p>
+#: xhtml/upstream/blfs/news.html:476
+msgid ""
+"You can view the 8.4 systemd version at <a href=\"./view/8.4-"
+"systemd\">online systemd</a> or <a href=\"./downloads/8.4-systemd/"
+"\">download-systemd</a> to read locally."
+msgstr ""
+
+#. type: Content of: <div><dl><dt>
+#: xhtml/upstream/blfs/news.html:484
+msgid "BLFS 8.3 has been released!"
+msgstr ""
+
+#. type: Content of: <div><dl><dd>
+#: xhtml/upstream/blfs/news.html:485 xhtml/upstream/blfs/news.html:507
+msgid "<em>Bruce Dubbs - 2018/03/02</em>"
+msgstr ""
+
+#. type: Content of: <div><dl><dd><p>
+#: xhtml/upstream/blfs/news.html:487
+msgid ""
+"The BLFS Team is proud to present version 8.3 of Beyond Linux From "
+"Scratch. This version includes approximately 1000 packages beyond the "
+"base Linux From Scratch Version 8.3 book.  The book has 700 updates "
+"from the previous version plus many other text and formatting changes."
+msgstr ""
+
+#. type: Content of: <div><dl><dd><p>
+#: xhtml/upstream/blfs/news.html:493
+msgid "This is a coordinated release with BLFS-8.3-systemd."
+msgstr ""
+
+#. type: Content of: <div><dl><dd><p>
+#: xhtml/upstream/blfs/news.html:495
+msgid ""
+"You can view the 8.3 version at <a href=\"./view/8.3\">online</a> or "
+"<a href=\"./downloads/8.3/\">download</a> to read locally."
+msgstr ""
+
+#. type: Content of: <div><dl><dd><p>
+#: xhtml/upstream/blfs/news.html:498
+msgid ""
+"You can view the 8.3 systemd version at <a href=\"./view/8.3-"
+"systemd\">online systemd</a> or <a href=\"./downloads/8.3-systemd/"
+"\">download-systemd</a> to read locally."
+msgstr ""
+
+#. type: Content of: <div><dl><dt>
+#: xhtml/upstream/blfs/news.html:506
+msgid "BLFS 8.2 has been released!"
+msgstr ""
+
+#. type: Content of: <div><dl><dd><p>
+#: xhtml/upstream/blfs/news.html:509
+msgid ""
+"The BLFS Team is proud to present version 8.2 of Beyond Linux From "
+"Scratch. This version includes approximately 900 packages beyond the "
+"base Linux From Scratch Version 8.2 book.  The book has 813 updates "
+"from the previous version plus many other text and formatting changes."
+msgstr ""
+
+#. type: Content of: <div><dl><dd><p>
+#: xhtml/upstream/blfs/news.html:515
+msgid "This is a coordinated release with BLFS-8.2-systemd."
+msgstr ""
+
+#. type: Content of: <div><dl><dd><p>
+#: xhtml/upstream/blfs/news.html:517
+msgid ""
+"You can view the 8.2 version at <a href=\"./view/8.2\">online</a> or "
+"<a href=\"./downloads/8.2/\">download</a> to read locally."
+msgstr ""
+
+#. type: Content of: <div><dl><dd><p>
+#: xhtml/upstream/blfs/news.html:520
+msgid ""
+"You can view the 8.2 systemd version at <a href=\"./view/8.2-"
+"systemd\">online systemd</a> or <a href=\"./downloads/8.2-systemd/"
+"\">download-systemd</a> to read locally."
+msgstr ""
+
+#. type: Content of: <div><dl><dt>
+#: xhtml/upstream/blfs/news.html:528
+msgid "BLFS 8.1 has been released!"
+msgstr ""
+
+#. type: Content of: <div><dl><dd>
+#: xhtml/upstream/blfs/news.html:529
+msgid "<em>Bruce Dubbs - 2017/09/01</em>"
+msgstr ""
+
+#. type: Content of: <div><dl><dd><p>
+#: xhtml/upstream/blfs/news.html:531
+msgid ""
+"The BLFS Team is proud to present version 8.1 of Beyond Linux From "
+"Scratch. This version includes approximately 900 packages beyond the "
+"base Linux From Scratch Version 8.1 book.  The book has 885 updates "
+"from the previous version plus many other text and formatting changes."
+msgstr ""
+
+#. type: Content of: <div><dl><dd><p>
+#: xhtml/upstream/blfs/news.html:537
+msgid "This is a coordinated release with BLFS-8.1-systemd."
+msgstr ""
+
+#. type: Content of: <div><dl><dd><p>
+#: xhtml/upstream/blfs/news.html:539
+msgid ""
+"You can view the 8.1 version at <a href=\"./view/8.1\">online</a> or "
+"<a href=\"./downloads/8.1/\">download</a> to read locally."
+msgstr ""
+
+#. type: Content of: <div><dl><dd><p>
+#: xhtml/upstream/blfs/news.html:542
+msgid ""
+"You can view the 8.1 systemd version at <a href=\"./view/8.1-"
+"systemd\">online systemd</a> or <a href=\"./downloads/8.1-systemd/"
+"\">download-systemd</a> to read locally."
+msgstr ""
+
+#. type: Content of: <div><dl><dt>
+#: xhtml/upstream/blfs/news.html:550
+msgid "BLFS 8.0 has been released!"
+msgstr ""
+
+#. type: Content of: <div><dl><dd>
+#: xhtml/upstream/blfs/news.html:551
+msgid "<em>Bruce Dubbs - 2017/02/25</em>"
+msgstr ""
+
+#. type: Content of: <div><dl><dd><p>
+#: xhtml/upstream/blfs/news.html:553
+msgid ""
+"The BLFS Team is proud to present version 8.0 of Beyond Linux From "
+"Scratch. This version includes approximately 800 packages beyond the "
+"base Linux From Scratch Version 8.0 book.  The book has 778 updates "
+"from the previous version plus many other text and formatting changes."
+msgstr ""
+
+#. type: Content of: <div><dl><dd><p>
+#: xhtml/upstream/blfs/news.html:559
+msgid "This is a coordinated release with BLFS-8.0-systemd."
+msgstr ""
+
+#. type: Content of: <div><dl><dd><p>
+#: xhtml/upstream/blfs/news.html:561
+msgid ""
+"You can view the 8.0 version at <a href=\"./view/8.0\">online</a> or "
+"<a href=\"./downloads/8.0/\">download</a> to read locally."
+msgstr ""
+
+#. type: Content of: <div><dl><dd><p>
+#: xhtml/upstream/blfs/news.html:564
+msgid ""
+"You can view the 8.0 systemd version at <a href=\"./view/8.0-"
+"systemd\">online systemd</a> or <a href=\"./downloads/8.0-systemd/"
+"\">download-systemd</a> to read locally."
+msgstr ""
+
+#. type: Content of: <div><dl><dt>
+#: xhtml/upstream/blfs/news.html:571
+msgid "BLFS 7.10 has been released!"
+msgstr ""
+
+#. type: Content of: <div><dl><dd>
+#: xhtml/upstream/blfs/news.html:572
+msgid "<em>Bruce Dubbs - 2016/09/07</em>"
+msgstr ""
+
+#. type: Content of: <div><dl><dd><p>
+#: xhtml/upstream/blfs/news.html:574
+msgid ""
+"The BLFS Team is proud to present version 7.10 of Beyond Linux From "
+"Scratch. This version includes approximately 800 packages beyond the "
+"base Linux From Scratch Version 7.10 book.  The book has 810 updates "
+"from the previous version plus many other text and formatting changes."
+msgstr ""
+
+#. type: Content of: <div><dl><dd><p>
+#: xhtml/upstream/blfs/news.html:580
+msgid "This is a coordinated release with BLFS-7.10-systemd."
+msgstr ""
+
+#. type: Content of: <div><dl><dd><p>
+#: xhtml/upstream/blfs/news.html:582
+msgid ""
+"You can view the 7.10 version at <a href=\"./view/7.10\">online</a> "
+"or <a href=\"./downloads/7.10/\">download</a> to read locally."
+msgstr ""
+
+#. type: Content of: <div><dl><dd><p>
+#: xhtml/upstream/blfs/news.html:585
+msgid ""
+"You can view the 7.10 systemd version at <a href=\"./view/7.10-"
+"systemd\">online systemd</a> or <a href=\"./downloads/7.10-systemd/"
+"\">download-systemd</a> to read locally."
+msgstr ""
+
+#. type: Content of: <div><dl><dt>
+#: xhtml/upstream/blfs/news.html:592
+msgid "BLFS 7.9 has been released!"
+msgstr ""
+
+#. type: Content of: <div><dl><dd>
+#: xhtml/upstream/blfs/news.html:593
+msgid "<em>Bruce Dubbs - 2016/03/08</em>"
+msgstr ""
+
+#. type: Content of: <div><dl><dd><p>
+#: xhtml/upstream/blfs/news.html:595
+msgid ""
+"The BLFS Team is proud to present version 7.9 of Beyond Linux From "
+"Scratch. This version includes approximately 800 packages beyond the "
+"base Linux From Scratch Version 7.9 book.  The book has 595 updates "
+"from the previous version plus many other text and formatting "
+"changes.  You can view the 7.9 version on <a href=\"./view/"
+"7.9\">online</a> or <a href=\"./downloads/7.9/\">download</a> to read "
+"locally."
+msgstr ""
+
+#. type: Content of: <div><dl><dt>
+#: xhtml/upstream/blfs/news.html:606
+msgid "BLFS 7.8 has been released!"
+msgstr ""
+
+#. type: Content of: <div><dl><dd>
+#: xhtml/upstream/blfs/news.html:607
+msgid "<em>Bruce Dubbs - 2015/10/01</em>"
+msgstr ""
+
+#. type: Content of: <div><dl><dd><p>
+#: xhtml/upstream/blfs/news.html:609
+msgid ""
+"The BLFS Team is happy to present version 7.8 of Beyond Linux From "
+"Scratch. This version includes approximately 800 packages beyond the "
+"base Linux From Scratch Version 7.8 book.  The book has 805 updates "
+"from the previous version plus many other text and formatting "
+"changes.  You can view the 7.8 version on <a href=\"./view/"
+"7.8\">online</a> or <a href=\"./downloads/7.8/\">download</a> to read "
+"locally."
+msgstr ""
+
+#. type: Content of: <div><dl><dt>
+#: xhtml/upstream/blfs/news.html:620
+msgid "BLFS 7.7 has been released!"
+msgstr ""
+
+#. type: Content of: <div><dl><dd>
+#: xhtml/upstream/blfs/news.html:621
+msgid "<em>Bruce Dubbs - 2015/03/06</em>"
+msgstr ""
+
+#. type: Content of: <div><dl><dd><p>
+#: xhtml/upstream/blfs/news.html:623
+msgid ""
+"The BLFS Team is happy to present version 7.7 of Beyond Linux From "
+"Scratch. This version includes approximately 750 packages beyond the "
+"base Linux From Scratch Version 7.7 book.  The book has 711 updates "
+"from the previous version plus many other text and formatting "
+"changes.  You can view the 7.7 version on <a href=\"./view/"
+"7.7\">online</a> or <a href=\"./downloads/7.7/\">download</a> to read "
+"locally."
+msgstr ""
+
+#. type: Content of: <div><dl><dt>
+#: xhtml/upstream/blfs/news.html:634
+msgid "BLFS 7.6 has been released!"
+msgstr ""
+
+#. type: Content of: <div><dl><dd>
+#: xhtml/upstream/blfs/news.html:635
+msgid "<em>Bruce Dubbs - 2014/09/23</em>"
+msgstr ""
+
+#. type: Content of: <div><dl><dd><p>
+#: xhtml/upstream/blfs/news.html:637
+msgid ""
+"The BLFS Team is happy to present version 7.6 of Beyond Linux From "
+"Scratch. This version includes approximately 750 packages beyond the "
+"base Linux From Scratch Version 7.6 book.  The book has over 880 "
+"updates from the previous version including numerous text and "
+"formatting changes.  You can view the 7.6 version on <a href=\"./view/"
+"7.6\">online</a> or <a href=\"./downloads/7.6/\">download</a> to read "
+"locally."
+msgstr ""
+
+#. type: Content of: <div><dl><dd><p>
+#: xhtml/upstream/blfs/news.html:645
+msgid ""
+"The BLFS Team is also happy to introduce a new version of the book "
+"based on systemd.  This version is based on BLFS 7.6 and is the "
+"logical follow up to the LFS systemd book.  You can view the 7.6-"
+"systemd version at the <a href=\"./view/7.6-systemd\">BLFS-systemd</"
+"a> link or download from <a href=\"/lfs/downloads/7.6-systemd/"
+"\">download-systemd</a> to read locally."
+msgstr ""
