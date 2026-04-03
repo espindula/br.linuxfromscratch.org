@@ -36,58 +36,64 @@ PLEASE REFRESH THIS PAGE IN A FEW MINUTES.</b></p>-->
 
 <h4>Licensing</h4>
 
-<p>I hope this website will be useful, and I intend that people copy it, or perhaps use it<br/>
-as an example of how <b>NOT</b> to organise things. The layout is derived from my old<br/>
-godaddy website, where everything except the main HTML was below a 'files/'<br/>
-directory. From memory, some of the tools which need to be compiled are explicitly<br/>
-GPL-v2 or GPL-v3. I think that everything else can be regarded as being under the<br/>
-<a href="https://opensource.org/license/mit">MIT License</a>. If I have listed any other licenses for anything except C or C++ code,<br/>
-I now relicense them under the MIT License. Ken Moffat, 2025-05-07.</p>
+<p>I hope this website will be useful, and I intend that people copy it, or
+perhaps use it as an example of how <b>NOT</b> to organise things. The layout
+is derived from my old godaddy website, where everything except the main HTML
+was below a 'files/' directory. From memory, some of the tools which need to be
+compiled are explicitly GPL-v2 or GPL-v3. I think that everything else can be
+regarded as being under the <a href="https://opensource.org/license/mit">MIT
+License</a>. If I have listed any other licenses for anything except C or C++
+code, I now relicense them under the MIT License. Ken Moffat, 2025-05-07.</p>
 
 <h4>Introduction</h4>
 
-<p>I am not a typographer, but I've long had an interest in getting good-looking desktop<br/>
-fonts on my Linux desktops, with coverage of everything I'm likely to look at - that<br/>
-nowadays mostly includes text in variants of the Latin alphabet, with some pages in<br/>
-Cyrillic alphabets and occasional Greek pages. It also covers fonts, preferably<br/>
-monospaced, for posts on mailing lists. Those posts often include some CJK glyphs.</p>
+<p>I am not a typographer, but I've long had an interest in getting
+good-looking desktop fonts on my Linux desktops, with coverage of everything
+I'm likely to look at - that nowadays mostly includes text in variants of the
+Latin alphabet, with some pages in Cyrillic alphabets and occasional Greek
+pages. It also covers fonts, preferably monospaced, for posts on mailing lists.
+Those posts often include some CJK glyphs.</p>
 
-<p>Despite how many of my posts have included odd misspellings, I usually do know<br/>
-how to spell - but my typing is often poor, with lots of typos (and I find them very<br/>
-hard to spot), so I have called this domain typosetting.</p>
+<p>Despite how many of my posts have included odd misspellings, I usually do
+know how to spell - but my typing is often poor, with lots of typos (and I find
+them very hard to spot), so I have called this domain typosetting.</p>
 
-<p>A history of how this has evolved, including my use of TeXLive, and my current<br/>
-thoughts on how I try to style the files showing coverage of languages, is at<br/>
-<a href="history.html">History of my explorations</a></p>
+<p>A history of how this has evolved, including my use of TeXLive, and my
+current thoughts on how I try to style the files showing coverage of languages,
+is at <a href="history.html">History of my explorations</a>.</p>
 
-<p>The (consolidated) table of fonts is at <a href="#fonttable">The table of fonts</a></p>
+<p>The (consolidated) table of fonts is at <a href="#fonttable">The table of fonts</a>.</p>
 
-<p>I first started this exercise in about 2011. I have now revised some of the fonts and<br/>
-corrected various errors in my presentation, but that is an ongoing process.  I am<br/>
-reluctant to revisit those fonts for non-Latin/Cyrillic/Greek languages so those old<br/>
-documents are likely to contain typos and may lack capitalisation of proper nouns.<br/>
-However, I hope to eventually get all CJK fonts revised.</p>
+<p>I first started this exercise in about 2011. I have now revised some of the
+fonts and corrected various errors in my presentation, but that is an ongoing
+process.  I am reluctant to revisit those fonts for non-Latin/Cyrillic/Greek
+languages so those old documents are likely to contain typos and may lack
+capitalisation of proper nouns. However, I hope to eventually get all CJK fonts
+revised.</p>
 
-<p>My aim is to provide details of libre fonts, using PDFs to show the glyphs in each font<br/>
-and to give examples of languages I think the font supports. Where a font provides<br/>
-small capitals I attempt to show those for the languages I use in the examples, and to<br/>
-note any problems with them. AFAICS, unless they are in a separate file it is not possible <br/>
-to use small caps except from LuaLaTeX or XeLaTeX (libreoffice might simulate them).<br/>
-Therefore I ignore them in monospace fonts except for the separate caps font of<br/>
-Latin Modern Mono.</p>
+<p>My aim is to provide details of libre fonts, using PDFs to show the glyphs
+in each font and to give examples of languages I think the font supports. Where
+a font provides small capitals I attempt to show those for the languages I use
+in the examples, and to note any problems with them. AFAICS, unless they are in
+a separate file it is not possible to use small caps except from LuaLaTeX or
+XeLaTeX (libreoffice might simulate them). Therefore I ignore them in monospace
+fonts except for the separate caps font of Latin Modern Mono.</p>
 
-<p>I only look at pre-built fonts: fonts offered as sources use various different tools. When<br/>
-last  I looked at Cantarell from Gnome (it appears to be a fork of the original font but<br/>
-retaining the same name) it was only available as source. I have now looked at version<br/>
-0.303 which contains a prebuilt font, but that is a variable font and I have no means of<br/>
-discovering what it contains, nor of using it in XeLaTeX.</p>
+<p>I only look at pre-built fonts: fonts offered as sources use various
+different tools. When last  I looked at Cantarell from Gnome (it appears to be
+a fork of the original font but retaining the same name) it was only available
+as source. I have now looked at version 0.303 which contains a prebuilt font,
+but that is a variable font and I have no means of discovering what it
+contains, nor of using it in XeLaTeX.</p>
 
-<p>I also offer XeLaTeX or LuaLaTeX files from which I created PDFs in the hope that they<br/>
-might occasionally be instructive for other XeLaTeX or LuaLaTeX users. The PDFs for<br/>
-contents ('Glyphs') and some of the lipsum PDFs were created in Libreoffice.</p>
+<p>I also offer XeLaTeX or LuaLaTeX files from which I created PDFs in the hope
+that they might occasionally be instructive for other XeLaTeX or LuaLaTeX
+users. The PDFs for contents ('Glyphs') and some of the lipsum PDFs were
+created in Libreoffice.</p>
 
-<p>Now that I am starting to use LuaLaTeX for new and revised languages files, the<br/>
-previous versions using XeLaTeX are available at <a href="old-xelatex.html">old-xelatex.html</a>.</p>
+<p>Now that I am starting to use LuaLaTeX for new and revised languages files,
+the previous versions using XeLaTeX are available at <a
+href="old-xelatex.html">old-xelatex.html</a>.</p>
 
 <h4>Links within this site</h4>
 
@@ -95,12 +101,14 @@ previous versions using XeLaTeX are available at <a href="old-xelatex.html">old-
 
 <p><a href="errata.html">Errata</a></p>
 
-<p><a href="files/PDF-lipsum">Files of dummy text to compare fonts</a>: The PDF-lipsum
-directory has various PDFs<br/>
+<p><a href="files/PDF-lipsum">Files of dummy text to compare fonts</a>: The
+PDF-lipsum directory has various PDFs.</p>
 
-<p><a href="files/lipsum-tex">Source files for lipsum in XeLaTeX or LuaLaTeX</a> are in files/lipsum-tex.</p>
+<p><a href="files/lipsum-tex">Source files for lipsum in XeLaTeX or
+	LuaLaTeX</a> are in files/lipsum-tex.</p>
 
-<p><a href="files/lipsum-odt">Very old LibreOffice Writer lipsum source.</a> are in files/lipsum-odt.</p>
+<p><a href="files/lipsum-odt">Very old LibreOffice Writer lipsum source.</a>
+are in files/lipsum-odt.</p>
 
 <p><a href="cjk-comparisons.html">Files for comparing CJK fonts</a> :</p>
 <p><ul>
