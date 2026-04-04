@@ -107,28 +107,25 @@ PDF-lipsum directory has various PDFs.</p>
 <p><a href="files/lipsum-tex">Source files for lipsum in XeLaTeX or
 	LuaLaTeX</a> are in files/lipsum-tex.</p>
 
-<p><a href="files/lipsum-odt">Very old LibreOffice Writer lipsum source.</a>
-are in files/lipsum-odt.</p>
+<p><a href="files/lipsum-odt">Very old LibreOffice Writer lipsum source</a> are in files/lipsum-odt.</p>
 
 <p><a href="cjk-comparisons.html">Files for comparing CJK fonts</a> :</p>
-<p><ul>
+<p>
+<ul>
 <li>
-The CJK languages do not usually use dummy text in like Lorem Ipsum.<br/>
-Although XeLaTeX has various packages which use real text, they only give<br/>
-provide a limited view of the many available glyphs. I added files to compare<br/>
-codepoints which might differ in CJK fonts. But after looking at a wider range<br/>
-of fonts I now think that sometimes the choices the designer's preference.
-</li><li>
-Similarly, I have prepared 'lipsum' files using standard text for variants of<br/>
-Chinese and for Japanese.
-</li><li>
-I have also now prepared 'Chinese-fontname-{CN,TW,HK}' files, to compare<br/>
-how different fonts show the same standard text, and to compare how a font<br/>
-renders the standard text in each variant it supports.
-</li><li>
-I am now updating the Korean fonts, together with some information on how<br/>
-much, if any, Hanja (Han ideograms) they support.
-</li></ul></p>
+The CJK languages do not usually use dummy text in like Lorem Ipsum. Although XeLaTeX has various packages which use real text, they only give provide a limited view of the many available glyphs. I added files to compare codepoints which might differ in CJK fonts. But after looking at a wider range of fonts I now think that sometimes the choices the designer's preference.
+</li>
+<li>
+Similarly, I have prepared 'lipsum' files using standard text for variants of Chinese and for Japanese.
+</li>
+<li>
+I have also now prepared 'Chinese-fontname-{CN,TW,HK}' files, to compare how different fonts show the same standard text, and to compare how a font renders the standard text in each variant it supports.
+</li>
+<li>
+I am now updating the Korean fonts, together with some information on how much, if any, Hanja (Han ideograms) they support.
+</li>
+</ul>
+</p>
 
 <!-- this needs to be separated now cjk has several paragraphs, use a list for cjk -->
 
@@ -136,71 +133,29 @@ much, if any, Hanja (Han ideograms) they support.
 <p><a href=current-process.html">My current process</a>: How I go about this, and
 the tools I use.</p>-->
 
-<p>Over the last year I have read far too much about experiments which could not be<br/>
-replicated. So, for anyone who wants to access the files I used, including those who<br/>
-merely wish to gain an overview of how I address certain issues in using some of the<br/>
-fonts (typically, related to XeLaTeX or polyglossia), I am putting source files for my<br/>
-tools to determine what is in a font (usage is summarised in <a href="current-process.html">My current process</a>),<br/>
-my templates to start identifying which languages a font supports, and the source I<br/>
-have for how I created the lipsum and substitutes files are all linked from<br/>
-<a href="tools.html">Links to my tools and source</a>.</p>
+<p>Over the last year I have read far too much about experiments which could not be replicated. So, for anyone who wants to access the files I used, including those who merely wish to gain an overview of how I address certain issues in using some of the fonts (typically, related to XeLaTeX or polyglossia), I am putting source files for my tools to determine what is in a font (usage is summarised in <a href="current-process.html">My current process</a>), my templates to start identifying which languages a font supports, and the source I have for how I created the lipsum and substitutes files are all linked from <a href="tools.html">Links to my tools and source</a>.</p>
 
 <p><a href="df.html">My download links</a></p>
 
-<p><a href="languages.html">Notes about my languages files</a><br/>
-In particular some comments about which languages I show, and why.</p>
+<p><a href="languages.html">Notes about my languages files</a>. In particular some comments about which languages I show, and why.</p>
 
-<p><a href="files/PDF-substitutes">Substitute fonts for the main Latin fonts</a>:
-In the beginning, websites often preferred a<br/>
-specific font such as Helvetica or Times New Roman. Some files from fontconfig have<br/>
-rules to choose various alternatives. Examples are in that link and now updated for<br/>
-fonts available in 2024. There are also substitutes for MS Calibri and Cambria which<br/>
-might be expected to be used for school work.</p>
+<p><a href="files/PDF-substitutes">Substitute fonts for the main Latin fonts</a>: In the beginning, websites often preferred a specific font such as Helvetica or Times New Roman. Some files from fontconfig have rules to choose various alternatives. Examples are in that link and now updated for fonts available in 2024. There are also substitutes for MS Calibri and Cambria which might be expected to be used for school work.</p>
 
-<p>You might need to tune fontconfig to pick up the alternative you prefer, see
-<a href="https://www.linuxfromscratch.org/blfs/read.html">BLFS</a><br/>
-and look at the "Current Development" links (at the moment, the <b>Sysv</b> book is listed<br/>
-first, with a separate entry for the <b>Systemd</b> book further down the page). Choose<br/>
-one of those books and look for the Tuning Fontconfig page (should be the same in<br/>
-both books), currently near the end of chapter 24 Graphical Environments.</p>
+<p>You might need to tune fontconfig to pick up the alternative you prefer, see <a href="https://www.linuxfromscratch.org/blfs/read.html">BLFS</a> and look at the "Current Development" links (at the moment, the <b>Sysv</b> book is listed first, with a separate entry for the <b>Systemd</b> book further down the page). Choose one of those books and look for the Tuning Fontconfig page (should be the same in both books), currently near the end of chapter 24 Graphical Environments.</p>
 
 <h4><a name="fonttable"/>The table of fonts</h4>
 
-<p>When I first revised this in 2011 I put all the fonts in one table, and the numbers are<br/>
-referenced in various Lipsum and similar files. In 2018 I added a lot more fonts, and<br/>
-put them in a second table to save renumbering things. Both those tables are mostly<br/>
-in alphabetical order by the fontconfig names. More recently I have found other fonts,<br/>
-and added them to a third table as I came across them. I have now merged all three<br/>
-tables into one while trying to update to current HTML and CSS standards. To help<br/>
-finding a font in this table I have now added indexes, both for the names used in<br/>
-fontconfig, and for my (one-word or hyphenated) identifiers used in the filenames.</p>
+<p>When I first revised this in 2011 I put all the fonts in one table, and the numbers are referenced in various Lipsum and similar files. In 2018 I added a lot more fonts, and put them in a second table to save renumbering things. Both those tables are mostly in alphabetical order by the fontconfig names. More recently I have found other fonts, and added them to a third table as I came across them. I have now merged all three tables into one while trying to update to current HTML and CSS standards. To help finding a font in this table I have now added indexes, both for the names used in fontconfig, and for my (one-word or hyphenated) identifiers used in the filenames.</p>
 
 <p><a href="changelog.html">Changelog</a></p>
 <p><a href="idx1.html">Index of fonts by Fontconfig name</a></p>
 <p><a href="idx2.html">Index of fonts by my Identifier</a></p>
 
-<p>Most of the columns are, I hope, self-explanatory.<br/>
-The 'Revised' column links to a XeLaTeX or LuaLaTeX source file with the date when<br/>
-I revised the 'languages' PDF (before 2025-01-26 XeLaTeX, then LuaLaTeX). It also<br/>
-links to my small caps sc.tex files where those exist. Many of my files revised before<br/>
-2024 exaggerate which codepoints or languages are available.)<br/>
-The 'Languages' links are to PDFs showing which of my example languages are<br/>
-supported, and also to files of SC (Small Caps) support where the font has those.<br/>
-<i>The PDFs revised since 2025-01-26 use the full page so many not be printable.</i><br/>
-The Bold column indicates that at least one darker weight also exists.<br/>
-The Italic column indicates an Italic <b>or</b> a Slant style exists.<br/>
-The Package column provides links to where to download a (perhaps later) version<br/>
-of the font: Many fonts lack version numbers: for those I note the fontfile date or<br/>
-commit date if downloaded from a git site.<br/>
-Codepoints links to plain text files of what is in the font.<br/>
-Coverage reports the codepoints within their Unicode blocks.</p>
+<p>Most of the columns are, I hope, self-explanatory. The 'Revised' column links to a XeLaTeX or LuaLaTeX source file with the date when I revised the 'languages' PDF (before 2025-01-26 XeLaTeX, then LuaLaTeX). It also links to my small caps sc.tex files where those exist. Many of my files revised before 2024 exaggerate which codepoints or languages are available. The 'Languages' links are to PDFs showing which of my example languages are supported, and also to files of SC (Small Caps) support where the font has those. <i>The PDFs revised since 2025-01-26 use the full page so many not be printable</i>. The Bold column indicates that at least one darker weight also exists. The Italic column indicates an Italic <b>or</b> a Slant style exists. The Package column provides links to where to download a (perhaps later) version of the font: Many fonts lack version numbers: for those I note the fontfile date or commit date if downloaded from a git site. Codepoints links to plain text files of what is in the font. Coverage reports the codepoints within their Unicode blocks.</p>
 
-<p><i>This table is very wide, you can scroll across but ideally use a wider window.<br/> The identification numbers are repeated at the end of each line.</i></p>
+<p><i>This table is very wide, you can scroll across but ideally use a wider window. The identification numbers are repeated at the end of each line</i>.</p>
 
-<p>I have revised some old files while revising my coverage of combining codes.<br/>
-For Lohit-Telugu I have updated codepoints, coverage and PDF-contents to 2.5.5<br/>
-For other fonts I merely updated PDF-contents.<br/>
-The partially revised fonts are indicated by ‡.</p>
+<p>I have revised some old files while revising my coverage of combining codes. For Lohit-Telugu I have updated codepoints, coverage and PDF-contents to 2.5.5 For other fonts I merely updated PDF-contents. The partially revised fonts are indicated by ‡.</p>
 
 <div style="overflow-scroll;">
  <table class="pure-table-striped">
