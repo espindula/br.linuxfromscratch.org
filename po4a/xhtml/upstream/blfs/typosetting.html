@@ -110,22 +110,25 @@ PDF-lipsum directory has various PDFs.</p>
 <p><a href="files/lipsum-odt">Very old LibreOffice Writer lipsum source</a> are in files/lipsum-odt.</p>
 
 <p><a href="cjk-comparisons.html">Files for comparing CJK fonts</a> :</p>
-<p>
+
 <ul>
 <li>
-The CJK languages do not usually use dummy text in like Lorem Ipsum. Although XeLaTeX has various packages which use real text, they only give provide a limited view of the many available glyphs. I added files to compare codepoints which might differ in CJK fonts. But after looking at a wider range of fonts I now think that sometimes the choices the designer's preference.
-</li>
+The CJK languages do not usually use dummy text in like Lorem Ipsum. Although
+XeLaTeX has various packages which use real text, they only give provide a
+limited view of the many available glyphs. I added files to compare codepoints
+which might differ in CJK fonts. But after looking at a wider range of fonts I
+now think that sometimes the choices the designer's preference.  </li>
 <li>
-Similarly, I have prepared 'lipsum' files using standard text for variants of Chinese and for Japanese.
-</li>
+Similarly, I have prepared 'lipsum' files using standard text for variants of
+Chinese and for Japanese.  </li>
 <li>
-I have also now prepared 'Chinese-fontname-{CN,TW,HK}' files, to compare how different fonts show the same standard text, and to compare how a font renders the standard text in each variant it supports.
-</li>
+I have also now prepared 'Chinese-fontname-{CN,TW,HK}' files, to compare how
+different fonts show the same standard text, and to compare how a font renders
+the standard text in each variant it supports.  </li>
 <li>
-I am now updating the Korean fonts, together with some information on how much, if any, Hanja (Han ideograms) they support.
-</li>
+I am now updating the Korean fonts, together with some information on how much,
+if any, Hanja (Han ideograms) they support.  </li>
 </ul>
-</p>
 
 <!-- this needs to be separated now cjk has several paragraphs, use a list for cjk -->
 
@@ -133,29 +136,76 @@ I am now updating the Korean fonts, together with some information on how much, 
 <p><a href=current-process.html">My current process</a>: How I go about this, and
 the tools I use.</p>-->
 
-<p>Over the last year I have read far too much about experiments which could not be replicated. So, for anyone who wants to access the files I used, including those who merely wish to gain an overview of how I address certain issues in using some of the fonts (typically, related to XeLaTeX or polyglossia), I am putting source files for my tools to determine what is in a font (usage is summarised in <a href="current-process.html">My current process</a>), my templates to start identifying which languages a font supports, and the source I have for how I created the lipsum and substitutes files are all linked from <a href="tools.html">Links to my tools and source</a>.</p>
+<p>Over the last year I have read far too much about experiments which could
+not be replicated. So, for anyone who wants to access the files I used,
+including those who merely wish to gain an overview of how I address certain
+issues in using some of the fonts (typically, related to XeLaTeX or
+polyglossia), I am putting source files for my tools to determine what is in a
+font (usage is summarised in <a href="current-process.html">My current
+process</a>), my templates to start identifying which languages a font
+supports, and the source I have for how I created the lipsum and substitutes
+files are all linked from <a href="tools.html">Links to my tools and
+source</a>.</p>
 
 <p><a href="df.html">My download links</a></p>
 
-<p><a href="languages.html">Notes about my languages files</a>. In particular some comments about which languages I show, and why.</p>
+<p><a href="languages.html">Notes about my languages files</a>. In particular
+some comments about which languages I show, and why.</p>
 
-<p><a href="files/PDF-substitutes">Substitute fonts for the main Latin fonts</a>: In the beginning, websites often preferred a specific font such as Helvetica or Times New Roman. Some files from fontconfig have rules to choose various alternatives. Examples are in that link and now updated for fonts available in 2024. There are also substitutes for MS Calibri and Cambria which might be expected to be used for school work.</p>
+<p><a href="files/PDF-substitutes">Substitute fonts for the main Latin
+	fonts</a>: In the beginning, websites often preferred a specific font
+such as Helvetica or Times New Roman. Some files from fontconfig have rules to
+choose various alternatives. Examples are in that link and now updated for
+fonts available in 2024. There are also substitutes for MS Calibri and Cambria
+which might be expected to be used for school work.</p>
 
-<p>You might need to tune fontconfig to pick up the alternative you prefer, see <a href="https://www.linuxfromscratch.org/blfs/read.html">BLFS</a> and look at the "Current Development" links (at the moment, the <b>Sysv</b> book is listed first, with a separate entry for the <b>Systemd</b> book further down the page). Choose one of those books and look for the Tuning Fontconfig page (should be the same in both books), currently near the end of chapter 24 Graphical Environments.</p>
+<p>You might need to tune fontconfig to pick up the alternative you prefer, see
+<a href="https://www.linuxfromscratch.org/blfs/read.html">BLFS</a> and look at
+the "Current Development" links (at the moment, the <b>Sysv</b> book is listed
+first, with a separate entry for the <b>Systemd</b> book further down the
+page). Choose one of those books and look for the Tuning Fontconfig page
+(should be the same in both books), currently near the end of chapter 24
+Graphical Environments.</p>
 
-<h4><a name="fonttable"/>The table of fonts</h4>
+<h4><a name="fonttable">The table of fonts</a></h4>
 
-<p>When I first revised this in 2011 I put all the fonts in one table, and the numbers are referenced in various Lipsum and similar files. In 2018 I added a lot more fonts, and put them in a second table to save renumbering things. Both those tables are mostly in alphabetical order by the fontconfig names. More recently I have found other fonts, and added them to a third table as I came across them. I have now merged all three tables into one while trying to update to current HTML and CSS standards. To help finding a font in this table I have now added indexes, both for the names used in fontconfig, and for my (one-word or hyphenated) identifiers used in the filenames.</p>
+<p>When I first revised this in 2011 I put all the fonts in one table, and the
+numbers are referenced in various Lipsum and similar files. In 2018 I added a
+lot more fonts, and put them in a second table to save renumbering things. Both
+those tables are mostly in alphabetical order by the fontconfig names. More
+recently I have found other fonts, and added them to a third table as I came
+across them. I have now merged all three tables into one while trying to update
+to current HTML and CSS standards. To help finding a font in this table I have
+now added indexes, both for the names used in fontconfig, and for my (one-word
+or hyphenated) identifiers used in the filenames.</p>
 
 <p><a href="changelog.html">Changelog</a></p>
 <p><a href="idx1.html">Index of fonts by Fontconfig name</a></p>
 <p><a href="idx2.html">Index of fonts by my Identifier</a></p>
 
-<p>Most of the columns are, I hope, self-explanatory. The 'Revised' column links to a XeLaTeX or LuaLaTeX source file with the date when I revised the 'languages' PDF (before 2025-01-26 XeLaTeX, then LuaLaTeX). It also links to my small caps sc.tex files where those exist. Many of my files revised before 2024 exaggerate which codepoints or languages are available. The 'Languages' links are to PDFs showing which of my example languages are supported, and also to files of SC (Small Caps) support where the font has those. <i>The PDFs revised since 2025-01-26 use the full page so many not be printable</i>. The Bold column indicates that at least one darker weight also exists. The Italic column indicates an Italic <b>or</b> a Slant style exists. The Package column provides links to where to download a (perhaps later) version of the font: Many fonts lack version numbers: for those I note the fontfile date or commit date if downloaded from a git site. Codepoints links to plain text files of what is in the font. Coverage reports the codepoints within their Unicode blocks.</p>
+<p>Most of the columns are, I hope, self-explanatory. The 'Revised' column
+links to a XeLaTeX or LuaLaTeX source file with the date when I revised the
+'languages' PDF (before 2025-01-26 XeLaTeX, then LuaLaTeX). It also links to my
+small caps sc.tex files where those exist. Many of my files revised before 2024
+exaggerate which codepoints or languages are available. The 'Languages' links
+are to PDFs showing which of my example languages are supported, and also to
+files of SC (Small Caps) support where the font has those. <i>The PDFs revised
+since 2025-01-26 use the full page so many not be printable</i>. The Bold
+column indicates that at least one darker weight also exists. The Italic column
+indicates an Italic <b>or</b> a Slant style exists. The Package column provides
+links to where to download a (perhaps later) version of the font: Many fonts
+lack version numbers: for those I note the fontfile date or commit date if
+downloaded from a git site. Codepoints links to plain text files of what is in
+the font. Coverage reports the codepoints within their Unicode blocks.</p>
 
-<p><i>This table is very wide, you can scroll across but ideally use a wider window. The identification numbers are repeated at the end of each line</i>.</p>
+<p><i>This table is very wide, you can scroll across but ideally use a wider
+	window. The identification numbers are repeated at the end of each
+	line</i>.</p>
 
-<p>I have revised some old files while revising my coverage of combining codes. For Lohit-Telugu I have updated codepoints, coverage and PDF-contents to 2.5.5 For other fonts I merely updated PDF-contents. The partially revised fonts are indicated by ‡.</p>
+<p>I have revised some old files while revising my coverage of combining codes.
+For Lohit-Telugu I have updated codepoints, coverage and PDF-contents to 2.5.5
+For other fonts I merely updated PDF-contents. The partially revised fonts are
+indicated by ‡.</p>
 
 <div style="overflow-scroll;">
  <table class="pure-table-striped">
@@ -182,7 +232,7 @@ the tools I use.</p>-->
 
    <tr>
     <td>1.001</td>
-    <td><a name="1.001"/>Aerial Mono</td>
+    <td><a name="1.001">Aerial Mono</a></td>
     <td>AerialMono</td>
     <td>2024/07/30<br/>
         <a href="files/font-languages/AerialMono-languages.tex">languages.tex</a></td>
@@ -201,7 +251,7 @@ the tools I use.</p>-->
 
    <tr>
     <td>1.002</td>
-    <td><a name="1.002"/>Aerial</td>
+    <td><a name="1.002">Aerial</a></td>
     <td>Aerial</td>
     <td>2024/07/30<br/>
         <a href="files/font-languages/Aerial-languages.tex">languages.tex</a></td>
@@ -220,7 +270,7 @@ the tools I use.</p>-->
 
    <tr>
     <td>1.003</td>
-    <td><a name="1.003"/>Andika</td>
+    <td><a name="1.003">Andika</a></td>
     <td>Andika</td>
     <td>2024/08/02<br/>
         <a href="files/font-languages/Andika-languages.tex">languages.tex</a><br/>
@@ -241,7 +291,7 @@ the tools I use.</p>-->
 
    <tr>
     <td>1.004</td>
-    <td><a name="1.004"/>Arimo</td>
+    <td><a name="1.004">Arimo</a></td>
     <td>Arimo</td>
     <td>2024/08/02<br/>
         <a href="files/font-languages/Arimo-languages.tex">languages.tex</a></td>
@@ -260,7 +310,7 @@ the tools I use.</p>-->
 
    <tr>
     <td>1.005</td>
-    <td><a name="1.005"/>AR PL KaitiM Big5</td>
+    <td><a name="1.005">AR PL KaitiM Big5</a></td>
     <td>bkai00mp</td>
     <td>2024/11/26<br/>
         <a href="files/font-languages/bkai00mp-languages.tex">languages.tex</a></td>
@@ -297,7 +347,7 @@ the tools I use.</p>-->
 
    <tr>
     <td>1.006</td>
-    <td><a name="1.006"/>AR PL KaitiM GB</td>
+    <td><a name="1.006">AR PL KaitiM GB</a></td>
     <td>gkai00mp</td>
     <td>2024/10/26<br/>
         <a href="files/font-languages/gkai00mp-languages.tex">languages.tex</a></td>
@@ -316,7 +366,7 @@ the tools I use.</p>-->
 
    <tr>
     <td>1.007</td>
-    <td><a name="1.007"/>AR PL Mingti2L Big5</td>
+    <td><a name="1.007">AR PL Mingti2L Big5</a></td>
     <td>bsmi00lp</td>
     <td>2024/11/26<br/>
         <a href="files/font-languages/bsmi00lp-languages.tex">languages.tex</a></td>
@@ -335,7 +385,7 @@ the tools I use.</p>-->
 
    <tr>
     <td>1.008</td>
-    <td><a name="1.008"/>AR PL New Sung</td>
+    <td><a name="1.008">AR PL New Sung</a></td>
     <td>fireflysung</td>
     <td>2024/09/23<br/>
         <a href="files/font-languages/fireflysung-languages.tex">languages.tex</a></td>
@@ -354,7 +404,7 @@ the tools I use.</p>-->
 
    <tr>
     <td>1.009</td>
-    <td><a name="1.009"/>AR PL SungtiL GB</td>
+    <td><a name="1.009">AR PL SungtiL GB</a></td>
     <td>gbsn00lp</td>
     <td>2024/10/27<br/>
         <a href="files/font-languages/gbsn00lp-languages.tex">languages.tex</a></td>
@@ -373,7 +423,7 @@ the tools I use.</p>-->
 
    <tr>
     <td>1.010</td>
-    <td><a name="1.010"/>AR PL UKai CN</td>
+    <td><a name="1.010">AR PL UKai CN</a></td>
     <td>UKaiCN</td>
     <td>2024/10/27<br/>
         <a href="files/font-languages/UKaiCN-languages.tex">languages.tex</a></td>
@@ -408,7 +458,7 @@ the tools I use.</p>-->
 
    <tr>
     <td>1.011</td>
-    <td><a name="1.011"/>AR PL UKai HK</td>
+    <td><a name="1.011">AR PL UKai HK</a></td>
     <td>UKaiHK</td>
     <td>2024/12/15<br/>
         <a href="files/font-languages/UKaiHK-languages.tex">languages.tex</a></td>
@@ -427,7 +477,7 @@ the tools I use.</p>-->
 
    <tr>
     <td>1.012</td>
-    <td><a name="1.012"/>AR PL UKai TW (also TW MBE)</td>
+    <td><a name="1.012">AR PL UKai TW (also TW MBE)</a></td>
     <td>UKaiTW, UKaiTWMBE</td>
     <td>2024/11/26<br/>
         <a href="files/font-languages/UKaiTW-languages.tex">languages.tex</a></td>
@@ -449,7 +499,7 @@ the tools I use.</p>-->
 
    <tr>
     <td>1.013</td>
-    <td><a name="1.013"/>AR PL UMing CN</td>
+    <td><a name="1.013">AR PL UMing CN</a></td>
     <td>UMingCN</td>
     <td>2024/10/27<br/>
         <a href="files/font-languages/UMingCN-languages.tex">languages.tex</a></td>
@@ -468,7 +518,7 @@ the tools I use.</p>-->
 
    <tr>
     <td>1.014</td>
-    <td><a name="1.014"/>AR PL UMing HK</td>
+    <td><a name="1.014">AR PL UMing HK</a></td>
     <td>UMingHK</td>
     <td>2024/12/15<br/>
         <a href="files/font-languages/UMingHK-languages.tex">languages.tex</a></td>
@@ -487,7 +537,7 @@ the tools I use.</p>-->
 
    <tr>
     <td>1.015</td>
-    <td><a name="1.015"/>AR PL UMing TW (also TW MBE)</td>
+    <td><a name="1.015">AR PL UMing TW (also TW MBE)</a></td>
     <td>UMingTW, UMingTWMBE</td>
     <td>2024/12/15<br/>
         <a href="files/font-languages/UMingTW-languages.tex">languages.tex</a></td>
@@ -527,7 +577,7 @@ the tools I use.</p>-->
 
    <tr>
     <td>1.016</td>
-    <td><a name="1.016"/>Baekmuk Batang</td>
+    <td><a name="1.016">Baekmuk Batang</a></td>
     <td>Baekmuk-Batang</td>
     <td>2025/01/28<br/>
         <a href="files/font-languages/Baekmuk-Batang-languages.tex">languages.tex</a></td>
@@ -546,7 +596,7 @@ the tools I use.</p>-->
 
    <tr>
    <td>1.017</td>
-    <td><a name="1.017"/>Baekmuk Dotum</td>
+    <td><a name="1.017">Baekmuk Dotum</a></td>
     <td>Baekmuk-Dotum</td>
     <td>2025/01/28<br/>
         <a href="files/font-languages/Baekmuk-Dotum-languages.tex">languages.tex</a></td>
@@ -565,7 +615,7 @@ the tools I use.</p>-->
 
    <tr>
     <td>1.018</td>
-    <td><a name="1.018"/>Baekmuk Gulim</td>
+    <td><a name="1.018">Baekmuk Gulim</a></td>
     <td>Baekmuk-Gulim</td>
     <td>2025/01/28<br/>
         <a href="files/font-languages/Baekmuk-Gulim-languages.tex">languages.tex</a></td>
@@ -584,7 +634,7 @@ the tools I use.</p>-->
 
    <tr>
     <td>1.019</td>
-    <td><a name="1.019"/>Bandal</td>
+    <td><a name="1.019">Bandal</a></td>
     <td>Bandal</td>
     <td>2025/05/06<br/>
         <a href="files/font-languages/Bandal-languages.tex">languages.tex</a></td>
@@ -603,7 +653,7 @@ the tools I use.</p>-->
 
   <tr>
     <td>1.020</td>
-    <td><a name="1.020"/>Bangwool</td>
+    <td><a name="1.020">Bangwool</a></td>
     <td>Bangwool</td>
     <td>2025/05/06<br/>
         <a href="files/font-languages/Bangwool-languages.tex">languages.tex</a></td>
@@ -640,7 +690,7 @@ the tools I use.</p>-->
 
    <tr>
     <td>1.021</td>
-    <td><a name="1.021"/>Cantarell</td>
+    <td><a name="1.021">Cantarell</a></td>
     <td>Cantarell</td>
     <td>2024/07/29<br/>
         <a href="files/font-languages/Cantarell-languages.tex">languages.tex</a></td>
@@ -659,7 +709,7 @@ the tools I use.</p>-->
 
    <tr>
     <td>1.022</td>
-    <td><a name="1.022"/>Charis SIL</td>
+    <td><a name="1.022">Charis SIL</a></td>
     <td>CharisSIL</td>
     <td>2024/08/02<br/>
         <a href="files/font-languages/CharisSIL-languages.tex">languages.tex</a><br/>
@@ -680,7 +730,7 @@ the tools I use.</p>-->
 
    <tr>
     <td>1.023</td>
-    <td><a name="1.023"/>Cousine</td>
+    <td><a name="1.023">Cousine</a></td>
     <td>Cousine</td>
     <td>2024/08/02<br/>
         <a href="files/font-languages/Cousine-languages.tex">languages.tex</a></td>
@@ -699,7 +749,7 @@ the tools I use.</p>-->
 
    <tr>
     <td>1.024</td>
-    <td><a name="1.024"/>DejaVu Sans ‡</td>
+    <td><a name="1.024">DejaVu Sans ‡</a></td>
     <td>DejaVuSans</td>
     <td>2024/08/02<br/>
         <a href="files/font-languages/DejaVuSans-languages.tex">languages.tex</a></td>
@@ -718,7 +768,7 @@ the tools I use.</p>-->
 
    <tr>
     <td>1.025</td>
-    <td><a name="1.025"/>DejaVu Sans Mono</td>
+    <td><a name="1.025">DejaVu Sans Mono</a></td>
     <td>DejaVuSansMono</td>
     <td>2024/08/02<br/>
         <a href="files/font-languages/DejaVuSansMono-languages.tex">languages.tex</a></td>
@@ -755,7 +805,7 @@ the tools I use.</p>-->
 
    <tr>
     <td>1.026</td>
-    <td><a name="1.026"/>DejaVu Serif</td>
+    <td><a name="1.026">DejaVu Serif</a></td>
     <td>DejaVuSerif</td>
     <td>2024/08/02<br/>
         <a href="files/font-languages/DejaVuSerif-languages.tex">languages.tex</a></td>
@@ -774,7 +824,7 @@ the tools I use.</p>-->
 
    <tr>
     <td>1.027</td>
-    <td><a name="1.027"/>Doulos SIL</td>
+    <td><a name="1.027">Doulos SIL</a></td>
     <td>DoulosSIL</td>
     <td>2024/08/02<br/>
         <a href="files/font-languages/DoulosSIL-languages.tex">languages.tex</a><br/>
@@ -795,7 +845,7 @@ the tools I use.</p>-->
 
   <tr>
     <td>1.028</td>
-    <td><a name="1.028"/>Droid Sans Fallback</td>
+    <td><a name="1.028">Droid Sans Fallback</a></td>
     <td>DroidSansFallback</td>
     <td>2024/11/02<br/>
         <a href="files/font-languages/DroidSansFallback-languages.tex">languages.tex</a></td>
@@ -814,7 +864,7 @@ the tools I use.</p>-->
 
    <tr>
     <td>1.029</td>
-    <td><a name="1.029"/>FandolHei</td>
+    <td><a name="1.029">FandolHei</a></td>
     <td>FandolHei</td>
     <td>2024/10/27<br/>
         <a href="files/font-languages/FandolHei-languages.tex">languages.tex</a></td>
@@ -833,7 +883,7 @@ the tools I use.</p>-->
 
    <tr>
     <td>1.030</td>
-    <td><a name="1.030"/>FandolSong</td>
+    <td><a name="1.030">FandolSong</a></td>
     <td>FandolSong</td>
     <td>2024/10/27<br/>
         <a href="files/font-languages/FandolSong-languages.tex">languages.tex</a></td>
@@ -870,7 +920,7 @@ the tools I use.</p>-->
 
    <tr>
     <td>1.031</td>
-    <td><a name="1.031"/>FreeFarsi</td>
+    <td><a name="1.031">FreeFarsi</a></td>
     <td>FreeFarsi</td>
     <td>2016/05/16<br/>
         <a href="files/font-languages/FreeFarsi-languages.tex">languages.tex</a></td>
@@ -889,7 +939,7 @@ the tools I use.</p>-->
 
    <tr>
     <td>1.032</td>
-    <td><a name="1.032"/>FreeFarsi Monospace</td>
+    <td><a name="1.032">FreeFarsi Monospace</a></td>
     <td>FreeFarsi-Mono</td>
     <td>2016/05/16<br/>
         <a href="files/font-languages/FreeFarsi-Mono-languages.tex">languages.tex</a></td>
@@ -908,7 +958,7 @@ the tools I use.</p>-->
 
    <tr>
     <td>1.033</td>
-    <td><a name="1.033"/>FreeMono ‡</td>
+    <td><a name="1.033">FreeMono ‡</a></td>
     <td>FreeMono</td>
     <td>2024/08/02<br/>
         <a href="files/font-languages/FreeMono-languages.tex">languages.tex</a></td>
@@ -927,7 +977,7 @@ the tools I use.</p>-->
 
    <tr>
     <td>1.034</td>
-    <td><a name="1.034"/>FreeSans ‡</td>
+    <td><a name="1.034">FreeSans ‡</a></td>
     <td>FreeSans</td>
     <td>2024/08/02<br/>
         <a href="files/font-languages/FreeSans-languages.tex">languages.tex</a></td>
@@ -946,7 +996,7 @@ the tools I use.</p>-->
 
    <tr>
     <td>1.035</td>
-    <td><a name="1.035"/>FreeSerif ‡</td>
+    <td><a name="1.035">FreeSerif ‡</a></td>
     <td>FreeSerif</td>
     <td>2024/08/02<br/>
         <a href="files/font-languages/FreeSerif-languages.tex">languages.tex</a></td>
@@ -983,7 +1033,7 @@ the tools I use.</p>-->
 
    <tr>
     <td>1.036</td>
-    <td><a name="1.036"/>Gentium Plus</td>
+    <td><a name="1.036">Gentium Plus</a></td>
     <td>GentiumPlus</td>
     <td>2024/08/02<br/>
         <a href="files/font-languages/GentiumPlus-languages.tex">languages.tex</a><br/>
@@ -1004,7 +1054,7 @@ the tools I use.</p>-->
 
    <tr>
     <td>1.037</td>
-    <td><a name="1.037"/>Guseul</td>
+    <td><a name="1.037">Guseul</a></td>
     <td>Guseul</td>
     <td>2016/07/27<br/>
         <a href="files/font-languages/Guseul-languages.tex">languages.tex</a></td>
@@ -1024,7 +1074,7 @@ the tools I use.</p>-->
 
    <tr>
    <td>1.038</td>
-    <td><a name="1.038"/>Hanazono Mincho A</td>
+    <td><a name="1.038">Hanazono Mincho A</a></td>
     <td>HanaMinA</td>
     <td>2024/10/29<br/>
         <a href="files/font-languages/HanaMinA-languages.tex">languages.tex</a></td>
@@ -1044,7 +1094,7 @@ the tools I use.</p>-->
 
    <tr>
     <td>1.039</td>
-    <td><a name="1.039"/>Hanazono Mincho B</td>
+    <td><a name="1.039">Hanazono Mincho B</a></td>
     <td>HanaMinB</td>
     <td>2024/09/15</td>
     <td>Japanese Serif</td>
@@ -1063,7 +1113,7 @@ the tools I use.</p>-->
 
    <tr>
     <td>1.040</td>
-    <td><a name="1.040"/>Harmattan</td>
+    <td><a name="1.040">Harmattan</a></td>
     <td>Harmattan</td>
     <td>2016/06/03<br/>
         <a href="files/font-languages/Harmattan-languages.tex">languages.tex</a></td>
@@ -1100,7 +1150,7 @@ the tools I use.</p>-->
 
    <tr>
     <td>1.041</td>
-    <td><a name="1.041"/>Homa</td>
+    <td><a name="1.041">Homa</a></td>
     <td>homa</td>
     <td>2016/07/27<br/>
         <a href="files/font-languages/homa-languages.tex">languages.tex</a></td>
@@ -1119,7 +1169,7 @@ the tools I use.</p>-->
 
    <tr>
     <td>1.042</td>
-    <td><a name="1.042"/>IBM 3270</td>
+    <td><a name="1.042">IBM 3270</a></td>
     <td>3270</td>
     <td>2024/07/30<br/>
         <a href="files/font-languages/3270-languages.tex">languages.tex</a></td>
@@ -1138,7 +1188,7 @@ the tools I use.</p>-->
 
    <tr>
     <td>1.043</td>
-    <td><a name="1.043"/>Inconsolata</td>
+    <td><a name="1.043">Inconsolata</a></td>
     <td>Inconsolata</td>
     <td>2024/07/25<br/>
         <a href="files/font-languages/Inconsolata-languages.tex">languages.tex</a></td>
@@ -1157,7 +1207,7 @@ the tools I use.</p>-->
 
    <tr>
     <td>1.044</td>
-    <td><a name="1.044"/>IPAexGothic</td>
+    <td><a name="1.044">IPAexGothic</a></td>
     <td>ipaexg</td>
     <td>2024/11/02<br/>
         <a href="files/font-languages/ipaexg-languages.tex">languages.tex</a></td>
@@ -1176,7 +1226,7 @@ the tools I use.</p>-->
 
    <tr>
     <td>1.045</td>
-    <td><a name="1.045"/>IPAexMincho</td>
+    <td><a name="1.045">IPAexMincho</a></td>
     <td>ipaexm</td>
     <td>2024/11/02<br/>
         <a href="files/font-languages/ipaexm-languages.tex">languages.tex</a></td>
@@ -1213,7 +1263,7 @@ the tools I use.</p>-->
 
    <tr>
     <td>1.046</td>
-    <td><a name="1.046"/>KacstOne</td>
+    <td><a name="1.046">KacstOne</a></td>
     <td>KacstOne</td>
     <td>2016/08/02<br/>
         <a href="files/font-languages/KacstOne-languages.tex">languages.tex</a></td>
@@ -1232,7 +1282,7 @@ the tools I use.</p>-->
 
    <tr>
     <td>1.047</td>
-    <td><a name="1.047"/>Kochi Gothic</td>
+    <td><a name="1.047">Kochi Gothic</a></td>
     <td>kochi-gothic-subst</td>
     <td>2024/10/30<br/>
         <a href="files/font-languages/kochi-gothic-subst-languages.tex">languages.tex</a></td>
@@ -1251,7 +1301,7 @@ the tools I use.</p>-->
 
   <tr>
     <td>1.048</td>
-    <td><a name="1.048"/>Kochi Mincho</td>
+    <td><a name="1.048">Kochi Mincho</a></td>
     <td>kochi-mincho-subst</td>
     <td>2024/10/30<br/>
         <a href="files/font-languages/kochi-mincho-subst-languages.tex">languages.tex</a></td>
@@ -1270,7 +1320,7 @@ the tools I use.</p>-->
 
    <tr>
     <td>1.049</td>
-    <td><a name="1.049"/>Lateef</td>
+    <td><a name="1.049">Lateef</a></td>
     <td>Lateef</td>
     <td>2016/08/02<br/>
         <a href="files/font-languages/Lateef-languages.tex">languages.tex</a></td>
@@ -1289,7 +1339,7 @@ the tools I use.</p>-->
 
    <tr>
     <td>1.050</td>
-    <td><a name="1.050"/>Liberation Mono</td>
+    <td><a name="1.050">Liberation Mono</a></td>
     <td>LiberationMono</td>
     <td>2024/08/02<br/>
         <a href="files/font-languages/LiberationMono-languages.tex">languages.tex</a></td>
@@ -1326,7 +1376,7 @@ the tools I use.</p>-->
 
    <tr>
     <td>1.051</td>
-    <td><a name="1.051"/>Liberation Sans</td>
+    <td><a name="1.051">Liberation Sans</a></td>
     <td>LiberationSans</td>
     <td>2024/08/02<br/>
         <a href="files/font-languages/LiberationSans-languages.tex">languages.tex</a></td>
@@ -1345,7 +1395,7 @@ the tools I use.</p>-->
 
    <tr>
     <td>1.052</td>
-    <td><a name="1.052"/>Liberation Serif</td>
+    <td><a name="1.052">Liberation Serif</a></td>
     <td>LiberationSerif</td>
     <td>2024/08/02<br/>
         <a href="files/font-languages/LiberationSerif-languages.tex">languages.tex</a></td>
@@ -1364,7 +1414,7 @@ the tools I use.</p>-->
 
    <tr>
     <td>1.053</td>
-    <td><a name="1.053"/>Libertinus Serif</td>
+    <td><a name="1.053">Libertinus Serif</a></td>
     <td>LibertinusSerif</td>
     <td>2024/08/02<br/>
         <a href="files/font-languages/LibertinusSerif-languages.tex">languages.tex</a><br/>
@@ -1385,7 +1435,7 @@ the tools I use.</p>-->
 
    <tr>
     <td>1.054</td>
-    <td><a name="1.054"/>Libertinus Mono</td>
+    <td><a name="1.054">Libertinus Mono</a></td>
     <td>LibertinusMono</td>
     <td>2024/07/26<br/>
         <a href="files/font-languages/LibertinusMono-languages.tex">languages.tex</a></td>
@@ -1404,7 +1454,7 @@ the tools I use.</p>-->
 
    <tr>
     <td>1.055</td>
-    <td><a name="1.055"/>Lohit Assamese</td>
+    <td><a name="1.055">Lohit Assamese</a></td>
     <td>Lohit-Assamese</td>
     <td>2016/06/22<br/>
         <a href="files/font-languages/Lohit-Assamese-languages.tex">languages.tex</a></td>
@@ -1441,7 +1491,7 @@ the tools I use.</p>-->
 
    <tr>
     <td>1.056</td>
-    <td><a name="1.056"/>Lohit Bengali</td>
+    <td><a name="1.056">Lohit Bengali</a></td>
     <td>Lohit-Bengali</td>
     <td>2016/06/22<br/>
         <a href="files/font-languages/Lohit-Bengali-languages.tex">languages.tex</a></td>
@@ -1460,7 +1510,7 @@ the tools I use.</p>-->
 
    <tr>
     <td>1.057</td>
-    <td><a name="1.057"/>Lohit Devanagari</td>
+    <td><a name="1.057">Lohit Devanagari</a></td>
     <td>Lohit-Devanagari</td>
     <td>2016/06/22<br/>
         <a href="files/font-languages/Lohit-Devanagari-languages.tex">languages.tex</a></td>
@@ -1479,7 +1529,7 @@ the tools I use.</p>-->
 
    <tr>
     <td>1.058</td>
-    <td><a name="1.058"/>Lohit Gujarati</td>
+    <td><a name="1.058">Lohit Gujarati</a></td>
     <td>Lohit-Gujarati</td>
     <td>2016/06/22<br/>
         <a href="files/font-languages/Lohit-Gujarati-languages.tex">languages.tex</a></td>
@@ -1498,7 +1548,7 @@ the tools I use.</p>-->
 
    <tr>
     <td>1.059</td>
-    <td><a name="1.059"/>Lohit Kannada</td>
+    <td><a name="1.059">Lohit Kannada</a></td>
     <td>Lohit-Kannada</td>
     <td>2016/06/22<br/>
         <a href="files/font-languages/Lohit-Kannada-languages.tex">languages.tex</a></td>
@@ -1517,7 +1567,7 @@ the tools I use.</p>-->
 
    <tr>
     <td>1.060</td>
-    <td><a name="1.060"/>Lohit Malayalam</td>
+    <td><a name="1.060">Lohit Malayalam</a></td>
     <td>Lohit-Malayalam</td>
     <td>2016/06/22<br/>
         <a href="files/font-languages/Lohit-Malayalam-languages.tex">languages.tex</a></td>
@@ -1554,7 +1604,7 @@ the tools I use.</p>-->
 
    <tr>
     <td>1.061</td>
-    <td><a name="1.061"/>Lohit Marathi</td>
+    <td><a name="1.061">Lohit Marathi</a></td>
     <td>Lohit-Marathi</td>
     <td>2016/06/22<br/>
         <a href="files/font-languages/Lohit-Marathi-languages.tex">languages.tex</a></td>
@@ -1573,7 +1623,7 @@ the tools I use.</p>-->
 
    <tr>
     <td>1.062</td>
-    <td><a name="1.062"/>Lohit Oriya</td>
+    <td><a name="1.062">Lohit Oriya</a></td>
     <td>Lohit-Oriya</td>
     <td>2016/06/23<br/>
         <a href="files/font-languages/Lohit-Oriya-languages.tex">languages.tex</a></td>
@@ -1592,7 +1642,7 @@ the tools I use.</p>-->
 
    <tr>
     <td>1.063</td>
-    <td><a name="1.063"/>Lohit Punjabi</td>
+    <td><a name="1.063">Lohit Punjabi</a></td>
     <td>Lohit-Punjabi</td>
     <td>2016/06/23<br/>
         <a href="files/font-languages/Lohit-Punjabi-languages.tex">languages.tex</a></td>
@@ -1611,7 +1661,7 @@ the tools I use.</p>-->
 
    <tr>
     <td>1.064</td>
-    <td><a name="1.064"/>Lohit Tamil</td>
+    <td><a name="1.064">Lohit Tamil</a></td>
     <td>Lohit-Tamil</td>
     <td>2016/07/29<br/>
         <a href="files/font-languages/Lohit-Tamil-languages.tex">languages.tex</a></td>
@@ -1630,7 +1680,7 @@ the tools I use.</p>-->
 
    <tr>
     <td>1.065</td>
-    <td><a name="1.065"/>Lohit Telugu ‡</td>
+    <td><a name="1.065">Lohit Telugu ‡</a></td>
     <td>Lohit-Telugu</td>
     <td>2016/07/14<br/>
         <a href="files/font-languages/Lohit-Telugu-languages.tex">languages.tex</a></td>
@@ -1668,7 +1718,7 @@ the tools I use.</p>-->
 
    <tr>
     <td>1.066</td>
-    <td><a name="1.066"/>Luxi Mono</td>
+    <td><a name="1.066">Luxi Mono</a></td>
     <td>luximr</td>
     <td>2024/07/27<br/>
         <a href="files/font-languages/luximr-languages.tex">languages.tex</a></td>
@@ -1687,7 +1737,7 @@ the tools I use.</p>-->
 
    <tr>
     <td>1.067</td>
-    <td><a name="1.067"/>Luxi Serif</td>
+    <td><a name="1.067">Luxi Serif</a></td>
     <td>luxirr</td>
     <td>2024/07/27<br/>
         <a href="files/font-languages/luxirr-languages.tex">languages.tex</a></td>
@@ -1706,7 +1756,7 @@ the tools I use.</p>-->
 
    <tr>
     <td>1.068</td>
-    <td><a name="1.068"/>Luxi Sans</td>
+    <td><a name="1.068">Luxi Sans</a></td>
     <td>luxisr</td>
     <td>2024/07/27<br/>
         <a href="files/font-languages/luxisr-languages.tex">languages.tex</a></td>
@@ -1725,7 +1775,7 @@ the tools I use.</p>-->
 
    <tr>
     <td>1.069</td>
-    <td><a name="1.069"/>NanumGothic</td>
+    <td><a name="1.069">NanumGothic</a></td>
     <td>NanumGothic</td>
     <td>2025/02/01<br/>
         <a href="files/font-languages/NanumGothic-languages.tex">languages.tex</a></td>
@@ -1744,7 +1794,7 @@ the tools I use.</p>-->
 
    <tr>
     <td>1.070</td>
-    <td><a name="1.070"/>NanumMyeongjo</td>
+    <td><a name="1.070">NanumMyeongjo</a></td>
     <td>NanumMyeongjo</td>
     <td>2025/02/01<br/>
         <a href="files/font-languages/NanumMyeongjo-languages.tex">languages.tex</a></td>
@@ -1781,7 +1831,7 @@ the tools I use.</p>-->
 
    <tr>
     <td>1.071</td>
-    <td><a name="1.071"/>Nazli</td>
+    <td><a name="1.071">Nazli</a></td>
     <td>nazli</td>
     <td>2016/06/22<br/>
         <a href="files/font-languages/nazli-languages.tex">languages.tex</a></td>
@@ -1800,7 +1850,7 @@ the tools I use.</p>-->
 
    <tr>
     <td>1.072</td>
-    <td><a name="1.072"/>Noto Emoji</td>
+    <td><a name="1.072">Noto Emoji</a></td>
     <td>NotoEmoji</td>
     <td>(2016/06/22)</td>
     <td>Emoji</td>
@@ -1818,7 +1868,7 @@ the tools I use.</p>-->
 
    <tr>
     <td>1.073</td>
-    <td><a name="1.073"/>Noto Kufi Arabic</td>
+    <td><a name="1.073">Noto Kufi Arabic</a></td>
     <td>NotoKufiArabic</td>
     <td>2016/08/02<br/>
         <a href="files/font-languages/NotoKufiArabic-languages.tex">languages.tex</a></td>
@@ -1837,7 +1887,7 @@ the tools I use.</p>-->
 
    <tr>
     <td>1.074</td>
-    <td><a name="1.074"/>Noto Naskh Arabic</td>
+    <td><a name="1.074">Noto Naskh Arabic</a></td>
     <td>NotoNaskhArabic</td>
     <td>2016/08/02<br/>
         <a href="files/font-languages/NotoNaskhArabic-languages.tex">languages.tex</a></td>
@@ -1856,7 +1906,7 @@ the tools I use.</p>-->
 
    <tr>
     <td>1.075</td>
-    <td><a name="1.075"/>Noto Nastaliq Urdu</td>
+    <td><a name="1.075">Noto Nastaliq Urdu</a></td>
     <td>NotoNastaliqUrdu</td>
     <td>2016/08/02<br/>
         <a href="files/font-languages/NotoNastaliqUrdu-languages.tex">languages.tex</a></td>
@@ -1893,7 +1943,7 @@ the tools I use.</p>-->
 
    <tr>
     <td>1.076</td>
-    <td><a name="1.076"/>Noto Sans</td>
+    <td><a name="1.076">Noto Sans</a></td>
     <td>NotoSans</td>
     <td>2025/05/09<br/>
         <a href="files/font-languages/NotoSans-languages.tex">languages.tex</a><br/>
@@ -1914,7 +1964,7 @@ the tools I use.</p>-->
 
    <tr>
     <td>1.077</td>
-    <td><a name="1.077"/>Noto Sans Armenian</td>
+    <td><a name="1.077">Noto Sans Armenian</a></td>
     <td>NotoSansArmenian</td>
     <td>2016/07/17<br/>
         <a href="files/font-languages/NotoSansArmenian-languages.tex">languages.tex</a></td>
@@ -1933,7 +1983,7 @@ the tools I use.</p>-->
 
    <tr>
     <td>1.078</td>
-    <td><a name="1.078"/>Noto Sans Bengali</td>
+    <td><a name="1.078">Noto Sans Bengali</a></td>
     <td>NotoSansBengali</td>
     <td>2016/06/22<br/>
         <a href="files/font-languages/NotoSansBengali-languages.tex">languages.tex</a></td>
@@ -1952,7 +2002,7 @@ the tools I use.</p>-->
 
    <tr>
     <td>1.079</td>
-    <td><a name="1.079"/>Noto Sans Canadian Aboriginal</td>
+    <td><a name="1.079">Noto Sans Canadian Aboriginal</a></td>
     <td>NotoSansCanadianAboriginal</td>
     <td>2016/07/29<br/>
         <a href="files/font-languages/NotoSansCanadianAboriginal-languages.tex">languages.tex</a></td>
@@ -1971,7 +2021,7 @@ the tools I use.</p>-->
 
    <tr>
     <td>1.080</td>
-    <td><a name="1.080"/>Noto Sans Cherokee</td>
+    <td><a name="1.080">Noto Sans Cherokee</a></td>
     <td>NotoSansCherokee</td>
     <td>2016/07/20<br/>
         <a href="files/font-languages/NotoSansCherokee-languages.tex">languages.tex</a></td>
@@ -2008,7 +2058,7 @@ the tools I use.</p>-->
 
    <tr>
     <td>1.081</td>
-    <td><a name="1.081"/>Noto Sans CJK JP</td>
+    <td><a name="1.081">Noto Sans CJK JP</a></td>
     <td>NotoSansCJKjp</td>
     <td>2024/08/22<br/>
         <a href="files/font-languages/NotoSansCJKjp-languages.tex">languages.tex</a></td>
@@ -2027,7 +2077,7 @@ the tools I use.</p>-->
 
    <tr>
     <td>1.082</td>
-    <td><a name="1.082"/>Noto Sans CJK KR</td>
+    <td><a name="1.082">Noto Sans CJK KR</a></td>
     <td>NotoSansCJKkr</td>
     <td>2025/02/08<br/>
         <a href="files/font-languages/NotoSansCJKkr-languages.tex">languages.tex</a></td>
@@ -2046,7 +2096,7 @@ the tools I use.</p>-->
 
    <tr>
     <td>1.083</td>
-    <td><a name="1.083"/>Noto Sans CJK SC</td>
+    <td><a name="1.083">Noto Sans CJK SC</a></td>
     <td>NotoSansCJKsc</td>
     <td>2024/10/27<br/>
         <a href="files/font-languages/NotoSansCJKsc-languages.tex">languages.tex</a></td>
@@ -2065,7 +2115,7 @@ the tools I use.</p>-->
 
    <tr>
     <td>1.084</td>
-    <td><a name="1.084"/>Noto Sans CJK TC</td>
+    <td><a name="1.084">Noto Sans CJK TC</a></td>
     <td>NotoSansCJKtc</td>
     <td>2024/11/26<br/>
         <a href="files/font-languages/NotoSansCJKtc-languages.tex">languages.tex</a></td>
@@ -2084,7 +2134,7 @@ the tools I use.</p>-->
 
    <tr>
     <td>1.085</td>
-    <td><a name="1.085"/>Noto Sans Devanagari</td>
+    <td><a name="1.085">Noto Sans Devanagari</a></td>
     <td>NotoSansDevanagari</td>
     <td>2016/06/27<br/>
         <a href="files/font-languages/NotoSansDevanagari-languages.tex">languages.tex</a></td>
@@ -2121,7 +2171,7 @@ the tools I use.</p>-->
 
    <tr>
     <td>1.086</td>
-    <td><a name="1.086"/>Noto Sans Ethiopic</td>
+    <td><a name="1.086">Noto Sans Ethiopic</a></td>
     <td>NotoSansEthiopic</td>
     <td>2016/07/20<br/>
         <a href="files/font-languages/NotoSansEthiopic-languages.tex">languages.tex</a></td>
@@ -2140,7 +2190,7 @@ the tools I use.</p>-->
 
    <tr>
     <td>1.087</td>
-    <td><a name="1.087"/>Noto Sans Georgian</td>
+    <td><a name="1.087">Noto Sans Georgian</a></td>
     <td>NotoSansGeorgian</td>
     <td>2016/07/18<br/>
         <a href="files/font-languages/NotoSansGeorgian-languages.tex">languages.tex</a></td>
@@ -2159,7 +2209,7 @@ the tools I use.</p>-->
 
    <tr>
     <td>1.088</td>
-    <td><a name="1.088"/>Noto Sans Gujarati</td>
+    <td><a name="1.088">Noto Sans Gujarati</a></td>
     <td>NotoSansGujarati</td>
     <td>2016/07/30<br/>
         <a href="files/font-languages/NotoSansGujarati-languages.tex">languages.tex</a></td>
@@ -2178,7 +2228,7 @@ the tools I use.</p>-->
 
    <tr>
     <td>1.089</td>
-    <td><a name="1.089"/>Noto Sans Gurmukhi</td>
+    <td><a name="1.089">Noto Sans Gurmukhi</a></td>
     <td>NotoSansGurmukhi</td>
     <td>2016/06/30<br/>
         <a href="files/font-languages/NotoSansGurmukhi-languages.tex">languages.tex</a></td>
@@ -2197,7 +2247,7 @@ the tools I use.</p>-->
 
   <tr>
     <td>1.090</td>
-    <td><a name="1.090"/>Noto Sans Hebrew</td>
+    <td><a name="1.090">Noto Sans Hebrew</a></td>
     <td>NotoSansHebrew</td>
     <td>2023/10/13<br/>
         <a href="files/font-languages/NotoSansHebrew-languages.tex">languages.tex</a></td>
@@ -2234,7 +2284,7 @@ the tools I use.</p>-->
 
    <tr>
     <td>1.091</td>
-    <td><a name="1.091"/>Noto Sans Kannada ‡</td>
+    <td><a name="1.091">Noto Sans Kannada ‡</a></td>
     <td>NotoSansKannada</td>
     <td>2016/06/30<br/>
         <a href="files/font-languages/NotoSansKannada-languages.tex">languages.tex</a></td>
@@ -2253,7 +2303,7 @@ the tools I use.</p>-->
 
    <tr>
     <td>1.092</td>
-    <td><a name="1.092"/>Noto Sans Khmer ‡</td>
+    <td><a name="1.092">Noto Sans Khmer ‡</a></td>
     <td>NotoSansKhmer</td>
     <td>2016/07/30<br/>
         <a href="files/font-languages/NotoSansKhmer-languages.tex">languages.tex</a></td>
@@ -2272,7 +2322,7 @@ the tools I use.</p>-->
 
    <tr>
     <td>1.093</td>
-    <td><a name="1.093"/>Noto Sans Lao</td>
+    <td><a name="1.093">Noto Sans Lao</a></td>
     <td>NotoSansLao</td>
     <td>2016/07/18<br/>
         <a href="files/font-languages/NotoSansLao-languages.tex">languages.tex</a></td>
@@ -2291,7 +2341,7 @@ the tools I use.</p>-->
 
    <tr>
     <td>1.094</td>
-    <td><a name="1.094"/>Noto Sans Malayalam</td>
+    <td><a name="1.094">Noto Sans Malayalam</a></td>
     <td>NotoSansMalayalam</td>
     <td>2016/07/01<br/>
         <a href="files/font-languages/NotoSansMalayalam-languages.tex">languages.tex</a></td>
@@ -2310,7 +2360,7 @@ the tools I use.</p>-->
 
    <tr>
     <td>1.095</td>
-    <td><a name="1.095"/>Noto Sans Mongolian</td>
+    <td><a name="1.095">Noto Sans Mongolian</a></td>
     <td>NotoSansMongolian</td>
     <td>2016/07/20<br/>
         <a href="files/font-languages/NotoSansMongolian-languages.tex">languages.tex</a></td>
@@ -2347,7 +2397,7 @@ the tools I use.</p>-->
 
    <tr>
     <td>1.096</td>
-    <td><a name="1.096"/>Noto Sans Mono CJK JP</td>
+    <td><a name="1.096">Noto Sans Mono CJK JP</a></td>
     <td>NotoSansMonoCJKjp</td>
     <td>2024/10/28<br/>
         <a href="files/font-languages/NotoSansMonoCJKjp-languages.tex">languages.tex</a></td>
@@ -2366,7 +2416,7 @@ the tools I use.</p>-->
 
    <tr>
     <td>1.097</td>
-    <td><a name="1.097"/>Noto Sans Mono CJK KR</td>
+    <td><a name="1.097">Noto Sans Mono CJK KR</a></td>
     <td>NotoSansMonoCJKkr</td>
     <td>2024/10/27<br/>
         <a href="files/font-languages/NotoSansMonoCJKkr-languages.tex">languages.tex</a></td>
@@ -2385,7 +2435,7 @@ the tools I use.</p>-->
 
    <tr>
     <td>1.098</td>
-    <td><a name="1.098"/>Noto Sans Mono CJK SC</td>
+    <td><a name="1.098">Noto Sans Mono CJK SC</a></td>
     <td>NotoSansMonoCJKsc</td>
     <td>2024/10/28<br/>
         <a href="files/font-languages/NotoSansMonoCJKsc-languages.tex">languages.tex</a></td>
@@ -2404,7 +2454,7 @@ the tools I use.</p>-->
 
    <tr>
     <td>1.099</td>
-    <td><a name="1.099"/>Noto Sans Mono CJK TC</td>
+    <td><a name="1.099">Noto Sans Mono CJK TC</a></td>
     <td>NotoSansMonoCJKtc</td>
     <td>2024/11/26<br/>
         <a href="files/font-languages/NotoSansMonoCJKtc-languages.tex">languages.tex</a></td>
@@ -2423,7 +2473,7 @@ the tools I use.</p>-->
 
    <tr>
     <td>1.100</td>
-    <td><a name="1.100"/>Noto Sans Myanmar</td>
+    <td><a name="1.100">Noto Sans Myanmar</a></td>
     <td>NotoSansMyanmar</td>
     <td>2016/07/01<br/>
         <a href="files/font-languages/NotoSansMyanmar-languages.tex">languages.tex</a></td>
@@ -2460,7 +2510,7 @@ the tools I use.</p>-->
 
    <tr>
     <td>1.101</td>
-    <td><a name="1.101"/>Noto Sans Oriya</td>
+    <td><a name="1.101">Noto Sans Oriya</a></td>
     <td>NotoSansOriya</td>
     <td>2016/07/01<br/>
         <a href="files/font-languages/NotoSansOriya-languages.tex">languages.tex</a></td>
@@ -2479,7 +2529,7 @@ the tools I use.</p>-->
 
    <tr>
     <td>1.102</td>
-    <td><a name="1.102"/>Noto Sans Sinhala</td>
+    <td><a name="1.102">Noto Sans Sinhala</a></td>
     <td>NotoSansSinhala</td>
     <td>2016/07/02<br/>
         <a href="files/font-languages/NotoSansSinhala-languages.tex">languages.tex</a></td>
@@ -2498,7 +2548,7 @@ the tools I use.</p>-->
 
    <tr>
     <td>1.103</td>
-    <td><a name="1.103"/>Noto Sans Symbols ‡</td>
+    <td><a name="1.103">Noto Sans Symbols ‡</a></td>
     <td>NotoSansSymbols</td>
     <td>2016/07/02<br/>
         <a href="files/font-languages/NotoSansSymbols-languages.tex">languages.tex</a></td>
@@ -2517,7 +2567,7 @@ the tools I use.</p>-->
 
    <tr>
     <td>1.104</td>
-    <td><a name="1.104"/>Noto Sans Syriac Eastern</td>
+    <td><a name="1.104">Noto Sans Syriac Eastern</a></td>
     <td>NotoSansSyriacEastern</td>
     <td>2016/07/31<br/>
         <a href="files/font-languages/NotoSansSyriacEastern-languages.tex">languages.tex</a></td>
@@ -2536,7 +2586,7 @@ the tools I use.</p>-->
 
    <tr>
     <td>1.105</td>
-    <td><a name="1.105"/>Noto Sans Tamil</td>
+    <td><a name="1.105">Noto Sans Tamil</a></td>
     <td>NotoSansTamil</td>
     <td>2016/07/14<br/>
         <a href="files/font-languages/NotoSansTamil-languages.tex">languages.tex</a></td>
@@ -2573,7 +2623,7 @@ the tools I use.</p>-->
 
    <tr>
     <td>1.106</td>
-    <td><a name="1.106"/>Noto Sans Telugu</td>
+    <td><a name="1.106">Noto Sans Telugu</a></td>
     <td>NotoSansTelugu</td>
     <td>2016/07/14<br/>
         <a href="files/font-languages/NotoSansTelugu-languages.tex">languages.tex</a></td>
@@ -2592,7 +2642,7 @@ the tools I use.</p>-->
 
    <tr>
     <td>1.107</td>
-    <td><a name="1.107"/>Noto Sans Thaana</td>
+    <td><a name="1.107">Noto Sans Thaana</a></td>
     <td>NotoSansThaana</td>
     <td>2016/07/14<br/>
         <a href="files/font-languages/NotoSansThaana-languages.tex">languages.tex</a></td>
@@ -2611,7 +2661,7 @@ the tools I use.</p>-->
 
    <tr>
     <td>1.108</td>
-    <td><a name="1.108"/>Noto Sans Thai</td>
+    <td><a name="1.108">Noto Sans Thai</a></td>
     <td>NotoSansThai</td>
     <td>2016/07/14<br/>
         <a href="files/font-languages/NotoSansThai-languages.tex">languages.tex</a></td>
@@ -2630,7 +2680,7 @@ the tools I use.</p>-->
 
    <tr>
     <td>1.109</td>
-    <td><a name="1.109"/>Noto Sans Tibetan ‡</td>
+    <td><a name="1.109">Noto Sans Tibetan ‡</a></td>
     <td>NotoSansTibetan</td>
     <td>2016/07/14<br/>
         <a href="files/font-languages/NotoSansTibetan-languages.tex">languages.tex</a></td>
@@ -2649,7 +2699,7 @@ the tools I use.</p>-->
 
    <tr>
     <td>1.110</td>
-    <td><a name="1.110"/>Noto Sans Tifinagh</td>
+    <td><a name="1.110">Noto Sans Tifinagh</a></td>
     <td>NotoSansTifinagh</td>
     <td>2016/07/14<br/>
         <a href="files/font-languages/NotoSansTifinagh-languages.tex">languages.tex</a></td>
@@ -2686,7 +2736,7 @@ the tools I use.</p>-->
 
    <tr>
     <td>1.111</td>
-    <td><a name="1.111"/>Noto Sans Vai</td>
+    <td><a name="1.111">Noto Sans Vai</a></td>
     <td>NotoSansVai</td>
     <td>2016/07/14<br/>
         <a href="files/font-languages/NotoSansVai-languages.tex">languages.tex</a></td>
@@ -2705,7 +2755,7 @@ the tools I use.</p>-->
 
    <tr>
     <td>1.112</td>
-    <td><a name="1.112"/>Noto Sans Yi</td>
+    <td><a name="1.112">Noto Sans Yi</a></td>
     <td>NotoSansYi</td>
     <td>2016/07/14<br/>
         <a href="files/font-languages/NotoSansYi-languages.tex">languages.tex</a></td>
@@ -2724,7 +2774,7 @@ the tools I use.</p>-->
 
    <tr>
     <td>1.113</td>
-    <td><a name="1.113"/>Noto Serif</td>
+    <td><a name="1.113">Noto Serif</a></td>
     <td>NotoSerif</td>
     <td>2025/05/09<br/>
         <a href="files/font-languages/NotoSerif-languages.tex">languages.tex</a><br/>
@@ -2745,7 +2795,7 @@ the tools I use.</p>-->
 
    <tr>
     <td>1.114</td>
-    <td><a name="1.114"/>Noto Serif Armenian</td>
+    <td><a name="1.114">Noto Serif Armenian</a></td>
     <td>NotoSerifArmenian</td>
     <td>2016/07/17<br/>
         <a href="files/font-languages/NotoSerifArmenian-languages.tex">languages.tex</a></td>
@@ -2764,7 +2814,7 @@ the tools I use.</p>-->
 
    <tr>
     <td>1.115</td>
-    <td><a name="1.115"/>Noto Serif Georgian</td>
+    <td><a name="1.115">Noto Serif Georgian</a></td>
     <td>NotoSerifGeorgian</td>
     <td>2016/07/18<br/>
         <a href="files/font-languages/NotoSerifGeorgian-languages.tex">languages.tex</a></td>
@@ -2801,7 +2851,7 @@ the tools I use.</p>-->
 
    <tr>
     <td>1.116</td>
-    <td><a name="1.116"/>Noto Serif Khmer</td>
+    <td><a name="1.116">Noto Serif Khmer</a></td>
     <td>NotoSerifKhmer</td>
     <td>2016/07/18<br/>
         <a href="files/font-languages/NotoSerifKhmer-languages.tex">languages.tex</a></td>
@@ -2820,7 +2870,7 @@ the tools I use.</p>-->
 
    <tr>
     <td>1.117</td>
-    <td><a name="1.117"/>Noto Serif Lao</td>
+    <td><a name="1.117">Noto Serif Lao</a></td>
     <td>NotoSerifLao</td>
     <td>2016/07/31<br/>
         <a href="files/font-languages/NotoSerifLao-languages.tex">languages.tex</a></td>
@@ -2839,7 +2889,7 @@ the tools I use.</p>-->
 
    <tr>
     <td>1.118</td>
-    <td><a name="1.118"/>Noto Serif Thai</td>
+    <td><a name="1.118">Noto Serif Thai</a></td>
     <td>NotoSerifThai</td>
     <td>2016/07/20<br/>
         <a href="files/font-languages/NotoSerifThai-languages.tex">languages.tex</a></td>
@@ -2858,7 +2908,7 @@ the tools I use.</p>-->
 
    <tr>
     <td>1.119</td>
-    <td><a name="1.119"/>Oxygen Mono</td>
+    <td><a name="1.119">Oxygen Mono</a></td>
     <td>OxygenMono</td>
     <td>2024/07/24<br/>
         <a href="files/font-languages/OxygenMono-languages.tex">languages.tex</a></td>
@@ -2877,7 +2927,7 @@ the tools I use.</p>-->
 
    <tr>
     <td>1.120</td>
-    <td><a name="1.120"/>Oxygen</td>
+    <td><a name="1.120">Oxygen</a></td>
     <td>Oxygen-Sans</td>
     <td>2024/07/30<br/>
         <a href="files/font-languages/Oxygen-Sans-languages.tex">languages.tex</a></td>
@@ -2914,7 +2964,7 @@ the tools I use.</p>-->
 
    <tr>
     <td>1.121</td>
-    <td><a name="1.121"/>Padauk Book</td>
+    <td><a name="1.121">Padauk Book</a></td>
     <td>PadaukBook</td>
     <td>2016/07/21<br/>
         <a href="files/font-languages/PadaukBook-languages.tex">languages.tex</a></td>
@@ -2933,7 +2983,7 @@ the tools I use.</p>-->
 
    <tr>
     <td>1.122</td>
-    <td><a name="1.122"/>Padauk ‡</td>
+    <td><a name="1.122">Padauk ‡</a></td>
     <td>Padauk</td>
     <td>2016/07/21<br/>
         <a href="files/font-languages/Padauk-languages.tex">languages.tex</a></td>
@@ -2952,7 +3002,7 @@ the tools I use.</p>-->
 
    <tr>
     <td>1.123</td>
-    <td><a name="1.123"/>Sawarabi Gothic</td>
+    <td><a name="1.123">Sawarabi Gothic</a></td>
     <td>SawarabiGothic</td>
     <td>2024/10/30<br/>
         <a href="files/font-languages/SawarabiGothic-languages.tex">languages.tex</a></td>
@@ -2971,7 +3021,7 @@ the tools I use.</p>-->
 
    <tr>
     <td>1.124</td>
-    <td><a name="1.124"/>Sawarabi Mincho</td>
+    <td><a name="1.124">Sawarabi Mincho</a></td>
     <td>SawarabiMincho</td>
     <td>2024/10/10<br/>
         <a href="files/font-languages/SawarabiMincho-languages.tex">languages.tex</a></td>
@@ -2990,7 +3040,7 @@ the tools I use.</p>-->
 
    <tr>
     <td>1.125</td>
-    <td><a name="1.125"/>Scheherazade ‡</td>
+    <td><a name="1.125">Scheherazade ‡</a></td>
     <td>Scheherazade</td>
     <td>2016/08/02<br/>
         <a href="files/font-languages/Scheherazade-languages.tex">languages.tex</a></td>
@@ -3027,7 +3077,7 @@ the tools I use.</p>-->
 
    <tr>
     <td>1.126</td>
-    <td><a name="1.126"/>Terminus (TTF)</td>
+    <td><a name="1.126">Terminus (TTF)</a></td>
     <td>TerminusTTF</td>
     <td>2024/08/01<br/>
         <a href="files/font-languages/TerminusTTF-languages.tex">languages.tex</a></td>
@@ -3046,7 +3096,7 @@ the tools I use.</p>-->
 
    <tr>
     <td>1.127</td>
-    <td><a name="1.127"/>Tinos</td>
+    <td><a name="1.127">Tinos</a></td>
     <td>Tinos</td>
     <td>2024/08/02<br/>
         <a href="files/font-languages/Tinos-languages.tex">languages.tex</a></td>
@@ -3065,7 +3115,7 @@ the tools I use.</p>-->
 
    <tr>
     <td>1.128</td>
-    <td><a name="1.128"/>Tymes</td>
+    <td><a name="1.128">Tymes</a></td>
     <td>Tymes</td>
     <td>2024/08/01<br/>
         <a href="files/font-languages/Tymes-languages.tex">languages.tex</a></td>
@@ -3084,7 +3134,7 @@ the tools I use.</p>-->
 
    <tr>
     <td>1.129</td>
-    <td><a name="1.129"/>Ubuntu</td>
+    <td><a name="1.129">Ubuntu</a></td>
     <td>Ubuntu</td>
     <td>2024/08/01<br/>
         <a href="files/font-languages/Ubuntu-languages.tex">languages.tex</a></td>
@@ -3103,7 +3153,7 @@ the tools I use.</p>-->
 
    <tr>
     <td>1.130</td>
-    <td><a name="1.130"/>Ubuntu Mono</td>
+    <td><a name="1.130">Ubuntu Mono</a></td>
     <td>UbuntuMono</td>
     <td>2024/08/01<br/>
         <a href="files/font-languages/UbuntuMono-languages.tex">languages.tex</a></td>
@@ -3140,7 +3190,7 @@ the tools I use.</p>-->
 
    <tr>
     <td>1.131</td>
-    <td><a name="1.131"/>Ume Hy Gothic O5</td>
+    <td><a name="1.131">Ume Hy Gothic O5</a></td>
     <td>ume-hgo5</td>
     <td>2024/11/05<br/>
         <a href="files/font-languages/ume-hgo5-languages.tex">languages.tex</a></td>
@@ -3159,7 +3209,7 @@ the tools I use.</p>-->
 
    <tr>
     <td>1.132</td>
-    <td><a name="1.132"/>Ume Mincho</td>
+    <td><a name="1.132">Ume Mincho</a></td>
     <td>ume-tmo3</td>
     <td>2024/10/29<br/>
         <a href="files/font-languages/ume-tmo3-languages.tex">languages.tex</a></td>
@@ -3178,7 +3228,7 @@ the tools I use.</p>-->
 
    <tr>
     <td>1.133</td>
-    <td><a name="1.133"/>Ume UI Gothic</td>
+    <td><a name="1.133">Ume UI Gothic</a></td>
     <td>ume-ugo4</td>
     <td>2024/10/29<br/>
         <a href="files/font-languages/ume-ugo4-languages.tex">languages.tex</a></td>
@@ -3197,7 +3247,7 @@ the tools I use.</p>-->
 
    <tr>
     <td>1.134</td>
-    <td><a name="1.134"/>UnBatang</td>
+    <td><a name="1.134">UnBatang</a></td>
     <td>UnBatang</td>
     <td>2025/02/04<br/>
         <a href="files/font-languages/UnBatang-languages.tex">languages.tex</a></td>
@@ -3216,7 +3266,7 @@ the tools I use.</p>-->
 
    <tr>
     <td>1.135</td>
-    <td><a name="1.135"/>UnDotum</td>
+    <td><a name="1.135">UnDotum</a></td>
     <td>UnDotum</td>
     <td>2025/02/05<br/>
         <a href="files/font-languages/UnDotum-languages.tex">languages.tex</a></td>
@@ -3253,7 +3303,7 @@ the tools I use.</p>-->
 
    <tr>
     <td>1.136</td>
-    <td><a name="1.136"/>UnGraphic</td>
+    <td><a name="1.136">UnGraphic</a></td>
     <td>UnGraphic</td>
     <td>2025/02/06<br/>
         <a href="files/font-languages/UnGraphic-languages.tex">languages.tex</a></td>
@@ -3272,7 +3322,7 @@ the tools I use.</p>-->
 
    <tr>
     <td>1.137</td>
-    <td><a name="1.137"/>Veranda</td>
+    <td><a name="1.137">Veranda</a></td>
     <td>Veranda</td>
     <td>2024/08/01<br/>
         <a href="files/font-languages/Veranda-languages.tex">languages.tex</a></td>
@@ -3291,7 +3341,7 @@ the tools I use.</p>-->
 
    <tr>
     <td>1.138</td>
-    <td><a name="1.138"/>VL Gothic</td>
+    <td><a name="1.138">VL Gothic</a></td>
     <td>VL-Gothic</td>
     <td>2024/10/29<br/>
         <a href="files/font-languages/VL-Gothic-languages.tex">languages.tex</a></td>
@@ -3310,7 +3360,7 @@ the tools I use.</p>-->
 
    <tr>
     <td>1.139</td>
-    <td><a name="1.139"/>WenQuanYi Zen Hei</td>
+    <td><a name="1.139">WenQuanYi Zen Hei</a></td>
     <td>WenQuanYiZenHei</td>
     <td>2025/05/09<br/>
         <a href="files/font-languages/WenQuanYiZenHei-languages.tex">languages.tex</a></td>
@@ -3329,7 +3379,7 @@ the tools I use.</p>-->
 
    <tr>
     <td>1.140</td>
-    <td><a name="1.140"/>WenQuanYi Zen Hei Mono</td>
+    <td><a name="1.140">WenQuanYi Zen Hei Mono</a></td>
     <td>WenQuanYiZenHeiMono</td>
     <td>2024/10/27<br/>
         <a href="files/font-languages/WenQuanYiZenHeiMono-languages.tex">languages.tex</a></td>
@@ -3366,7 +3416,7 @@ the tools I use.</p>-->
 
    <tr>
     <td>2.001</td> <!-- 141 -->
-    <td><a name="2.001"/>Accanthis ADF Std No3</td>
+    <td><a name="2.001">Accanthis ADF Std No3</a></td>
     <td>AccanthisADFStdNo3</td>
     <td>2024/07/30<br/>
         <a href="files/font-languages/AccanthisADFStdNo3-languages.tex">languages.tex</a></td>
@@ -3385,7 +3435,7 @@ the tools I use.</p>-->
 
    <tr>
     <td>2.002</td> <!-- 142 -->
-    <td><a name="2.002"/>Alegreya</td>
+    <td><a name="2.002">Alegreya</a></td>
     <td>Alegreya</td>
     <td>2024/07/30<br/>
         <a href="files/font-languages/Alegreya-languages.tex">languages.tex</a><br/>
@@ -3406,7 +3456,7 @@ the tools I use.</p>-->
 
    <tr>
     <td>2.003</td> <!-- 143 -->
-    <td><a name="2.003"/>Alegreya Sans</td>
+    <td><a name="2.003">Alegreya Sans</a></td>
     <td>AlegreyaSans</td>
     <td>2024/07/30<br/>
         <a href="files/font-languages/AlegreyaSans-languages.tex">languages.tex</a><br/>
@@ -3427,7 +3477,7 @@ the tools I use.</p>-->
 
    <tr>
     <td>2.004</td> <!-- 144 -->
-    <td><a name="2.004"/>Antykwa Poltawskiego</td>
+    <td><a name="2.004">Antykwa Poltawskiego</a></td>
     <td>antpolt</td>
     <td>2024/07/29<br/>
         <a href="files/font-languages/antpolt-languages.tex">languages.tex</a><br/>
@@ -3448,7 +3498,7 @@ the tools I use.</p>-->
 
    <tr>
     <td>2.005</td> <!-- 145 -->
-    <td><a name="2.005"/>AR PL New Kai</td>
+    <td><a name="2.005">AR PL New Kai</a></td>
     <td>odokai</td>
     <td>2024/10/26<br/>
         <a href="files/font-languages/odokai-languages.tex">languages.tex</a></td>
@@ -3485,7 +3535,7 @@ the tools I use.</p>-->
 
    <tr>
     <td>2.006</td> <!-- 146 -->
-    <td><a name="2.006"/>AR PL New Sung</td>
+    <td><a name="2.006">AR PL New Sung</a></td>
     <td>odosung</td>
     <td>2024/10/27<br/>
         <a href="files/font-languages/odosung-languages.tex">languages.tex</a></td>
@@ -3504,7 +3554,7 @@ the tools I use.</p>-->
 
    <tr>
     <td>2.007</td> <!-- 147 -->
-    <td><a name="2.007"/>AR PL New Sung Mono</td>
+    <td><a name="2.007">AR PL New Sung Mono</a></td>
     <td>odosungmono</td>
     <td>2024/10/29<br/>
         <a href="files/font-languages/odosungmono-languages.tex">languages.tex</a></td>
@@ -3523,7 +3573,7 @@ the tools I use.</p>-->
 
    <tr>
     <td>2.008</td> <!-- 148 -->
-    <td><a name="2.008"/>Baskervald ADF Std</td>
+    <td><a name="2.008">Baskervald ADF Std</a></td>
     <td>BaskervaldADFStd</td>
     <td>2024/07/29<br/>
         <a href="files/font-languages/BaskervaldADFStd-languages.tex">languages.tex</a></td>
@@ -3542,7 +3592,7 @@ the tools I use.</p>-->
 
    <tr>
     <td>2.009</td><!-- 149 -->
-    <td><a name="2.009"/>Berenis ADF Pro</td>
+    <td><a name="2.009">Berenis ADF Pro</a></td>
     <td>BerenisADFPro</td>
     <td>2024/07/29<br/>
         <a href="files/font-languages/BerenisADFPro-languages.tex">languages.tex</a><br/>
@@ -3563,7 +3613,7 @@ the tools I use.</p>-->
 
    <tr>
     <td>2.010</td><!-- 150 -->
-    <td><a name="2.010"/>Caladea</td>
+    <td><a name="2.010">Caladea</a></td>
     <td>Caladea</td>
     <td>2024/07/29<br/>
         <a href="files/font-languages/Caladea-languages.tex">languages.tex</a></td>
@@ -3600,7 +3650,7 @@ the tools I use.</p>-->
 
    <tr>
     <td>2.011</td><!-- 151 -->
-    <td><a name="2.011"/>Carlito</td>
+    <td><a name="2.011">Carlito</a></td>
     <td>Carlito</td>
     <td>2024/07/29<br/>
         <a href="files/font-languages/Carlito-languages.tex">languages.tex</a></td>
@@ -3619,7 +3669,7 @@ the tools I use.</p>-->
 
    <tr>
     <td>2.012</td><!-- 152 -->
-    <td><a name="2.012"/>Droid Sans Mono</td>
+    <td><a name="2.012">Droid Sans Mono</a></td>
     <td>DroidSansMono</td>
     <td>2024/07/28<br/>
         <a href="files/font-languages/DroidSansMono-languages.tex">languages.tex</a></td>
@@ -3638,7 +3688,7 @@ the tools I use.</p>-->
 
    <tr>
     <td>2.013</td><!-- 153 -->
-    <td><a name="2.013"/>EB Garamond</td>
+    <td><a name="2.013">EB Garamond</a></td>
     <td>EBGaramond</td>
     <td>2024/08/24<br/>
         <a href="files/font-languages/EBGaramond-languages.tex">languages.tex</a><br/>
@@ -3659,7 +3709,7 @@ the tools I use.</p>-->
 
    <tr>
     <td>2.014</td><!-- 154 -->
-    <td><a name="2.014"/>Fanwood Text</td>
+    <td><a name="2.014">Fanwood Text</a></td>
     <td>FanwoodText</td>
     <td>2024/07/28<br/>
         <a href="files/font-languages/FanwoodText-languages.tex">languages.tex</a><br/>
@@ -3680,7 +3730,7 @@ the tools I use.</p>-->
 
    <tr>
     <td>2.015</td><!-- 155 -->
-    <td><a name="2.015"/>Gelasio</td>
+    <td><a name="2.015">Gelasio</a></td>
     <td>Gelasio</td>
     <td>2024/07/25<br/>
         <a href="files/font-languages/Gelasio-languages.tex">languages.tex</a></td>
@@ -3717,7 +3767,7 @@ the tools I use.</p>-->
 
    <tr>
     <td>2.016</td><!-- 156 -->
-    <td><a name="2.016"/>Gillius ADF No2</td>
+    <td><a name="2.016">Gillius ADF No2</a></td>
     <td>GilliusADFNo2</td>
     <td>2024/07/25<br/>
         <a href="files/font-languages/GilliusADFNo2-languages.tex">languages.tex</a></td>
@@ -3736,7 +3786,7 @@ the tools I use.</p>-->
 
    <tr>
     <td>2.017</td><!-- 157 -->
-    <td><a name="2.017"/>Goudy Bookletter 1911</td>
+    <td><a name="2.017">Goudy Bookletter 1911</a></td>
     <td>GoudyBookletter1911</td>
     <td>2024/07/25<br/>
         <a href="files/font-languages/GoudyBookletter1911-languages.tex">languages.tex</a></td>
@@ -3755,7 +3805,7 @@ the tools I use.</p>-->
 
    <tr>
     <td>2.018</td><!-- 158 -->
-    <td><a name="2.018"/>IM FELL English</td>
+    <td><a name="2.018">IM FELL English</a></td>
     <td>IMFeENrm28P</td>
     <td>2024/07/25<br/>
         <a href="files/font-languages/IMFeENrm28P-languages.tex">languages.tex</a></td>
@@ -3774,7 +3824,7 @@ the tools I use.</p>-->
 
    <tr>
     <td>2.019</td><!-- 159 -->
-    <td><a name="2.019"/>Junicode</td>
+    <td><a name="2.019">Junicode</a></td>
     <td>Junicode</td>
     <td>2024/08/30<br/>
         <a href="files/font-languages/Junicode-languages.tex">languages.tex</a><br/>
@@ -3795,7 +3845,7 @@ the tools I use.</p>-->
 
    <tr>
     <td>2.020</td><!-- 160 -->
-    <td><a name="2.020"/>Latin Modern Mono</td>
+    <td><a name="2.020">Latin Modern Mono</a></td>
     <td>lmmono</td>
     <td>2024/07/26<br/>
         <a href="files/font-languages/lmmono-languages.tex">languages.tex</a><br/>
@@ -3834,7 +3884,7 @@ the tools I use.</p>-->
 
    <tr>
     <td>2.021</td><!-- 161 -->
-    <td><a name="2.021"/>Latin Modern Roman</td>
+    <td><a name="2.021">Latin Modern Roman</a></td>
     <td>lmroman</td>
     <td>2024/07/27<br/>
         <a href="files/font-languages/lmroman-languages.tex">languages.tex</a><br/>
@@ -3855,7 +3905,7 @@ the tools I use.</p>-->
 
    <tr>
     <td>2.022</td><!-- 162 -->
-    <td><a name="2.022"/>Latin Modern Sans</td>
+    <td><a name="2.022">Latin Modern Sans</a></td>
     <td>lmsans</td>
     <td>2024/07/27<br/>
         <a href="files/font-languages/lmsans-languages.tex">languages.tex</a></td>
@@ -3874,7 +3924,7 @@ the tools I use.</p>-->
 
    <tr>
     <td>2.023</td><!-- 163 -->
-    <td><a name="2.023"/>Lato</td>
+    <td><a name="2.023">Lato</a></td>
     <td>Lato</td>
     <td>2024/07/25<br/>
         <a href="files/font-languages/Lato-languages.tex">languages.tex</a></td>
@@ -3893,7 +3943,7 @@ the tools I use.</p>-->
 
    <tr>
     <td>2.024</td><!-- 164 -->
-    <td><a name="2.024"/>Libre Baskerville</td>
+    <td><a name="2.024">Libre Baskerville</a></td>
     <td>LibreBaskerville</td>
     <td>2024/07/26<br/>
         <a href="files/font-languages/LibreBaskerville-languages.tex">languages.tex</a></td>
@@ -3912,7 +3962,7 @@ the tools I use.</p>-->
 
    <tr>
     <td>2.025</td><!-- 165 -->
-    <td><a name="2.025"/>Libre Bodoni</td>
+    <td><a name="2.025">Libre Bodoni</a></td>
     <td>LibreBodoni</td>
     <td>2024/07/26<br/>
         <a href="files/font-languages/LibreBodoni-languages.tex">languages.tex</a></td>
@@ -3949,7 +3999,7 @@ the tools I use.</p>-->
 
    <tr>
     <td>2.026</td><!-- 166 -->
-    <td><a name="2.026"/>Linden Hill</td>
+    <td><a name="2.026">Linden Hill</a></td>
     <td>LindenHill</td>
     <td>2024/08/24<br/>
         <a href="files/font-languages/LindenHill-languages.tex">languages.tex</a><br/>
@@ -3970,7 +4020,7 @@ the tools I use.</p>-->
 
    <tr>
     <td>2.027</td><!-- 167 -->
-    <td><a name="2.027"/>Merriweather</td>
+    <td><a name="2.027">Merriweather</a></td>
     <td>Merriweather</td>
     <td>2024/07/27<br/>
         <a href="files/font-languages/Merriweather-languages.tex">languages.tex</a></td>
@@ -3989,7 +4039,7 @@ the tools I use.</p>-->
 
    <tr>
     <td>2.028</td><!-- 168 -->
-    <td><a name="2.028"/>Merriweather Sans</td>
+    <td><a name="2.028">Merriweather Sans</a></td>
     <td>MerriweatherSans</td>
     <td>2024/07/27<br/>
         <a href="files/font-languages/MerriweatherSans-languages.tex">languages.tex</a><br/>
@@ -4010,7 +4060,7 @@ the tools I use.</p>-->
 
    <tr>
     <td>2.029</td><!-- 169 -->
-    <td><a name="2.029"/>NeoGothis ADF Std</td>
+    <td><a name="2.029">NeoGothis ADF Std</a></td>
     <td>NeoGothisADFStd</td>
     <td>2024/07/28<br/>
         <a href="files/font-languages/NeoGothisADFStd-languages.tex">languages.tex</a></td>
@@ -4029,7 +4079,7 @@ the tools I use.</p>-->
 
    <tr>
     <td>2.030</td><!-- 170 -->
-    <td><a name="2.030"/>Nimbus Mono</td>
+    <td><a name="2.030">Nimbus Mono</a></td>
     <td>NimbusMono</td>
     <td>2024/07/28<br/>
         <a href="files/font-languages/NimbusMono-languages.tex">languages.tex</a></td>
@@ -4066,7 +4116,7 @@ the tools I use.</p>-->
 
    <tr>
     <td>2.031</td><!-- 171 -->
-    <td><a name="2.031"/>Nimbus Roman No9 L</td>
+    <td><a name="2.031">Nimbus Roman No9 L</a></td>
     <td>NimbusRomNo9L</td>
     <td>2024/07/28<br/>
         <a href="files/font-languages/NimbusRomNo9L-languages.tex">languages.tex</a></td>
@@ -4085,7 +4135,7 @@ the tools I use.</p>-->
 
    <tr>
     <td>2.032</td><!-- 172 -->
-    <td><a name="2.032"/>Nimbus Sans L<br/>NimbusSanL</td>
+    <td><a name="2.032">Nimbus Sans L<br/>NimbusSanL</a></td>
     <td>NimbusSanL</td>
     <td>2024/08/15<br/>
         <a href="files/font-languages/NimbusSanL-languages.tex">languages.tex</a></td>
@@ -4104,7 +4154,7 @@ the tools I use.</p>-->
 
    <tr>
     <td>2.033</td><!-- 173 -->
-    <td><a name="2.033"/>OFL Sorts Mill Goudy</td>
+    <td><a name="2.033">OFL Sorts Mill Goudy</a></td>
     <td>OFLGoudyStM</td>
     <td>2024/07/28<br/>
         <a href="files/font-languages/OFLGoudyStM-languages.tex">languages.tex</a><br/>
@@ -4125,7 +4175,7 @@ the tools I use.</p>-->
 
    <tr>
     <td>2.034</td><!-- 174 -->
-    <td><a name="2.034"/>Old Standard</td>
+    <td><a name="2.034">Old Standard</a></td>
     <td>OldStandard</td>
     <td>2024/07/24<br/>
         <a href="files/font-languages/OldStandard-languages.tex">languages.tex</a></td>
@@ -4144,7 +4194,7 @@ the tools I use.</p>-->
 
    <tr>
     <td>2.035</td><!-- 175 -->
-    <td><a name="2.035"/>Open Sans</td>
+    <td><a name="2.035">Open Sans</a></td>
     <td>OpenSans</td>
     <td>2024/07/24<br/>
         <a href="files/font-languages/OpenSans-languages.tex">languages.tex</a></td>
@@ -4181,7 +4231,7 @@ the tools I use.</p>-->
 
    <tr>
     <td>2.036</td><!-- 176 -->
-    <td><a name="2.036"/>Prociono</td>
+    <td><a name="2.036">Prociono</a></td>
     <td>Prociono</td>
     <td>2024/07/30<br/>
         <a href="files/font-languages/Prociono-languages.tex">languages.tex</a></td>
@@ -4200,7 +4250,7 @@ the tools I use.</p>-->
 
    <tr>
     <td>2.037</td><!-- 177 -->
-    <td><a name="2.037"/>PT Mono</td>
+    <td><a name="2.037">PT Mono</a></td>
     <td>PTMono</td>
     <td>2024/07/30<br/>
         <a href="files/font-languages/PTMono-languages.tex">languages.tex</a></td>
@@ -4219,7 +4269,7 @@ the tools I use.</p>-->
 
    <tr>
     <td>2.038</td><!-- 178 -->
-    <td><a name="2.038"/>PT Sans</td>
+    <td><a name="2.038">PT Sans</a></td>
     <td>PTSans</td>
     <td>2024/07/30<br/>
         <a href="files/font-languages/PTSans-languages.tex">languages.tex</a></td>
@@ -4238,7 +4288,7 @@ the tools I use.</p>-->
 
    <tr>
     <td>2.039</td><!-- 179 -->
-    <td><a name="2.039"/>PT Serif</td>
+    <td><a name="2.039">PT Serif</a></td>
     <td>PTSerif</td>
     <td>2024/07/30<br/>
         <a href="files/font-languages/PTSerif-languages.tex">languages.tex</a></td>
@@ -4257,7 +4307,7 @@ the tools I use.</p>-->
 
    <tr>
     <td>2.040</td><!-- 180 -->
-    <td><a name="2.048"/>Roboto</td>
+    <td><a name="2.040">Roboto</a></td>
     <td>Roboto</td>
     <td>2024/07/30<br/>
         <a href="files/font-languages/Roboto-languages.tex">languages.tex</a><br/>
@@ -4296,7 +4346,7 @@ the tools I use.</p>-->
 
   <tr>
     <td>2.041</td><!-- 181 -->
-    <td><a name="2.041"/>Romande ADF Std</td>
+    <td><a name="2.041">Romande ADF Std</a></td>
     <td>RomandeADFStd</td>
     <td>2024/07/30<br/>
         <a href="files/font-languages/RomandeADFStd-languages.tex">languages.tex</a></td>
@@ -4315,7 +4365,7 @@ the tools I use.</p>-->
 
    <tr>
     <td>2.042</td><!-- 182 -->
-    <td><a name="2.042"/>Source Code Pro</td>
+    <td><a name="2.042">Source Code Pro</a></td>
     <td>SourceCodePro</td>
     <td>2024/07/31<br/>
         <a href="files/font-languages/SourceCodePro-languages.tex">languages.tex</a></td>
@@ -4334,7 +4384,7 @@ the tools I use.</p>-->
 
   <tr>
     <td>2.043</td><!-- 183 -->
-    <td><a name="2.043"/>Source Sans 3</td>
+    <td><a name="2.043">Source Sans 3</a></td>
     <td>SourceSans3</td>
     <td>2024/08/02<br/>
         <a href="files/font-languages/SourceSans3-languages.tex">languages.tex</a><br/>
@@ -4355,7 +4405,7 @@ the tools I use.</p>-->
 
    <tr>
     <td>2.044</td><!-- 184 -->
-    <td><a name="2.044"/>Source Serif 4</td>
+    <td><a name="2.044">Source Serif 4</a></td>
     <td>SourceSerif4</td>
     <td>2024/07/31<br/>
         <a href="files/font-languages/SourceSerif4-languages.tex">languages.tex</a><br/>
@@ -4376,7 +4426,7 @@ the tools I use.</p>-->
 
   <tr>
     <td>2.045</td><!-- 185 -->
-    <td><a name="2.045"/>TeX Gyre Adventor</td>
+    <td><a name="2.045">TeX Gyre Adventor</a></td>
     <td>texgyreadventor</td>
     <td>2024/07/31<br/>
         <a href="files/font-languages/texgyreadventor-languages.tex">languages.tex</a><br/>
@@ -4415,7 +4465,7 @@ the tools I use.</p>-->
 
   <tr>
     <td>2.046</td><!-- 186 -->
-    <td><a name="2.046"/>TeX Gyre Bonum</td>
+    <td><a name="2.046">TeX Gyre Bonum</a></td>
     <td>texgyrebonum</td>
     <td>2024/07/31<br/>
         <a href="files/font-languages/texgyrebonum-languages.tex">languages.tex</a><br/>
@@ -4436,7 +4486,7 @@ the tools I use.</p>-->
 
    <tr>
     <td>2.047</td><!-- 187 -->
-    <td><a name="2.047"/>TeX Gyre Cursor</td>
+    <td><a name="2.047">TeX Gyre Cursor</a></td>
     <td>texgyrecursor</td>
     <td>2024/08/01<br/>
         <a href="files/font-languages/texgyrecursor-languages.tex">languages.tex</a></td>
@@ -4455,7 +4505,7 @@ the tools I use.</p>-->
 
    <tr>
     <td>2.048</td><!-- 188 -->
-    <td><a name="2.048"/>TeX Gyre Heros</td>
+    <td><a name="2.048">TeX Gyre Heros</a></td>
     <td>texgyreheros</td>
     <td>2024/07/31<br/>
         <a href="files/font-languages/texgyreheros-languages.tex">languages.tex</a><br/>
@@ -4476,7 +4526,7 @@ the tools I use.</p>-->
 
    <tr>
     <td>2.049</td><!-- 189 -->
-    <td><a name="2.049"/>TeX Gyre Pagella</td>
+    <td><a name="2.049">TeX Gyre Pagella</a></td>
     <td>texgyrepagella</td>
     <td>2024/07/31<br/>
         <a href="files/font-languages/texgyrepagella-languages.tex">languages.tex</a><br/>
@@ -4497,7 +4547,7 @@ the tools I use.</p>-->
 
    <tr>
     <td>2.050</td><!-- 190 -->
-    <td><a name="2.050"/>TeX Gyre Schola</td>
+    <td><a name="2.050">TeX Gyre Schola</a></td>
     <td>texgyreschola</td>
     <td>2024/07/31<br/>
         <a href="files/font-languages/texgyreschola-languages.tex">languages.tex</a><br/>
@@ -4536,7 +4586,7 @@ the tools I use.</p>-->
 
    <tr>
     <td>2.051</td><!-- 191 -->
-    <td><a name="2.051"/>TeX Gyre Termes</td>
+    <td><a name="2.051">TeX Gyre Termes</a></td>
     <td>texgyretermes</td>
     <td>2024/07/21<br/>
         <a href="files/font-languages/texgyretermes-languages.tex">languages.tex</a><br/>
@@ -4557,7 +4607,7 @@ the tools I use.</p>-->
 
    <tr>
     <td>2.052</td><!-- 192 -->
-    <td><a name="2.052"/>Tribun ADF Std</td>
+    <td><a name="2.052">Tribun ADF Std</a></td>
     <td>TribunADFStd</td>
     <td>2024/08/01<br/>
         <a href="files/font-languages/TribunADFStd-languages.tex">languages.tex</a></td>
@@ -4576,7 +4626,7 @@ the tools I use.</p>-->
 
    <tr>
     <td>2.053</td><!-- 193 -->
-    <td><a name="2.053"/>Universalis ADF Std</td>
+    <td><a name="2.053">Universalis ADF Std</a></td>
     <td>UniversalisADFStd</td>
     <td>2024/08/01<br/>
         <a href="files/font-languages/UniversalisADFStd-languages.tex">languages.tex</a></td>
@@ -4595,7 +4645,7 @@ the tools I use.</p>-->
 
    <tr>
     <td>2.054</td><!-- 194 -->
-    <td><a name="2.054"/>Vollkorn</td>
+    <td><a name="2.054">Vollkorn</a></td>
     <td>Vollkorn</td>
     <td>2025/05/14<br/>
         <a href="files/font-languages/Vollkorn-languages.tex">languages.tex</a><br/>
@@ -4616,7 +4666,7 @@ the tools I use.</p>-->
 
    <tr>
     <td>3.001</td><!-- 195 -->
-    <td><a name="3.001"/>FandolKai</td>
+    <td><a name="3.001">FandolKai</a></td>
     <td>FandolKai</td>
     <td>2024/10/27<br/>
         <a href="files/font-languages/FandolKai-languages.tex">languages.tex</a></td>
@@ -4654,7 +4704,7 @@ the tools I use.</p>-->
 
    <tr>
     <td>3.002</td><!-- 196 -->
-    <td><a name="3.002"/>Public Sans</td>
+    <td><a name="3.002">Public Sans</a></td>
     <td>PublicSans</td>
     <td>2024/07/30<br/>
         <a href="files/font-languages/PublicSans-languages.tex">languages.tex</a></td>
@@ -4673,7 +4723,7 @@ the tools I use.</p>-->
 
    <tr>
     <td>3.003</td><!-- 197 -->
-    <td><a name="3.003"/>Noto Sans Mono</td>
+    <td><a name="3.003">Noto Sans Mono</a></td>
     <td>NotoSansMono</td>
     <td>2024/08/02<br/>
         <a href="files/font-languages/NotoSansMono-languages.tex">languages.tex</a></td>
@@ -4692,7 +4742,7 @@ the tools I use.</p>-->
 
    <tr>
     <td>3.004</td><!-- 198 -->
-    <td><a name="3.004"/>Hack</td>
+    <td><a name="3.004">Hack</a></td>
     <td>Hack</td>
     <td>2024/07/25<br/>
         <a href="files/font-languages/Hack-languages.tex">languages.tex</a></td>
@@ -4711,7 +4761,7 @@ the tools I use.</p>-->
 
    <tr>
     <td>3.005</td><!-- 199 -->
-    <td><a name="3.005"/>JetBrains Mono</td>
+    <td><a name="3.005">JetBrains Mono</a></td>
     <td>JetBrainsMono</td>
     <td>2024/07/25<br/>
         <a href="files/font-languages/JetBrainsMono-languages.tex">languages.tex</a></td>
@@ -4730,7 +4780,7 @@ the tools I use.</p>-->
 
    <tr>
     <td>3.006</td><!-- 200 -->
-    <td><a name="3.006"/>Libertinus Sans</td>
+    <td><a name="3.006">Libertinus Sans</a></td>
     <td>LibertinusSans</td>
     <td>2024/08/02<br/>
         <a href="files/font-languages/LibertinusSans-languages.tex">languages.tex</a><br/>
@@ -4769,7 +4819,7 @@ the tools I use.</p>-->
 
    <tr>
     <td>3.007</td><!-- 201 -->
-    <td><a name="3.007"/>Common Serif</td>
+    <td><a name="3.007">Common Serif</a></td>
     <td>CommonSerif</td>
     <td>2024/08/02<br/>
         <a href="files/font-languages/CommonSerif-languages.tex">languages.tex</a><br/>
@@ -4790,7 +4840,7 @@ the tools I use.</p>-->
 
    <tr>
     <td>3.008</td><!-- 202 -->
-    <td><a name="3.008"/>Atkinson Hyperlegible</td>
+    <td><a name="3.008">Atkinson Hyperlegible</a></td>
     <td>AtkinsonHyperlegible</td>
     <td>2024/07/29<br/>
         <a href="files/font-languages/AtkinsonHyperlegible-languages.tex">languages.tex</a></td>
@@ -4809,7 +4859,7 @@ the tools I use.</p>-->
 
    <tr>
     <td>3.009</td><!-- 203 -->
-    <td><a name="3.009"/>Cascadia Code</td>
+    <td><a name="3.009">Cascadia Code</a></td>
     <td>CascadiaCode</td>
     <td>2024/07/29<br/>
         <a href="files/font-languages/CascadiaCode-languages.tex">languages.tex</a></td>
@@ -4828,7 +4878,7 @@ the tools I use.</p>-->
 
    <tr>
     <td>3.010</td><!-- 204 -->
-    <td><a name="3.010"/>Cascadia Mono</td>
+    <td><a name="3.010">Cascadia Mono</a></td>
     <td>CascadiaMono</td>
     <td>2024/07/29<br/>
         <a href="files/font-languages/CascadiaMono-languages.tex">languages.tex</a></td>
@@ -4847,7 +4897,7 @@ the tools I use.</p>-->
 
    <tr>
     <td>3.011</td><!-- 205 -->
-    <td><a name="3.011"/>Go Mono</td>
+    <td><a name="3.011">Go Mono</a></td>
     <td>Go-Mono</td>
     <td>2024/07/25<br/>
         <a href="files/font-languages/Go-Mono-languages.tex">languages.tex</a></td>
@@ -4884,7 +4934,7 @@ the tools I use.</p>-->
 
    <tr>
     <td>3.012</td><!-- 206 -->
-    <td><a name="3.012"/>Go</td>
+    <td><a name="3.012">Go</a></td>
     <td>Go</td>
     <td>2024/07/25<br/>
         <a href="files/font-languages/Go-languages.tex">languages.tex</a><br/>
@@ -4905,7 +4955,7 @@ the tools I use.</p>-->
 
    <tr>
     <td>3.013</td><!-- 207 -->
-    <td><a name="3.013"/>Intel One Mono</td>
+    <td><a name="3.013">Intel One Mono</a></td>
     <td>IntelOneMono</td>
     <td>2024/07/25<br/>
         <a href="files/font-languages/IntelOneMono-languages.tex">languages.tex</a></td>
@@ -4925,7 +4975,7 @@ the tools I use.</p>-->
 
    <tr>
     <td>3.014</td><!-- 208 -->
-    <td><a name="3.014"/>OpenDyslexic</td>
+    <td><a name="3.014">OpenDyslexic</a></td>
     <td>OpenDyslexic</td>
     <td>2024/08/02<br/>
         <a href="files/font-languages/OpenDyslexic-languages.tex">languages.tex</a></td>
@@ -4944,7 +4994,7 @@ the tools I use.</p>-->
 
    <tr>
     <td>3.015</td><!-- 209 -->
-    <td><a name="3.015"/>Noto Serif CJK SC</td>
+    <td><a name="3.015">Noto Serif CJK SC</a></td>
     <td>NotoSerifCJKsc</td>
     <td>2024/10/27<br/>
         <a href="files/font-languages/NotoSerifCJKsc-languages.tex">languages.tex</a></td>
@@ -4963,7 +5013,7 @@ the tools I use.</p>-->
 
    <tr>
     <td>3.016</td><!-- 210 -->
-    <td><a name="3.016"/>Noto Serif CJK JP</td>
+    <td><a name="3.016">Noto Serif CJK JP</a></td>
     <td>NotoSerifCJKjp</td>
     <td>2024/08/22<br/>
         <a href="files/font-languages/NotoSerifCJKjp-languages.tex">languages.tex</a></td>
@@ -5000,7 +5050,7 @@ the tools I use.</p>-->
 
    <tr>
     <td>3.017</td><!-- 211 -->
-    <td><a name="3.017"/>Noto Serif CJK KR</td>
+    <td><a name="3.017">Noto Serif CJK KR</a></td>
     <td>NotoSerifCJKkr</td>
     <td>2025/05/09<br/>
         <a href="files/font-languages/NotoSerifCJKkr-languages.tex">languages.tex</a></td>
@@ -5019,7 +5069,7 @@ the tools I use.</p>-->
 
    <tr>
     <td>3.018</td><!-- 212 -->
-    <td><a name="3.018"/>Noto Serif CJK TC</td>
+    <td><a name="3.018">Noto Serif CJK TC</a></td>
     <td>NotoSerifCJKtc</td>
     <td>2024/11/26<br/>
         <a href="files/font-languages/NotoSerifCJKtc-languages.tex">languages.tex</a></td>
@@ -5038,7 +5088,7 @@ the tools I use.</p>-->
 
    <tr>
     <td>3.019</td><!-- 213 -->
-    <td><a name="3.019"/>Noto Serif CJK HK</td>
+    <td><a name="3.019">Noto Serif CJK HK</a></td>
     <td>NotoSerifCJKhk</td>
     <td>2024/08/22<br/>
         <a href="files/font-languages/NotoSerifCJKhk-languages.tex">languages.tex</a></td>
@@ -5057,7 +5107,7 @@ the tools I use.</p>-->
 
    <tr>
     <td>3.020</td><!-- 214 -->
-    <td><a name="3.020"/>Noto Sans CJK HK</td>
+    <td><a name="3.020">Noto Sans CJK HK</a></td>
     <td>NotoSansCJKhk</td>
     <td>2024/08/22<br/>
         <a href="files/font-languages/NotoSansCJKhk-languages.tex">languages.tex</a></td>
@@ -5076,7 +5126,7 @@ the tools I use.</p>-->
 
    <tr>
    <td>3.021</td><!-- 215 -->
-    <td><a name="3.021"/>FandolFang</td>
+    <td><a name="3.021">FandolFang</a></td>
     <td>FandolFang</td>
     <td>2024/10/27<br/>
         <a href="files/font-languages/FandolFang-languages.tex">languages.tex</a></td>
@@ -5113,7 +5163,7 @@ the tools I use.</p>-->
 
    <tr>
     <td>3.022</td><!-- 216 -->
-    <td><a name="3.022"/>Hanazono Mincho C</td>
+    <td><a name="3.022">Hanazono Mincho C</a></td>
     <td>HanaMinC</td>
     <td>2024/09/15</td>
     <td>Japanese Serif</td>
@@ -5132,7 +5182,7 @@ the tools I use.</p>-->
 
    <tr>
     <td>3.023</td><!-- 217 -->
-    <td><a name="3.023"/>IPAMincho</td>
+    <td><a name="3.023">IPAMincho</a></td>
     <td>ipam</td>
     <td>2024/11/02<br/>
         <a href="files/font-languages/ipam-languages.tex">languages.tex</a></td>
@@ -5151,7 +5201,7 @@ the tools I use.</p>-->
 
    <tr>
     <td>3.024</td><!-- 218 -->
-    <td><a name="3.024"/>Shippori Mincho</td>
+    <td><a name="3.024">Shippori Mincho</a></td>
     <td>ShipporiMincho</td>
     <td>2024/11/05<br/>
         <a href="files/font-languages/ShipporiMincho-languages.tex">languages.tex</a></td>
@@ -5170,7 +5220,7 @@ the tools I use.</p>-->
 
    <tr>
     <td>3.025</td><!-- 219 -->
-    <td><a name="3.025"/>Zen Kaku Gothic New</td>
+    <td><a name="3.025">Zen Kaku Gothic New</a></td>
     <td>ZenKakuGothicNew</td>
     <td>2024/11/02<br/>
         <a href="files/font-languages/ZenKakuGothicNew-languages.tex">languages.tex</a></td>
@@ -5189,7 +5239,7 @@ the tools I use.</p>-->
 
    <tr>
     <td>3.026</td><!-- 220 -->
-    <td><a name="3.026"/>Zen Old Mincho</td>
+    <td><a name="3.026">Zen Old Mincho</a></td>
     <td>ZenOldMincho</td>
     <td>2024/11/02<br/>
         <a href="files/font-languages/ZenOldMincho-languages.tex">languages.tex</a></td>
@@ -5226,7 +5276,7 @@ the tools I use.</p>-->
 
    <tr>
     <td>3.027</td><!-- 221 -->
-    <td><a name="3.027"/>GenYoMin2 TC</td>
+    <td><a name="3.027">GenYoMin2 TC</a></td>
     <td>GenYoMin2TC</td>
     <td>2024/11/26<br/>
         <a href="files/font-languages/GenYoMin2TC-languages.tex">languages.tex</a></td>
@@ -5245,7 +5295,7 @@ the tools I use.</p>-->
 
    <tr>
     <td>3.028</td><!-- 222 -->
-    <td><a name="3.028"/>GenYoMin2 TW</td>
+    <td><a name="3.028">GenYoMin2 TW</a></td>
     <td>GenYoMin2TW</td>
     <td>2024/11/26<br/>
         <a href="files/font-languages/GenYoMin2TW-languages.tex">languages.tex</a></td>
@@ -5264,7 +5314,7 @@ the tools I use.</p>-->
 
    <tr>
     <td>3.029</td><!-- 223 -->
-    <td><a name="3.029"/>HanWangHeiLight</td>
+    <td><a name="3.029">HanWangHeiLight</a></td>
     <td>HanWangHeiLight</td>
     <td>2024/11/16<br/>
         <a href="files/font-languages/HanWangHeiLight-languages.tex">languages.tex</a></td>
@@ -5283,7 +5333,7 @@ the tools I use.</p>-->
 
    <tr>
     <td>3.030</td><!-- 224 -->
-    <td><a name="3.030"/>HanWangWCL02</td>
+    <td><a name="3.030">HanWangWCL02</a></td>
     <td>HanWangWCL02</td>
     <td>2024/11/17<br/>
         <a href="files/font-languages/HanWangWCL02-languages.tex">languages.tex</a></td>
@@ -5302,7 +5352,7 @@ the tools I use.</p>-->
 
    <tr>
     <td>3.031</td><!-- 225 -->
-    <td><a name="3.031"/>HanWangWCL06</td>
+    <td><a name="3.031">HanWangWCL06</a></td>
     <td>HanWangWCL06</td>
     <td>2024/11/17<br/>
         <a href="files/font-languages/HanWangWCL06-languages.tex">languages.tex</a></td>
@@ -5339,7 +5389,7 @@ the tools I use.</p>-->
 
    <tr>
     <td>3.032</td><!-- 226 -->
-    <td><a name="3.032"/>GenYoGothic2 TC</td>
+    <td><a name="3.032">GenYoGothic2 TC</a></td>
     <td>GenYoGothic2TC</td>
     <td>2024/11/25<br/>
         <a href="files/font-languages/GenYoGothic2TC-languages.tex">languages.tex</a></td>
@@ -5358,7 +5408,7 @@ the tools I use.</p>-->
 
    <tr>
     <td>3.033</td><!-- 227 -->
-    <td><a name="3.033"/>GenYoGothic2 TW</td>
+    <td><a name="3.033">GenYoGothic2 TW</a></td>
     <td>GenYoGothic2TW</td>
     <td>2024/11/25<br/>
         <a href="files/font-languages/GenYoGothic2TW-languages.tex">languages.tex</a></td>
@@ -5377,7 +5427,7 @@ the tools I use.</p>-->
 
    <tr>
     <td>3.034</td><!-- 228 -->
-    <td><a name="3.034"/>Chiron Hei HK</td>
+    <td><a name="3.034">Chiron Hei HK</a></td>
     <td>ChironHeiHK</td>
     <td>2024/12/15<br/>
         <a href="files/font-languages/ChironHeiHK-languages.tex">languages.tex</a></td>
@@ -5396,7 +5446,7 @@ the tools I use.</p>-->
 
    <tr>
     <td>3.035</td><!-- 229 -->
-    <td><a name="3.035"/>Chiron Hei HK Text</td>
+    <td><a name="3.035">Chiron Hei HK Text</a></td>
     <td>ChironHeiHK-Text</td>
     <td>2024/12/15<br/>
         <a href="files/font-languages/ChironHeiHK-Text-languages.tex">languages.tex</a></td>
@@ -5415,7 +5465,7 @@ the tools I use.</p>-->
 
    <tr>
     <td>3.036</td><!-- 229 -->
-    <td><a name="3.036"/>Chiron Sung HK</td>
+    <td><a name="3.036">Chiron Sung HK</a></td>
     <td>ChironSungHK</td>
     <td>2024/12/15<br/>
         <a href="files/font-languages/ChironSungHK-languages.tex">languages.tex</a></td>
@@ -5452,7 +5502,7 @@ the tools I use.</p>-->
 
    <tr>
     <td>3.037</td><!-- 230 -->
-    <td><a name="3.037"/>Chiron Sung HK Text</td>
+    <td><a name="3.037">Chiron Sung HK Text</a></td>
     <td>ChironSungHK-Text</td>
     <td>2024/12/15<br/>
         <a href="files/font-languages/ChironSungHK-Text-languages.tex">languages.tex</a></td>
@@ -5471,7 +5521,7 @@ the tools I use.</p>-->
 
    <tr>
     <td>3.038</td> <!-- 231 -->
-    <td><a name="3.038"/>Noto Sans Mono CJK HK</td>
+    <td><a name="3.038">Noto Sans Mono CJK HK</a></td>
     <td>NotoSansMonoCJKhk</td>
     <td>2025/01/06<br/>
         <a href="files/font-languages/NotoSansMonoCJKhk-languages.tex">languages.tex</a></td>
@@ -5490,7 +5540,7 @@ the tools I use.</p>-->
 
    <tr>
     <td>3.039</td> <!-- 232 -->
-    <td><a name="3.039"/>Adwaita Sans</td>
+    <td><a name="3.039">Adwaita Sans</a></td>
     <td>AdwaitaSans</td>
     <td>2025/05/05<br/>
         <a href="files/font-languages/AdwaitaSans-languages.tex">languages.tex</a></td>
@@ -5509,7 +5559,7 @@ the tools I use.</p>-->
 
    <tr>
     <td>3.040</td> <!-- 233 -->
-    <td><a name="3.040"/>Adwaita Mono</td>
+    <td><a name="3.040">Adwaita Mono</a></td>
     <td>AdwaitaMono</td>
     <td>2025/05/05<br/>
         <a href="files/font-languages/AdwaitaMono-languages.tex">languages.tex</a></td>
