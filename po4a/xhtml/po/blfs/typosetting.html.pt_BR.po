@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Arquivos do sítio LFS brasileiro 1.0\n"
 "Report-Msgid-Bugs-To: jafesp@gmail.com\n"
 "POT-Creation-Date: 2026-04-08 16:44-0300\n"
-"PO-Revision-Date: 2026-04-14 22:04-0300\n"
+"PO-Revision-Date: 2026-05-05 10:56-0300\n"
 "Last-Translator: Jamenson Ferreira Espindula de Almeida Melo "
 "<jafesp@gmail.com>\n"
 "Language-Team: none\n"
@@ -4326,114 +4326,115 @@ msgstr "<a href=\"files/coverage/Harmattan.coverage\">cobertura</a>"
 #: xhtml/upstream/blfs/typosetting.html:1152
 #: xhtml/upstream/blfs/typosetting.html:1167
 msgid "1.041"
-msgstr ""
+msgstr "1.041"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:1153
 msgid "<a name=\"1.041\">Homa</a>"
-msgstr ""
+msgstr "<a name=\"1.041\">Homa</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:1154
 msgid "homa"
-msgstr ""
+msgstr "homa"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:1156
 msgid "<a href=\"files/font-languages/homa-languages.tex\">languages.tex</a>"
-msgstr ""
+msgstr "<a href=\"files/font-languages/homa-languages.tex\">languages.tex</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:1157
 msgid "Arabic Sans (Persian)"
-msgstr ""
+msgstr "Arabic Sans (Persa)"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:1158
 msgid "homa.ttf"
-msgstr ""
+msgstr "homa.ttf"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:1159
 msgid "<a href=\"files/PDF-contents/homa-contents.pdf\">Glyphs</a>"
-msgstr ""
+msgstr "<a href=\"files/PDF-contents/homa-contents.pdf\">Glifos</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:1160
 msgid "<a href=\"files/PDF-languages/homa-languages.pdf\">Langs</a>"
-msgstr ""
+msgstr "<a href=\"files/PDF-languages/homa-languages.pdf\">Idiomas</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:1163
 #: xhtml/upstream/blfs/typosetting.html:1844
 msgid "fonts-farsiweb_0.4 from <a href=\"df.html#Debian\">Debian</a>"
 msgstr ""
+"fonts-farsiweb_0.4 originária da <a href=\"df.html#Debian\">Debian</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:1165
 msgid "<a href=\"files/codepoints/homa.codepoints\">codepts</a>"
-msgstr ""
+msgstr "<a href=\"files/codepoints/homa.codepoints\">pontos de código</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:1166
 msgid "<a href=\"files/coverage/homa.coverage\">covrg.</a>"
-msgstr ""
+msgstr "<a href=\"files/coverage/homa.coverage\">cobertura</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:1171
 #: xhtml/upstream/blfs/typosetting.html:1186
 msgid "1.042"
-msgstr ""
+msgstr "1.042"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:1172
 msgid "<a name=\"1.042\">IBM 3270</a>"
-msgstr ""
+msgstr "<a name=\"1.042\">IBM 3270</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:1173
 msgid "3270"
-msgstr ""
+msgstr "3270"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:1175
 msgid "<a href=\"files/font-languages/3270-languages.tex\">languages.tex</a>"
-msgstr ""
+msgstr "<a href=\"files/font-languages/3270-languages.tex\">languages.tex</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:1177
 msgid "3270-Regular.ttf"
-msgstr ""
+msgstr "3270-Regular.ttf"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:1178
 msgid "<a href=\"files/PDF-contents/3270-contents.pdf\">Glyphs</a>"
-msgstr ""
+msgstr "<a href=\"files/PDF-contents/3270-contents.pdf\">Glifos</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:1179
 msgid "<a href=\"files/PDF-languages/3270-languages.pdf\">Langs</a>"
-msgstr ""
+msgstr "<a href=\"files/PDF-languages/3270-languages.pdf\">Idiomas</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:1182
 msgid "3270font from <a href=\"df.html#github\">github</a>"
-msgstr ""
+msgstr "Fonte do 3270 originária do <a href=\"df.html#github\">github</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:1183
 msgid "MIT-style"
-msgstr ""
+msgstr "Estilo MIT"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:1184
 msgid "<a href=\"files/codepoints/3270.codepoints\">codepts</a>"
-msgstr ""
+msgstr "<a href=\"files/codepoints/3270.codepoints\">pontos de código</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:1185
 msgid "<a href=\"files/coverage/3270.coverage\">covrg.</a>"
-msgstr ""
+msgstr "<a href=\"files/coverage/3270.coverage\">cobertura</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:1190
