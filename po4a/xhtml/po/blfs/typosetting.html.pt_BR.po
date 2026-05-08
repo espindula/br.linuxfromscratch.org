@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Arquivos do sítio LFS brasileiro 1.0\n"
 "Report-Msgid-Bugs-To: jafesp@gmail.com\n"
 "POT-Creation-Date: 2026-04-08 16:44-0300\n"
-"PO-Revision-Date: 2026-05-05 10:56-0300\n"
+"PO-Revision-Date: 2026-05-08 18:03-0300\n"
 "Last-Translator: Jamenson Ferreira Espindula de Almeida Melo "
 "<jafesp@gmail.com>\n"
 "Language-Team: none\n"
@@ -4440,17 +4440,17 @@ msgstr "<a href=\"files/coverage/3270.coverage\">cobertura</a>"
 #: xhtml/upstream/blfs/typosetting.html:1190
 #: xhtml/upstream/blfs/typosetting.html:1205
 msgid "1.043"
-msgstr ""
+msgstr "1.043"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:1191
 msgid "<a name=\"1.043\">Inconsolata</a>"
-msgstr ""
+msgstr "<a name=\"1.043\">Inconsolata</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:1192
 msgid "Inconsolata"
-msgstr ""
+msgstr "Inconsolata"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:1193
@@ -4465,74 +4465,79 @@ msgstr ""
 #: xhtml/upstream/blfs/typosetting.html:4939
 #: xhtml/upstream/blfs/typosetting.html:4960
 msgid "2024/07/25"
-msgstr ""
+msgstr "2024/07/25"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:1194
 msgid ""
 "<a href=\"files/font-languages/Inconsolata-languages.tex\">languages.tex</a>"
 msgstr ""
+"<a href=\"files/font-languages/Inconsolata-languages.tex\">languages.tex</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:1195
 msgid "Monospace"
-msgstr ""
+msgstr "Mono espaçada"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:1196
 msgid "Inconsolata-Regular.ttf"
-msgstr ""
+msgstr "Inconsolata-Regular.ttf"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:1197
 msgid "<a href=\"files/PDF-contents/Inconsolata-contents.pdf\">Glyphs</a>"
-msgstr ""
+msgstr "<a href=\"files/PDF-contents/Inconsolata-contents.pdf\">Glifos</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:1198
 msgid "<a href=\"files/PDF-languages/Inconsolata-languages.pdf\">Langs</a>"
-msgstr ""
+msgstr "<a href=\"files/PDF-languages/Inconsolata-languages.pdf\">Idiomas</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:1201
 msgid "Inconsolata dated 2022-09-22 from <a href=\"df.html#Google\">Google</a>"
 msgstr ""
+"Inconsolata datada de 2022-09-22 originária do <a "
+"href=\"df.html#Google\">Google</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:1202
 msgid "<span>SIL OFL v1.0</span>"
-msgstr ""
+msgstr "<span>SIL OFL v1.0</span>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:1203
 msgid "<a href=\"files/codepoints/Inconsolata.codepoints\">codepts</a>"
 msgstr ""
+"<a href=\"files/codepoints/Inconsolata.codepoints\">pontos de código</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:1204
 msgid "<a href=\"files/coverage/Inconsolata.coverage\">covrg.</a>"
-msgstr ""
+msgstr "<a href=\"files/coverage/Inconsolata.coverage\">cobertura</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:1209
 #: xhtml/upstream/blfs/typosetting.html:1224
 msgid "1.044"
-msgstr ""
+msgstr "1.044"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:1210
 msgid "<a name=\"1.044\">IPAexGothic</a>"
-msgstr ""
+msgstr "<a name=\"1.044\">IPAexGothic</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:1211
 msgid "ipaexg"
-msgstr ""
+msgstr "ipaexg"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:1213
 msgid "<a href=\"files/font-languages/ipaexg-languages.tex\">languages.tex</a>"
 msgstr ""
+"<a href=\"files/font-languages/ipaexg-languages.tex\">languages.tex</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:1214
@@ -4543,91 +4548,92 @@ msgstr ""
 #: xhtml/upstream/blfs/typosetting.html:3348
 #: xhtml/upstream/blfs/typosetting.html:5227
 msgid "Japanese Sans"
-msgstr ""
+msgstr "Sans Japonês"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:1215
 msgid "ipaexg.ttf"
-msgstr ""
+msgstr "ipaexg.ttf"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:1216
 msgid "<a href=\"files/PDF-contents/ipaexg-contents.pdf\">Glyphs</a>"
-msgstr ""
+msgstr "<a href=\"files/PDF-contents/ipaexg-contents.pdf\">Glifos</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:1217
 msgid "<a href=\"files/PDF-languages/ipaexg-languages.pdf\">Langs</a>"
-msgstr ""
+msgstr "<a href=\"files/PDF-languages/ipaexg-languages.pdf\">Idiomas</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:1220
 #: xhtml/upstream/blfs/typosetting.html:1239
 msgid "IPAexfont00401 from <a href=\"df.html#CTAN\">CTAN</a>"
-msgstr ""
+msgstr "IPAexfont00401 originária do <a href=\"df.html#CTAN\">CTAN</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:1221
 #: xhtml/upstream/blfs/typosetting.html:1240
 #: xhtml/upstream/blfs/typosetting.html:5196
 msgid "IPA Font License"
-msgstr ""
+msgstr "Licença da Fonte IPA"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:1222
 msgid "<a href=\"files/codepoints/ipaexg.codepoints\">codepts</a>"
-msgstr ""
+msgstr "<a href=\"files/codepoints/ipaexg.codepoints\">pontos de código</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:1223
 msgid "<a href=\"files/coverage/ipaexg.coverage\">covrg.</a>"
-msgstr ""
+msgstr "<a href=\"files/coverage/ipaexg.coverage\">cobertura</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:1228
 #: xhtml/upstream/blfs/typosetting.html:1243
 msgid "1.045"
-msgstr ""
+msgstr "1.045"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:1229
 msgid "<a name=\"1.045\">IPAexMincho</a>"
-msgstr ""
+msgstr "<a name=\"1.045\">IPAexMincho</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:1230
 msgid "ipaexm"
-msgstr ""
+msgstr "ipaexm"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:1232
 msgid "<a href=\"files/font-languages/ipaexm-languages.tex\">languages.tex</a>"
 msgstr ""
+"<a href=\"files/font-languages/ipaexm-languages.tex\">languages.tex</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:1234
 msgid "ipaexm.ttf"
-msgstr ""
+msgstr "ipaexm.ttf"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:1235
 msgid "<a href=\"files/PDF-contents/ipaexm-contents.pdf\">Glyphs</a>"
-msgstr ""
+msgstr "<a href=\"files/PDF-contents/ipaexm-contents.pdf\">Glifos</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:1236
 msgid "<a href=\"files/PDF-languages/ipaexm-languages.pdf\">Langs</a>"
-msgstr ""
+msgstr "<a href=\"files/PDF-languages/ipaexm-languages.pdf\">Idiomas</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:1241
 msgid "<a href=\"files/codepoints/ipaexm.codepoints\">codepts</a>"
-msgstr ""
+msgstr "<a href=\"files/codepoints/ipaexm.codepoints\">pontos de código</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:1242
 msgid "<a href=\"files/coverage/ipaexm.coverage\">covrg.</a>"
-msgstr ""
+msgstr "<a href=\"files/coverage/ipaexm.coverage\">cobertura</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:1265
