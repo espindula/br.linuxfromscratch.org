@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Arquivos do sítio LFS brasileiro 1.0\n"
 "Report-Msgid-Bugs-To: jafesp@gmail.com\n"
 "POT-Creation-Date: 2026-04-08 16:44-0300\n"
-"PO-Revision-Date: 2026-05-08 18:03-0300\n"
+"PO-Revision-Date: 2026-05-13 19:56-0300\n"
 "Last-Translator: Jamenson Ferreira Espindula de Almeida Melo "
 "<jafesp@gmail.com>\n"
 "Language-Team: none\n"
@@ -4639,17 +4639,17 @@ msgstr "<a href=\"files/coverage/ipaexm.coverage\">cobertura</a>"
 #: xhtml/upstream/blfs/typosetting.html:1265
 #: xhtml/upstream/blfs/typosetting.html:1280
 msgid "1.046"
-msgstr ""
+msgstr "1.046"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:1266
 msgid "<a name=\"1.046\">KacstOne</a>"
-msgstr ""
+msgstr "<a name=\"1.046\">KacstOne</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:1267
 msgid "KacstOne"
-msgstr ""
+msgstr "KacstOne"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:1268
@@ -4659,71 +4659,72 @@ msgstr ""
 #: xhtml/upstream/blfs/typosetting.html:1911
 #: xhtml/upstream/blfs/typosetting.html:3045
 msgid "2016/08/02"
-msgstr ""
+msgstr "2016/08/02"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:1269
 msgid ""
 "<a href=\"files/font-languages/KacstOne-languages.tex\">languages.tex</a>"
 msgstr ""
+"<a href=\"files/font-languages/KacstOne-languages.tex\">languages.tex</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:1270
 msgid "Arabic Serif (Kacst)"
-msgstr ""
+msgstr "Serifa Arábica (Kacst)"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:1271
 msgid "KacstOne.ttf"
-msgstr ""
+msgstr "KacstOne.ttf"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:1272
 msgid "<a href=\"files/PDF-contents/KacstOne-contents.pdf\">Glyphs</a>"
-msgstr ""
+msgstr "<a href=\"files/PDF-contents/KacstOne-contents.pdf\">Glifos</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:1273
 msgid "<a href=\"files/PDF-languages/KacstOne-languages.pdf\">Langs</a>"
-msgstr ""
+msgstr "<a href=\"files/PDF-languages/KacstOne-languages.pdf\">Idiomas</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:1276
 msgid "kacst_one-5.0 from <a href=\"df.html#sourceforge\">sourceforge</a>"
-msgstr ""
+msgstr "kacst_one-5.0 from <a href=\"df.html#sourceforge\">sourceforge</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:1278
 msgid "<a href=\"files/codepoints/KacstOne.codepoints\">codepts</a>"
-msgstr ""
+msgstr "<a href=\"files/codepoints/KacstOne.codepoints\">pontos de código</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:1279
 msgid "<a href=\"files/coverage/KacstOne.coverage\">covrg.</a>"
-msgstr ""
+msgstr "<a href=\"files/coverage/KacstOne.coverage\">cobertura</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:1284
 #: xhtml/upstream/blfs/typosetting.html:1299
 msgid "1.047"
-msgstr ""
+msgstr "1.047"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:1285
 msgid "<a name=\"1.047\">Kochi Gothic</a>"
-msgstr ""
+msgstr "<a name=\"1.047\">Kochi Gothic</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:1286
 msgid "kochi-gothic-subst"
-msgstr ""
+msgstr "kochi-gothic-subst"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:1287
 #: xhtml/upstream/blfs/typosetting.html:1306
 #: xhtml/upstream/blfs/typosetting.html:3007
 msgid "2024/10/30"
-msgstr ""
+msgstr "2024/10/30"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:1288
@@ -4731,23 +4732,27 @@ msgid ""
 "<a "
 "href=\"files/font-languages/kochi-gothic-subst-languages.tex\">languages.tex</a>"
 msgstr ""
+"<a "
+"href=\"files/font-languages/kochi-gothic-subst-languages.tex\">languages.tex</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:1290
 msgid "kochi-gothic-subst.ttf"
-msgstr ""
+msgstr "kochi-gothic-subst.ttf"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:1291
 msgid ""
 "<a href=\"files/PDF-contents/kochi-gothic-subst-contents.pdf\">Glyphs</a>"
 msgstr ""
+"<a href=\"files/PDF-contents/kochi-gothic-subst-contents.pdf\">Glifos</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:1292
 msgid ""
 "<a href=\"files/PDF-languages/kochi-gothic-subst-languages.pdf\">Langs</a>"
 msgstr ""
+"<a href=\"files/PDF-languages/kochi-gothic-subst-languages.pdf\">Idiomas</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:1295
@@ -4755,38 +4760,42 @@ msgstr ""
 msgid ""
 "kochi-substitute-20030809 from <a href=\"df.html#osdn.net\">osdn.net</a>"
 msgstr ""
+"kochi-substitute-20030809 originária da <a "
+"href=\"df.html#osdn.net\">osdn.net</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:1296
 #: xhtml/upstream/blfs/typosetting.html:1315
 msgid "Wadalab"
-msgstr ""
+msgstr "Wadalab"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:1297
 msgid "<a href=\"files/codepoints/kochi-gothic-subst.codepoints\">codepts</a>"
 msgstr ""
+"<a href=\"files/codepoints/kochi-gothic-subst.codepoints\">pontos de "
+"código</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:1298
 msgid "<a href=\"files/coverage/kochi-gothic-subst.coverage\">covrg.</a>"
-msgstr ""
+msgstr "<a href=\"files/coverage/kochi-gothic-subst.coverage\">cobertura</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:1303
 #: xhtml/upstream/blfs/typosetting.html:1318
 msgid "1.048"
-msgstr ""
+msgstr "1.048"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:1304
 msgid "<a name=\"1.048\">Kochi Mincho</a>"
-msgstr ""
+msgstr "<a name=\"1.048\">Kochi Mincho</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:1305
 msgid "kochi-mincho-subst"
-msgstr ""
+msgstr "kochi-mincho-subst"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:1307
@@ -4794,33 +4803,39 @@ msgid ""
 "<a "
 "href=\"files/font-languages/kochi-mincho-subst-languages.tex\">languages.tex</a>"
 msgstr ""
+"<a "
+"href=\"files/font-languages/kochi-mincho-subst-languages.tex\">languages.tex</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:1309
 msgid "kochi-mincho-subst.ttf"
-msgstr ""
+msgstr "kochi-mincho-subst.ttf"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:1310
 msgid ""
 "<a href=\"files/PDF-contents/kochi-mincho-subst-contents.pdf\">Glyphs</a>"
 msgstr ""
+"<a href=\"files/PDF-contents/kochi-mincho-subst-contents.pdf\">Glifos</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:1311
 msgid ""
 "<a href=\"files/PDF-languages/kochi-mincho-subst-languages.pdf\">Langs</a>"
 msgstr ""
+"<a href=\"files/PDF-languages/kochi-mincho-subst-languages.pdf\">Idiomas</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:1316
 msgid "<a href=\"files/codepoints/kochi-mincho-subst.codepoints\">codepts</a>"
 msgstr ""
+"<a href=\"files/codepoints/kochi-mincho-subst.codepoints\">pontos de "
+"código</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:1317
 msgid "<a href=\"files/coverage/kochi-mincho-subst.coverage\">covrg.</a>"
-msgstr ""
+msgstr "<a href=\"files/coverage/kochi-mincho-subst.coverage\">cobertura</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:1322
