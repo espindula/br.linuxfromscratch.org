@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Arquivos do sítio LFS brasileiro 1.0\n"
 "Report-Msgid-Bugs-To: jafesp@gmail.com\n"
 "POT-Creation-Date: 2026-04-08 16:44-0300\n"
-"PO-Revision-Date: 2026-05-13 19:56-0300\n"
+"PO-Revision-Date: 2026-05-14 19:54-0300\n"
 "Last-Translator: Jamenson Ferreira Espindula de Almeida Melo "
 "<jafesp@gmail.com>\n"
 "Language-Team: none\n"
@@ -4841,73 +4841,75 @@ msgstr "<a href=\"files/coverage/kochi-mincho-subst.coverage\">cobertura</a>"
 #: xhtml/upstream/blfs/typosetting.html:1322
 #: xhtml/upstream/blfs/typosetting.html:1337
 msgid "1.049"
-msgstr ""
+msgstr "1.049"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:1323
 msgid "<a name=\"1.049\">Lateef</a>"
-msgstr ""
+msgstr "<a name=\"1.049\">Lateef</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:1324
 msgid "Lateef"
-msgstr ""
+msgstr "Lateef"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:1326
 msgid "<a href=\"files/font-languages/Lateef-languages.tex\">languages.tex</a>"
 msgstr ""
+"<a href=\"files/font-languages/Lateef-languages.tex\">languages.tex</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:1327
 msgid "Arabic Serif (South Asian)"
-msgstr ""
+msgstr "Serifa Arábica (Sul Asiático)"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:1328
 msgid "LateefRegOT.ttf"
-msgstr ""
+msgstr "LateefRegOT.ttf"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:1329
 msgid "<a href=\"files/PDF-contents/Lateef-contents.pdf\">Glyphs</a>"
-msgstr ""
+msgstr "<a href=\"files/PDF-contents/Lateef-contents.pdf\">Glifos</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:1330
 msgid "<a href=\"files/PDF-languages/Lateef-languages.pdf\">Langs</a>"
-msgstr ""
+msgstr "<a href=\"files/PDF-languages/Lateef-languages.pdf\">Idiomas</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:1333
 msgid "LateefRegOT_1.001 from <a href=\"df.html#SIL\">Fonts SIL</a>"
 msgstr ""
+"LateefRegOT_1.001 originária das <a href=\"df.html#SIL\">Fontes SIL</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:1335
 msgid "<a href=\"files/codepoints/Lateef.codepoints\">codepts</a>"
-msgstr ""
+msgstr "<a href=\"files/codepoints/Lateef.codepoints\">pontos de código</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:1336
 msgid "<a href=\"files/coverage/Lateef.coverage\">covrg.</a>"
-msgstr ""
+msgstr "<a href=\"files/coverage/Lateef.coverage\">cobertura</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:1341
 #: xhtml/upstream/blfs/typosetting.html:1356
 msgid "1.050"
-msgstr ""
+msgstr "1.050"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:1342
 msgid "<a name=\"1.050\">Liberation Mono</a>"
-msgstr ""
+msgstr "<a name=\"1.050\">Liberation Mono</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:1343
 msgid "LiberationMono"
-msgstr ""
+msgstr "LiberationMono"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:1345
@@ -4915,21 +4917,24 @@ msgid ""
 "<a "
 "href=\"files/font-languages/LiberationMono-languages.tex\">languages.tex</a>"
 msgstr ""
+"<a "
+"href=\"files/font-languages/LiberationMono-languages.tex\">languages.tex</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:1347
 msgid "LiberationMono-Regular.ttf"
-msgstr ""
+msgstr "LiberationMono-Regular.ttf"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:1348
 msgid "<a href=\"files/PDF-contents/LiberationMono-contents.pdf\">Glyphs</a>"
-msgstr ""
+msgstr "<a href=\"files/PDF-contents/LiberationMono-contents.pdf\">Glifos</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:1349
 msgid "<a href=\"files/PDF-languages/LiberationMono-languages.pdf\">Langs</a>"
 msgstr ""
+"<a href=\"files/PDF-languages/LiberationMono-languages.pdf\">Idiomas</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:1352
@@ -4937,32 +4942,35 @@ msgstr ""
 #: xhtml/upstream/blfs/typosetting.html:1408
 msgid "liberation-fonts-ttf-2.1.5 from <a href=\"df.html#github\">github</a>"
 msgstr ""
+"liberation-fonts-ttf-2.1.5 originária do <a "
+"href=\"df.html#github\">github</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:1354
 msgid "<a href=\"files/codepoints/LiberationMono.codepoints\">codepts</a>"
 msgstr ""
+"<a href=\"files/codepoints/LiberationMono.codepoints\">pontos de código</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:1355
 msgid "<a href=\"files/coverage/LiberationMono.coverage\">covrg.</a>"
-msgstr ""
+msgstr "<a href=\"files/coverage/LiberationMono.coverage\">cobertura</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:1378
 #: xhtml/upstream/blfs/typosetting.html:1393
 msgid "1.051"
-msgstr ""
+msgstr "1.051"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:1379
 msgid "<a name=\"1.051\">Liberation Sans</a>"
-msgstr ""
+msgstr "<a name=\"1.051\">Liberation Sans</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:1380
 msgid "LiberationSans"
-msgstr ""
+msgstr "LiberationSans"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:1382
@@ -4970,47 +4978,51 @@ msgid ""
 "<a "
 "href=\"files/font-languages/LiberationSans-languages.tex\">languages.tex</a>"
 msgstr ""
+"<a "
+"href=\"files/font-languages/LiberationSans-languages.tex\">languages.tex</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:1384
 msgid "LiberationSans-Regular.ttf"
-msgstr ""
+msgstr "LiberationSans-Regular.ttf"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:1385
 msgid "<a href=\"files/PDF-contents/LiberationSans-contents.pdf\">Glyphs</a>"
-msgstr ""
+msgstr "<a href=\"files/PDF-contents/LiberationSans-contents.pdf\">Glifos</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:1386
 msgid "<a href=\"files/PDF-languages/LiberationSans-languages.pdf\">Langs</a>"
 msgstr ""
+"<a href=\"files/PDF-languages/LiberationSans-languages.pdf\">Idiomas</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:1391
 msgid "<a href=\"files/codepoints/LiberationSans.codepoints\">codepts</a>"
 msgstr ""
+"<a href=\"files/codepoints/LiberationSans.codepoints\">pontos de código</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:1392
 msgid "<a href=\"files/coverage/LiberationSans.coverage\">covrg.</a>"
-msgstr ""
+msgstr "<a href=\"files/coverage/LiberationSans.coverage\">cobertura</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:1397
 #: xhtml/upstream/blfs/typosetting.html:1412
 msgid "1.052"
-msgstr ""
+msgstr "1.052"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:1398
 msgid "<a name=\"1.052\">Liberation Serif</a>"
-msgstr ""
+msgstr "<a name=\"1.052\">Liberation Serif</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:1399
 msgid "LiberationSerif"
-msgstr ""
+msgstr "LiberationSerif"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:1401
@@ -5018,31 +5030,35 @@ msgid ""
 "<a "
 "href=\"files/font-languages/LiberationSerif-languages.tex\">languages.tex</a>"
 msgstr ""
+"<a "
+"href=\"files/font-languages/LiberationSerif-languages.tex\">languages.tex</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:1403
 msgid "LiberationSerif-Regular.ttf"
-msgstr ""
+msgstr "LiberationSerif-Regular.ttf"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:1404
 msgid "<a href=\"files/PDF-contents/LiberationSerif-contents.pdf\">Glyphs</a>"
-msgstr ""
+msgstr "<a href=\"files/PDF-contents/LiberationSerif-contents.pdf\">Glifos</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:1405
 msgid "<a href=\"files/PDF-languages/LiberationSerif-languages.pdf\">Langs</a>"
 msgstr ""
+"<a href=\"files/PDF-languages/LiberationSerif-languages.pdf\">Idiomas</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:1410
 msgid "<a href=\"files/codepoints/LiberationSerif.codepoints\">codepts</a>"
 msgstr ""
+"<a href=\"files/codepoints/LiberationSerif.codepoints\">pontos de código</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:1411
 msgid "<a href=\"files/coverage/LiberationSerif.coverage\">covrg.</a>"
-msgstr ""
+msgstr "<a href=\"files/coverage/LiberationSerif.coverage\">cobertura</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:1416
