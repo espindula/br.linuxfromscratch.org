@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Arquivos do sítio LFS brasileiro 1.0\n"
 "Report-Msgid-Bugs-To: jafesp@gmail.com\n"
 "POT-Creation-Date: 2026-04-08 16:44-0300\n"
-"PO-Revision-Date: 2026-05-15 19:44-0300\n"
+"PO-Revision-Date: 2026-05-16 19:08-0300\n"
 "Last-Translator: Jamenson Ferreira Espindula de Almeida Melo "
 "<jafesp@gmail.com>\n"
 "Language-Team: none\n"
@@ -5515,17 +5515,17 @@ msgstr "<a href=\"files/coverage/Lohit-Kannada.coverage\">cobertura</a>"
 #: xhtml/upstream/blfs/typosetting.html:1569
 #: xhtml/upstream/blfs/typosetting.html:1584
 msgid "1.060"
-msgstr ""
+msgstr "1.060"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:1570
 msgid "<a name=\"1.060\">Lohit Malayalam</a>"
-msgstr ""
+msgstr "<a name=\"1.060\">Lohit Malayalam</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:1571
 msgid "Lohit-Malayalam"
-msgstr ""
+msgstr "Lohit-Malayalam"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:1573
@@ -5533,27 +5533,30 @@ msgid ""
 "<a "
 "href=\"files/font-languages/Lohit-Malayalam-languages.tex\">languages.tex</a>"
 msgstr ""
+"<a "
+"href=\"files/font-languages/Lohit-Malayalam-languages.tex\">languages.tex</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:1574
 #: xhtml/upstream/blfs/typosetting.html:2348
 msgid "Malayalam"
-msgstr ""
+msgstr "Malayalam"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:1575
 msgid "Lohit-Malayalam.ttf"
-msgstr ""
+msgstr "Lohit-Malayalam.ttf"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:1576
 msgid "<a href=\"files/PDF-contents/Lohit-Malayalam-contents.pdf\">Glyphs</a>"
-msgstr ""
+msgstr "<a href=\"files/PDF-contents/Lohit-Malayalam-contents.pdf\">Glifos</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:1577
 msgid "<a href=\"files/PDF-languages/Lohit-Malayalam-languages.pdf\">Langs</a>"
 msgstr ""
+"<a href=\"files/PDF-languages/Lohit-Malayalam-languages.pdf\">Idiomas</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:1582
