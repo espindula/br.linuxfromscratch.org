@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Arquivos do sítio LFS brasileiro 1.0\n"
 "Report-Msgid-Bugs-To: jafesp@gmail.com\n"
 "POT-Creation-Date: 2026-04-08 16:44-0300\n"
-"PO-Revision-Date: 2026-06-03 19:12-0300\n"
+"PO-Revision-Date: 2026-06-06 17:55-0300\n"
 "Last-Translator: Jamenson Ferreira Espindula de Almeida Melo "
 "<jafesp@gmail.com>\n"
 "Language-Team: none\n"
@@ -8567,17 +8567,17 @@ msgstr "<a href=\"files/coverage/NotoSansTibetan.coverage\">cobertura</a>"
 #: xhtml/upstream/blfs/typosetting.html:2701
 #: xhtml/upstream/blfs/typosetting.html:2716
 msgid "1.110"
-msgstr ""
+msgstr "1.110"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:2702
 msgid "<a name=\"1.110\">Noto Sans Tifinagh</a>"
-msgstr ""
+msgstr "<a name=\"1.110\">Noto Sans Tifinagh</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:2703
 msgid "NotoSansTifinagh"
-msgstr ""
+msgstr "NotoSansTifinagh"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:2705
@@ -8585,219 +8585,231 @@ msgid ""
 "<a "
 "href=\"files/font-languages/NotoSansTifinagh-languages.tex\">languages.tex</a>"
 msgstr ""
+"<a "
+"href=\"files/font-languages/NotoSansTifinagh-languages.tex\">languages.tex</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:2706
 msgid "Tifinagh"
-msgstr ""
+msgstr "Tifinagh"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:2707
 msgid "NotoSansTifinagh-Regular.ttf"
-msgstr ""
+msgstr "NotoSansTifinagh-Regular.ttf"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:2708
 msgid "<a href=\"files/PDF-contents/NotoSansTifinagh-contents.pdf\">Glyphs</a>"
 msgstr ""
+"<a href=\"files/PDF-contents/NotoSansTifinagh-contents.pdf\">Glifos</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:2709
 msgid ""
 "<a href=\"files/PDF-languages/NotoSansTifinagh-languages.pdf\">Langs</a>"
 msgstr ""
+"<a href=\"files/PDF-languages/NotoSansTifinagh-languages.pdf\">Idiomas</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:2714
 msgid "<a href=\"files/codepoints/NotoSansTifinagh.codepoints\">codepts</a>"
 msgstr ""
+"<a href=\"files/codepoints/NotoSansTifinagh.codepoints\">pontos de "
+"código</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:2715
 msgid "<a href=\"files/coverage/NotoSansTifinagh.coverage\">covrg.</a>"
-msgstr ""
+msgstr "<a href=\"files/coverage/NotoSansTifinagh.coverage\">cobertura</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:2738
 #: xhtml/upstream/blfs/typosetting.html:2753
 msgid "1.111"
-msgstr ""
+msgstr "1.111"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:2739
 msgid "<a name=\"1.111\">Noto Sans Vai</a>"
-msgstr ""
+msgstr "<a name=\"1.111\">Noto Sans Vai</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:2740
 msgid "NotoSansVai"
-msgstr ""
+msgstr "NotoSansVai"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:2742
 msgid ""
 "<a href=\"files/font-languages/NotoSansVai-languages.tex\">languages.tex</a>"
 msgstr ""
+"<a href=\"files/font-languages/NotoSansVai-languages.tex\">languages.tex</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:2743
 msgid "Vai"
-msgstr ""
+msgstr "Vai"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:2744
 msgid "NotoSansVai-Regular.ttf"
-msgstr ""
+msgstr "NotoSansVai-Regular.ttf"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:2745
 msgid "<a href=\"files/PDF-contents/NotoSansVai-contents.pdf\">Glyphs</a>"
-msgstr ""
+msgstr "<a href=\"files/PDF-contents/NotoSansVai-contents.pdf\">Glifos</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:2746
 msgid "<a href=\"files/PDF-languages/NotoSansVai-languages.pdf\">Langs</a>"
-msgstr ""
+msgstr "<a href=\"files/PDF-languages/NotoSansVai-languages.pdf\">Idiomas</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:2751
 msgid "<a href=\"files/codepoints/NotoSansVai.codepoints\">codepts</a>"
 msgstr ""
+"<a href=\"files/codepoints/NotoSansVai.codepoints\">pontos de código</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:2752
 msgid "<a href=\"files/coverage/NotoSansVai.coverage\">covrg.</a>"
-msgstr ""
+msgstr "<a href=\"files/coverage/NotoSansVai.coverage\">cobertura</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:2757
 #: xhtml/upstream/blfs/typosetting.html:2772
 msgid "1.112"
-msgstr ""
+msgstr "1.112"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:2758
 msgid "<a name=\"1.112\">Noto Sans Yi</a>"
-msgstr ""
+msgstr "<a name=\"1.112\">Noto Sans Yi</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:2759
 msgid "NotoSansYi"
-msgstr ""
+msgstr "NotoSansYi"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:2761
 msgid ""
 "<a href=\"files/font-languages/NotoSansYi-languages.tex\">languages.tex</a>"
 msgstr ""
+"<a href=\"files/font-languages/NotoSansYi-languages.tex\">languages.tex</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:2762
 msgid "Yi"
-msgstr ""
+msgstr "Yi"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:2763
 msgid "NotoSansYi-Regular.ttf"
-msgstr ""
+msgstr "NotoSansYi-Regular.ttf"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:2764
 msgid "<a href=\"files/PDF-contents/NotoSansYi-contents.pdf\">Glyphs</a>"
-msgstr ""
+msgstr "<a href=\"files/PDF-contents/NotoSansYi-contents.pdf\">Glifos</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:2765
 msgid "<a href=\"files/PDF-languages/NotoSansYi-languages.pdf\">Langs</a>"
-msgstr ""
+msgstr "<a href=\"files/PDF-languages/NotoSansYi-languages.pdf\">Idiomas</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:2770
 msgid "<a href=\"files/codepoints/NotoSansYi.codepoints\">codepts</a>"
 msgstr ""
+"<a href=\"files/codepoints/NotoSansYi.codepoints\">pontos de código</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:2771
 msgid "<a href=\"files/coverage/NotoSansYi.coverage\">covrg.</a>"
-msgstr ""
+msgstr "<a href=\"files/coverage/NotoSansYi.coverage\">cobertura</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:2776
 #: xhtml/upstream/blfs/typosetting.html:2793
 msgid "1.113"
-msgstr ""
+msgstr "1.113"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:2777
 msgid "<a name=\"1.113\">Noto Serif</a>"
-msgstr ""
+msgstr "<a name=\"1.113\">Noto Serif</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:2778
 msgid "NotoSerif"
-msgstr ""
+msgstr "NotoSerif"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:2780
 msgid ""
 "<a href=\"files/font-languages/NotoSerif-languages.tex\">languages.tex</a>"
 msgstr ""
+"<a href=\"files/font-languages/NotoSerif-languages.tex\">languages.tex</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:2781
 msgid "<a href=\"files/sc-languages/NotoSerif-sc.tex\">sc.tex</a>"
-msgstr ""
+msgstr "<a href=\"files/sc-languages/NotoSerif-sc.tex\">sc.tex</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:2783
 msgid "NotoSerif-Regular.ttf"
-msgstr ""
+msgstr "NotoSerif-Regular.ttf"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:2784
 msgid "<a href=\"files/PDF-contents/NotoSerif-contents.pdf\">Glyphs</a>"
-msgstr ""
+msgstr "<a href=\"files/PDF-contents/NotoSerif-contents.pdf\">Glifos</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:2785
 msgid "<a href=\"files/PDF-languages/NotoSerif-languages.pdf\">Langs</a>"
-msgstr ""
+msgstr "<a href=\"files/PDF-languages/NotoSerif-languages.pdf\">Idiomas</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:2786
 msgid "<a href=\"files/PDF-sc/NotoSerif-sc.pdf\">SC Langs</a>"
-msgstr ""
+msgstr "<a href=\"files/PDF-sc/NotoSerif-sc.pdf\">Idiomas SC</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:2789
 msgid "From <a href=\"df.html#Noto\">Noto</a> dated 2023-05-31"
-msgstr ""
+msgstr "Originária da <a href=\"df.html#Noto\">Noto</a> datada de 2023-05-31"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:2791
 msgid "<a href=\"files/codepoints/NotoSerif.codepoints\">codepts</a>"
 msgstr ""
+"<a href=\"files/codepoints/NotoSerif.codepoints\">pontos de código</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:2792
 msgid "<a href=\"files/coverage/NotoSerif.coverage\">covrg.</a>"
-msgstr ""
+msgstr "<a href=\"files/coverage/NotoSerif.coverage\">cobertura</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:2797
 #: xhtml/upstream/blfs/typosetting.html:2812
 msgid "1.114"
-msgstr ""
+msgstr "1.114"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:2798
 msgid "<a name=\"1.114\">Noto Serif Armenian</a>"
-msgstr ""
+msgstr "<a name=\"1.114\">Noto Serif Armênia</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:2799
 msgid "NotoSerifArmenian"
-msgstr ""
+msgstr "NotoSerifArmenian"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:2801
@@ -8805,38 +8817,44 @@ msgid ""
 "<a "
 "href=\"files/font-languages/NotoSerifArmenian-languages.tex\">languages.tex</a>"
 msgstr ""
+"<a "
+"href=\"files/font-languages/NotoSerifArmenian-languages.tex\">languages.tex</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:2802
 msgid "Armenian (Serif)"
-msgstr ""
+msgstr "Armênia (Serif)"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:2803
 msgid "NotoSerifArmenian-Regular.ttf"
-msgstr ""
+msgstr "NotoSerifArmenian-Regular.ttf"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:2804
 msgid ""
 "<a href=\"files/PDF-contents/NotoSerifArmenian-contents.pdf\">Glyphs</a>"
 msgstr ""
+"<a href=\"files/PDF-contents/NotoSerifArmenian-contents.pdf\">Glifos</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:2805
 msgid ""
 "<a href=\"files/PDF-languages/NotoSerifArmenian-languages.pdf\">Langs</a>"
 msgstr ""
+"<a href=\"files/PDF-languages/NotoSerifArmenian-languages.pdf\">Idiomas</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:2810
 msgid "<a href=\"files/codepoints/NotoSerifArmenian.codepoints\">codepts</a>"
 msgstr ""
+"<a href=\"files/codepoints/NotoSerifArmenian.codepoints\">pontos de "
+"código</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:2811
 msgid "<a href=\"files/coverage/NotoSerifArmenian.coverage\">covrg.</a>"
-msgstr ""
+msgstr "<a href=\"files/coverage/NotoSerifArmenian.coverage\">cobertura</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:2816
