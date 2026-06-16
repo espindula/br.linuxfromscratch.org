@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Arquivos do sítio LFS brasileiro 1.0\n"
 "Report-Msgid-Bugs-To: jafesp@gmail.com\n"
 "POT-Creation-Date: 2026-04-08 16:44-0300\n"
-"PO-Revision-Date: 2026-06-10 22:44-0300\n"
+"PO-Revision-Date: 2026-06-15 23:00-0300\n"
 "Last-Translator: Jamenson Ferreira Espindula de Almeida Melo "
 "<jafesp@gmail.com>\n"
 "Language-Team: none\n"
@@ -9621,68 +9621,69 @@ msgstr "<a href=\"files/coverage/Tinos.coverage\">cobertura</a>"
 #: xhtml/upstream/blfs/typosetting.html:3117
 #: xhtml/upstream/blfs/typosetting.html:3132
 msgid "1.128"
-msgstr ""
+msgstr "1.128"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:3118
 msgid "<a name=\"1.128\">Tymes</a>"
-msgstr ""
+msgstr "<a name=\"1.128\">Tymes</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:3119
 msgid "Tymes"
-msgstr ""
+msgstr "Tymes"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:3121
 msgid "<a href=\"files/font-languages/Tymes-languages.tex\">languages.tex</a>"
-msgstr ""
+msgstr "<a href=\"files/font-languages/Tymes-languages.tex\">languages.tex</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:3123
 msgid "Tymes.ttf"
-msgstr ""
+msgstr "Tymes.ttf"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:3124
 msgid "<a href=\"files/PDF-contents/Tymes-contents.pdf\">Glyphs</a>"
-msgstr ""
+msgstr "<a href=\"files/PDF-contents/Tymes-contents.pdf\">Glifos</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:3125
 msgid "<a href=\"files/PDF-languages/Tymes-languages.pdf\">Langs</a>"
-msgstr ""
+msgstr "<a href=\"files/PDF-languages/Tymes-languages.pdf\">Idiomas</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:3130
 msgid "<a href=\"files/codepoints/Tymes.codepoints\">codepts</a>"
-msgstr ""
+msgstr "<a href=\"files/codepoints/Tymes.codepoints\">pontos de código</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:3131
 msgid "<a href=\"files/coverage/Tymes.coverage\">covrg.</a>"
-msgstr ""
+msgstr "<a href=\"files/coverage/Tymes.coverage\">cobertura</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:3136
 #: xhtml/upstream/blfs/typosetting.html:3151
 msgid "1.129"
-msgstr ""
+msgstr "1.129"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:3137
 msgid "<a name=\"1.129\">Ubuntu</a>"
-msgstr ""
+msgstr "<a name=\"1.129\">Ubuntu</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:3138
 msgid "Ubuntu"
-msgstr ""
+msgstr "Ubuntu"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:3140
 msgid "<a href=\"files/font-languages/Ubuntu-languages.tex\">languages.tex</a>"
 msgstr ""
+"<a href=\"files/font-languages/Ubuntu-languages.tex\">languages.tex</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:3141
@@ -9690,95 +9691,101 @@ msgstr ""
 #: xhtml/upstream/blfs/typosetting.html:4434
 #: xhtml/upstream/blfs/typosetting.html:4633
 msgid "Geometric Sans"
-msgstr ""
+msgstr "Sans Geométrica"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:3142
 msgid "Ubuntu-Regular.ttf"
-msgstr ""
+msgstr "Ubuntu-Regular.ttf"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:3143
 msgid "<a href=\"files/PDF-contents/Ubuntu-contents.pdf\">Glyphs</a>"
-msgstr ""
+msgstr "<a href=\"files/PDF-contents/Ubuntu-contents.pdf\">Glifos</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:3144
 msgid "<a href=\"files/PDF-languages/Ubuntu-languages.pdf\">Langs</a>"
-msgstr ""
+msgstr "<a href=\"files/PDF-languages/Ubuntu-languages.pdf\">Idiomas</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:3147
 msgid "Ubuntu dated 2022-09-22 from <a href=\"df.html#Google\">Google</a>"
 msgstr ""
+"Ubuntu datada de 2022-09-22 originária do <a "
+"href=\"df.html#Google\">Google</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:3148
 #: xhtml/upstream/blfs/typosetting.html:3167
 msgid "Ubuntu Font License v1.0"
-msgstr ""
+msgstr "Licença v1.0 da Fonte Ubuntu"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:3149
 msgid "<a href=\"files/codepoints/Ubuntu.codepoints\">codepts</a>"
-msgstr ""
+msgstr "<a href=\"files/codepoints/Ubuntu.codepoints\">pontos de código</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:3150
 msgid "<a href=\"files/coverage/Ubuntu.coverage\">covrg.</a>"
-msgstr ""
+msgstr "<a href=\"files/coverage/Ubuntu.coverage\">cobertura</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:3155
 #: xhtml/upstream/blfs/typosetting.html:3170
 msgid "1.130"
-msgstr ""
+msgstr "1.130"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:3156
 msgid "<a name=\"1.130\">Ubuntu Mono</a>"
-msgstr ""
+msgstr "<a name=\"1.130\">Ubuntu Mono</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:3157
 msgid "UbuntuMono"
-msgstr ""
+msgstr "UbuntuMono"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:3159
 msgid ""
 "<a href=\"files/font-languages/UbuntuMono-languages.tex\">languages.tex</a>"
 msgstr ""
+"<a href=\"files/font-languages/UbuntuMono-languages.tex\">languages.tex</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:3161
 msgid "UbuntuMono-Regular.ttf"
-msgstr ""
+msgstr "UbuntuMono-Regular.ttf"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:3162
 msgid "<a href=\"files/PDF-contents/UbuntuMono-contents.pdf\">Glyphs</a>"
-msgstr ""
+msgstr "<a href=\"files/PDF-contents/UbuntuMono-contents.pdf\">Glifos</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:3163
 msgid "<a href=\"files/PDF-languages/UbuntuMono-languages.pdf\">Langs</a>"
-msgstr ""
+msgstr "<a href=\"files/PDF-languages/UbuntuMono-languages.pdf\">Idiomas</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:3166
 msgid "Ubuntu Mono dated 2022-09-22 from <a href=\"df.html#Google\">Google</a>"
 msgstr ""
+"Ubuntu Mono datada de 2022-09-22 originária do <a "
+"href=\"df.html#Google\">Google</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:3168
 msgid "<a href=\"files/codepoints/UbuntuMono.codepoints\">codepts</a>"
 msgstr ""
+"<a href=\"files/codepoints/UbuntuMono.codepoints\">pontos de código</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:3169
 msgid "<a href=\"files/coverage/UbuntuMono.coverage\">covrg.</a>"
-msgstr ""
+msgstr "<a href=\"files/coverage/UbuntuMono.coverage\">cobertura</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:3192
