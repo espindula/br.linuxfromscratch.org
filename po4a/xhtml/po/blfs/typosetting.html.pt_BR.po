@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Arquivos do sítio LFS brasileiro 1.0\n"
 "Report-Msgid-Bugs-To: jafesp@gmail.com\n"
 "POT-Creation-Date: 2026-04-08 16:44-0300\n"
-"PO-Revision-Date: 2026-06-15 23:00-0300\n"
+"PO-Revision-Date: 2026-06-18 20:27-0300\n"
 "Last-Translator: Jamenson Ferreira Espindula de Almeida Melo "
 "<jafesp@gmail.com>\n"
 "Language-Team: none\n"
@@ -9791,44 +9791,45 @@ msgstr "<a href=\"files/coverage/UbuntuMono.coverage\">cobertura</a>"
 #: xhtml/upstream/blfs/typosetting.html:3192
 #: xhtml/upstream/blfs/typosetting.html:3207
 msgid "1.131"
-msgstr ""
+msgstr "1.131"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:3193
 msgid "<a name=\"1.131\">Ume Hy Gothic O5</a>"
-msgstr ""
+msgstr "<a name=\"1.131\">Ume Hy Gothic O5</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:3194
 msgid "ume-hgo5"
-msgstr ""
+msgstr "ume-hgo5"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:3195
 #: xhtml/upstream/blfs/typosetting.html:5206
 msgid "2024/11/05"
-msgstr ""
+msgstr "2024/11/05"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:3196
 msgid ""
 "<a href=\"files/font-languages/ume-hgo5-languages.tex\">languages.tex</a>"
 msgstr ""
+"<a href=\"files/font-languages/ume-hgo5-languages.tex\">languages.tex</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:3198
 msgid "ume-hgo5.ttf"
-msgstr ""
+msgstr "ume-hgo5.ttf"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:3199
 msgid "<a href=\"files/PDF-contents/ume-hgo5-contents.pdf\">Glyphs</a>"
-msgstr ""
+msgstr "<a href=\"files/PDF-contents/ume-hgo5-contents.pdf\">Glifos</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:3200
 msgid "<a href=\"files/PDF-languages/ume-hgo5-languages.pdf\">Langs</a>"
-msgstr ""
+msgstr "<a href=\"files/PDF-languages/ume-hgo5-languages.pdf\">Idiomas</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:3203
@@ -9836,164 +9837,168 @@ msgstr ""
 #: xhtml/upstream/blfs/typosetting.html:3241
 msgid "fonts-horai-umefont_670 from <a href=\"df.html#Debian\">Debian</a>"
 msgstr ""
+"fonts-horai-umefont_670 originárias da <a href=\"df.html#Debian\">Debian</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:3204
 #: xhtml/upstream/blfs/typosetting.html:3223
 #: xhtml/upstream/blfs/typosetting.html:3242
 msgid "UmeFont license"
-msgstr ""
+msgstr "Licença UmeFont"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:3205
 msgid "<a href=\"files/codepoints/ume-hgo5.codepoints\">codepts</a>"
-msgstr ""
+msgstr "<a href=\"files/codepoints/ume-hgo5.codepoints\">pontos de código</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:3206
 msgid "<a href=\"files/coverage/ume-hgo5.coverage\">covrg.</a>"
-msgstr ""
+msgstr "<a href=\"files/coverage/ume-hgo5.coverage\">cobertura</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:3211
 #: xhtml/upstream/blfs/typosetting.html:3226
 msgid "1.132"
-msgstr ""
+msgstr "1.132"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:3212
 msgid "<a name=\"1.132\">Ume Mincho</a>"
-msgstr ""
+msgstr "<a name=\"1.132\">Ume Mincho</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:3213
 msgid "ume-tmo3"
-msgstr ""
+msgstr "ume-tmo3"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:3215
 msgid ""
 "<a href=\"files/font-languages/ume-tmo3-languages.tex\">languages.tex</a>"
 msgstr ""
+"<a href=\"files/font-languages/ume-tmo3-languages.tex\">languages.tex</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:3217
 msgid "ume-tmo3.ttf"
-msgstr ""
+msgstr "ume-tmo3.ttf"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:3218
 msgid "<a href=\"files/PDF-contents/ume-tmo3-contents.pdf\">Glyphs</a>"
-msgstr ""
+msgstr "<a href=\"files/PDF-contents/ume-tmo3-contents.pdf\">Glifos</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:3219
 msgid "<a href=\"files/PDF-languages/ume-tmo3-languages.pdf\">Langs</a>"
-msgstr ""
+msgstr "<a href=\"files/PDF-languages/ume-tmo3-languages.pdf\">Idiomas</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:3224
 msgid "<a href=\"files/codepoints/ume-tmo3.codepoints\">codepts</a>"
-msgstr ""
+msgstr "<a href=\"files/codepoints/ume-tmo3.codepoints\">pontos de código</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:3225
 msgid "<a href=\"files/coverage/ume-tmo3.coverage\">covrg.</a>"
-msgstr ""
+msgstr "<a href=\"files/coverage/ume-tmo3.coverage\">cobertura</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:3230
 #: xhtml/upstream/blfs/typosetting.html:3245
 msgid "1.133"
-msgstr ""
+msgstr "1.133"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:3231
 msgid "<a name=\"1.133\">Ume UI Gothic</a>"
-msgstr ""
+msgstr "<a name=\"1.133\">Ume UI Gothic</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:3232
 msgid "ume-ugo4"
-msgstr ""
+msgstr "ume-ugo4"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:3234
 msgid ""
 "<a href=\"files/font-languages/ume-ugo4-languages.tex\">languages.tex</a>"
 msgstr ""
+"<a href=\"files/font-languages/ume-ugo4-languages.tex\">languages.tex</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:3235
 msgid "Japanese UI Sans"
-msgstr ""
+msgstr "Japanese UI Sans"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:3236
 msgid "ume-ugo4.ttf"
-msgstr ""
+msgstr "ume-ugo4.ttf"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:3237
 msgid "<a href=\"files/PDF-contents/ume-ugo4-contents.pdf\">Glyphs</a>"
-msgstr ""
+msgstr "<a href=\"files/PDF-contents/ume-ugo4-contents.pdf\">Glifos</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:3238
 msgid "<a href=\"files/PDF-languages/ume-ugo4-languages.pdf\">Langs</a>"
-msgstr ""
+msgstr "<a href=\"files/PDF-languages/ume-ugo4-languages.pdf\">Idiomas</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:3243
 msgid "<a href=\"files/codepoints/ume-ugo4.codepoints\">codepts</a>"
-msgstr ""
+msgstr "<a href=\"files/codepoints/ume-ugo4.codepoints\">pontos de código</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:3244
 msgid "<a href=\"files/coverage/ume-ugo4.coverage\">covrg.</a>"
-msgstr ""
+msgstr "<a href=\"files/coverage/ume-ugo4.coverage\">cobertura</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:3249
 #: xhtml/upstream/blfs/typosetting.html:3264
 msgid "1.134"
-msgstr ""
+msgstr "1.134"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:3250
 msgid "<a name=\"1.134\">UnBatang</a>"
-msgstr ""
+msgstr "<a name=\"1.134\">UnBatang</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:3251
 msgid "UnBatang"
-msgstr ""
+msgstr "UnBatang"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:3252
 msgid "2025/02/04"
-msgstr ""
+msgstr "2025/02/04"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:3253
 msgid ""
 "<a href=\"files/font-languages/UnBatang-languages.tex\">languages.tex</a>"
 msgstr ""
+"<a href=\"files/font-languages/UnBatang-languages.tex\">languages.tex</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:3255
 msgid "UnBatang.ttf"
-msgstr ""
+msgstr "UnBatang.ttf"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:3256
 msgid "<a href=\"files/PDF-contents/UnBatang-contents.pdf\">Glyphs</a>"
-msgstr ""
+msgstr "<a href=\"files/PDF-contents/UnBatang-contents.pdf\">Glifos</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:3257
 msgid "<a href=\"files/PDF-languages/UnBatang-languages.pdf\">Langs</a>"
-msgstr ""
+msgstr "<a href=\"files/PDF-languages/UnBatang-languages.pdf\">Idiomas</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:3260
@@ -10001,240 +10006,249 @@ msgstr ""
 #: xhtml/upstream/blfs/typosetting.html:3316
 msgid "fonts-unfonts-core from <a href=\"df.html#github\">github</a>"
 msgstr ""
+"fonts-unfonts-core originárias do <a href=\"df.html#github\">github</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:3262
 msgid "<a href=\"files/codepoints/UnBatang.codepoints\">codepts</a>"
-msgstr ""
+msgstr "<a href=\"files/codepoints/UnBatang.codepoints\">pontos de código</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:3263
 msgid "<a href=\"files/coverage/UnBatang.coverage\">covrg.</a>"
-msgstr ""
+msgstr "<a href=\"files/coverage/UnBatang.coverage\">cobertura</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:3268
 #: xhtml/upstream/blfs/typosetting.html:3283
 msgid "1.135"
-msgstr ""
+msgstr "1.135"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:3269
 msgid "<a name=\"1.135\">UnDotum</a>"
-msgstr ""
+msgstr "<a name=\"1.135\">UnDotum</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:3270
 msgid "UnDotum"
-msgstr ""
+msgstr "UnDotum"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:3271
 msgid "2025/02/05"
-msgstr ""
+msgstr "2025/02/05"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:3272
 msgid ""
 "<a href=\"files/font-languages/UnDotum-languages.tex\">languages.tex</a>"
 msgstr ""
+"<a href=\"files/font-languages/UnDotum-languages.tex\">languages.tex</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:3274
 msgid "UnDotum.ttf"
-msgstr ""
+msgstr "UnDotum.ttf"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:3275
 msgid "<a href=\"files/PDF-contents/UnDotum-contents.pdf\">Glyphs</a>"
-msgstr ""
+msgstr "<a href=\"files/PDF-contents/UnDotum-contents.pdf\">Glifos</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:3276
 msgid "<a href=\"files/PDF-languages/UnDotum-languages.pdf\">Langs</a>"
-msgstr ""
+msgstr "<a href=\"files/PDF-languages/UnDotum-languages.pdf\">Idiomas</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:3281
 msgid "<a href=\"files/codepoints/UnDotum.codepoints\">codepts</a>"
-msgstr ""
+msgstr "<a href=\"files/codepoints/UnDotum.codepoints\">pontos de código</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:3282
 msgid "<a href=\"files/coverage/UnDotum.coverage\">covrg.</a>"
-msgstr ""
+msgstr "<a href=\"files/coverage/UnDotum.coverage\">cobertura</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:3305
 #: xhtml/upstream/blfs/typosetting.html:3320
 msgid "1.136"
-msgstr ""
+msgstr "1.136"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:3306
 msgid "<a name=\"1.136\">UnGraphic</a>"
-msgstr ""
+msgstr "<a name=\"1.136\">UnGraphic</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:3307
 msgid "UnGraphic"
-msgstr ""
+msgstr "UnGraphic"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:3308
 msgid "2025/02/06"
-msgstr ""
+msgstr "2025/02/06"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:3309
 msgid ""
 "<a href=\"files/font-languages/UnGraphic-languages.tex\">languages.tex</a>"
 msgstr ""
+"<a href=\"files/font-languages/UnGraphic-languages.tex\">languages.tex</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:3311
 msgid "UnGraphic.ttf"
-msgstr ""
+msgstr "UnGraphic.ttf"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:3312
 msgid "<a href=\"files/PDF-contents/UnGraphic-contents.pdf\">Glyphs</a>"
-msgstr ""
+msgstr "<a href=\"files/PDF-contents/UnGraphic-contents.pdf\">Glifos</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:3313
 msgid "<a href=\"files/PDF-languages/UnGraphic-languages.pdf\">Langs</a>"
-msgstr ""
+msgstr "<a href=\"files/PDF-languages/UnGraphic-languages.pdf\">Idiomas</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:3318
 msgid "<a href=\"files/codepoints/UnGraphic.codepoints\">codepts</a>"
 msgstr ""
+"<a href=\"files/codepoints/UnGraphic.codepoints\">pontos de código</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:3319
 msgid "<a href=\"files/coverage/UnGraphic.coverage\">covrg.</a>"
-msgstr ""
+msgstr "<a href=\"files/coverage/UnGraphic.coverage\">cobertura</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:3324
 #: xhtml/upstream/blfs/typosetting.html:3339
 msgid "1.137"
-msgstr ""
+msgstr "1.137"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:3325
 msgid "<a name=\"1.137\">Veranda</a>"
-msgstr ""
+msgstr "<a name=\"1.137\">Veranda</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:3326
 msgid "Veranda"
-msgstr ""
+msgstr "Veranda"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:3328
 msgid ""
 "<a href=\"files/font-languages/Veranda-languages.tex\">languages.tex</a>"
 msgstr ""
+"<a href=\"files/font-languages/Veranda-languages.tex\">languages.tex</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:3330
 msgid "Veranda.ttf"
-msgstr ""
+msgstr "Veranda.ttf"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:3331
 msgid "<a href=\"files/PDF-contents/Veranda-contents.pdf\">Glyphs</a>"
-msgstr ""
+msgstr "<a href=\"files/PDF-contents/Veranda-contents.pdf\">Glifos</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:3332
 msgid "<a href=\"files/PDF-languages/Veranda-languages.pdf\">Langs</a>"
-msgstr ""
+msgstr "<a href=\"files/PDF-languages/Veranda-languages.pdf\">Langs</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:3337
 msgid "<a href=\"files/codepoints/Veranda.codepoints\">codepts</a>"
-msgstr ""
+msgstr "<a href=\"files/codepoints/Veranda.codepoints\">pontos de código</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:3338
 msgid "<a href=\"files/coverage/Veranda.coverage\">covrg.</a>"
-msgstr ""
+msgstr "<a href=\"files/coverage/Veranda.coverage\">cobertura</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:3343
 #: xhtml/upstream/blfs/typosetting.html:3358
 msgid "1.138"
-msgstr ""
+msgstr "1.138"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:3344
 msgid "<a name=\"1.138\">VL Gothic</a>"
-msgstr ""
+msgstr "<a name=\"1.138\">VL Gothic</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:3345
 msgid "VL-Gothic"
-msgstr ""
+msgstr "VL-Gothic"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:3347
 msgid ""
 "<a href=\"files/font-languages/VL-Gothic-languages.tex\">languages.tex</a>"
 msgstr ""
+"<a href=\"files/font-languages/VL-Gothic-languages.tex\">languages.tex</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:3349
 msgid "VL-Gothic-Regular.ttf"
-msgstr ""
+msgstr "VL-Gothic-Regular.ttf"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:3350
 msgid "<a href=\"files/PDF-contents/VL-Gothic-contents.pdf\">Glyphs</a>"
-msgstr ""
+msgstr "<a href=\"files/PDF-contents/VL-Gothic-contents.pdf\">Glifos</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:3351
 msgid "<a href=\"files/PDF-languages/VL-Gothic-languages.pdf\">Langs</a>"
-msgstr ""
+msgstr "<a href=\"files/PDF-languages/VL-Gothic-languages.pdf\">Idiomas</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:3354
 msgid "VLGothic-20220612.tar.xz from <a href=\"df.html#osdn.net\">osdn,net</a>"
 msgstr ""
+"VLGothic-20220612.tar.xz originário da <a "
+"href=\"df.html#osdn.net\">osdn,net</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:3355
 msgid "Two MIT-style licenses for different glyphs"
-msgstr ""
+msgstr "Duas licenças estilo MIT para diferentes glifos"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:3356
 msgid "<a href=\"files/codepoints/VL-Gothic.codepoints\">codepts</a>"
 msgstr ""
+"<a href=\"files/codepoints/VL-Gothic.codepoints\">pontos de código</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:3357
 msgid "<a href=\"files/coverage/VL-Gothic.coverage\">covrg.</a>"
-msgstr ""
+msgstr "<a href=\"files/coverage/VL-Gothic.coverage\">cobertura</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:3362
 #: xhtml/upstream/blfs/typosetting.html:3377
 msgid "1.139"
-msgstr ""
+msgstr "1.139"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:3363
 msgid "<a name=\"1.139\">WenQuanYi Zen Hei</a>"
-msgstr ""
+msgstr "<a name=\"1.139\">WenQuanYi Zen Hei</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:3364
 msgid "WenQuanYiZenHei"
-msgstr ""
+msgstr "WenQuanYiZenHei"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:3366
@@ -10242,33 +10256,38 @@ msgid ""
 "<a "
 "href=\"files/font-languages/WenQuanYiZenHei-languages.tex\">languages.tex</a>"
 msgstr ""
+"<a "
+"href=\"files/font-languages/WenQuanYiZenHei-languages.tex\">languages.tex</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:3367
 msgid "Simplified Chinese Sans / Humanist Sans"
-msgstr ""
+msgstr "Sans / Sans Humanista do Chinês Simplificado"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:3368
 #: xhtml/upstream/blfs/typosetting.html:3387
 msgid "from wqy-zenhei.ttc"
-msgstr ""
+msgstr "originária do wqy-zenhei.ttc"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:3369
 msgid "<a href=\"files/PDF-contents/WenQuanYiZenHei-contents.pdf\">Glyphs</a>"
-msgstr ""
+msgstr "<a href=\"files/PDF-contents/WenQuanYiZenHei-contents.pdf\">Glifos</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:3370
 msgid "<a href=\"files/PDF-languages/WenQuanYiZenHei-languages.pdf\">Langs</a>"
 msgstr ""
+"<a href=\"files/PDF-languages/WenQuanYiZenHei-languages.pdf\">Idiomas</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:3373
 #: xhtml/upstream/blfs/typosetting.html:3392
 msgid "wqy-zenhei-0.9.45 from <a href=\"df.html#sourceforge\">sourceforge</a>"
 msgstr ""
+"wqy-zenhei-0.9.45 originária do <a "
+"href=\"df.html#sourceforge\">sourceforge</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:3374
@@ -10285,33 +10304,33 @@ msgstr ""
 #: xhtml/upstream/blfs/typosetting.html:4621
 #: xhtml/upstream/blfs/typosetting.html:4640
 msgid "GPL v2"
-msgstr ""
+msgstr "GPL v2"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:3375
 msgid "<a href=\"files/codepoints/WenQuanYiZenHei.codepoints\">codepts</a>"
-msgstr ""
+msgstr "<a href=\"files/codepoints/WenQuanYiZenHei.codepoints\">codepts</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:3376
 msgid "<a href=\"files/coverage/WenQuanYiZenHei.coverage\">covrg.</a>"
-msgstr ""
+msgstr "<a href=\"files/coverage/WenQuanYiZenHei.coverage\">cobertura</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:3381
 #: xhtml/upstream/blfs/typosetting.html:3396
 msgid "1.140"
-msgstr ""
+msgstr "1.140"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:3382
 msgid "<a name=\"1.140\">WenQuanYi Zen Hei Mono</a>"
-msgstr ""
+msgstr "<a name=\"1.140\">WenQuanYi Zen Hei Mono</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:3383
 msgid "WenQuanYiZenHeiMono"
-msgstr ""
+msgstr "WenQuanYiZenHeiMono"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:3385
@@ -10319,33 +10338,39 @@ msgid ""
 "<a "
 "href=\"files/font-languages/WenQuanYiZenHeiMono-languages.tex\">languages.tex</a>"
 msgstr ""
+"<a "
+"href=\"files/font-languages/WenQuanYiZenHeiMono-languages.tex\">languages.tex</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:3386
 msgid "Monospace Simplified Chinese / Humanist Sans"
-msgstr ""
+msgstr "Sans Humanista / Chinês Simplificado Monoespaçado"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:3388
 msgid ""
 "<a href=\"files/PDF-contents/WenQuanYiZenHeiMono-contents.pdf\">Glyphs</a>"
 msgstr ""
+"<a href=\"files/PDF-contents/WenQuanYiZenHeiMono-contents.pdf\">Glifos</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:3389
 msgid ""
 "<a href=\"files/PDF-languages/WenQuanYiZenHeiMono-languages.pdf\">Langs</a>"
 msgstr ""
+"<a href=\"files/PDF-languages/WenQuanYiZenHeiMono-languages.pdf\">Idiomas</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:3394
 msgid "<a href=\"files/codepoints/WenQuanYiZenHeiMono.codepoints\">codepts</a>"
 msgstr ""
+"<a href=\"files/codepoints/WenQuanYiZenHeiMono.codepoints\">pontos de "
+"código</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:3395
 msgid "<a href=\"files/coverage/WenQuanYiZenHeiMono.coverage\">covrg.</a>"
-msgstr ""
+msgstr "<a href=\"files/coverage/WenQuanYiZenHeiMono.coverage\">cobertura</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:3418
