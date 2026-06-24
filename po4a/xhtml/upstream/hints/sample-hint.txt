@@ -1,0 +1,38 @@
+AUTHOR: Hints Author <author@example.org>
+AUTHOR: Hints Owner <owner@example.org>
+
+DATE: 2021-08-15
+
+LICENSE: GNU Free Documentation License Version 1.3
+
+SYNOPSIS: Sample Hint Format.
+
+DESCRIPTION:
+This is a sample hint that is useful for authors wishing to write a hint. The
+description of the item goes here.
+
+ATTACHMENTS:
+* http://www.linuxfromscratch.org/patches/downloads/MAINTAINER/lfspatch
+* http://www.linuxfromscratch.org/hints/downloads/files/MAINTAINER/checkHint
+* http://www.linuxfromscratch.org/hints/downloads/files/MAINTAINER/submitHint
+
+PREREQUISITES:
+This hint requires that you have sufficient knowledge of LinuxFromScratch.
+This hint is applicable only for users that follow the LFS developemnt book
+as of the submission date above.
+
+HINT:
+This is where all the meat of the hint goes. It is good to restrict the line
+length to 80 columns, but that is not an absolute requirement.
+
+ACKNOWLEDGEMENTS:
+  * BBB <bbb@bbb.bbb> for suggesting a shorter version of X.
+  * AAA for patch to package.
+
+CHANGELOG:
+[2003-08-15]
+  * Initial hint.
+[2003-08-17]
+  * Hint ownership change. Original Author XXX YYY <xxx@yyy.zzz).
+[2003-08-18]
+  * Fix for package-1.2 as suggested by AAA <aaa@example.com>.

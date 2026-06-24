@@ -1,0 +1,218 @@
+<!--#set var="pageTitle" value="How to write a hint" -->
+<!--#include virtual="header.html" -->
+<!--#include virtual="menu.html" -->
+    <div class="main">
+    <h1>Hint Submission</h1>
+    <h2>How to write a hint</h2>
+
+    <p>A good hint provides information which is not otherwise easily
+    obtainable. In general, we're not interested in hints which copy
+    information already in LFS or BLFS or hints which simply list the steps
+    needed for installing a package as explained in the INSTALL or README of a
+    package.  </p>
+    
+    <p>This still leaves a broad scope of subjects. Hints can be about anything
+    for which a non-obvious or non-trivial fix or hack is required.  A hint can
+    also explain a complicated package installation or a particular setup.
+    Have a look at some <a href="read.html">other hints</a> to get an idea of
+    what a hint may include.  Also check out the <a
+    href="adoptahint.html">Adopt a hint program</a> in case there is some cute
+    little hint that you would like to nurture or if someone has suggested a
+    topic for a hint that you have knowledge about.  </p>
+    
+    <p>Once you have a good idea for a hint, you can start writing. Stick to
+    the following style rules if you want to submit it for inclusion.  </p>
+
+    <h2>Submission guidelines</h2>
+    <ul>
+       
+       <li> Before submitting a hint, check if there is an already existing
+       hint on the topic. If there is then contact the author if you have any
+       updates. If the previous author is not interested in maintaining the
+       hint, or if there is no response from the author for at least a month,
+       then you may take over maintenance of the hint. Remember to CC
+       blfs-dev@lists.linuxfromscratch.org  regarding all correspondence with
+       the author so that the hint maintainers are aware of the changeover.<br
+       /> <i>Note that this does not mean that duplicate hints on the same
+       topic are not allowed.  If you feel that the current author has a
+       different approach to a problem and you have one which does not match
+       the current hint, feel free to submit a separate hint. We suggest
+       communicating with the current author(s) before writing the hint. We
+       suggest writing a short blurb on how the new hint differs from the
+       existing one.</i></li>
+
+       <li>Hints should be reserved for things that cannot be included into the
+       book. Hints that relate to installation of packages and which would
+       easily fit into the book (usually the BLFS book) should be submitted to
+       the relevant development list. If you are conversant with docbook and
+       XML, then feel free to submit a patch to the current development version
+       of the relevant book..  If not, submit a text file matching the current
+       format of the book and a book editor will do the necessary
+       modifications.</li>
+       
+       <li>If you are in the process of writing a hint on a topic, it would be
+       good to drop a line to the relevant list in case someone else is working
+       on something similar.</li>
+       
+       <li>A hint should not duplicate documentation that is already available
+       elsewhere on a particular topic. It should complement it. Documentation
+       available elsewhere includes <a href="http://www.tldp.org/">LDP
+       documentation</a>, and documentation available from the package website,
+       documentation available by a simple <a
+       href="https://www.google.com/">google search</a>. Also, things that are
+       already well documented in the book(s) or at the LDP should not be
+       repeated in the hint unless the hint describes matters in more detail,
+       in a different way, or from a different perspective. So things such as
+       installation of db, freetype, zlib, etc can just be referenced by
+       pointers to the book.</li>
+       
+       <li>Authors who are not interested in maintaining their hints any more
+       should send a message to the appropriate mailing list specifying that
+       the hint is <a href="adoptahint.html">up for adoption</a>. The author
+       should also notify the hints list if the hint is not relevant
+       anymore.</li>
+       
+       <li>Hints that have been integrated into the book will be retired after
+       a stable version of the book is released.</li>
+       
+       <li>Keep the file name of the hint short, but descriptive. The extension
+       for the hint should be .txt. The name may be composed of a combination
+       of lowercase letters, numbers, and a few symbols _ - +.</li>
+       
+       <li>The hint document is text based. The format for the hints is as
+       explained at the end of this document.</li>
+       
+       <li>Avoid including scripts and patches in the hints. Keep these as
+       separate files to avoid spoiling the beauty of the hint.  :)  Patches
+       should follow the <a href="/patches/">patches format</a>. The patches
+       that you submit will be committed to the patches repository (so be sure
+       to mention the hint in the patch description) under the appropriate
+       package name. The scripts or patches that don't fit into the patches
+       project will be available from the <a
+       href="downloads/attachments/">Attachments</a> link on the <a
+       href="download.html">download page</a>.  If you need to reference any
+       patches in your hint, point to the patches subproject (e.g.
+       http://www.linuxfromscratch.org/patches/&lt;package_name&gt;/&lt;patch_name&gt;).
+       If you need to reference to any attachments, point to the attachments
+       directory (e.g.
+       http://www.linuxfromscratch.org/hints/downloads/attachments/&lt;hint_name&gt;/)
+       Don't worry if the URIs are incorrect, the maintainer will modify the
+       URIs before submitting.  Since maintainers are sometimes lazy, you may
+       need to give them a bit of a push/shove to "do the right thing".</li>
+       
+       <li>To submit or update a hint, send an e-mail to the <a
+       href="https://lists.linuxfromscratch.org/sympa/info/blfs-dev">blfs-dev
+       mailing list</a>. From there it will be picked up by the hint
+       maintainer, who will update the hint index and the tarball. You must be
+       subscribed to the list to post a message to avoid spam on the list.
+       </li>
+       
+       <li><em>Note that by submitting a hint, you agree to the conditions
+       mentioned on this page with respect to the hint. In particular, you
+       allow other users to take over the maintainership of the hint if another
+       user contacts you with a request (for taking over the maintainership or
+       integrating his/her work in your hint) and you fail to respond to the
+       request for a month. If you would not like someone to take over the
+       maintainership of the hint, please state so clearly in the hint.
+       Authors should also keep the contact information updated.</em></li>
+       </ul>
+       
+       <h2>Hint Format</h2>
+       
+       <p>Every hint should have the following sections, <i>in the order
+       specified here</i> so as to have a consistent look and feel.  Sections
+       that are supposed to be single lines should be on the same line as the
+       section header. Sections that are more than one line should begin from
+       the line following the header. Check out the <a
+       href="sample-hint.txt">example hint</a> to get an idea about the format.
+       </p>
+       
+         <h3>AUTHOR:</h3>
+       
+         <p>This field can be repeated if there are multiple authors. Each
+         author line should have name and contact details of the hint author.
+         Restrict this field for the current authors of the hint. Previous
+         authors should be acknowledged in the ACKNOWLEDGEMENTS section.  </p>
+         
+         <h3>DATE:</h3>
+         
+         <p>The date the hint was last updated in international format
+         (YYYY-MM-DD).</p>
+         
+         <h3>LICENSE:</h3>
+         
+         <p>The license under which the hint is licensed. The hint maintainers
+         suggest the GNU Free Documentation License, but you are free to choose
+         your own. The GNU Free Documentation License allows copying of your
+         hint and modifying it without restriction, with the exception that you
+         will always be credited as author. It also indicates that the hint
+         carries no guarantees. For more information on various licenses, visit
+         the <a href="https://www.gnu.org/philosophy/license-list.html">GNU
+         website</a>.  Before submitting the hint, verify that a copy of the
+         LICENSE under which your hint is licensed is available in the <a
+         href="downloads/files/LICENSES/">LICENSES directory</a>.  If not, at
+         the time of submission of the hint, also include a note and a URI for
+         the hint maintainer to download a text copy of the LICENSE.  </p>
+         
+         <h3>SYNOPSIS:</h3>
+         
+         <p>A one line description about the hint. Please keep this short and
+         sweet and restrict it to a single line since this is the title that
+         would be included on the hints page.  </p>
+         
+         <h3>PRIMARY URI:</h3>
+         
+         <p>This is an optional section for authors who like to host their own
+         hints and only submit occasional updates to the LFS hints site.
+         </p>
+         
+         <h3>DESCRIPTION:</h3>
+         
+         <p>A short description on why the hint was written, who is the target
+         audience, etc. This would help a user in determining whether the hint
+         is useful for her/him.  </p>
+         
+         <h3>ATTACHMENTS:</h3>
+         
+         <p>Links to additional downloads such as patches, scripts, config
+         files, etc. This section is optional.</p>
+         
+         <h3>PREREQUISITES:</h3>
+         
+         <p>In this section list the pre-requisites that the user needs to be
+         aware of before following the hint.  This section can be used to
+         indicate if the hint is applicable only for a particular LFS version.
+         </p>
+         
+         <h3>HINT:</h3>
+         
+         <p>This is the heart of the hint. List the details about your hint
+         here. There is no restriction on how you format things in this
+         section, except (there is always some exception) to avoid lines that
+         look like a section (i.e. Text in all UPPERCASE followed by a
+         semi-colon). Also, make your best effort to restrict each line to 80
+         columns (though this can be relaxed on case-by-case basis). Avoid
+         including material that is already in the book.  </p>
+         
+         <h3>ACKNOWLEDGEMENTS:</h3>
+         
+         <p>Acknowledgements for people who have contributed to the hint. This
+         section is optional.</p> <h3>CHANGELOG:</h3>
+         
+         <p>Include timestamped changes that have occurred in the hint. Add
+         latest entries at the end. Entries in this section should be as
+         follows: </p>
+         
+         <ul>
+           <li>[YYYY-MM-DD]</li>
+           <li>&nbsp;*&nbsp;Changed A</li>
+           <li>&nbsp;*&nbsp;Changed B</li>
+         </ul>
+       
+       <h2>NOTE:</h2>
+       
+       <p> These instructions are based on responses from many users.  If you
+       have suggestions for improving this document, feel free to discuss it on
+       the blfs-dev mailing list.  </p>
+
+<!--#include virtual="/common/footer.html" -->

@@ -1,0 +1,119 @@
+<!--#set var="pageTitle" value="How to Contribute" -->
+<!--#include virtual="header.html" -->
+<!--#include virtual="menu.html" -->
+
+    <div class="main">
+     <h1>How to Contribute</h1>
+       <h2 id="becomemirror">Become a mirror</h2>
+
+       <p>You can assist the LFS project by providing an HTTP or FTP mirror.
+       The HTTP mirrors provide the LFS website, books, patches and hints.  The
+       FTP mirrors can provide a number of services including LFS packages and
+       BLFS packages.  The requirements for the various mirrors are listed
+       below.  If you would like to become a mirror, please set it up and send
+       an email with the data requested below to the website maintainer, <a
+       href="mailto:webmaster@linuxfromscratch.org">webmaster@linuxfromscratch.org</a>.
+       Thank you.  </p>
+       
+       <h3 id="requirements">Requirements</h3>
+     
+       <p>Here is a list of requirements for the various mirrors.  All mirrors
+       require that you use <a
+       href="/blfs/view/stable/basicnet/rsync.html">rsync</a> to sync your
+       mirrors with our main servers, and a <a
+       href="/blfs/view/stable/general/fcron.html">cron</a> program to schedule
+       it for you.</p>
+
+       <p>You can find inexpensive 
+       <a  href="http://www.webhostingsearch.com/linux-web-hosting.php"
+       onclick="window.open(this.href); return false;"
+       onkeypress="window.open(this.href); return false;">linux web hosting</a>
+       or an entire 
+       <a href="http://www.webhostingsearch.com/dedicated-server.php"
+       onclick="window.open(this.href); return false;"
+       onkeypress="window.open(this.href); return false;">dedicated server</a>
+       for your mirror at 
+       <a href="http://www.webhostingsearch.com"
+       onclick="window.open(this.href); return false;"
+       onkeypress="window.open(this.href); return false;">Web Hosting
+       Search</a>.</p>
+
+       <h4>HTTP Mirror</h4>
+       <ul>
+          <li>At least 5 GB of disk space.</li>
+          
+          <li>
+          <a href="/blfs/view/stable/server/majorservers.html#apache">Apache
+          Webserver</a> or equivalent with the following options enabled:
+             
+             <ul>
+                <li>Indexes</li>
+                <li>FollowSymlinks</li>
+                <li>IncludesNOEXEC (requires mod_include.so)</li>
+             </ul>
+          </li>
+
+          <li>
+            If you want to use Nginx instead of Apache, the following
+            options should be used:
+            <ul>
+              <li>ssi on; (requires ngx_http_ssi_module)</li>
+              <li>disable_symlinks off;</li>
+              <li>autoindex on;</li>
+            </ul>
+          </li>
+       </ul>
+
+       <p>To set up the mirror, use the following rsync instruction in a cron script:</p>
+
+       <code>/usr/bin/rsync -lprt --delete www.linuxfromscratch.org::lfs-website /srv/www/lfs</code>
+
+     <h4>LFS and BLFS FTP Mirrors</h4>
+     <ul>
+        <li>At least 800 GB of disk space.</li>
+        <li>The path to the mirror being &quot;/pub/lfs/&quot; and 
+        &quot;/pub/blfs/&quot; if possible.</li>
+     </ul>
+
+     <p>To set up the ftp mirrors, use the rsync instructions in a cron script:</p>
+
+     <code>/usr/bin/rsync -lprt --delete rsync.osuosl.org::lfs  /srv/ftp/LFS<br/>
+     /usr/bin/rsync -lprt --delete rsync2.osuosl.org::blfs /srv/ftp/BLFS</code>
+
+     <h4>Still interested?</h4>
+     
+     <p>If you are still interested in becoming a mirror, please email the
+     following information to the appropriate list or the webmaster.</p>
+
+     <ul>
+        <li>Location (City and Country)</li>
+        <li>Hostname and IP Address</li>
+        <li>Bandwidth</li>
+        <li>Contact Name and Valid E-mail Address</li>
+     </ul>
+
+      <h2 id="donation">Make a donation</h2>
+      
+      <p>One of the ways to help the Linux From Scratch project is by making
+      donations.<br>
+      Financial donations can be made through <a
+      href="http://www.paypal.com">PayPal</a> using a major credit card.</p>
+      
+      <form action="https://www.paypal.com/cgi-bin/webscr"
+      enctype="application/x-www-form-urlencoded" method="post">
+
+      <p><input type="hidden" name="cmd" value="_xclick" />
+         <input type="hidden" name="business" value="gerard@linuxfromscratch.org" />
+         <input type="hidden" name="undefined_quantity" value="1" />
+         <input type="hidden" name="item_name" value="LFS Donation" />USD $
+         <input type="text" size="5" name="amount" value="25" />
+         <input type="submit" value="Submit" />
+      </p>
+      </form>
+
+      <p>If you'd like to donate but can't use PayPal, please contact <a
+      href="mailto:gerard@linuxfromscratch.org">Gerard Beekmans</a>.</p>
+      
+      <p>All proceeds of donations will be used to pay the monthly server hosting bills.</p>
+
+<!--#include virtual="/common/footer.html" -->
