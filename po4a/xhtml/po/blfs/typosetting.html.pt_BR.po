@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Arquivos do sítio LFS brasileiro 1.0\n"
 "Report-Msgid-Bugs-To: jafesp@gmail.com\n"
 "POT-Creation-Date: 2026-04-08 16:44-0300\n"
-"PO-Revision-Date: 2026-06-23 15:02-0300\n"
+"PO-Revision-Date: 2026-06-24 20:27-0300\n"
 "Last-Translator: Jamenson Ferreira Espindula de Almeida Melo "
 "<jafesp@gmail.com>\n"
 "Language-Team: none\n"
@@ -11489,308 +11489,312 @@ msgstr "<a href=\"files/coverage/IMFeENrm28P.coverage\">cobertura</a>"
 #: xhtml/upstream/blfs/typosetting.html:3826
 #: xhtml/upstream/blfs/typosetting.html:3843
 msgid "2.019"
-msgstr ""
+msgstr "2.019"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:3827
 msgid "<a name=\"2.019\">Junicode</a>"
-msgstr ""
+msgstr "<a name=\"2.019\">Junicode</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:3828
 msgid "Junicode"
-msgstr ""
+msgstr "Junicode"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:3829
 msgid "2024/08/30"
-msgstr ""
+msgstr "2024/08/30"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:3830
 msgid ""
 "<a href=\"files/font-languages/Junicode-languages.tex\">languages.tex</a>"
 msgstr ""
+"<a href=\"files/font-languages/Junicode-languages.tex\">languages.tex</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:3831
 msgid "<a href=\"files/sc-languages/Junicode-sc.tex\">sc.tex</a>"
-msgstr ""
+msgstr "<a href=\"files/sc-languages/Junicode-sc.tex\">sc.tex</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:3833
 msgid "Junicode.ttf"
-msgstr ""
+msgstr "Junicode.ttf"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:3834
 msgid "<a href=\"files/PDF-contents/Junicode-contents.pdf\">Glyphs</a>"
-msgstr ""
+msgstr "<a href=\"files/PDF-contents/Junicode-contents.pdf\">Glifos</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:3835
 msgid "<a href=\"files/PDF-languages/Junicode-languages.pdf\">Langs</a>"
-msgstr ""
+msgstr "<a href=\"files/PDF-languages/Junicode-languages.pdf\">Idiomas</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:3836
 msgid "<a href=\"files/PDF-sc/Junicode-sc.pdf\">SC Langs</a>"
-msgstr ""
+msgstr "<a href=\"files/PDF-sc/Junicode-sc.pdf\">Idiomas SC</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:3839
 msgid "Junicode-2.004 from <a href=\"df.html#github\">github</a>"
-msgstr ""
+msgstr "Junicode-2.004 originária do <a href=\"df.html#github\">github</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:3841
 msgid "<a href=\"files/codepoints/Junicode.codepoints\">codepts</a>"
-msgstr ""
+msgstr "<a href=\"files/codepoints/Junicode.codepoints\">pontos de código</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:3842
 msgid "<a href=\"files/coverage/Junicode.coverage\">covrg.</a>"
-msgstr ""
+msgstr "<a href=\"files/coverage/Junicode.coverage\">cobertura</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:3847
 #: xhtml/upstream/blfs/typosetting.html:3864
 msgid "2.020"
-msgstr ""
+msgstr "2.020"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:3848
 msgid "<a name=\"2.020\">Latin Modern Mono</a>"
-msgstr ""
+msgstr "<a name=\"2.020\">Latin Modern Mono</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:3849
 msgid "lmmono"
-msgstr ""
+msgstr "lmmono"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:3851
 msgid "<a href=\"files/font-languages/lmmono-languages.tex\">languages.tex</a>"
 msgstr ""
+"<a href=\"files/font-languages/lmmono-languages.tex\">languages.tex</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:3852
 msgid "<a href=\"files/sc-languages/lmmono-sc.tex\">sc.tex</a>"
-msgstr ""
+msgstr "<a href=\"files/sc-languages/lmmono-sc.tex\">sc.tex</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:3854
 msgid "lmmono10-regular.otf"
-msgstr ""
+msgstr "lmmono10-regular.otf"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:3855
 msgid "<a href=\"files/PDF-contents/lmmono-contents.pdf\">Glyphs</a>"
-msgstr ""
+msgstr "<a href=\"files/PDF-contents/lmmono-contents.pdf\">Glifos</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:3856
 msgid "<a href=\"files/PDF-languages/lmmono-languages.pdf\">Langs</a>"
-msgstr ""
+msgstr "<a href=\"files/PDF-languages/lmmono-languages.pdf\">Idiomas</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:3857
 msgid "<a href=\"files/PDF-sc/lmmono-sc.pdf\">SC Langs</a>"
-msgstr ""
+msgstr "<a href=\"files/PDF-sc/lmmono-sc.pdf\">Idiomas SC</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:3860
 #: xhtml/upstream/blfs/typosetting.html:3899
 #: xhtml/upstream/blfs/typosetting.html:3918
 msgid "lm2.004otf from <a href=\"df.html#GUST\">GUST</a>"
-msgstr ""
+msgstr "lm2.004otf originária do <a href=\"df.html#GUST\">GUST</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:3862
 msgid "<a href=\"files/codepoints/lmmono.codepoints\">codepts</a>"
-msgstr ""
+msgstr "<a href=\"files/codepoints/lmmono.codepoints\">pontos de código</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:3863
 msgid "<a href=\"files/coverage/lmmono.coverage\">covrg.</a>"
-msgstr ""
+msgstr "<a href=\"files/coverage/lmmono.coverage\">cobertura</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:3886
 #: xhtml/upstream/blfs/typosetting.html:3903
 msgid "2.021"
-msgstr ""
+msgstr "2.021"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:3887
 msgid "<a name=\"2.021\">Latin Modern Roman</a>"
-msgstr ""
+msgstr "<a name=\"2.021\">Latin Modern Roman</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:3888
 msgid "lmroman"
-msgstr ""
+msgstr "lmroman"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:3890
 msgid ""
 "<a href=\"files/font-languages/lmroman-languages.tex\">languages.tex</a>"
 msgstr ""
+"<a href=\"files/font-languages/lmroman-languages.tex\">languages.tex</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:3891
 msgid "<a href=\"files/sc-languages/lmroman-sc.tex\">sc.tex</a>"
-msgstr ""
+msgstr "<a href=\"files/sc-languages/lmroman-sc.tex\">sc.tex</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:3893
 msgid "lmroman10-regular.otf"
-msgstr ""
+msgstr "lmroman10-regular.otf"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:3894
 msgid "<a href=\"files/PDF-contents/lmroman-contents.pdf\">Glyphs</a>"
-msgstr ""
+msgstr "<a href=\"files/PDF-contents/lmroman-contents.pdf\">Glifos</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:3895
 msgid "<a href=\"files/PDF-languages/lmroman-languages.pdf\">Langs</a>"
-msgstr ""
+msgstr "<a href=\"files/PDF-languages/lmroman-languages.pdf\">Idiomas</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:3896
 msgid "<a href=\"files/PDF-sc/lmroman-sc.pdf\">SC Langs</a>"
-msgstr ""
+msgstr "<a href=\"files/PDF-sc/lmroman-sc.pdf\">Idiomas SC</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:3901
 msgid "<a href=\"files/codepoints/lmroman.codepoints\">codepts</a>"
-msgstr ""
+msgstr "<a href=\"files/codepoints/lmroman.codepoints\">pontos de código</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:3902
 msgid "<a href=\"files/coverage/lmroman.coverage\">covrg.</a>"
-msgstr ""
+msgstr "<a href=\"files/coverage/lmroman.coverage\">cobertura</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:3907
 #: xhtml/upstream/blfs/typosetting.html:3922
 msgid "2.022"
-msgstr ""
+msgstr "2.022"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:3908
 msgid "<a name=\"2.022\">Latin Modern Sans</a>"
-msgstr ""
+msgstr "<a name=\"2.022\">Latin Modern Sans</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:3909
 msgid "lmsans"
-msgstr ""
+msgstr "lmsans"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:3911
 msgid "<a href=\"files/font-languages/lmsans-languages.tex\">languages.tex</a>"
 msgstr ""
+"<a href=\"files/font-languages/lmsans-languages.tex\">languages.tex</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:3912
 #: xhtml/upstream/blfs/typosetting.html:4392
 #: xhtml/upstream/blfs/typosetting.html:4847
 msgid "Grotesque Sans"
-msgstr ""
+msgstr "Grotesque Sans"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:3913
 msgid "lmsans10-regular.otf"
-msgstr ""
+msgstr "lmsans10-regular.otf"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:3914
 msgid "<a href=\"files/PDF-contents/lmsans-contents.pdf\">Glyphs</a>"
-msgstr ""
+msgstr "<a href=\"files/PDF-contents/lmsans-contents.pdf\">Glifos</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:3915
 msgid "<a href=\"files/PDF-languages/lmsans-languages.pdf\">Langs</a>"
-msgstr ""
+msgstr "<a href=\"files/PDF-languages/lmsans-languages.pdf\">Idiomas</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:3920
 msgid "<a href=\"files/codepoints/lmsans.codepoints\">codepts</a>"
-msgstr ""
+msgstr "<a href=\"files/codepoints/lmsans.codepoints\">pontos de código</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:3921
 msgid "<a href=\"files/coverage/lmsans.coverage\">covrg.</a>"
-msgstr ""
+msgstr "<a href=\"files/coverage/lmsans.coverage\">cobertura</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:3926
 #: xhtml/upstream/blfs/typosetting.html:3941
 msgid "2.023"
-msgstr ""
+msgstr "2.023"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:3927
 msgid "<a name=\"2.023\">Lato</a>"
-msgstr ""
+msgstr "<a name=\"2.023\">Lato</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:3928
 msgid "Lato"
-msgstr ""
+msgstr "Lato"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:3930
 msgid "<a href=\"files/font-languages/Lato-languages.tex\">languages.tex</a>"
-msgstr ""
+msgstr "<a href=\"files/font-languages/Lato-languages.tex\">languages.tex</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:3932
 msgid "Lato-Regular.ttf"
-msgstr ""
+msgstr "Lato-Regular.ttf"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:3933
 msgid "<a href=\"files/PDF-contents/Lato-contents.pdf\">Glyphs</a>"
-msgstr ""
+msgstr "<a href=\"files/PDF-contents/Lato-contents.pdf\">Glifos</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:3934
 msgid "<a href=\"files/PDF-languages/Lato-languages.pdf\">Langs</a>"
-msgstr ""
+msgstr "<a href=\"files/PDF-languages/Lato-languages.pdf\">Idiomas</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:3937
 msgid "Lato2OFL from <a href=\"df.html#Latofonts\">Latofonts</a>"
-msgstr ""
+msgstr "Lato2OFL originária das <a href=\"df.html#Latofonts\">Latofonts</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:3939
 msgid "<a href=\"files/codepoints/Lato.codepoints\">codepts</a>"
-msgstr ""
+msgstr "<a href=\"files/codepoints/Lato.codepoints\">pontos de código</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:3940
 msgid "<a href=\"files/coverage/Lato.coverage\">covrg.</a>"
-msgstr ""
+msgstr "<a href=\"files/coverage/Lato.coverage\">cobertura</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:3945
 #: xhtml/upstream/blfs/typosetting.html:3960
 msgid "2.024"
-msgstr ""
+msgstr "2.024"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:3946
 msgid "<a name=\"2.024\">Libre Baskerville</a>"
-msgstr ""
+msgstr "<a name=\"2.024\">Libre Baskerville</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:3947
 msgid "LibreBaskerville"
-msgstr ""
+msgstr "LibreBaskerville"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:3949
@@ -11798,222 +11802,241 @@ msgid ""
 "<a "
 "href=\"files/font-languages/LibreBaskerville-languages.tex\">languages.tex</a>"
 msgstr ""
+"<a "
+"href=\"files/font-languages/LibreBaskerville-languages.tex\">languages.tex</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:3951
 msgid "LibreBaskerville-Regular.ttf"
-msgstr ""
+msgstr "LibreBaskerville-Regular.ttf"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:3952
 msgid "<a href=\"files/PDF-contents/LibreBaskerville-contents.pdf\">Glyphs</a>"
 msgstr ""
+"<a href=\"files/PDF-contents/LibreBaskerville-contents.pdf\">Glifos</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:3953
 msgid ""
 "<a href=\"files/PDF-languages/LibreBaskerville-languages.pdf\">Langs</a>"
 msgstr ""
+"<a href=\"files/PDF-languages/LibreBaskerville-languages.pdf\">Idiomas</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:3956
 msgid ""
 "libre-baskerville dated 2022-09-22 from <a href=\"df.html#Google\">Google</a>"
 msgstr ""
+"libre-baskerville datada de 2022-09-22 originária do <a "
+"href=\"df.html#Google\">Google</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:3958
 msgid "<a href=\"files/codepoints/LibreBaskerville.codepoints\">codepts</a>"
 msgstr ""
+"<a href=\"files/codepoints/LibreBaskerville.codepoints\">pontos de "
+"código</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:3959
 msgid "<a href=\"files/coverage/LibreBaskerville.coverage\">covrg.</a>"
-msgstr ""
+msgstr "<a href=\"files/coverage/LibreBaskerville.coverage\">cobertura</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:3964
 #: xhtml/upstream/blfs/typosetting.html:3979
 msgid "2.025"
-msgstr ""
+msgstr "2.025"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:3965
 msgid "<a name=\"2.025\">Libre Bodoni</a>"
-msgstr ""
+msgstr "<a name=\"2.025\">Libre Bodoni</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:3966
 msgid "LibreBodoni"
-msgstr ""
+msgstr "LibreBodoni"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:3968
 msgid ""
 "<a href=\"files/font-languages/LibreBodoni-languages.tex\">languages.tex</a>"
 msgstr ""
+"<a href=\"files/font-languages/LibreBodoni-languages.tex\">languages.tex</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:3970
 msgid "LibreBodoni-Regular.otf"
-msgstr ""
+msgstr "LibreBodoni-Regular.otf"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:3971
 msgid "<a href=\"files/PDF-contents/LibreBodoni-contents.pdf\">Glyphs</a>"
-msgstr ""
+msgstr "<a href=\"files/PDF-contents/LibreBodoni-contents.pdf\">Glifos</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:3972
 msgid "<a href=\"files/PDF-languages/LibreBodoni-languages.pdf\">Langs</a>"
-msgstr ""
+msgstr "<a href=\"files/PDF-languages/LibreBodoni-languages.pdf\">Idiomas</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:3975
 msgid ""
 "libre-bodoni dated 2023-03-21 from <a href=\"df.html#Google\">Google</a>"
 msgstr ""
+"libre-bodoni datada de 2023-03-21 originária do <a "
+"href=\"df.html#Google\">Google</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:3977
 msgid "<a href=\"files/codepoints/LibreBodoni.codepoints\">codepts</a>"
 msgstr ""
+"<a href=\"files/codepoints/LibreBodoni.codepoints\">pontos de código</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:3978
 msgid "<a href=\"files/coverage/LibreBodoni.coverage\">covrg.</a>"
-msgstr ""
+msgstr "<a href=\"files/coverage/LibreBodoni.coverage\">cobertura</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:4001
 #: xhtml/upstream/blfs/typosetting.html:4018
 msgid "2.026"
-msgstr ""
+msgstr "2.026"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:4002
 msgid "<a name=\"2.026\">Linden Hill</a>"
-msgstr ""
+msgstr "<a name=\"2.026\">Linden Hill</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:4003
 msgid "LindenHill"
-msgstr ""
+msgstr "LindenHill"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:4005
 msgid ""
 "<a href=\"files/font-languages/LindenHill-languages.tex\">languages.tex</a>"
 msgstr ""
+"<a href=\"files/font-languages/LindenHill-languages.tex\">languages.tex</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:4006
 msgid "<a href=\"files/sc-languages/LindenHill-sc.tex\">sc.tex</a>"
-msgstr ""
+msgstr "<a href=\"files/sc-languages/LindenHill-sc.tex\">sc.tex</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:4008
 msgid "Linden Hill.otf"
-msgstr ""
+msgstr "Linden Hill.otf"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:4009
 msgid "<a href=\"files/PDF-contents/LindenHill-contents.pdf\">Glyphs</a>"
-msgstr ""
+msgstr "<a href=\"files/PDF-contents/LindenHill-contents.pdf\">Glifos</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:4010
 msgid "<a href=\"files/PDF-languages/LindenHill-languages.pdf\">Langs</a>"
-msgstr ""
+msgstr "<a href=\"files/PDF-languages/LindenHill-languages.pdf\">Idiomas</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:4011
 msgid "<a href=\"files/PDF-sc/LindenHill-sc.pdf\">SC Langs</a>"
-msgstr ""
+msgstr "<a href=\"files/PDF-sc/LindenHill-sc.pdf\">Idiomas SC</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:4014
 msgid "linden-hill-master from <a href=\"df.html#github\">github</a>"
 msgstr ""
+"linden-hill-master originária do <a href=\"df.html#github\">github</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:4016
 msgid "<a href=\"files/codepoints/LindenHill.codepoints\">codepts</a>"
 msgstr ""
+"<a href=\"files/codepoints/LindenHill.codepoints\">pontos de código</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:4017
 msgid "<a href=\"files/coverage/LindenHill.coverage\">covrg.</a>"
-msgstr ""
+msgstr "<a href=\"files/coverage/LindenHill.coverage\">cobertura</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:4022
 #: xhtml/upstream/blfs/typosetting.html:4037
 msgid "2.027"
-msgstr ""
+msgstr "2.027"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:4023
 msgid "<a name=\"2.027\">Merriweather</a>"
-msgstr ""
+msgstr "<a name=\"2.027\">Merriweather</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:4024
 msgid "Merriweather"
-msgstr ""
+msgstr "Merriweather"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:4026
 msgid ""
 "<a href=\"files/font-languages/Merriweather-languages.tex\">languages.tex</a>"
 msgstr ""
+"<a href=\"files/font-languages/Merriweather-languages.tex\">languages.tex</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:4028
 msgid "Merriweather-Regular.otf"
-msgstr ""
+msgstr "Merriweather-Regular.otf"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:4029
 msgid "<a href=\"files/PDF-contents/Merriweather-contents.pdf\">Glyphs</a>"
-msgstr ""
+msgstr "<a href=\"files/PDF-contents/Merriweather-contents.pdf\">Glifos</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:4030
 msgid "<a href=\"files/PDF-languages/Merriweather-languages.pdf\">Langs</a>"
-msgstr ""
+msgstr "<a href=\"files/PDF-languages/Merriweather-languages.pdf\">Idiomas</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:4033
 msgid ""
 "Merriweather dated 2022-09-22 from <a href=\"df.html#Google\">Google</a>"
 msgstr ""
+"Merriweather datada de 2022-09-22 originária do <a "
+"href=\"df.html#Google\">Google</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:4035
 msgid "<a href=\"files/codepoints/Merriweather.codepoints\">codepts</a>"
 msgstr ""
+"<a href=\"files/codepoints/Merriweather.codepoints\">pontos de código</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:4036
 msgid "<a href=\"files/coverage/Merriweather.coverage\">covrg.</a>"
-msgstr ""
+msgstr "<a href=\"files/coverage/Merriweather.coverage\">cobertura</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:4041
 #: xhtml/upstream/blfs/typosetting.html:4058
 msgid "2.028"
-msgstr ""
+msgstr "2.028"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:4042
 msgid "<a name=\"2.028\">Merriweather Sans</a>"
-msgstr ""
+msgstr "<a name=\"2.028\">Merriweather Sans</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:4043
 msgid "MerriweatherSans"
-msgstr ""
+msgstr "MerriweatherSans"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:4045
@@ -12021,64 +12044,72 @@ msgid ""
 "<a "
 "href=\"files/font-languages/MerriweatherSans-languages.tex\">languages.tex</a>"
 msgstr ""
+"<a "
+"href=\"files/font-languages/MerriweatherSans-languages.tex\">languages.tex</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:4046
 msgid "<a href=\"files/sc-languages/MerriweatherSans-sc.tex\">sc.tex</a>"
-msgstr ""
+msgstr "<a href=\"files/sc-languages/MerriweatherSans-sc.tex\">sc.tex</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:4048
 msgid "MerriweatherSans-Regular.ttf"
-msgstr ""
+msgstr "MerriweatherSans-Regular.ttf"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:4049
 msgid "<a href=\"files/PDF-contents/MerriweatherSans-contents.pdf\">Glyphs</a>"
 msgstr ""
+"<a href=\"files/PDF-contents/MerriweatherSans-contents.pdf\">Glifos</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:4050
 msgid ""
 "<a href=\"files/PDF-languages/MerriweatherSans-languages.pdf\">Langs</a>"
 msgstr ""
+"<a href=\"files/PDF-languages/MerriweatherSans-languages.pdf\">Idiomas</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:4051
 msgid "<a href=\"files/PDF-sc/MerriweatherSans-sc.pdf\">SC Langs</a>"
-msgstr ""
+msgstr "<a href=\"files/PDF-sc/MerriweatherSans-sc.pdf\">Idiomas SC</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:4054
 msgid ""
 "Merriweather_Sans dated 2023-04-27 from <a href=\"df.html#Google\">Google</a>"
 msgstr ""
+"Merriweather_Sans datada de 2023-04-27 originária do <a "
+"href=\"df.html#Google\">Google</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:4056
 msgid "<a href=\"files/codepoints/MerriweatherSans.codepoints\">codepts</a>"
 msgstr ""
+"<a href=\"files/codepoints/MerriweatherSans.codepoints\">pontos de "
+"código</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:4057
 msgid "<a href=\"files/coverage/MerriweatherSans.coverage\">covrg.</a>"
-msgstr ""
+msgstr "<a href=\"files/coverage/MerriweatherSans.coverage\">cobertura</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:4062
 #: xhtml/upstream/blfs/typosetting.html:4077
 msgid "2.029"
-msgstr ""
+msgstr "2.029"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:4063
 msgid "<a name=\"2.029\">NeoGothis ADF Std</a>"
-msgstr ""
+msgstr "<a name=\"2.029\">NeoGothis ADF Std</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:4064
 msgid "NeoGothisADFStd"
-msgstr ""
+msgstr "NeoGothisADFStd"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:4066
@@ -12086,42 +12117,48 @@ msgid ""
 "<a "
 "href=\"files/font-languages/NeoGothisADFStd-languages.tex\">languages.tex</a>"
 msgstr ""
+"<a "
+"href=\"files/font-languages/NeoGothisADFStd-languages.tex\">languages.tex</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:4068
 msgid "NeoGothisADFStd-Regular.otf"
-msgstr ""
+msgstr "NeoGothisADFStd-Regular.otf"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:4069
 msgid "<a href=\"files/PDF-contents/NeoGothisADFStd-contents.pdf\">Glyphs</a>"
-msgstr ""
+msgstr "<a href=\"files/PDF-contents/NeoGothisADFStd-contents.pdf\">Glifos</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:4070
 msgid "<a href=\"files/PDF-languages/NeoGothisADFStd-languages.pdf\">Langs</a>"
 msgstr ""
+"<a href=\"files/PDF-languages/NeoGothisADFStd-languages.pdf\">Idiomas</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:4073
 msgid "NeoGothis-Std-20150405 from <a href=\"df.html#Arkandis\">Arkandis</a>"
 msgstr ""
+"NeoGothis-Std-20150405 originária da <a "
+"href=\"df.html#Arkandis\">Arkandis</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:4075
 msgid "<a href=\"files/codepoints/NeoGothisADFStd.codepoints\">codepts</a>"
 msgstr ""
+"<a href=\"files/codepoints/NeoGothisADFStd.codepoints\">pontos de código</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:4076
 msgid "<a href=\"files/coverage/NeoGothisADFStd.coverage\">covrg.</a>"
-msgstr ""
+msgstr "<a href=\"files/coverage/NeoGothisADFStd.coverage\">cobertura</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:4081
 #: xhtml/upstream/blfs/typosetting.html:4096
 msgid "2.030"
-msgstr ""
+msgstr "2.030"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:4082
