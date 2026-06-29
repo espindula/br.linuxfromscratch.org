@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Arquivos do sÃ­tio LFS brasileiro 1.0\n"
 "Report-Msgid-Bugs-To: jafesp@gmail.com\n"
 "POT-Creation-Date: 2026-06-24 21:08-0300\n"
-"PO-Revision-Date: 2026-06-26 22:57-0300\n"
+"PO-Revision-Date: 2026-06-29 00:37-0300\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
 "Language: pt_BR\n"
@@ -323,7 +323,7 @@ msgstr ""
 #. type: Content of: <div><h3>
 #: xhtml/upstream/hints/howtowrite.html:130
 msgid "AUTHOR:"
-msgstr ""
+msgstr "AUTOR(A):"
 
 #. type: Content of: <div><p>
 #: xhtml/upstream/hints/howtowrite.html:132
@@ -333,22 +333,28 @@ msgid ""
 "field for the current authors of the hint. Previous authors should be "
 "acknowledged in the ACKNOWLEDGEMENTS section."
 msgstr ""
+"Esse campo pode ser repetido se existirem vários autores(as). Cada linha de "
+"autor(a) deveria ter nome e detalhes de contato do(a) autor(a) da dica. "
+"Restrinja esse campo para os(as) autores(as) atuais da dica. Autores(as) "
+"anteriores(as) deveriam ser reconhecidos(as) na seção AGRADECIMENTOS."
 
 #. type: Content of: <div><h3>
 #: xhtml/upstream/hints/howtowrite.html:137
 msgid "DATE:"
-msgstr ""
+msgstr "DATA:"
 
 #. type: Content of: <div><p>
 #: xhtml/upstream/hints/howtowrite.html:139
 msgid ""
 "The date the hint was last updated in international format (YYYY-MM-DD)."
 msgstr ""
+"A data que a dica foi atualizada pela última vez no formato internacional "
+"(AAAA-MM-DD)."
 
 #. type: Content of: <div><h3>
 #: xhtml/upstream/hints/howtowrite.html:142
 msgid "LICENSE:"
-msgstr ""
+msgstr "LICENÇA:"
 
 #. type: Content of: <div><p>
 #: xhtml/upstream/hints/howtowrite.html:144
@@ -366,11 +372,23 @@ msgid ""
 "time of submission of the hint, also include a note and a URI for the hint "
 "maintainer to download a text copy of the LICENSE."
 msgstr ""
+"A licença sob a qual a dica está licenciada. Os(As) mantenedores(as) de "
+"dicas sugerem a Licença GNU de Documentação Livre, mas você é livre "
+"para escolher a tua própria. A Licença GNU de Documentação Livre permite "
+"copiar tua dica e modificá-la sem restrições, com a exceção de que "
+"você sempre será creditado(a) como autor(a). Também indica que a dica "
+"não traz garantias. Para mais informações acerca de diversas licenças, "
+"visite o <a href=\"https://www.gnu.org/philosophy/license-list.html\">sítio "
+"do GNU</a>. Antes de submeter a dica, verifique se uma cópia da LICENÇA "
+"sob a qual tua dica está licenciada está disponível no <a "
+"href=\"downloads/files/LICENSES/\">diretório de LICENÇAS</a>. Se não, no "
+"momento da submissão da dica, inclua também uma nota e um URI para o(a) "
+"mantenedor(a) da dica baixar uma cópia de texto da LICENÇA."
 
 #. type: Content of: <div><h3>
 #: xhtml/upstream/hints/howtowrite.html:157
 msgid "SYNOPSIS:"
-msgstr ""
+msgstr "SINOPSE"
 
 #. type: Content of: <div><p>
 #: xhtml/upstream/hints/howtowrite.html:159
@@ -379,11 +397,14 @@ msgid ""
 "restrict it to a single line since this is the title that would be included "
 "on the hints page."
 msgstr ""
+"Uma descrição de uma linha acerca da dica. Por favor, mantenha isso curto "
+"e amável e restrinja-a a uma linha, pois esse é o título que seria "
+"incluído na página de dicas."
 
 #. type: Content of: <div><h3>
 #: xhtml/upstream/hints/howtowrite.html:163
 msgid "PRIMARY URI:"
-msgstr ""
+msgstr "URI PRIMÁRIO:"
 
 #. type: Content of: <div><p>
 #: xhtml/upstream/hints/howtowrite.html:165
@@ -391,11 +412,14 @@ msgid ""
 "This is an optional section for authors who like to host their own hints and "
 "only submit occasional updates to the LFS hints site."
 msgstr ""
+"Essa é uma seção opcional para autores(as) que gostam de hospedar as "
+"próprias dicas deles(as) e somente submeter atualizações ocasionais para "
+"o sítio de dicas do LFS."
 
 #. type: Content of: <div><h3>
 #: xhtml/upstream/hints/howtowrite.html:169
 msgid "DESCRIPTION:"
-msgstr ""
+msgstr "DESCRIÇÃO:"
 
 #. type: Content of: <div><p>
 #: xhtml/upstream/hints/howtowrite.html:171
@@ -404,11 +428,14 @@ msgid ""
 "etc. This would help a user in determining whether the hint is useful for "
 "her/him."
 msgstr ""
+"Uma descrição curta acerca do por que a dica foi escrita, quem é o "
+"público-alvo, entre outras. Isso ajudaria um(a) usante a determinar se a "
+"dica é útil para ele(a)."
 
 #. type: Content of: <div><h3>
 #: xhtml/upstream/hints/howtowrite.html:175
 msgid "ATTACHMENTS:"
-msgstr ""
+msgstr "ANEXOS:"
 
 #. type: Content of: <div><p>
 #: xhtml/upstream/hints/howtowrite.html:177
@@ -416,11 +443,14 @@ msgid ""
 "Links to additional downloads such as patches, scripts, config files, etc. "
 "This section is optional."
 msgstr ""
+"Linques para transferências adicionais, como patches, conjuntos de comandos "
+"sequenciados, arquivos de configuração, entre outros. Essa seção é "
+"opcional."
 
 #. type: Content of: <div><h3>
 #: xhtml/upstream/hints/howtowrite.html:180
 msgid "PREREQUISITES:"
-msgstr ""
+msgstr "PRÉ-REQUISITOS:"
 
 #. type: Content of: <div><p>
 #: xhtml/upstream/hints/howtowrite.html:182
@@ -429,11 +459,14 @@ msgid ""
 "before following the hint.  This section can be used to indicate if the hint "
 "is applicable only for a particular LFS version."
 msgstr ""
+"Nessa seção liste os pré-requisitos que o(a) usante precisa estar ciente "
+"antes de seguir a dica. Essa seção pode ser usada para indicar se a dica "
+"é aplicável somente para uma versão específica do LFS."
 
 #. type: Content of: <div><h3>
 #: xhtml/upstream/hints/howtowrite.html:187
 msgid "HINT:"
-msgstr ""
+msgstr "DICA:"
 
 #. type: Content of: <div><p>
 #: xhtml/upstream/hints/howtowrite.html:189
@@ -445,11 +478,18 @@ msgid ""
 "restrict each line to 80 columns (though this can be relaxed on case-by-case "
 "basis). Avoid including material that is already in the book."
 msgstr ""
+"Esse é o coração da dica. Liste os detalhes acerca da tua dica aqui. Não "
+"existe nenhuma restrição relativa a como você formata as coisas nessa "
+"seção, exceto (sempre existe alguma exceção) para evitar linhas que se "
+"pareçam com uma seção (ou seja, texto em MAIÚSCULAS seguido de ponto e "
+"vírgula). Além disso, faça teu melhor para restringir cada linha a 80 "
+"colunas (embora isso possa ser relaxado caso a caso). Evite incluir material "
+"que já esteja no livro."
 
 #. type: Content of: <div><h3>
 #: xhtml/upstream/hints/howtowrite.html:197
 msgid "ACKNOWLEDGEMENTS:"
-msgstr ""
+msgstr "AGRADECIMENTOS"
 
 #. type: Content of: <div><p>
 #: xhtml/upstream/hints/howtowrite.html:199
@@ -457,11 +497,13 @@ msgid ""
 "Acknowledgements for people who have contributed to the hint. This section "
 "is optional."
 msgstr ""
+"Agradecimentos para pessoas que contribuíram para a dica. Essa seção é "
+"opcional."
 
 #. type: Content of: <div><h3>
 #: xhtml/upstream/hints/howtowrite.html:200
 msgid "CHANGELOG:"
-msgstr ""
+msgstr "REGISTRO DAS MUDANÇAS:"
 
 #. type: Content of: <div><p>
 #: xhtml/upstream/hints/howtowrite.html:202
@@ -469,26 +511,29 @@ msgid ""
 "Include timestamped changes that have occurred in the hint. Add latest "
 "entries at the end. Entries in this section should be as follows:"
 msgstr ""
+"Inclui mudanças com registro de data e de hora que ocorreram na dica. "
+"Adicione as entradas mais recentes no final. Entradas nessa seção deveriam "
+"estar conforme segue:"
 
 #. type: Content of: <div><ul><li>
 #: xhtml/upstream/hints/howtowrite.html:207
 msgid "[YYYY-MM-DD]"
-msgstr ""
+msgstr "[AAAA-MM-DD]"
 
 #. type: Content of: <div><ul><li>
 #: xhtml/upstream/hints/howtowrite.html:208
 msgid "&nbsp;*&nbsp;Changed A"
-msgstr ""
+msgstr "&nbsp;*&nbsp;Mudou A"
 
 #. type: Content of: <div><ul><li>
 #: xhtml/upstream/hints/howtowrite.html:209
 msgid "&nbsp;*&nbsp;Changed B"
-msgstr ""
+msgstr "&nbsp;*&nbsp;Mudou B"
 
 #. type: Content of: <div><h2>
 #: xhtml/upstream/hints/howtowrite.html:212
 msgid "NOTE:"
-msgstr ""
+msgstr "OBSERVAÇÃO:"
 
 #. type: Content of: <div><p>
 #: xhtml/upstream/hints/howtowrite.html:214
@@ -497,3 +542,6 @@ msgid ""
 "suggestions for improving this document, feel free to discuss it on the "
 "blfs-dev mailing list."
 msgstr ""
+"Essas instruções são baseadas nas respostas provenientes de muitos(as) "
+"usantes. Se você tiver sugestões para melhorar esse documento, sinta-se à "
+"vontade para discuti-las na lista de discussão blfs-dev."
