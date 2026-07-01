@@ -1,0 +1,31 @@
+# Portuguese translations for Arquivos do sÃ­tio LFS brasileiro package
+# Traduções em português brasileiro para o pacote Arquivos do sÃ­tio LFS brasileiro
+# Copyright (C) 2026 Jamenson Ferreira Espindula de Almeida Melo
+# This file is distributed under the same license as the Arquivos do sÃ­tio LFS brasileiro package.
+# Automatically generated, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Arquivos do sÃ­tio LFS brasileiro 1.0\n"
+"Report-Msgid-Bugs-To: jafesp@gmail.com\n"
+"POT-Creation-Date: 2026-06-30 22:36-0300\n"
+"PO-Revision-Date: 2026-06-30 22:36-0300\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#. type: Content of: <div><h1>
+#: xhtml/upstream/hints/read.html:5
+msgid "Read Hints Online"
+msgstr ""
+
+#. type: Content of: <div><p>
+#: xhtml/upstream/hints/read.html:8
+msgid ""
+"Hints can be found in the <a href=\"downloads/files/\">directory "
+"listing</a>."
+msgstr ""
