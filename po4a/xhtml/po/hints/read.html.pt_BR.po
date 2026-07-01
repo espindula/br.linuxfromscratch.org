@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Arquivos do sÃ­tio LFS brasileiro 1.0\n"
 "Report-Msgid-Bugs-To: jafesp@gmail.com\n"
 "POT-Creation-Date: 2026-06-30 22:36-0300\n"
-"PO-Revision-Date: 2026-06-30 22:36-0300\n"
+"PO-Revision-Date: 2026-06-30 22:43-0300\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
 "Language: pt_BR\n"
@@ -21,11 +21,12 @@ msgstr ""
 #. type: Content of: <div><h1>
 #: xhtml/upstream/hints/read.html:5
 msgid "Read Hints Online"
-msgstr ""
+msgstr "Leia Dicas Online"
 
 #. type: Content of: <div><p>
 #: xhtml/upstream/hints/read.html:8
 msgid ""
-"Hints can be found in the <a href=\"downloads/files/\">directory "
-"listing</a>."
+"Hints can be found in the <a href=\"downloads/files/\">directory listing</a>."
 msgstr ""
+"Dicas podem ser encontradas na <a href=\"downloads/files/\">listagem de "
+"diretório</a>."
