@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Arquivos do sítio LFS brasileiro 1.0\n"
 "Report-Msgid-Bugs-To: jafesp@gmail.com\n"
 "POT-Creation-Date: 2026-04-08 16:44-0300\n"
-"PO-Revision-Date: 2026-07-04 03:00-0300\n"
+"PO-Revision-Date: 2026-07-05 03:01-0300\n"
 "Last-Translator: Jamenson Ferreira Espindula de Almeida Melo "
 "<jafesp@gmail.com>\n"
 "Language-Team: none\n"
@@ -15084,17 +15084,17 @@ msgstr "<a href=\"files/coverage/ShipporiMincho.coverage\">cobertura</a>"
 #: xhtml/upstream/blfs/typosetting.html:5222
 #: xhtml/upstream/blfs/typosetting.html:5237
 msgid "3.025"
-msgstr ""
+msgstr "3.025"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:5223
 msgid "<a name=\"3.025\">Zen Kaku Gothic New</a>"
-msgstr ""
+msgstr "<a name=\"3.025\">Zen Kaku Gothic New</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:5224
 msgid "ZenKakuGothicNew"
-msgstr ""
+msgstr "ZenKakuGothicNew"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:5226
@@ -15102,210 +15102,223 @@ msgid ""
 "<a "
 "href=\"files/font-languages/ZenKakuGothicNew-languages.tex\">languages.tex</a>"
 msgstr ""
+"<a "
+"href=\"files/font-languages/ZenKakuGothicNew-languages.tex\">languages.tex</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:5228
 msgid "ZenKakuGothicNew-Medium.ttf"
-msgstr ""
+msgstr "ZenKakuGothicNew-Medium.ttf"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:5229
 msgid "<a href=\"files/PDF-contents/ZenKakuGothicNew-contents.pdf\">Glyphs</a>"
 msgstr ""
+"<a href=\"files/PDF-contents/ZenKakuGothicNew-contents.pdf\">Glifos</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:5230
 msgid ""
 "<a href=\"files/PDF-languages/ZenKakuGothicNew-languages.pdf\">Langs</a>"
 msgstr ""
+"<a href=\"files/PDF-languages/ZenKakuGothicNew-languages.pdf\">Idiomas</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:5233
 msgid "ZenKakuGothicNew from <a href=\"df.html#Google\">Google</a>"
-msgstr ""
+msgstr "ZenKakuGothicNew originária do <a href=\"df.html#Google\">Google</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:5235
 msgid "<a href=\"files/codepoints/ZenKakuGothicNew.codepoints\">codepts</a>"
 msgstr ""
+"<a href=\"files/codepoints/ZenKakuGothicNew.codepoints\">pontos de "
+"código</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:5236
 msgid "<a href=\"files/coverage/ZenKakuGothicNew.coverage\">covrg.</a>"
-msgstr ""
+msgstr "<a href=\"files/coverage/ZenKakuGothicNew.coverage\">cobertura</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:5241
 #: xhtml/upstream/blfs/typosetting.html:5256
 msgid "3.026"
-msgstr ""
+msgstr "3.026"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:5242
 msgid "<a name=\"3.026\">Zen Old Mincho</a>"
-msgstr ""
+msgstr "<a name=\"3.026\">Zen Old Mincho</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:5243
 msgid "ZenOldMincho"
-msgstr ""
+msgstr "ZenOldMincho"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:5245
 msgid ""
 "<a href=\"files/font-languages/ZenOldMincho-languages.tex\">languages.tex</a>"
 msgstr ""
+"<a href=\"files/font-languages/ZenOldMincho-languages.tex\">languages.tex</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:5247
 msgid "ZenOldMincho-SemiBold.ttf"
-msgstr ""
+msgstr "ZenOldMincho-SemiBold.ttf"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:5248
 msgid "<a href=\"files/PDF-contents/ZenOldMincho-contents.pdf\">Glyphs</a>"
-msgstr ""
+msgstr "<a href=\"files/PDF-contents/ZenOldMincho-contents.pdf\">Glifos</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:5249
 msgid "<a href=\"files/PDF-languages/ZenOldMincho-languages.pdf\">Langs</a>"
-msgstr ""
+msgstr "<a href=\"files/PDF-languages/ZenOldMincho-languages.pdf\">Idiomas</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:5252
 msgid "ZenOldMincho from <a href=\"df.html#Google\">Google</a>"
-msgstr ""
+msgstr "ZenOldMincho originária do <a href=\"df.html#Google\">Google</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:5254
 msgid "<a href=\"files/codepoints/ZenOldMincho.codepoints\">codepts</a>"
 msgstr ""
+"<a href=\"files/codepoints/ZenOldMincho.codepoints\">pontos de código</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:5255
 msgid "<a href=\"files/coverage/ZenOldMincho.coverage\">covrg.</a>"
-msgstr ""
+msgstr "<a href=\"files/coverage/ZenOldMincho.coverage\">cobertura</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:5278
 #: xhtml/upstream/blfs/typosetting.html:5293
 msgid "3.027"
-msgstr ""
+msgstr "3.027"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:5279
 msgid "<a name=\"3.027\">GenYoMin2 TC</a>"
-msgstr ""
+msgstr "<a name=\"3.027\">GenYoMin2 TC</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:5280
 msgid "GenYoMin2TC"
-msgstr ""
+msgstr "GenYoMin2TC"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:5282
 msgid ""
 "<a href=\"files/font-languages/GenYoMin2TC-languages.tex\">languages.tex</a>"
 msgstr ""
+"<a href=\"files/font-languages/GenYoMin2TC-languages.tex\">languages.tex</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:5284
 msgid "GenYoMin2TC-M.otf"
-msgstr ""
+msgstr "GenYoMin2TC-M.otf"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:5285
 msgid "<a href=\"files/PDF-contents/GenYoMin2TC-contents.pdf\">Glyphs</a>"
-msgstr ""
+msgstr "<a href=\"files/PDF-contents/GenYoMin2TC-contents.pdf\">Glifos</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:5286
 msgid "<a href=\"files/PDF-languages/GenYoMin2TC-languages.pdf\">Langs</a>"
-msgstr ""
+msgstr "<a href=\"files/PDF-languages/GenYoMin2TC-languages.pdf\">Idiomas</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:5289
 #: xhtml/upstream/blfs/typosetting.html:5308
 msgid "butTaiwan/genyo-font from <a href=\"df.html#github\">github</a>"
 msgstr ""
+"butTaiwan/genyo-font originária do <a href=\"df.html#github\">github</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:5291
 msgid "<a href=\"files/codepoints/GenYoMin2TC.codepoints\">codepts</a>"
 msgstr ""
+"<a href=\"files/codepoints/GenYoMin2TC.codepoints\">pontos de código</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:5292
 msgid "<a href=\"files/coverage/GenYoMin2TC.coverage\">covrg.</a>"
-msgstr ""
+msgstr "<a href=\"files/coverage/GenYoMin2TC.coverage\">cobertura</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:5297
 #: xhtml/upstream/blfs/typosetting.html:5312
 msgid "3.028"
-msgstr ""
+msgstr "3.028"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:5298
 msgid "<a name=\"3.028\">GenYoMin2 TW</a>"
-msgstr ""
+msgstr "<a name=\"3.028\">GenYoMin2 TW</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:5299
 msgid "GenYoMin2TW"
-msgstr ""
+msgstr "GenYoMin2TW"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:5301
 msgid ""
 "<a href=\"files/font-languages/GenYoMin2TW-languages.tex\">languages.tex</a>"
 msgstr ""
+"<a href=\"files/font-languages/GenYoMin2TW-languages.tex\">languages.tex</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:5303
 msgid "GenYoMin2TW-M.otf"
-msgstr ""
+msgstr "GenYoMin2TW-M.otf"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:5304
 msgid "<a href=\"files/PDF-contents/GenYoMin2TW-contents.pdf\">Glyphs</a>"
-msgstr ""
+msgstr "<a href=\"files/PDF-contents/GenYoMin2TW-contents.pdf\">Glifos</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:5305
 msgid "<a href=\"files/PDF-languages/GenYoMin2TW-languages.pdf\">Langs</a>"
-msgstr ""
+msgstr "<a href=\"files/PDF-languages/GenYoMin2TW-languages.pdf\">Idiomas</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:5310
 msgid "<a href=\"files/codepoints/GenYoMin2TW.codepoints\">codepts</a>"
 msgstr ""
+"<a href=\"files/codepoints/GenYoMin2TW.codepoints\">pontos de código</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:5311
 msgid "<a href=\"files/coverage/GenYoMin2TW.coverage\">covrg.</a>"
-msgstr ""
+msgstr "<a href=\"files/coverage/GenYoMin2TW.coverage\">cobertura</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:5316
 #: xhtml/upstream/blfs/typosetting.html:5331
 msgid "3.029"
-msgstr ""
+msgstr "3.029"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:5317
 msgid "<a name=\"3.029\">HanWangHeiLight</a>"
-msgstr ""
+msgstr "<a name=\"3.029\">HanWangHeiLight</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:5318
 msgid "HanWangHeiLight"
-msgstr ""
+msgstr "HanWangHeiLight"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:5319
 msgid "2024/11/16"
-msgstr ""
+msgstr "2024/11/16"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:5320
@@ -15313,21 +15326,24 @@ msgid ""
 "<a "
 "href=\"files/font-languages/HanWangHeiLight-languages.tex\">languages.tex</a>"
 msgstr ""
+"<a "
+"href=\"files/font-languages/HanWangHeiLight-languages.tex\">languages.tex</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:5322
 msgid "Wang han zong Slim boldface Font-Traditional Chinese.ttf"
-msgstr ""
+msgstr "Wang han zong Slim boldface Font-Traditional Chinese.ttf"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:5323
 msgid "<a href=\"files/PDF-contents/HanWangHeiLight-contents.pdf\">Glyphs</a>"
-msgstr ""
+msgstr "<a href=\"files/PDF-contents/HanWangHeiLight-contents.pdf\">Glifos</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:5324
 msgid "<a href=\"files/PDF-languages/HanWangHeiLight-languages.pdf\">Langs</a>"
 msgstr ""
+"<a href=\"files/PDF-languages/HanWangHeiLight-languages.pdf\">Idiomas</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:5327
@@ -15335,149 +15351,157 @@ msgstr ""
 #: xhtml/upstream/blfs/typosetting.html:5365
 msgid "From <a href=\"df.html#chinese\">chinese-font-design/wang-han-zong</a>"
 msgstr ""
+"Originária da <a "
+"href=\"df.html#chinese\">chinese-font-design/wang-han-zong</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:5329
 msgid "<a href=\"files/codepoints/HanWangHeiLight.codepoints\">codepts</a>"
 msgstr ""
+"<a href=\"files/codepoints/HanWangHeiLight.codepoints\">pontos de código</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:5330
 msgid "<a href=\"files/coverage/HanWangHeiLight.coverage\">covrg.</a>"
-msgstr ""
+msgstr "<a href=\"files/coverage/HanWangHeiLight.coverage\">cobertura</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:5335
 #: xhtml/upstream/blfs/typosetting.html:5350
 msgid "3.030"
-msgstr ""
+msgstr "3.030"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:5336
 msgid "<a name=\"3.030\">HanWangWCL02</a>"
-msgstr ""
+msgstr "<a name=\"3.030\">HanWangWCL02</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:5337
 msgid "HanWangWCL02"
-msgstr ""
+msgstr "HanWangWCL02"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:5338
 #: xhtml/upstream/blfs/typosetting.html:5357
 msgid "2024/11/17"
-msgstr ""
+msgstr "2024/11/17"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:5339
 msgid ""
 "<a href=\"files/font-languages/HanWangWCL02-languages.tex\">languages.tex</a>"
 msgstr ""
+"<a href=\"files/font-languages/HanWangWCL02-languages.tex\">languages.tex</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:5340
 msgid "Traditional Chinese Serif (Sung|Ming)"
-msgstr ""
+msgstr "Serifa Chinesa Tradicional (Sung|Ming)"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:5341
 msgid "Wang han zong Te Ming Standard Font-Traditional Chinese.ttf"
-msgstr ""
+msgstr "Wang han zong Te Ming Standard Font-Traditional Chinese.ttf"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:5342
 msgid "<a href=\"files/PDF-contents/HanWangWCL02-contents.pdf\">Glyphs</a>"
-msgstr ""
+msgstr "<a href=\"files/PDF-contents/HanWangWCL02-contents.pdf\">Glifos</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:5343
 msgid "<a href=\"files/PDF-languages/HanWangWCL02-languages.pdf\">Langs</a>"
-msgstr ""
+msgstr "<a href=\"files/PDF-languages/HanWangWCL02-languages.pdf\">Idiomas</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:5348
 msgid "<a href=\"files/codepoints/HanWangWCL02.codepoints\">codepts</a>"
 msgstr ""
+"<a href=\"files/codepoints/HanWangWCL02.codepoints\">pontos de código</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:5349
 msgid "<a href=\"files/coverage/HanWangWCL02.coverage\">covrg.</a>"
-msgstr ""
+msgstr "<a href=\"files/coverage/HanWangWCL02.coverage\">cobertura</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:5354
 #: xhtml/upstream/blfs/typosetting.html:5369
 msgid "3.031"
-msgstr ""
+msgstr "3.031"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:5355
 msgid "<a name=\"3.031\">HanWangWCL06</a>"
-msgstr ""
+msgstr "<a name=\"3.031\">HanWangWCL06</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:5356
 msgid "HanWangWCL06"
-msgstr ""
+msgstr "HanWangWCL06"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:5358
 msgid ""
 "<a href=\"files/font-languages/HanWangWCL06-languages.tex\">languages.tex</a>"
 msgstr ""
+"<a href=\"files/font-languages/HanWangWCL06-languages.tex\">languages.tex</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:5359
 msgid "Traditional Chinese Serif (Imitation Song)"
-msgstr ""
+msgstr "Serifa Chinesa Tradicional (Canção de Imitação)"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:5360
 msgid ""
 "Wang han zong Imitation Song typeface Standard Font-Traditional Chinese.ttf"
 msgstr ""
+"Wang han zong Imitation Song typeface Standard Font-Traditional Chinese.ttf"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:5361
 msgid "<a href=\"files/PDF-contents/HanWangWCL06-contents.pdf\">Glyphs</a>"
-msgstr ""
+msgstr "<a href=\"files/PDF-contents/HanWangWCL06-contents.pdf\">Glifos</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:5362
 msgid "<a href=\"files/PDF-languages/HanWangWCL06-languages.pdf\">Langs</a>"
-msgstr ""
+msgstr "<a href=\"files/PDF-languages/HanWangWCL06-languages.pdf\">Idiomas</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:5367
 msgid "<a href=\"files/codepoints/HanWangWCL06.codepoints\">codepts</a>"
 msgstr ""
+"<a href=\"files/codepoints/HanWangWCL06.codepoints\">pontos de código</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:5368
 msgid "<a href=\"files/coverage/HanWangWCL06.coverage\">covrg.</a>"
-msgstr ""
+msgstr "<a href=\"files/coverage/HanWangWCL06.coverage\">cobertura</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:5391
 #: xhtml/upstream/blfs/typosetting.html:5406
 msgid "3.032"
-msgstr ""
+msgstr "3.032"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:5392
 msgid "<a name=\"3.032\">GenYoGothic2 TC</a>"
-msgstr ""
+msgstr "<a name=\"3.032\">GenYoGothic2 TC</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:5393
 msgid "GenYoGothic2TC"
-msgstr ""
+msgstr "GenYoGothic2TC"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:5394
 #: xhtml/upstream/blfs/typosetting.html:5413
 msgid "2024/11/25"
-msgstr ""
+msgstr "2024/11/25"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:5395
@@ -15485,53 +15509,58 @@ msgid ""
 "<a "
 "href=\"files/font-languages/GenYoGothic2TC-languages.tex\">languages.tex</a>"
 msgstr ""
+"<a "
+"href=\"files/font-languages/GenYoGothic2TC-languages.tex\">languages.tex</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:5397
 msgid "GenYoGothic2TC-M.otf"
-msgstr ""
+msgstr "GenYoGothic2TC-M.otf"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:5398
 msgid "<a href=\"files/PDF-contents/GenYoGothic2TC-contents.pdf\">Glyphs</a>"
-msgstr ""
+msgstr "<a href=\"files/PDF-contents/GenYoGothic2TC-contents.pdf\">Glifos</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:5399
 msgid "<a href=\"files/PDF-languages/GenYoGothic2TC-languages.pdf\">Langs</a>"
 msgstr ""
+"<a href=\"files/PDF-languages/GenYoGothic2TC-languages.pdf\">Idiomas</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:5402
 #: xhtml/upstream/blfs/typosetting.html:5421
 msgid "butTaiwan/genyog-font from <a href=\"df.html#github\">github</a>"
 msgstr ""
+"butTaiwan/genyog-font originária do <a href=\"df.html#github\">github</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:5404
 msgid "<a href=\"files/codepoints/GenYoGothic2TC.codepoints\">codepts</a>"
 msgstr ""
+"<a href=\"files/codepoints/GenYoGothic2TC.codepoints\">pontos de código</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:5405
 msgid "<a href=\"files/coverage/GenYoGothic2TC.coverage\">covrg.</a>"
-msgstr ""
+msgstr "<a href=\"files/coverage/GenYoGothic2TC.coverage\">cobertura</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:5410
 #: xhtml/upstream/blfs/typosetting.html:5425
 msgid "3.033"
-msgstr ""
+msgstr "3.033"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:5411
 msgid "<a name=\"3.033\">GenYoGothic2 TW</a>"
-msgstr ""
+msgstr "<a name=\"3.033\">GenYoGothic2 TW</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:5412
 msgid "GenYoGothic2TW"
-msgstr ""
+msgstr "GenYoGothic2TW"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:5414
@@ -15539,90 +15568,98 @@ msgid ""
 "<a "
 "href=\"files/font-languages/GenYoGothic2TW-languages.tex\">languages.tex</a>"
 msgstr ""
+"<a "
+"href=\"files/font-languages/GenYoGothic2TW-languages.tex\">languages.tex</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:5416
 msgid "GenYoGothic2TW-M.otf"
-msgstr ""
+msgstr "GenYoGothic2TW-M.otf"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:5417
 msgid "<a href=\"files/PDF-contents/GenYoGothic2TW-contents.pdf\">Glyphs</a>"
-msgstr ""
+msgstr "<a href=\"files/PDF-contents/GenYoGothic2TW-contents.pdf\">Glifos</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:5418
 msgid "<a href=\"files/PDF-languages/GenYoGothic2TW-languages.pdf\">Langs</a>"
 msgstr ""
+"<a href=\"files/PDF-languages/GenYoGothic2TW-languages.pdf\">Idiomas</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:5423
 msgid "<a href=\"files/codepoints/GenYoGothic2TW.codepoints\">codepts</a>"
 msgstr ""
+"<a href=\"files/codepoints/GenYoGothic2TW.codepoints\">pontos de código</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:5424
 msgid "<a href=\"files/coverage/GenYoGothic2TW.coverage\">covrg.</a>"
-msgstr ""
+msgstr "<a href=\"files/coverage/GenYoGothic2TW.coverage\">cobertura</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:5429
 #: xhtml/upstream/blfs/typosetting.html:5444
 msgid "3.034"
-msgstr ""
+msgstr "3.034"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:5430
 msgid "<a name=\"3.034\">Chiron Hei HK</a>"
-msgstr ""
+msgstr "<a name=\"3.034\">Chiron Hei HK</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:5431
 msgid "ChironHeiHK"
-msgstr ""
+msgstr "ChironHeiHK"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:5433
 msgid ""
 "<a href=\"files/font-languages/ChironHeiHK-languages.tex\">languages.tex</a>"
 msgstr ""
+"<a href=\"files/font-languages/ChironHeiHK-languages.tex\">languages.tex</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:5434
 #: xhtml/upstream/blfs/typosetting.html:5453
 msgid "Cantonese Sans for Hong Kong"
-msgstr ""
+msgstr "Sans Cantonês para Hong Kong"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:5435
 msgid "ChironHeiHK-M.otf"
-msgstr ""
+msgstr "ChironHeiHK-M.otf"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:5436
 msgid "<a href=\"files/PDF-contents/ChironHeiHK-contents.pdf\">Glyphs</a>"
-msgstr ""
+msgstr "<a href=\"files/PDF-contents/ChironHeiHK-contents.pdf\">Glifos</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:5437
 msgid "<a href=\"files/PDF-languages/ChironHeiHK-languages.pdf\">Langs</a>"
-msgstr ""
+msgstr "<a href=\"files/PDF-languages/ChironHeiHK-languages.pdf\">Idiomas</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:5440
 #: xhtml/upstream/blfs/typosetting.html:5459
 msgid "chiron-fonts/chiron-hei-hk from <a href=\"df.html#github\">github</a>"
 msgstr ""
+"chiron-fonts/chiron-hei-hk originária do <a "
+"href=\"df.html#github\">github</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:5442
 msgid "<a href=\"files/codepoints/ChironHeiHK.codepoints\">codepts</a>"
 msgstr ""
+"<a href=\"files/codepoints/ChironHeiHK.codepoints\">pontos de código</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:5443
 msgid "<a href=\"files/coverage/ChironHeiHK.coverage\">covrg.</a>"
-msgstr ""
+msgstr "<a href=\"files/coverage/ChironHeiHK.coverage\">cobertura</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:5448
