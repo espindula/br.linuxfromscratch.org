@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Arquivos do sítio LFS brasileiro 1.0\n"
 "Report-Msgid-Bugs-To: jafesp@gmail.com\n"
 "POT-Creation-Date: 2026-04-08 16:44-0300\n"
-"PO-Revision-Date: 2026-07-05 03:01-0300\n"
+"PO-Revision-Date: 2026-07-06 02:34-0300\n"
 "Last-Translator: Jamenson Ferreira Espindula de Almeida Melo "
 "<jafesp@gmail.com>\n"
 "Language-Team: none\n"
@@ -15665,17 +15665,17 @@ msgstr "<a href=\"files/coverage/ChironHeiHK.coverage\">cobertura</a>"
 #: xhtml/upstream/blfs/typosetting.html:5448
 #: xhtml/upstream/blfs/typosetting.html:5463
 msgid "3.035"
-msgstr ""
+msgstr "3.035"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:5449
 msgid "<a name=\"3.035\">Chiron Hei HK Text</a>"
-msgstr ""
+msgstr "<a name=\"3.035\">Chiron Hei HK Text</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:5450
 msgid "ChironHeiHK-Text"
-msgstr ""
+msgstr "ChironHeiHK-Text"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:5452
@@ -15683,101 +15683,111 @@ msgid ""
 "<a "
 "href=\"files/font-languages/ChironHeiHK-Text-languages.tex\">languages.tex</a>"
 msgstr ""
+"<a "
+"href=\"files/font-languages/ChironHeiHK-Text-languages.tex\">languages.tex</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:5454
 msgid "ChironHeiHK-Text-M.otf"
-msgstr ""
+msgstr "ChironHeiHK-Text-M.otf"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:5455
 msgid "<a href=\"files/PDF-contents/ChironHeiHK-Text-contents.pdf\">Glyphs</a>"
 msgstr ""
+"<a href=\"files/PDF-contents/ChironHeiHK-Text-contents.pdf\">Glifos</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:5456
 msgid ""
 "<a href=\"files/PDF-languages/ChironHeiHK-Text-languages.pdf\">Langs</a>"
 msgstr ""
+"<a href=\"files/PDF-languages/ChironHeiHK-Text-languages.pdf\">Idiomas</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:5461
 msgid "<a href=\"files/codepoints/ChironHeiHK-Text.codepoints\">codepts</a>"
 msgstr ""
+"<a href=\"files/codepoints/ChironHeiHK-Text.codepoints\">pontos de "
+"código</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:5462
 msgid "<a href=\"files/coverage/ChironHeiHK-Text.coverage\">covrg.</a>"
-msgstr ""
+msgstr "<a href=\"files/coverage/ChironHeiHK-Text.coverage\">cobertura</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:5467
 #: xhtml/upstream/blfs/typosetting.html:5482
 msgid "3.036"
-msgstr ""
+msgstr "3.036"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:5468
 msgid "<a name=\"3.036\">Chiron Sung HK</a>"
-msgstr ""
+msgstr "<a name=\"3.036\">Chiron Sung HK</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:5469
 msgid "ChironSungHK"
-msgstr ""
+msgstr "ChironSungHK"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:5471
 msgid ""
 "<a href=\"files/font-languages/ChironSungHK-languages.tex\">languages.tex</a>"
 msgstr ""
+"<a href=\"files/font-languages/ChironSungHK-languages.tex\">languages.tex</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:5473
 msgid "ChironSungHK-M.otf"
-msgstr ""
+msgstr "ChironSungHK-M.otf"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:5474
 msgid "<a href=\"files/PDF-contents/ChironSungHK-contents.pdf\">Glyphs</a>"
-msgstr ""
+msgstr "<a href=\"files/PDF-contents/ChironSungHK-contents.pdf\">Glifos</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:5475
 msgid "<a href=\"files/PDF-languages/ChironSungHK-languages.pdf\">Langs</a>"
-msgstr ""
+msgstr "<a href=\"files/PDF-languages/ChironSungHK-languages.pdf\">Idiomas</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:5478
 #: xhtml/upstream/blfs/typosetting.html:5515
 msgid "chiron-fonts/chiron-sung-hk from <a href=\"df.html#github\">github</a>"
 msgstr ""
+"chiron-fonts/chiron-sung-hk originária do <a "
+"href=\"df.html#github\">github</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:5480
 msgid "<a href=\"files/codepoints/ChironSungHK.codepoints\">codepts</a>"
 msgstr ""
+"<a href=\"files/codepoints/ChironSungHK.codepoints\">pontos de código</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:5481
 msgid "<a href=\"files/coverage/ChironSungHK.coverage\">covrg.</a>"
-msgstr ""
+msgstr "<a href=\"files/coverage/ChironSungHK.coverage\">cobertura</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:5504
 #: xhtml/upstream/blfs/typosetting.html:5519
 msgid "3.037"
-msgstr ""
+msgstr "3.037"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:5505
 msgid "<a name=\"3.037\">Chiron Sung HK Text</a>"
-msgstr ""
+msgstr "<a name=\"3.037\">Chiron Sung HK Text</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:5506
 msgid "ChironSungHK-Text"
-msgstr ""
+msgstr "ChironSungHK-Text"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:5508
@@ -15785,54 +15795,60 @@ msgid ""
 "<a "
 "href=\"files/font-languages/ChironSungHK-Text-languages.tex\">languages.tex</a>"
 msgstr ""
+"<a "
+"href=\"files/font-languages/ChironSungHK-Text-languages.tex\">languages.tex</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:5510
 msgid "ChironSungHK-Text-M.otf"
-msgstr ""
+msgstr "ChironSungHK-Text-M.otf"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:5511
 msgid ""
 "<a href=\"files/PDF-contents/ChironSungHK-Text-contents.pdf\">Glyphs</a>"
 msgstr ""
+"<a href=\"files/PDF-contents/ChironSungHK-Text-contents.pdf\">Glifos</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:5512
 msgid ""
 "<a href=\"files/PDF-languages/ChironSungHK-Text-languages.pdf\">Langs</a>"
 msgstr ""
+"<a href=\"files/PDF-languages/ChironSungHK-Text-languages.pdf\">Idiomas</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:5517
 msgid "<a href=\"files/codepoints/ChironSungHK-Text.codepoints\">codepts</a>"
 msgstr ""
+"<a href=\"files/codepoints/ChironSungHK-Text.codepoints\">pontos de "
+"código</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:5518
 msgid "<a href=\"files/coverage/ChironSungHK-Text.coverage\">covrg.</a>"
-msgstr ""
+msgstr "<a href=\"files/coverage/ChironSungHK-Text.coverage\">cobertura</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:5523
 #: xhtml/upstream/blfs/typosetting.html:5538
 msgid "3.038"
-msgstr ""
+msgstr "3.038"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:5524
 msgid "<a name=\"3.038\">Noto Sans Mono CJK HK</a>"
-msgstr ""
+msgstr "<a name=\"3.038\">Noto Sans Mono CJK HK</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:5525
 msgid "NotoSansMonoCJKhk"
-msgstr ""
+msgstr "NotoSansMonoCJKhk"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:5526
 msgid "2025/01/06"
-msgstr ""
+msgstr "2025/01/06"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:5527
@@ -15840,168 +15856,178 @@ msgid ""
 "<a "
 "href=\"files/font-languages/NotoSansMonoCJKhk-languages.tex\">languages.tex</a>"
 msgstr ""
+"<a "
+"href=\"files/font-languages/NotoSansMonoCJKhk-languages.tex\">languages.tex</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:5528
 msgid "Monospace Cantonese for Hong Kong Sans Sans"
-msgstr ""
+msgstr "Cantonês Monoespaçada para Sans de Hong Kong"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:5529
 msgid "NotoSansMonoCJKhk-Regular.otf"
-msgstr ""
+msgstr "NotoSansMonoCJKhk-Regular.otf"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:5530
 msgid ""
 "<a href=\"files/PDF-contents/NotoSansMonoCJKhk-contents.pdf\">Glyphs</a>"
 msgstr ""
+"<a href=\"files/PDF-contents/NotoSansMonoCJKhk-contents.pdf\">Glifos</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:5531
 msgid ""
 "<a href=\"files/PDF-languages/NotoSansMonoCJKhk-languages.pdf\">Langs</a>"
 msgstr ""
+"<a href=\"files/PDF-languages/NotoSansMonoCJKhk-languages.pdf\">Idiomas</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:5536
 msgid "<a href=\"files/codepoints/NotoSansMonoCJKhk.codepoints\">codepts</a>"
 msgstr ""
+"<a href=\"files/codepoints/NotoSansMonoCJKhk.codepoints\">pontos de "
+"código</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:5537
 msgid "<a href=\"files/coverage/NotoSansMonoCJKhk.coverage\">covrg.</a>"
-msgstr ""
+msgstr "<a href=\"files/coverage/NotoSansMonoCJKhk.coverage\">cobertura</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:5542
 #: xhtml/upstream/blfs/typosetting.html:5557
 msgid "3.039"
-msgstr ""
+msgstr "3.039"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:5543
 msgid "<a name=\"3.039\">Adwaita Sans</a>"
-msgstr ""
+msgstr "<a name=\"3.039\">Adwaita Sans</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:5544
 msgid "AdwaitaSans"
-msgstr ""
+msgstr "AdwaitaSans"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:5545
 #: xhtml/upstream/blfs/typosetting.html:5564
 msgid "2025/05/05"
-msgstr ""
+msgstr "2025/05/05"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:5546
 msgid ""
 "<a href=\"files/font-languages/AdwaitaSans-languages.tex\">languages.tex</a>"
 msgstr ""
+"<a href=\"files/font-languages/AdwaitaSans-languages.tex\">languages.tex</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:5547
 msgid "UI Sans for Latin, Cyrillic, Greek"
-msgstr ""
+msgstr "UI Sans para Latim, Cirílico e Grego"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:5548
 msgid "AdwaitaSans-Regular.ttf"
-msgstr ""
+msgstr "AdwaitaSans-Regular.ttf"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:5549
 msgid "<a href=\"files/PDF-contents/AdwaitaSans-contents.pdf\">Glyphs</a>"
-msgstr ""
+msgstr "<a href=\"files/PDF-contents/AdwaitaSans-contents.pdf\">Glifos</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:5550
 msgid "<a href=\"files/PDF-languages/AdwaitaSans-languages.pdf\">Langs</a>"
-msgstr ""
+msgstr "<a href=\"files/PDF-languages/AdwaitaSans-languages.pdf\">Idiomas</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:5551
 #: xhtml/upstream/blfs/typosetting.html:5552
 msgid "variable"
-msgstr ""
+msgstr "variável"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:5553
 #: xhtml/upstream/blfs/typosetting.html:5572
 msgid "from <a href=\"df.html#Adwaita\">Adwaita</a>"
-msgstr ""
+msgstr "originária da <a href=\"df.html#Adwaita\">Adwaita</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:5554
 #: xhtml/upstream/blfs/typosetting.html:5573
 msgid "GPL v3"
-msgstr ""
+msgstr "GPL v3"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:5555
 msgid "<a href=\"files/codepoints/AdwaitaSans.codepoints\">codepts</a>"
 msgstr ""
+"<a href=\"files/codepoints/AdwaitaSans.codepoints\">pontos de código</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:5556
 msgid "<a href=\"files/coverage/AdwaitaSans.coverage\">covrg.</a>"
-msgstr ""
+msgstr "<a href=\"files/coverage/AdwaitaSans.coverage\">cobertura</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:5561
 #: xhtml/upstream/blfs/typosetting.html:5576
 msgid "3.040"
-msgstr ""
+msgstr "3.040"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:5562
 msgid "<a name=\"3.040\">Adwaita Mono</a>"
-msgstr ""
+msgstr "<a name=\"3.040\">Adwaita Mono</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:5563
 msgid "AdwaitaMono"
-msgstr ""
+msgstr "AdwaitaMono"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:5565
 msgid ""
 "<a href=\"files/font-languages/AdwaitaMono-languages.tex\">languages.tex</a>"
 msgstr ""
+"<a href=\"files/font-languages/AdwaitaMono-languages.tex\">languages.tex</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:5566
 msgid "Monospace Sans for Latin, Cyrillic, Greek"
-msgstr ""
+msgstr "Sans Monoespaçada para Latim, Cirílico, Grego"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:5567
 msgid "AdwaitaMono-Regular.ttf"
-msgstr ""
+msgstr "AdwaitaMono-Regular.ttf"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:5568
 msgid "<a href=\"files/PDF-contents/AdwaitaMono-contents.pdf\">Glyphs</a>"
-msgstr ""
+msgstr "<a href=\"files/PDF-contents/AdwaitaMono-contents.pdf\">Glifos</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:5569
 msgid "<a href=\"files/PDF-languages/AdwaitaMono-languages.pdf\">Langs</a>"
-msgstr ""
+msgstr "<a href=\"files/PDF-languages/AdwaitaMono-languages.pdf\">Idiomas</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:5574
 msgid "<a href=\"files/codepoints/AdwaitaMono.codepoints\">codepts</a>"
 msgstr ""
+"<a href=\"files/codepoints/AdwaitaMono.codepoints\">pontos de código</a>"
 
 #. type: Content of: <html><body><div><table><thead><tr><td>
 #: xhtml/upstream/blfs/typosetting.html:5575
 msgid "<a href=\"files/coverage/AdwaitaMono.coverage\">covrg.</a>"
-msgstr ""
+msgstr "<a href=\"files/coverage/AdwaitaMono.coverage\">cobertura</a>"
 
 #. type: Content of: <html><body><p>
 #: xhtml/upstream/blfs/typosetting.html:5582
 msgid "Ken Moffat, 2016-2025. E&amp;OE"
-msgstr ""
+msgstr "Ken Moffat, 2016-2025. E&amp;OE"
