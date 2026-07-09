@@ -1,0 +1,213 @@
+<!--#set var="pageTitle" value="LFS 12.3 Security Advisories" -->
+<!--#include virtual="/lfs/header.html" -->
+<!--#include virtual="/lfs/menu.html" -->
+    <div class="main">
+
+    <h2>LFS Security Advisories for LFS 12.3.</h2>
+
+    <a id="LFS12.3"/>
+    <p>LFS-12.3 was released on 2025-03-05</p>
+
+     <!-- Editors: Do not remove this entry, just comment it out.
+
+    <ul>
+       <li>There are currently no known security vulnerabilities for LFS-12.3.</li>
+    </ul>
+-->
+
+    <!-- Editors: do the consolidated file first, to get the next number.
+         Checking what you have prepared is easier if you can create symlinks
+         in the directory where you put the books' html so that you can see
+         the LFS and BLFS advisories in your browser. -->
+
+
+    <p style="font-style: italic;">This page is in alphabetical order of packages,
+    and if a package has multiple advisories the newer come first.</p>
+
+    <p> The links at the end of each item point to fuller details which have
+    links to the
+    released <!-- change to 'released' when links in consolidated are changed
+    after a release -->
+    books.</p>
+
+    <!-- After a release, copy for next book version, leave just template stuff
+     in that, and note
+     that later advisories will be in the [next release] version -->
+
+    <!-- Editors - do the consolidated page first, to get the next advisory number -->
+
+   <!-- start of template
+
+    <h3>PackageName</h3>
+
+    <h4>11.2 NNN PackageName (LFS)  Date: 2022-09-01  Severity: Low</h4>
+    <p>Breif details here. See
+    <a href=i"../../blfs/advisories/consolidated.html#sa-11.2-NNN">11.2-NNN</a></p>
+
+    <!\-\- End of PackageName -->
+    <!-- End of template -->
+
+    <!--
+    <h3>Coreutils</h3>
+
+    <h4>12.0 075 Coreutils (LFS)  Date: 2024-01-21  Severity: Medium</h4>
+    <p>In Coreutils-9.4, a security vulnerability was found in the split
+    program. A heap overflow may potentially leading to an application crash
+    and denial of service.
+    <a href="../../blfs/advisories/consolidated.html#sa-12.0-075">12.0-075</a></p>
+    -->
+
+
+    <h3>Glibc</h3>
+
+    <p style="font-style: italic;">Updating Glibc from an earlier version
+    on a running LFS system requires extra precautions to avoid breaking the
+    system.  The precautions are documented in an "Important" box of the LFS
+    book section for Glibc.  Follow it strictly or you may render the
+    system completely unusable.</p>
+
+    <a id="sa-12.3-085"/>
+    <h4>12.3 085 glibc (LFS)              Date: 2025-08-05  Severity: Medium</h4>
+    <p>In glibc-2.42, a security vulnerability was fixed that can allow for
+    a double free when using the regcomp() function. The double free can be
+    accomplished by a malloc failure or by using an interposed malloc that
+    injects random malloc failures, and the double free is known to cause
+    buffer manipulation depending on how the regex passed to regcomp is
+    constructed. All versions from glibc-2.4 to 2.41 are known to be affected.
+    This can cause arbitrary code execution or a denial of service.</p>
+
+    <p>Please read the link to fix this vulnerability:
+    <a href="../../blfs/advisories/consolidated.html#sa-12.3-085">12.3-085</a></p>
+
+
+<!-- end of Glibc -->
+
+    <h3>coreutils</h3>
+
+    <a id="sa-12.3-043"/>
+    <h4>12.3 043 coreutils (LFS)          Date: 2025-06-02  Severity: Medium</h4>
+    <p>In coreutils-9.6, a security vulnerability was discovered that could
+    allow for a denial of service (application crash) or leakage of sensitive
+    data when using the 'sort' utility. The vulnerability is vulnerable to a
+    heap buffer under-read. Update to coreutils-9.7 with the patch.
+    <a href="../../blfs/advisories/consolidated.html#sa-12.3-043">12.3-043</a></p>
+
+<!-- end of coreutils -->
+
+    <h3>Expat</h3>
+
+    <a id="sa-12.3-006"/>
+    <h4>12.3 006 Expat (LFS)              Date: 2025-05-20  Severity: High</h4>
+    <p>In Expat-2.7.1, a security vulnerability was fixed that could result in
+    a crash from chaining a large number of entities. The crash is caused by a
+    stack overflow, and it was resolved by fixing the usage of recursion for
+    general entities in character data, general entities in attribute data, and
+    parameter entities. Update to Expat-2.7.1 as soon as possible.
+    <a href="../../blfs/advisories/consolidated.html#sa-12.3-006">12.3-006</a></p>
+
+<!-- end of Expat -->
+
+    <h3>Perl</h3>
+
+    <a id="sa-12.3-042"/>
+    <h4>12.3 042 Perl (LFS)               Date: 2025-06-02  Severity: Medium</h4>
+    <p>In Perl-5.40.2, a security vulnerability was discovered that could allow
+    for a race condition where file operations may target unintended paths.
+    The vulnerability is known to cause arbitrary code execuction as well as
+    loading files from unexpected locations. Rebuild Perl-5.40.2 with the patch.
+    <a href="../../blfs/advisories/consolidated.html#sa-12.3-042">12.3-042</a></p>
+
+    <a id="sa-12.3-017"/>
+    <h4>12.3 017 Perl (LFS)               Date: 2025-05-20  Severity: High</h4>
+    <p>In Perl-5.40.2, a security vulnerability was fixed that could allow for
+    a denial of service or arbitrary code execution when transliterating
+    non-ASCII bytes. The vulnerability is caused by a heap buffer overflow,
+    and a subsequent out-of-bounds write. Update to Perl-5.40.2.
+    <a href="../../blfs/advisories/consolidated.html#sa-12.3-017">12.3-017</a></p>
+
+<!-- end of Perl -->
+
+    <h3>Python</h3>
+
+    <a id="sa-12.3-088"/>
+    <h4>12.3 088 Python (LFS and BLFS)    Date: 2025-08-10  Severity: High</h4>
+    <p>In Python-3.13.6, four security vulnerabilities were fixed in the
+    HTML Parser functionality that can allow for cross-site scripting, denial
+    of service (unbounded resource consumption), and for hidden HTML code to
+    be processed. These vulnerabilities mostly occur because the previous
+    versions of Python did not adhere to the HTML 5 standard correctly.
+    Update to Python-3.13.6, or follow the instructions in the advisory
+    if you are on an older version of Python.
+    <a href="../../blfs/advisories/consolidated.html#sa-12.3-088">12.3-088</a></p>
+
+    <h4>12.3 087 Python (LFS and BLFS)    Date: 2025-08-05  Severity: High</h4>
+    <p>A security vulnerability was discovered in Python-3.13.5 that can allow
+    the tarfile module to process tar archives with negative offsets without
+    an error, which would result in an infinite loop and a deadlock when
+    processing maliciously crafted tar archives. Upstream has prepared a
+    patch for the vulnerability which the BLFS editors have turned into a sed.
+    Users who process tar files using the tarfile module in Python should
+    rebuild Python with the sed command to resolve this vulnerability.
+    <a href="../../blfs/advisories/consolidated.html#sa-12.3-087">12.3-087</a></p>
+
+    <a id="sa-12.3-047"/>
+    <h4>12.3 047 Python (LFS and BLFS)    Date: 2025-06-04  Severity: Critical</h4>
+    <p>In Python-3.13.4, five security vulnerabilities were fixed that could
+    allow for a denial of service when processing long IPv6 addresses, and for
+    tarfile extraction filters to be bypassed using crafted symlinks and hard
+    links. The extraction filter bypasses allow attackers to write arbitrary
+    files onto a user's filesystem when decompressing a tar file using the
+    'tarfile' python module. Update to Python-3.13.4.
+    <a href="../../blfs/advisories/consolidated.html#sa-12.3-047">12.3-047</a></p>
+
+    <a id="sa-12.3-018"/>
+    <h4>12.3 018 Python (LFS and BLFS)    Date: 2025-05-20  Severity: Medium</h4>
+    <p>In Python-3.13.3, two security vulnerabilities were fixed that could allow
+    for email header spoofing and a denial-of-service (unbounded memory usage).
+    In addition, another vulnerability was resolved after this release of Python
+    that can cause a crash when using the unicode_escape encoding or an error
+    handler when decoding bytes using the bytes.decode() function. Update to
+    Python-3.13.3 and apply the patch for the bytes.decode() vulnerability.
+    <a href="../../blfs/advisories/consolidated.html#sa-12.3-018">12.3-018</a></p>
+
+<!-- end of Python -->
+
+    <h3>systemd</h3>
+
+    <a id="sa-12.3-044"/>
+    <h4>12.3 044 systemd (LFS and BLFS)   Date: 2025-06-02  Severity: Medium</h4>
+    <p>In systemd-257.6, a security vulnerability was fixed that allows an
+    attacker to force SUID processes to crash and allows them to replace the
+    program with a non-SUID binary to access the original privileged process's
+    coredump. This allows the attacker to read extremely sensitive data, such
+    as /etc/shadow content. Update to systemd-257.6.
+    <a href="../../blfs/advisories/consolidated.html#sa-12.3-044">12.3-044</a></p>
+
+<!-- end of systemd -->
+
+    <h3>vim</h3>
+
+    <a id="sa-12.3-072"/>
+    <h4>12.3 072 vim (LFS and BLFS)       Date: 2025-07-16  Severity: Medium</h4>
+    <!-- Upstream marked as Low, NVD and Github marked as Medium -->
+    <p>In vim-9.1.1552, two security vulnerabilities were fixed that could allow
+    for path traveral when using the tar.vim and zip.vim plugins to view a
+    malicious TAR or ZIP file. It is possible for vim to extract arbitrary
+    files into directories on the system if a relative path is used within
+    the TAR/ZIP file, which can be used to place files necessary to exploit
+    other vulnerabilities on the system. Update to vim-9.1.1552.
+    <a href="../../blfs/advisories/consolidated.html#sa-12.3-072">12.3-072</a></p>
+
+<!-- end of vim -->
+
+    <h3>xz</h3>
+
+    <a id="sa-12.3-019"/>
+    <h4>12.3 019 xz (LFS)                 Date: 2025-05-20  Severity: High</h4>
+    <p>In xz-5.8.1, a security vulnerability was fixed that could allow for
+    invalid input when decompressing an XZ file to cause a denial of service
+    or potentially arbitrary code execution. Update to xz-5.8.1.
+    <a href="../../blfs/advisories/consolidated.html#sa-12.3-019">12.3-019</a></p>
+
+<!-- end of xz -->
+<!--#include virtual="/common/footer.html" -->

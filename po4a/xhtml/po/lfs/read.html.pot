@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Arquivos do sÃ­tio LFS brasileiro 1.0\n"
 "Report-Msgid-Bugs-To: jafesp@gmail.com\n"
-"POT-Creation-Date: 2026-07-08 01:53-0300\n"
+"POT-Creation-Date: 2026-07-08 03:16-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -169,8 +169,12 @@ msgstr ""
 msgid ""
 "<a href=\"https://github.com/espindula/br-lfs\">Homepage</a> &nbsp;|"
 "&nbsp; <a href=\"https://github.com/espindula/br-lfs/"
-"releases\">Download</a> &nbsp;|&nbsp; Multiple versions are available "
-"Translated by Jamenson Espindula"
+"releases\">Download</a> &nbsp;|&nbsp; Multiple versions are available"
+msgstr ""
+
+#. type: Content of: <div><p>
+#: xhtml/upstream/lfs/read.html:105
+msgid "Translated by Jamenson Espindula"
 msgstr ""
 
 #. type: Content of: <div><h3>

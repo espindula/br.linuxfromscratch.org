@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Arquivos do sÃ­tio LFS brasileiro 1.0\n"
 "Report-Msgid-Bugs-To: jafesp@gmail.com\n"
-"POT-Creation-Date: 2026-07-08 01:53-0300\n"
-"PO-Revision-Date: 2026-07-08 01:53-0300\n"
+"POT-Creation-Date: 2026-07-08 03:17-0300\n"
+"PO-Revision-Date: 2026-07-08 03:20-0300\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
 "Language: pt_BR\n"
@@ -21,163 +21,208 @@ msgstr ""
 #. type: Content of: <div><h1>
 #: xhtml/upstream/lfs/read.html:5
 msgid "Read the Linux From Scratch Book Online"
-msgstr ""
+msgstr "Leia o Livro Linux From Scratch Online"
 
 #. type: Content of: <div><h2>
 #: xhtml/upstream/lfs/read.html:7
 msgid "Current Stable"
-msgstr ""
+msgstr "Estável Atual"
 
 #. type: Content of: <div><p>
 #: xhtml/upstream/lfs/read.html:9
 msgid ""
-"This is the latest released LFS systemd book, considered stable.  "
-"Most people will want to read this book."
+"This is the latest released LFS systemd book, considered stable.  Most "
+"people will want to read this book."
 msgstr ""
+"Esse é o mais recente livro systemd LFS lançado, considerado estável. A "
+"maioria das pessoas vai querer ler esse livro."
 
 #. type: Content of: <div><p>
 #: xhtml/upstream/lfs/read.html:12
 msgid ""
-"As a result of bugs and security warnings, please be sure to read "
-"both the errata page and the Security Advisories for any "
-"modifications needed to the LFS build."
+"As a result of bugs and security warnings, please be sure to read both the "
+"errata page and the Security Advisories for any modifications needed to the "
+"LFS build."
 msgstr ""
+"Como resultado de defeitos e avisos de segurança, por favor, certifique-se "
+"de ler tanto a página de errata quanto os Avisos de Segurança para "
+"quaisquer modificações necessárias para a construção do LFS."
 
 #. type: Content of: <div><p>
 #: xhtml/upstream/lfs/read.html:16
 msgid "<a href=\"errata/stable-systemd/\">Stable LFS systemd Errata</a>"
-msgstr ""
+msgstr "<a href=\"errata/stable-systemd/\">Errata do LFS systemd Estável</a>"
 
 #. type: Content of: <div><p>
 #: xhtml/upstream/lfs/read.html:17 xhtml/upstream/lfs/read.html:50
 msgid "<a href=\"../advisories/\">LFS Security Advisories</a>"
-msgstr ""
+msgstr "<a href=\"../advisories/\">Avisos de Segurança do LFS</a>"
 
 #. type: Content of: <div><p>
 #: xhtml/upstream/lfs/read.html:18
 msgid "<a href=\"view/stable-systemd/\">Stable LFS systemd</a>"
-msgstr ""
+msgstr "<a href=\"view/stable-systemd/\">LFS systemd Estável</a>"
 
 #. type: Content of: <div><h2>
 #: xhtml/upstream/lfs/read.html:32
 msgid "Current Development"
-msgstr ""
+msgstr "Desenvolvimento Atual"
 
 #. type: Content of: <div><p>
 #: xhtml/upstream/lfs/read.html:33
 msgid ""
-"This is the LFS systemd Book in its current development state.  While "
-"it may provide more features and updated upstream packages than the "
-"stable book, it is more prone to bugs and security vulnerabilities. "
-"Use with care."
+"This is the LFS systemd Book in its current development state.  While it may "
+"provide more features and updated upstream packages than the stable book, it "
+"is more prone to bugs and security vulnerabilities. Use with care."
 msgstr ""
+"Esse é o Livro systemd do LFS no estado atual de desenvolvimento dele. "
+"Embora possa fornecer mais recursos e pacotes atualizados de fluxo de "
+"desenvolvimento que o livro estável, é mais propenso a defeitos e "
+"vulnerabilidades de segurança. Use com cuidado."
 
 #. type: Content of: <div><p>
 #: xhtml/upstream/lfs/read.html:38
 msgid "<a href=\"view/systemd/\">Development LFS systemd</a>"
 msgstr ""
+"<a "
+"href=\"https://www.linuxfromscratch.org/lfs/view/systemd/\">Desenvolvimento "
+"LFS systemd</a>"
 
 #. type: Content of: <div><h2>
 #: xhtml/upstream/lfs/read.html:42
 msgid "Prior versions of LFS"
-msgstr ""
+msgstr "Versões anteriores do LFS"
 
 #. type: Content of: <div><p>
 #: xhtml/upstream/lfs/read.html:44
 msgid "The prior System V version of LFS is no longer maintained."
-msgstr ""
+msgstr "A versão anterior do System V do LFS não mais é mantida."
 
 #. type: Content of: <div><p>
 #: xhtml/upstream/lfs/read.html:46
 msgid ""
-"You can read the most recent stable book and Security Advisories at "
-"the URLs below."
+"You can read the most recent stable book and Security Advisories at the URLs "
+"below."
 msgstr ""
+"Você consegue ler o livro estável mais recente e os Avisos de Segurança "
+"nos URLs abaixo."
 
 #. type: Content of: <div><p>
 #: xhtml/upstream/lfs/read.html:51
 msgid "<a href=\"view/stable/\">Stable LFS</a>"
-msgstr ""
+msgstr "<a href=\"view/stable/\">LFS Estável</a>"
 
 #. type: Content of: <div><p>
 #: xhtml/upstream/lfs/read.html:53
 msgid ""
-"For existing LFS 12.4 users, security advisories are maintained and "
-"the security advisories present for LFS 13.0 have been tested. "
-"However, some advisories may not be applicable depending on whether a "
-"package is present in LFS 12.4."
+"For existing LFS 12.4 users, security advisories are maintained and the "
+"security advisories present for LFS 13.0 have been tested. However, some "
+"advisories may not be applicable depending on whether a package is present "
+"in LFS 12.4."
 msgstr ""
+"Para usantes existentes do LFS 12.4, os avisos de segurança são mantidos e "
+"os avisos de segurança presentes para o LFS 13.0 foram testados. "
+"Entretanto, alguns avisos podem não ser aplicáveis dependendo se um pacote "
+"estiver presente no LFS 12.4."
 
 #. type: Content of: <div><h2>
 #: xhtml/upstream/lfs/read.html:72
 msgid "Current Status"
-msgstr ""
+msgstr "Situação Atual"
 
 #. type: Content of: <div><p>
 #: xhtml/upstream/lfs/read.html:74
 msgid ""
-"This is the System V LFS Book in its current form. The build "
-"instructions for packages are relatively unchanged when new packages "
-"are released and most of the instructions are common with the systemd "
-"book above.  However the package instructions have not been validated "
-"for the System V environment."
+"This is the System V LFS Book in its current form. The build instructions "
+"for packages are relatively unchanged when new packages are released and "
+"most of the instructions are common with the systemd book above.  However "
+"the package instructions have not been validated for the System V "
+"environment."
 msgstr ""
+"Este é o Livro do System V do LFS na forma atual dele. As instruções de "
+"construção para pacotes estão relativamente não mudadas quando novos "
+"pacotes forem lançados e a maioria das instruções são comuns ao livro do "
+"systemd acima. No entanto, as instruções do pacote não foram validadas "
+"para o ambiente System V."
 
 #. type: Content of: <div><p>
 #: xhtml/upstream/lfs/read.html:80
 msgid "<a href=\"view/development/\">LFS System V Snapshot</a>"
 msgstr ""
+"<a "
+"href=\"https://www.linuxfromscratch.org/lfs/view/development/\">Instantâneo "
+"do System V do LFS</a>"
 
 #. type: Content of: <div><h2>
 #: xhtml/upstream/lfs/read.html:82
 msgid "Translations"
-msgstr ""
+msgstr "Traduções"
 
 #. type: Content of: <div><p>
 #: xhtml/upstream/lfs/read.html:84
 msgid ""
-"The LFS book has been translated in various languages.  Note that "
-"these translations were done by volunteers and may contain "
-"translation errors which the LFS team cannot control.  In that case, "
-"contact the translator directly."
+"The LFS book has been translated in various languages.  Note that these "
+"translations were done by volunteers and may contain translation errors "
+"which the LFS team cannot control.  In that case, contact the translator "
+"directly."
 msgstr ""
+"O livro do LFS tem sido traduzido em vários idiomas. Observe que essas "
+"traduções foram feitas por voluntários(as) e possivelmente contenham "
+"erros de tradução os quais a equipe do LFS não consegue controlar. Nesse "
+"caso, contate diretamente o(a) tradutor(a)."
 
 #. type: Content of: <div><p>
 #: xhtml/upstream/lfs/read.html:89
 msgid ""
-"<em>Please note that all versions of LFS &lt;= 5.1 contain "
-"instructions that create an English-only system and therefore will "
-"require additional undocumented work (i.e. setting LANG and font)  in "
-"order for the system to be useful in another language.</em>"
+"<em>Please note that all versions of LFS &lt;= 5.1 contain instructions that "
+"create an English-only system and therefore will require additional "
+"undocumented work (i.e. setting LANG and font)  in order for the system to "
+"be useful in another language.</em>"
 msgstr ""
+"<em>Por favor, observe que todas as versões do LFS &lt;= 5.1 contêm "
+"instruções que criam um sistema somente em inglês e, portanto, exigirão "
+"trabalho adicional não documentado (ou seja, configuração de LANG e de "
+"fonte) para a finalidade de que o sistema seja útil em outro idioma.</em>"
 
 #. type: Content of: <div><p>
 #: xhtml/upstream/lfs/read.html:94
 msgid ""
-"If you have translated the LFS book or if you are aware of "
-"translations not in this list, please send us an e-mail to the site "
-"<a href=\"mailto:webmaster@linuxfromscratch.org\">webmaster</a> with "
-"the URL to the translation."
+"If you have translated the LFS book or if you are aware of translations not "
+"in this list, please send us an e-mail to the site <a "
+"href=\"mailto:webmaster@linuxfromscratch.org\">webmaster</a> with the URL to "
+"the translation."
 msgstr ""
+"Se você tiver traduzido o livro do LFS ou se conheçer traduções que não "
+"estejam nesta lista, por favor, envie-nos uma mensagem eletrônica para o "
+"sítio <a href=\"mailto:webmaster@linuxfromscratch.org\">webmaster</a> com o "
+"URL para a tradução."
 
 #. type: Content of: <div><h3>
 #: xhtml/upstream/lfs/read.html:99
 msgid "Brazilian Portuguese"
-msgstr ""
+msgstr "Português do Brasil"
 
 #. type: Content of: <div><p>
 #: xhtml/upstream/lfs/read.html:100
 msgid ""
-"<a href=\"https://github.com/espindula/br-lfs\">Homepage</a> &nbsp;|"
-"&nbsp; <a href=\"https://github.com/espindula/br-lfs/"
-"releases\">Download</a> &nbsp;|&nbsp; Multiple versions are available "
-"Translated by Jamenson Espindula"
+"<a href=\"https://github.com/espindula/br-lfs\">Homepage</a> &nbsp;|&nbsp; "
+"<a href=\"https://github.com/espindula/br-lfs/releases\">Download</a> "
+"&nbsp;|&nbsp; Multiple versions are available"
 msgstr ""
+"<a href=\"https://github.com/espindula/br-lfs\">Página inicial</a> "
+"&nbsp;|&nbsp; <a "
+"href=\"https://github.com/espindula/br-lfs/releases\">Baixar</a> "
+"&nbsp;|&nbsp; Várias versões estão disponíveis"
+
+#. type: Content of: <div><p>
+#: xhtml/upstream/lfs/read.html:105
+msgid "Translated by Jamenson Espindula"
+msgstr "Traduzido por Jamenson Espindula"
 
 #. type: Content of: <div><h3>
 #: xhtml/upstream/lfs/read.html:107
 msgid "Chinese"
-msgstr ""
+msgstr "Chinês"
 
 #
 #
@@ -189,41 +234,51 @@ msgstr ""
 #. type: Content of: <div><p>
 #: xhtml/upstream/lfs/read.html:108
 msgid ""
-"<a href=\"https://lfs.xry111.site/zh_CN/\">Website</a> &nbsp;|&nbsp; "
-"<a href=\"https://lfs.xry111.site/zh_CN/13.0-systemd/\">LFS 13.0 "
-"(systemd)</a> &nbsp;|&nbsp; <a href=\"https://lfs.xry111.site/zh_CN/"
-"systemd/\">LFS development (systemd)</a> &nbsp;|&nbsp; <a "
-"href=\"https://lfs.xry111.site/zh_CN/12.4\">LFS 12.4 (sysv) "
-"(historical)</a>"
+"<a href=\"https://lfs.xry111.site/zh_CN/\">Website</a> &nbsp;|&nbsp; <a "
+"href=\"https://lfs.xry111.site/zh_CN/13.0-systemd/\">LFS 13.0 (systemd)</a> "
+"&nbsp;|&nbsp; <a href=\"https://lfs.xry111.site/zh_CN/systemd/\">LFS "
+"development (systemd)</a> &nbsp;|&nbsp; <a "
+"href=\"https://lfs.xry111.site/zh_CN/12.4\">LFS 12.4 (sysv) (historical)</a>"
 msgstr ""
+"<a href=\"https://lfs.xry111.site/zh_CN/\">Sítio web</a> &nbsp;|&nbsp; <a "
+"href=\"https://lfs.xry111.site/zh_CN/13.0-systemd/\">LFS 13.0 (systemd)</a> "
+"&nbsp;|&nbsp; <a "
+"href=\"https://lfs.xry111.site/zh_CN/systemd/\">Desenvolvimento LFS "
+"(systemd)</a> &nbsp;|&nbsp; <a "
+"href=\"https://lfs.xry111.site/zh_CN/12.4\">LFS 12.4 (sysv) (histórica)</a>"
 
 #. type: Content of: <div><p>
 #: xhtml/upstream/lfs/read.html:121
-msgid ""
-"Translated by <a href=\"https://blog.xry111.site/\">Xi Ruoyao</a>"
-msgstr ""
+msgid "Translated by <a href=\"https://blog.xry111.site/\">Xi Ruoyao</a>"
+msgstr "Traduzido por <a href=\"https://blog.xry111.site/\">Xi Ruoyao</a>"
 
 #. type: Content of: <div><p>
 #: xhtml/upstream/lfs/read.html:122
 msgid ""
-"If you find any issue or potential improvement of the translation, "
-"please report to <a href=\"https://github.com/xry111/lfs-book-i18n/"
-"issues/\">the issue tracker</a> of the <a href=\"https://github.com/"
-"xry111/lfs-book-i18n/\">the GitHub repository</a>."
+"If you find any issue or potential improvement of the translation, please "
+"report to <a href=\"https://github.com/xry111/lfs-book-i18n/issues/\">the "
+"issue tracker</a> of the <a "
+"href=\"https://github.com/xry111/lfs-book-i18n/\">the GitHub repository</a>."
 msgstr ""
+"Se você encontrar algum problema ou possível melhoria na tradução, por "
+"favor, informe para <a "
+"href=\"https://github.com/xry111/lfs-book-i18n/issues/\">o rastreador de "
+"problemas</a> do <a "
+"href=\"https://github.com/xry111/lfs-book-i18n/\">repositório GitHub</a>."
 
 #. type: Content of: <div><p>
 #: xhtml/upstream/lfs/read.html:127
 msgid ""
-"<a href=\"https://linux.cn/lfs/LFS-BOOK-7.7-systemd/\">LFS 7.7 "
-"(systemd) (historical)</a>"
+"<a href=\"https://linux.cn/lfs/LFS-BOOK-7.7-systemd/\">LFS 7.7 (systemd) "
+"(historical)</a>"
 msgstr ""
+"<a href=\"https://linux.cn/lfs/LFS-BOOK-7.7-systemd/\">LFS 7.7 (systemd) "
+"(histórico)</a>"
 
 #. type: Content of: <div><p>
 #: xhtml/upstream/lfs/read.html:128
-msgid ""
-"Translated by <a href=\"http://lctt.github.io/\">The LCTT Team</a>"
-msgstr ""
+msgid "Translated by <a href=\"http://lctt.github.io/\">The LCTT Team</a>"
+msgstr "Traduzido pela <a href=\"http://lctt.github.io/\">Equipe LCTT</a>"
 
 #. type: Content of: <div><p>
 #: xhtml/upstream/lfs/read.html:131
@@ -231,6 +286,8 @@ msgid ""
 "<a href=\"http://www.jinbuguo.com/lfs/lfs62/index.html\">LFS 6.2 "
 "(historical)</a>"
 msgstr ""
+"<a href=\"http://www.jinbuguo.com/lfs/lfs62/index.html\">LFS 6.2 "
+"(histórico)</a>"
 
 #. type: Content of: <div><p>
 #: xhtml/upstream/lfs/read.html:132
@@ -238,40 +295,54 @@ msgid ""
 "Translated by Jin Buguo(Chapter 0 - 5), ipconfigme(Chapter 6 -7), "
 "bobkey(Chapter 8 - 9)"
 msgstr ""
+"Traduzido por Jin Buguo(Capítulo 0 - 5), ipconfigme(Capítulo 6 -7), "
+"bobkey(Capítulo 8 - 9)"
 
 #. type: Content of: <div><h3>
 #: xhtml/upstream/lfs/read.html:140
 msgid "French"
-msgstr ""
+msgstr "Francês"
 
 #. type: Content of: <div><p>
 #: xhtml/upstream/lfs/read.html:141
 msgid ""
-"<a href=\"http://www.fr.linuxfromscratch.org/\">Website</a>&nbsp;| "
-"&nbsp;<a href=\"http://www.fr.linuxfromscratch.org/lfs/telecharger/"
-"\">Download</a>&nbsp;| &nbsp;<a href=\"http://"
-"www.fr.linuxfromscratch.org/view/lfs-stable/\">Stable Version</a>"
+"<a href=\"http://www.fr.linuxfromscratch.org/\">Website</a>&nbsp;| &nbsp;<a "
+"href=\"http://www.fr.linuxfromscratch.org/lfs/telecharger/\">Download</a>&nbsp;| "
+"&nbsp;<a href=\"http://www.fr.linuxfromscratch.org/view/lfs-stable/\">Stable "
+"Version</a>"
 msgstr ""
+"<a href=\"http://www.fr.linuxfromscratch.org/\">Sítio web</a>&nbsp;| "
+"&nbsp;<a "
+"href=\"http://www.fr.linuxfromscratch.org/lfs/telecharger/\">Baixar</a>&nbsp;| "
+"&nbsp;<a "
+"href=\"http://www.fr.linuxfromscratch.org/view/lfs-stable/\">Versão "
+"Estável</a>"
 
 #. type: Content of: <div><p>
 #: xhtml/upstream/lfs/read.html:144
 msgid ""
-"Translated by <a href='mailto:lfs-"
-"traducfr@lists.linuxfromscratch.org'>Traduc.org</a>"
+"Translated by <a "
+"href='mailto:lfs-traducfr@lists.linuxfromscratch.org'>Traduc.org</a>"
 msgstr ""
+"Traduzido por <a "
+"href='mailto:lfs-traducfr@lists.linuxfromscratch.org'>Traduc.org</a>"
 
 #. type: Content of: <div><h3>
 #: xhtml/upstream/lfs/read.html:146
 msgid "German"
-msgstr ""
+msgstr "Alemão"
 
 #. type: Content of: <div><p>
 #: xhtml/upstream/lfs/read.html:147
 msgid ""
-"<a href=\"http://oss.erdfunkstelle.de/lfs-de/\">Website</a>&nbsp;| "
-"&nbsp;<a href=\"http://oss.erdfunkstelle.de/lfs-de/6.4/online/"
-"index.html\">LFS 6.4 (historical)</a>"
+"<a href=\"http://oss.erdfunkstelle.de/lfs-de/\">Website</a>&nbsp;| &nbsp;<a "
+"href=\"http://oss.erdfunkstelle.de/lfs-de/6.4/online/index.html\">LFS 6.4 "
+"(historical)</a>"
 msgstr ""
+"<a href=\"http://oss.erdfunkstelle.de/lfs-de/\">Sítio web</a>&nbsp;| "
+"&nbsp;<a "
+"href=\"http://oss.erdfunkstelle.de/lfs-de/6.4/online/index.html\">LFS 6.4 "
+"(histórico)</a>"
 
 #. type: Content of: <div><p>
 #: xhtml/upstream/lfs/read.html:149
@@ -280,35 +351,47 @@ msgid ""
 "href=\"mailto:&#116;&#114;&#64;&#101;&#114;&#100;&#102;&#117;&#110;&#107;&#115;&#116;&#101;&#108;&#108;&#101;&#46;&#100;&#101;\">Thomas "
 "Reitelbach</a>"
 msgstr ""
+"Traduzido por <a "
+"href=\"mailto:&#116;&#114;&#64;&#101;&#114;&#100;&#102;&#117;&#110;&#107;&#115;&#116;&#101;&#108;&#108;&#101;&#46;&#100;&#101;\">Thomas "
+"Reitelbach</a>"
 
 #. type: Content of: <div><h3>
 #: xhtml/upstream/lfs/read.html:152
 msgid "Italian"
-msgstr ""
+msgstr "Italiano"
 
 #. type: Content of: <div><p>
 #: xhtml/upstream/lfs/read.html:153
 msgid ""
 "<a href=\"http://ildp.pluto.it/lfs/\">Website</a>&nbsp;|&nbsp;<a "
-"href=\"http://ildp.pluto.it/lfs/6.0/\">LFS 6.0 (historical)</a>&nbsp;|"
-"&nbsp;<a href=\"http://www2.pluto.it/ildp/lfs/6.0/\">LFS 6.0 "
-"(Mirrored)</a>"
+"href=\"http://ildp.pluto.it/lfs/6.0/\">LFS 6.0 "
+"(historical)</a>&nbsp;|&nbsp;<a "
+"href=\"http://www2.pluto.it/ildp/lfs/6.0/\">LFS 6.0 (Mirrored)</a>"
 msgstr ""
+"<a href=\"http://ildp.pluto.it/lfs/\">Sítio web</a>&nbsp;|&nbsp;<a "
+"href=\"http://ildp.pluto.it/lfs/6.0/\">LFS 6.0 "
+"(histórico)</a>&nbsp;|&nbsp;<a "
+"href=\"http://www2.pluto.it/ildp/lfs/6.0/\">LFS 6.0 (Espelhado)</a>"
 
 #. type: Content of: <div><p>
 #: xhtml/upstream/lfs/read.html:154
 msgid "Translated by ILDP"
-msgstr ""
+msgstr "Traduzido por ILDP"
 
 #. type: Content of: <div><p>
 #: xhtml/upstream/lfs/read.html:156
 msgid ""
 "<a href=\"http://it.tldp.org/lfs/lfs/\">Website</a>&nbsp;| &nbsp;<a "
-"href=\"http://it.tldp.org/lfs/lfs/6.1.1/\">LFS 6.1.1 (historical)</"
-"a>&nbsp;| &nbsp;<a href=\"http://it.tldp.org/lfs/lfs/6.1/\">LFS 6.1 "
-"(historical)</a>&nbsp;| &nbsp;<a href=\"http://it.tldp.org/lfs/lfs/"
-"6.0/\">LFS 6.0 (historical)</a>"
+"href=\"http://it.tldp.org/lfs/lfs/6.1.1/\">LFS 6.1.1 (historical)</a>&nbsp;| "
+"&nbsp;<a href=\"http://it.tldp.org/lfs/lfs/6.1/\">LFS 6.1 "
+"(historical)</a>&nbsp;| &nbsp;<a "
+"href=\"http://it.tldp.org/lfs/lfs/6.0/\">LFS 6.0 (historical)</a>"
 msgstr ""
+"<a href=\"http://it.tldp.org/lfs/lfs/\">Sítio web</a>&nbsp;| &nbsp;<a "
+"href=\"http://it.tldp.org/lfs/lfs/6.1.1/\">LFS 6.1.1 (histórico)</a>&nbsp;| "
+"&nbsp;<a href=\"http://it.tldp.org/lfs/lfs/6.1/\">LFS 6.1 "
+"(histórico)</a>&nbsp;| &nbsp;<a "
+"href=\"http://it.tldp.org/lfs/lfs/6.0/\">LFS 6.0 (histórico)</a>"
 
 #. type: Content of: <div><p>
 #: xhtml/upstream/lfs/read.html:160
@@ -317,69 +400,75 @@ msgid ""
 "href=\"mailto:&#103;&#105;&#117;&#108;&#105;&#111;&#64;&#112;&#108;&#117;&#116;&#111;&#46;&#105;&#116;\">Giulio "
 "Daprelà</a>"
 msgstr ""
+"Traduzido por <a "
+"href=\"mailto:&#103;&#105;&#117;&#108;&#105;&#111;&#64;&#112;&#108;&#117;&#116;&#111;&#46;&#105;&#116;\">Giulio "
+"Daprelà</a>"
 
 #. type: Content of: <div><h3>
 #: xhtml/upstream/lfs/read.html:163
 msgid "Japanese"
-msgstr ""
+msgstr "Japonês"
 
 #. type: Content of: <div><p>
 #: xhtml/upstream/lfs/read.html:164
 msgid ""
-"<a href=\"https://lfsbookja.github.io/lfsbookja-doc/"
-"index.html\">Website</a>"
+"<a href=\"https://lfsbookja.github.io/lfsbookja-doc/index.html\">Website</a>"
 msgstr ""
+"<a href=\"https://lfsbookja.github.io/lfsbookja-doc/index.html\">Sítio "
+"web</a>"
 
 #. type: Content of: <div><p>
 #: xhtml/upstream/lfs/read.html:165
 msgid ""
-"Translated by <a href=\"mailto:lfsbookja@gmail.com\">Michio "
-"Matsuyama</a>"
+"Translated by <a href=\"mailto:lfsbookja@gmail.com\">Michio Matsuyama</a>"
 msgstr ""
+"Traduzido por <a href=\"mailto:lfsbookja@gmail.com\">Michio Matsuyama</a>"
 
 #. type: Content of: <div><h3>
 #: xhtml/upstream/lfs/read.html:168
 msgid "Korean"
-msgstr ""
+msgstr "Coreano"
 
 #. type: Content of: <div><p>
 #: xhtml/upstream/lfs/read.html:169
 msgid ""
-"<a href=\"https://github.com/NuttyJamie/LinuxFromScratch-for-"
-"Korean\">Website</a>&nbsp;| &nbsp;<a href=\"https://"
-"rawcdn.githack.com/NuttyJamie/LinuxFromScratch-for-Korean/"
-"88bdabae8abf2fad511b497b0dc676e6ac95b965/9.1/BOOK/HTML/"
-"index.html\">LFS 9.1 (historical)</a>"
+"<a "
+"href=\"https://github.com/NuttyJamie/LinuxFromScratch-for-Korean\">Website</a>&nbsp;| "
+"&nbsp;<a "
+"href=\"https://rawcdn.githack.com/NuttyJamie/LinuxFromScratch-for-Korean/88bdabae8abf2fad511b497b0dc676e6ac95b965/9.1/BOOK/HTML/index.html\">LFS "
+"9.1 (historical)</a>"
 msgstr ""
+"<a href=\"https://github.com/NuttyJamie/LinuxFromScratch-for-Korean\">Sítio "
+"web</a>&nbsp;| &nbsp;<a "
+"href=\"https://rawcdn.githack.com/NuttyJamie/LinuxFromScratch-for-Korean/88bdabae8abf2fad511b497b0dc676e6ac95b965/9.1/BOOK/HTML/index.html\">LFS "
+"9.1 (histórico)</a>"
 
 #. type: Content of: <div><p>
 #: xhtml/upstream/lfs/read.html:171
-msgid ""
-"Translated by <a href=\"mailto:jongmie91@gmail.com\">Jongmin Kim</a>"
-msgstr ""
+msgid "Translated by <a href=\"mailto:jongmie91@gmail.com\">Jongmin Kim</a>"
+msgstr "Traduzido por <a href=\"mailto:jongmie91@gmail.com\">Jongmin Kim</a>"
 
 #. type: Content of: <div><p>
 #: xhtml/upstream/lfs/read.html:174
 msgid "<a href=\"https://sebul.sarang.net/lfs/\">Website</a>"
-msgstr ""
+msgstr "<a href=\"https://sebul.sarang.net/lfs/\">Sítio web</a>"
 
 #. type: Content of: <div><p>
 #: xhtml/upstream/lfs/read.html:176
 msgid "Translated by <a href=\"mailto:sebuls@gmail.com\">Sebul</a>"
-msgstr ""
+msgstr "Traduzido por <a href=\"mailto:sebuls@gmail.com\">Sebul</a>"
 
 #. type: Content of: <div><h3>
 #: xhtml/upstream/lfs/read.html:179
 msgid "Vietnamese"
-msgstr ""
+msgstr "Vietnamita"
 
 #. type: Content of: <div><p>
 #: xhtml/upstream/lfs/read.html:180
 msgid "<a href=\"https://linuxfromscratch.vn\">Website</a>"
-msgstr ""
+msgstr "<a href=\"https://linuxfromscratch.vn\">Sítio web</a>"
 
 #. type: Content of: <div><p>
 #: xhtml/upstream/lfs/read.html:181
-msgid ""
-"Translated by <a href=\"mailto:contact@tim99.vn\">Thanh HoangVan</a>"
-msgstr ""
+msgid "Translated by <a href=\"mailto:contact@tim99.vn\">Thanh HoangVan</a>"
+msgstr "Traduzido por <a href=\"mailto:contact@tim99.vn\">Thanh HoangVan</a>"
