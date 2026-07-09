@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Arquivos do sÃ­tio LFS brasileiro 1.0\n"
 "Report-Msgid-Bugs-To: jafesp@gmail.com\n"
 "POT-Creation-Date: 2026-07-09 02:02-0300\n"
-"PO-Revision-Date: 2026-07-09 02:02-0300\n"
+"PO-Revision-Date: 2026-07-09 02:22-0300\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
 "Language: pt_BR\n"
@@ -21,27 +21,29 @@ msgstr ""
 #. type: Content of: <div><h1>
 #: xhtml/upstream/lfs/errata/13.0-systemd/index.html:5
 msgid "Errata for the 13.0-systemd Version of the LFS Book"
-msgstr ""
+msgstr "Errata para a Versão 13.0-systemd do Livro LFS"
 
 #. type: Content of: <div><h2>
 #: xhtml/upstream/lfs/errata/13.0-systemd/index.html:22
 msgid "Known Security Vulnerabilities"
-msgstr ""
+msgstr "Vulnerabilidades de Segurança Conhecidas"
 
 #. type: Content of: <div><ul><li>
 #: xhtml/upstream/lfs/errata/13.0-systemd/index.html:24
 msgid ""
-"Read <a href='../../advisories/13.0.html'>the security advisories "
-"page</a>."
+"Read <a href='../../advisories/13.0.html'>the security advisories page</a>."
 msgstr ""
+"Leia-se <a href='../../advisories/13.0.html'>a página dos avisos de "
+"segurança</a>."
 
 #. type: Content of: <div><h2>
 #: xhtml/upstream/lfs/errata/13.0-systemd/index.html:27
 msgid "Miscellaneous Errata"
-msgstr ""
+msgstr "Erratas Diversas"
 
 #. type: Content of: <div><ul><li>
 #: xhtml/upstream/lfs/errata/13.0-systemd/index.html:31
-msgid ""
-"Inetutils: one test \"libls.sh\" may fail under certain conditions."
+msgid "Inetutils: one test \"libls.sh\" may fail under certain conditions."
 msgstr ""
+"Inetutils: um teste, \"libls.sh\", possivelmente falhe sob certas "
+"condições."
