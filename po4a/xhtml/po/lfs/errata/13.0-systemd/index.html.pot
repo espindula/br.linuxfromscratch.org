@@ -1,0 +1,46 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Jamenson Ferreira Espindula de Almeida Melo
+# This file is distributed under the same license as the Arquivos do sÃ­tio LFS brasileiro package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Arquivos do sÃ­tio LFS brasileiro 1.0\n"
+"Report-Msgid-Bugs-To: jafesp@gmail.com\n"
+"POT-Creation-Date: 2026-07-09 02:02-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Content of: <div><h1>
+#: xhtml/upstream/lfs/errata/13.0-systemd/index.html:5
+msgid "Errata for the 13.0-systemd Version of the LFS Book"
+msgstr ""
+
+#. type: Content of: <div><h2>
+#: xhtml/upstream/lfs/errata/13.0-systemd/index.html:22
+msgid "Known Security Vulnerabilities"
+msgstr ""
+
+#. type: Content of: <div><ul><li>
+#: xhtml/upstream/lfs/errata/13.0-systemd/index.html:24
+msgid ""
+"Read <a href='../../advisories/13.0.html'>the security advisories "
+"page</a>."
+msgstr ""
+
+#. type: Content of: <div><h2>
+#: xhtml/upstream/lfs/errata/13.0-systemd/index.html:27
+msgid "Miscellaneous Errata"
+msgstr ""
+
+#. type: Content of: <div><ul><li>
+#: xhtml/upstream/lfs/errata/13.0-systemd/index.html:31
+msgid ""
+"Inetutils: one test \"libls.sh\" may fail under certain conditions."
+msgstr ""
