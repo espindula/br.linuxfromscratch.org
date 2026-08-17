@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Arquivos do sí­tio LFS brasileiro 1.0\n"
 "Report-Msgid-Bugs-To: jafesp@gmail.com\n"
-"POT-Creation-Date: 2026-08-15 18:43-0300\n"
-"PO-Revision-Date: 2026-08-15 19:07-0300\n"
+"POT-Creation-Date: 2026-08-17 17:42-0300\n"
+"PO-Revision-Date: 2026-08-17 17:46-0300\n"
 "Last-Translator: Jamenson Ferreira Espindula de Almeida Melo\n"
 "Language-Team: none\n"
 "Language: pt_BR\n"
@@ -26,22 +26,22 @@ msgstr "Notícias do LFS"
 
 #. type: Content of: <div><dl><dt>
 #: xhtml/upstream/lfs/news.html:7
-msgid "LFS-13.1-rc1 Release"
-msgstr "Lançamento do LFS-13.1-rc1"
+msgid "LFS-13.1-rc2 Release"
+msgstr "Lançamento do LFS-13.1-rc2"
 
 #. type: Content of: <div><dl><dd>
 #: xhtml/upstream/lfs/news.html:8
-msgid "<em>Bruce Dubbs - 2026/08/15</em>"
-msgstr "<em>Bruce Dubbs - 2026/08/15</em>"
+msgid "<em>Bruce Dubbs - 2026/08/16</em>"
+msgstr "<em>Bruce Dubbs - 2026/08/16</em>"
 
 #. type: Content of: <div><dl><dd><p>
 #: xhtml/upstream/lfs/news.html:10
 msgid ""
 "The Linux From Scratch community announces the release of LFS Version "
-"13.1-rc1.  It is a preliminary release of LFS-13.1."
+"13.1-rc2.  It is a preliminary release of LFS-13.1."
 msgstr ""
 "A comunidade Linux From Scratch anuncia o lançamento do LFS Versão "
-"13.1-rc1. Ele é um lançamento preliminar do LFS-13.1."
+"13.1-rc2. Ele é um lançamento preliminar do LFS-13.1."
 
 #. type: Content of: <div><dl><dd><p>
 #: xhtml/upstream/lfs/news.html:13
@@ -119,14 +119,14 @@ msgstr ""
 #: xhtml/upstream/lfs/news.html:36
 msgid ""
 "You can read the book online at <a "
-"href=\"/lfs/view/13.1-systemd-rc1/\">LFS-systemd-rc1</a>, or <a "
-"href=\"/lfs/downloads/13.1-systemd-rc1/\">download-systemd-rc1</a> to read "
+"href=\"/lfs/view/13.1-systemd-rc2/\">LFS-systemd-rc2</a>, or <a "
+"href=\"/lfs/downloads/13.1-systemd-rc2/\">download-systemd-rc2</a> to read "
 "locally."
 msgstr ""
 "Você consegue ler o livro online (escrito em inglês) em <a "
-"href=\"https://www.linuxfromscratch.org/lfs/view/13.1-systemd-rc1/\">LFS-systemd-rc1</a> "
+"href=\"https://www.linuxfromscratch.org/lfs/view/13.1-systemd-rc2/\">LFS-systemd-rc2</a> "
 "ou <a "
-"href=\"https://www.linuxfromscratch.org/lfs/downloads/13.1-systemd-rc1/\">baixar-systemd-rc1</a> "
+"href=\"https://www.linuxfromscratch.org/lfs/downloads/13.1-systemd-rc2/\">baixar-systemd-rc2</a> "
 "para ler localmente."
 
 #. type: Content of: <div><dl><dd><p>
